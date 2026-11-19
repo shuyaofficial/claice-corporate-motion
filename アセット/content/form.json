@@ -1,0 +1,691 @@
+{
+  "page": "form",
+  "url": "https://www.claice.com/form/index.html",
+  "meta": {
+    "title": "お問い合せ│株式会社クレイス",
+    "description": "ネットワーク・システムソリューションサービス、ネットワークエンジニア派遣の（株）クレイスのwebサイトです。ネットワークエンジニアを随時募集中です。ネットワーク技術、ヒューマンスキルを磨きたい方、大歓迎！",
+    "keywords": "クレイス,ネットワーク,ネットワーク運用,CCNA,CCNA研修,ネットワークエンジニア,エンジニア派遣,人材募集"
+  },
+  "body_class": [
+    "ContentFrame",
+    "Form"
+  ],
+  "elements": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "お問い合せ│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "html": "お問い合せ│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "PageTitle"
+      ],
+      "hidden": true,
+      "hidden_by": [
+        "common/css/pc.css [media=print, screen and (min-width: 768px)]: .PageTitle { position:absolute; left:0; top:-40px; margin:0; color:#fff; font-size:80%; line-height:40px; text-align:left; }",
+        "common/css/sp.css [media=handheld, only screen and (max-width: 767px)]: .PageTitle { display:none; }"
+      ],
+      "source": "header"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "お問い合せ",
+      "html": "お問い合せ",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Single"
+      ],
+      "box": 1,
+      "box_class": "div.TitleWrap"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "お問い合せ送信フォーム",
+      "html": "お問い合せ送信フォーム",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline3"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "このページはプライバシー保護のため、SSL暗号化通信を実現しています。",
+      "html": "このページはプライバシー保護のため、SSL暗号化通信を実現しています。",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "LeadHeadline"
+      ],
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "",
+          "term_html": "<span id=\"ss_gmo_img_wrapper_130-66_image_ja\"><a href=\"https://jp.globalsign.com/\" rel=\"nofollow\" target=\"_blank\"><img alt=\"SSL　GMOグローバルサインのサイトシール\" border=\"0\" id=\"ss_img\" src=\"https://seal.globalsign.com/SiteSeal/images/gs_noscript_130-66_ja.gif\"/></a></span> <script defer=\"defer\" src=\"https://seal.globalsign.com/SiteSeal/gmogs_image_130-66_ja.js\" type=\"text/javascript\"></script>",
+          "definitions": [
+            "SSLとは、インターネット上でやり取りされているデータを暗号化し、安心して大切な情報をやり取りできるよう開発された仕組みです。"
+          ],
+          "definitions_html": [
+            "SSLとは、インターネット上でやり取りされているデータを暗号化し、安心して大切な情報をやり取りできるよう開発された仕組みです。"
+          ]
+        }
+      ],
+      "classes": [
+        "SSL"
+      ],
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "image",
+      "src": "https://seal.globalsign.com/SiteSeal/images/gs_noscript_130-66_ja.gif",
+      "src_raw": "//seal.globalsign.com/SiteSeal/images/gs_noscript_130-66_ja.gif",
+      "alt": "SSL　GMOグローバルサインのサイトシール",
+      "width": null,
+      "height": null,
+      "link": "https://jp.globalsign.com/",
+      "link_target": "_blank",
+      "classes": [],
+      "inline": true,
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "paragraph",
+      "text": "お問い合せ、このサイトへのご意見・ご感想などは、下記の送信フォームをご利用の上、送信して下さい。",
+      "html": "お問い合せ、このサイトへのご意見・ご感想などは、下記の送信フォームをご利用の上、送信して下さい。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "ご利用方法",
+      "html": "ご利用方法",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline5"
+      ],
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "必要事項をご入力ください。（会社名・電話番号以外は必須入力項目です。必ずご入力ください。）",
+        "「個人情報の取り扱いについて」をご一読の上、ご同意いただける場合は「『個人情報の取り扱いについて』に同意する」にチェックを入れてください。",
+        "「確認画面へ進む」ボタンを押してください。（この時点ではまだ情報は送信されません。）",
+        "入力内容確認画面が表示されます。入力内容を再度ご確認ください。",
+        "ご確認後、「送信」ボタンを押してください。ご入力いただいた内容が送信されます。"
+      ],
+      "items_html": [
+        "必要事項をご入力ください。<strong class=\"Red\">（会社名・電話番号以外は必須入力項目です。必ずご入力ください。）</strong>",
+        "「個人情報の取り扱いについて」をご一読の上、ご同意いただける場合は「『個人情報の取り扱いについて』に同意する」にチェックを入れてください。",
+        "「確認画面へ進む」ボタンを押してください。（この時点ではまだ情報は送信されません。）",
+        "入力内容確認画面が表示されます。入力内容を再度ご確認ください。",
+        "ご確認後、「送信」ボタンを押してください。ご入力いただいた内容が送信されます。"
+      ],
+      "item_links": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "classes": [
+        "Text"
+      ],
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "form",
+      "action": "claice_contact.php",
+      "action_url": "https://www.claice.com/form/claice_contact.php",
+      "method": "POST",
+      "id": null,
+      "captions": [],
+      "fields": [
+        {
+          "name": "お名前（漢字・姓）",
+          "type": "text",
+          "id": "kanji_sei",
+          "label": "姓",
+          "required": true,
+          "maxlength": "16",
+          "size": "14",
+          "hint": null,
+          "row": 0,
+          "group": null,
+          "row_label": "お名前（漢字）［必須］"
+        },
+        {
+          "name": "お名前（漢字・名）",
+          "type": "text",
+          "id": "kanji_mei",
+          "label": "名",
+          "required": true,
+          "maxlength": "16",
+          "size": "14",
+          "hint": "（例：山田 太郎）",
+          "row": 0,
+          "group": null,
+          "row_label": "お名前（漢字）［必須］"
+        },
+        {
+          "name": "お名前（カナ・姓）",
+          "type": "text",
+          "id": "kana_sei",
+          "label": "セイ",
+          "required": true,
+          "maxlength": "20",
+          "size": "14",
+          "hint": null,
+          "row": 1,
+          "group": null,
+          "row_label": "お名前・フリガナ(全角)［必須］"
+        },
+        {
+          "name": "お名前（カナ・名）",
+          "type": "text",
+          "id": "kana_mei",
+          "label": "メイ",
+          "required": true,
+          "maxlength": "20",
+          "size": "14",
+          "hint": "（例：ヤマダ タロウ）",
+          "row": 1,
+          "group": null,
+          "row_label": "お名前・フリガナ(全角)［必須］"
+        },
+        {
+          "name": "会社名",
+          "type": "text",
+          "id": "company",
+          "label": "会社名（全角）",
+          "required": false,
+          "maxlength": "70",
+          "size": "50",
+          "hint": null,
+          "row": 2,
+          "group": null,
+          "row_label": "会社名（全角）"
+        },
+        {
+          "name": "電話番号種別",
+          "type": "radio",
+          "id": "home",
+          "label": "電話番号（半角数字）",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 3,
+          "group": null,
+          "options": [
+            {
+              "value": "ご自宅",
+              "label": "ご自宅"
+            },
+            {
+              "value": "携帯",
+              "label": "携帯"
+            },
+            {
+              "value": "会社",
+              "label": "会社"
+            }
+          ],
+          "row_label": "電話番号（半角数字）"
+        },
+        {
+          "name": "電話番号",
+          "type": "text",
+          "id": "tel",
+          "label": "電話番号（半角数字）",
+          "required": false,
+          "maxlength": "16",
+          "size": "16",
+          "hint": "（例：03－1234－5678）",
+          "row": 3,
+          "group": null,
+          "row_label": "電話番号（半角数字）"
+        },
+        {
+          "name": "メールアドレス",
+          "type": "text",
+          "id": "mail",
+          "label": "メールアドレス（半角英数字）",
+          "required": true,
+          "maxlength": "80",
+          "size": "30",
+          "hint": "（例：taro@abcde.ne.jp）",
+          "row": 4,
+          "group": null,
+          "row_label": "メールアドレス（半角英数字）［必須］"
+        },
+        {
+          "name": "お問い合せ内容",
+          "type": "textarea",
+          "id": "toiawase",
+          "label": "お問い合せ内容",
+          "required": true,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 5,
+          "group": null,
+          "rows_attr": "20",
+          "cols_attr": "55",
+          "row_label": "お問い合せ内容［必須］"
+        },
+        {
+          "name": "個人情報の取り扱いについてのご同意",
+          "type": "checkbox",
+          "id": "check",
+          "label": "「個人情報の取り扱いについて」に同意する",
+          "required": true,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": null,
+          "group": null,
+          "options": [
+            {
+              "value": "同意する",
+              "label": "「個人情報の取り扱いについて」に同意する"
+            }
+          ],
+          "row_label": null,
+          "required_source": "ご利用方法の記述（同意にチェックが必要）"
+        },
+        {
+          "name": null,
+          "type": "submit",
+          "id": "submit",
+          "label": "確認画面へ進む",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": null,
+          "group": null,
+          "value": "確認画面へ進む",
+          "row_label": null
+        }
+      ],
+      "rows": [
+        {
+          "index": 0,
+          "group": null,
+          "label": "お名前（漢字）［必須］",
+          "required": true,
+          "cell_text": "姓 名 （例：山田 太郎）",
+          "fields": [
+            "お名前（漢字・姓）",
+            "お名前（漢字・名）"
+          ]
+        },
+        {
+          "index": 1,
+          "group": null,
+          "label": "お名前・フリガナ(全角)［必須］",
+          "required": true,
+          "cell_text": "セイ メイ （例：ヤマダ タロウ）",
+          "fields": [
+            "お名前（カナ・姓）",
+            "お名前（カナ・名）"
+          ]
+        },
+        {
+          "index": 2,
+          "group": null,
+          "label": "会社名（全角）",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "会社名"
+          ]
+        },
+        {
+          "index": 3,
+          "group": null,
+          "label": "電話番号（半角数字）",
+          "required": false,
+          "cell_text": "ご自宅 携帯 会社    （例：03－1234－5678）",
+          "fields": [
+            "電話番号種別",
+            "電話番号"
+          ]
+        },
+        {
+          "index": 4,
+          "group": null,
+          "label": "メールアドレス（半角英数字）［必須］",
+          "required": true,
+          "cell_text": "（例：taro@abcde.ne.jp）",
+          "fields": [
+            "メールアドレス"
+          ]
+        },
+        {
+          "index": 5,
+          "group": null,
+          "label": "お問い合せ内容［必須］",
+          "required": true,
+          "cell_text": "",
+          "fields": [
+            "お問い合せ内容"
+          ]
+        }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "個人情報の取り扱いについて",
+          "html": "個人情報の取り扱いについて",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "FormPolicyHeadline"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "paragraph",
+          "text": "株式会社クレイス（以下「弊社」といいます）は、弊社へお問い合わせをいただくお客さま（以下「お客さま」といいます）が、本ウェブサイトその他を通じて弊社にご提供・ご開示いただくお客さまご自身の個人情報について、「個人情報保護方針」および「プライバシーポリシー」に基づき、以下のとおり取り扱わせていただきます。",
+          "html": "株式会社クレイス（以下「弊社」といいます）は、弊社へお問い合わせをいただくお客さま（以下「お客さま」といいます）が、本ウェブサイトその他を通じて弊社にご提供・ご開示いただくお客さまご自身の個人情報について、「個人情報保護方針」および「プライバシーポリシー」に基づき、以下のとおり取り扱わせていただきます。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "paragraph",
+          "text": "お客さまにおかれましては、以下の内容にあらかじめ同意の上、ご自身の個人情報のご提供・ご開示をお願いいたします。",
+          "html": "お客さまにおかれましては、以下の内容にあらかじめ同意の上、ご自身の個人情報のご提供・ご開示をお願いいたします。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "１．収集の目的",
+          "html": "１．収集の目的",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "Headline5"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "paragraph",
+          "text": "弊社では、お問い合わせいただくお客様の「会社名、役職、お名前、フリガナ、メールアドレス、電話・FAX番号の個人に関する情報（以下、個人情報といいます）」は、お問い合わせについてのご返信、ご連絡のために収集することを目的とし、それ以外の目的で利用することはありません。",
+          "html": "弊社では、お問い合わせいただくお客様の「会社名、役職、お名前、フリガナ、メールアドレス、電話・FAX番号の個人に関する情報（以下、個人情報といいます）」は、お問い合わせについてのご返信、ご連絡のために収集することを目的とし、それ以外の目的で利用することはありません。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "２．情報提供の任意性",
+          "html": "２．情報提供の任意性",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "Headline5"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "paragraph",
+          "text": "お客様が、ご自身の個人情報をご提供されるかどうかについては、お客様のご判断によりますが、必要な情報をご提供いただけなかった場合には、当社のサービスをお受けできない場合がありますので、予めご了承ください。",
+          "html": "お客様が、ご自身の個人情報をご提供されるかどうかについては、お客様のご判断によりますが、必要な情報をご提供いただけなかった場合には、当社のサービスをお受けできない場合がありますので、予めご了承ください。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "３．個人情報の委託および提供",
+          "html": "３．個人情報の委託および提供",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "Headline5"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "paragraph",
+          "text": "収集した個人情報は、第三者に委託および提供することはありません。\n又、法令に定めた例外事項の場合を除き、お客様の同意を得ずに提供することはいたしません。",
+          "html": "収集した個人情報は、第三者に委託および提供することはありません。<br/> 又、法令に定めた例外事項の場合を除き、お客様の同意を得ずに提供することはいたしません。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "４．個人情報の安全管理について",
+          "html": "４．個人情報の安全管理について",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "Headline5"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "paragraph",
+          "text": "弊社ウェブサイトにおいてお客さまに個人情報を提供していただくページには、SSL（セキュア・ソケット・レイアー）と呼ばれるデータを暗号化して通信する仕組みを使用しておりますので、万が一、送信データを第三者が傍受した場合でも、内容が盗み取られる心配はございません。またサーバーのデータはファイア・ウォールという不正アクセスを防止するシステムを採用しております。弊社は、これらの技術によりご登録いただいたお客さまの個人情報が外部に漏れることのないよう、情報の管理・保護に万全を期しております。",
+          "html": "弊社ウェブサイトにおいてお客さまに個人情報を提供していただくページには、SSL（セキュア・ソケット・レイアー）と呼ばれるデータを暗号化して通信する仕組みを使用しておりますので、万が一、送信データを第三者が傍受した場合でも、内容が盗み取られる心配はございません。またサーバーのデータはファイア・ウォールという不正アクセスを防止するシステムを採用しております。弊社は、これらの技術によりご登録いただいたお客さまの個人情報が外部に漏れることのないよう、情報の管理・保護に万全を期しております。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "５．改定について",
+          "html": "５．改定について",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "Headline5"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "paragraph",
+          "text": "弊社は、個人情報保護に関する法令その他の規範の変更などに対応するために、または個人情報保護への取り組みの改善のために上記の一部を適宜に見直し、改訂いたします。",
+          "html": "弊社は、個人情報保護に関する法令その他の規範の変更などに対応するために、または個人情報保護への取り組みの改善のために上記の一部を適宜に見直し、改訂いたします。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "６．保有個人データ又は第三者提供記録の開示などの請求について",
+          "html": "６．保有個人データ又は第三者提供記録の開示などの請求について",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "Headline5"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "paragraph",
+          "text": "個人情報の利用目的の通知、開示、訂正、追加、削除および利用停止又は提供の停止のご請求を、下記の弊社相談窓口までにお問い合わせください。ご請求がお客さまご本人であることを確認できた後に、早急に対応させていただきます。",
+          "html": "個人情報の利用目的の通知、開示、訂正、追加、削除および利用停止又は提供の停止のご請求を、下記の弊社相談窓口までにお問い合わせください。ご請求がお客さまご本人であることを確認できた後に、早急に対応させていただきます。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "７．個人情報保護管理者及び各種お問合せ先",
+          "html": "７．個人情報保護管理者及び各種お問合せ先",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "Headline5"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 9
+        },
+        {
+          "type": "heading",
+          "level": 6,
+          "text": "個人情報の取り扱いに関するお問合せ窓口",
+          "html": "個人情報の取り扱いに関するお問合せ窓口",
+          "id": null,
+          "anchor": null,
+          "classes": [],
+          "box": 5,
+          "box_class": "div.ConsultationBlock",
+          "after_field": 9
+        },
+        {
+          "type": "paragraph",
+          "text": "情報セキュリティ推進室（個人情報保護管理者）\n所属：営業部　役職：担当部長\n電話：03-6206-0245（代）\nE-mail：",
+          "html": "情報セキュリティ推進室（個人情報保護管理者）<br/> 所属：営業部　役職：担当部長<br/> 電話：03-6206-0245（代）<br/> E-mail：<img alt=\"\" class=\"Address\" height=\"16\" src=\"https://www.claice.com/policy/img/policy_ad.gif\" width=\"162\"/>",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 5,
+          "box_class": "div.ConsultationBlock",
+          "after_field": 9
+        },
+        {
+          "type": "image",
+          "src": "https://www.claice.com/policy/img/policy_ad.gif",
+          "src_raw": "../policy/img/policy_ad.gif",
+          "alt": "",
+          "width": "162",
+          "height": "16",
+          "link": null,
+          "link_target": null,
+          "classes": [
+            "Address"
+          ],
+          "wrapper_classes": [
+            "Text"
+          ],
+          "inline": true,
+          "box": 5,
+          "box_class": "div.ConsultationBlock",
+          "after_field": 9
+        },
+        {
+          "type": "heading",
+          "level": 6,
+          "text": "クッキー（Cookie）の取り扱いについて",
+          "html": "クッキー（Cookie）の取り扱いについて",
+          "id": null,
+          "anchor": null,
+          "classes": [],
+          "box": 5,
+          "box_class": "div.ConsultationBlock",
+          "after_field": 9
+        },
+        {
+          "type": "paragraph",
+          "text": "当社では利用しておりません。\n当社のホームページでは、Cookieやサイトの得た閲覧ログなどを取得しておりません。",
+          "html": "当社では利用しておりません。<br/>当社のホームページでは、Cookieやサイトの得た閲覧ログなどを取得しておりません。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 5,
+          "box_class": "div.ConsultationBlock",
+          "after_field": 9
+        }
+      ],
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "※新規ご営業のお問い合せについてはご返信できない場合がございます。\n予めご了承頂きますようお願い申し上げます。",
+      "html": "※新規ご営業のお問い合せについてはご返信できない場合がございます。<br/>予めご了承頂きますようお願い申し上げます。",
+      "tag": "p",
+      "classes": [
+        "Text",
+        "FormNotice"
+      ],
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    }
+  ]
+}

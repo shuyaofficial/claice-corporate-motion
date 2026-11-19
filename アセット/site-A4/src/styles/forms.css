@@ -1,0 +1,86 @@
+/* フォーム（お問い合せ・エントリー）。必須の印・入力・エラー表示 */
+.form-lead { max-width: 46em; }
+.form-lead .hs-4:first-child { margin-top: 0; }
+.ssl-note { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 18px; align-items: center; margin: 18px 0 22px; padding: 16px 20px; background: var(--white); border: 1px solid var(--line); border-radius: 12px; }
+.seal-box { display: inline-flex; align-items: center; gap: 10px; padding: 10px 14px; border: 1px dashed var(--line-strong); border-radius: 10px; color: var(--ink-2); font-size: 12px; line-height: 1.5; text-decoration: none; max-width: 220px; }
+.seal-box svg { width: 36px; height: 36px; flex: none; }
+.form-lead .plain-list, .form-lead .guide-list, .form-lead .num-list { margin-top: 12px; }
+.form-wrap { margin-top: 44px; }
+.cform { max-width: 880px; }
+.cform .tbl-form { margin-bottom: 36px; }
+.cform .tbl-form caption { font-size: 19px; padding-bottom: 10px; }
+.cform .tbl th { width: 30%; }
+.cform th label { cursor: pointer; }
+.req { display: inline-block; margin-left: 8px; padding: 1px 10px; background: var(--entry); color: var(--white); border-radius: 12px; font-size: 12px; line-height: 1.7; vertical-align: .08em; }
+.sub-form .req { background: var(--blue); }
+.req small { display: inline; margin-left: 6px; font-size: 11px; font-weight: 400; }
+.cform .ex { display: inline-block; margin-left: 8px; color: var(--ink-2); font-size: 13px; }
+.cform td { line-height: 2.1; }
+.cform input[type="text"], .cform select, .cform textarea {
+  font: inherit; font-size: 16px; color: var(--ink); background: var(--white);
+  border: 1.5px solid var(--line-strong); border-radius: 8px; padding: 9px 12px; max-width: 100%; vertical-align: middle;
+}
+.cform input[type="text"] { min-height: 44px; }
+.cform select { min-height: 44px; padding-right: 28px; }
+.cform textarea { display: block; width: 100%; line-height: 1.8; }
+.cform input[type="text"]:hover, .cform select:hover, .cform textarea:hover { border-color: var(--ink-2); }
+.cform input[type="radio"], .cform input[type="checkbox"] { width: 20px; height: 20px; vertical-align: -4px; margin: 0 6px 0 4px; accent-color: var(--blue); }
+.sub-form_entry .cform input[type="radio"], .sub-form_entry .cform input[type="checkbox"] { accent-color: var(--entry); }
+.cform td label { margin-right: 14px; }
+.cform [aria-invalid="true"] { border-color: var(--entry-dark); background: #fff7f4; }
+.field-error { grid-column: 1 / -1; margin-top: 6px; color: var(--entry-dark); font-size: 14px; font-weight: 700; line-height: 1.6; }
+.field-error::before { content: "！"; margin-right: 4px; }
+.form-alert { margin-bottom: 24px; padding: 14px 18px; border: 1.5px solid var(--entry-dark); border-radius: 10px; background: #fff7f4; color: var(--entry-dark); font-weight: 700; }
+.form-alert:empty { display: none; }
+
+.form-policy { margin: 8px 0 28px; padding: 26px 28px; background: var(--white); border: 1px solid var(--line); border-radius: 14px; }
+.form-policy .hs-4:first-child { margin-top: 0; }
+.form-policy .hs-4 { font-size: 17px; }
+.form-policy h4 { margin: 1.6em 0 .4em; font-size: 15px; padding-left: 10px; border-left: 3px solid var(--blue); }
+.form-policy h3 { margin: 0 0 .8em; }
+.form-policy p { font-size: 15px; }
+.form-policy p + p { margin-top: .8em; }
+.consult { margin-top: 8px; padding: 14px 18px; background: var(--paper-2); border-radius: 10px; }
+.consult h5 { margin: .6em 0 .3em; font-size: 14px; color: var(--ink-2); }
+.consult h5:first-child { margin-top: 0; }
+.consult p { margin-top: 0; }
+.accept { margin: 0 0 24px; padding: 16px 20px; background: var(--white); border: 1.5px solid var(--line-strong); border-radius: 12px; font-weight: 700; }
+.accept label { cursor: pointer; }
+.go-submit { text-align: center; }
+.go-submit .btn { min-width: 280px; min-height: 56px; font-size: 17px; }
+
+@media (max-width: 760px) {
+  .ssl-note { grid-template-columns: 1fr; }
+  .cform .tbl th { width: 100%; }
+  .cform .ex { display: block; margin-left: 0; }
+  .cform input[type="text"] { width: 100%; }
+  .cform .cell-name:has(> label) { display: grid; grid-template-columns: 3em minmax(0, 1fr); gap: 8px 10px; align-items: center; }
+  .cform .cell-name:has(> label) input[type="text"] { width: 100%; }
+  .cform .cell-name:has(> label) .ex { grid-column: 1 / -1; margin: 0; }
+  .cform .cell-name:not(:has(> label)) input[type="text"] { width: auto; max-width: 100%; }
+  .cform td label { margin-right: 10px; }
+  .form-policy { padding: 20px 18px; }
+  .go-submit .btn { width: 100%; min-width: 0; }
+}
+
+/* 入力の説明と帳票を同じ段に置き、長い応募フォームも分類ごとに読む。 */
+.form-chapter > .wrap { align-items: start; }
+.preview-guide { padding: 14px 18px; color: var(--chapter-navy); background: #e9e9df; border-inline-start: 3px solid var(--chapter-navy); line-height: 1.75; }
+.form-guide { margin: 20px 0; border-block: 1px solid var(--chapter-rule); }
+.form-guide > summary { padding: 13px 0; color: var(--chapter-navy); cursor: pointer; font-weight: 600; }
+.form-guide[open] > summary { border-bottom: 1px solid var(--chapter-rule); }
+.form-guide .form-lead { padding-block: 24px; }
+.form-guide :is(.ssl-note,.seal-box) { border-radius: 0; }
+.form-guide .ssl-note { background: transparent; }
+.form-guide .hs-4 { font-size: 19px; }
+.form-wrap { scroll-margin-top: calc(var(--header-h) + 18px); margin-top: 32px; }
+.cform .tbl-form { margin-bottom: 48px; }
+.cform .tbl-form caption { color: var(--chapter-navy); font-size: clamp(22px, 2.2vw, 30px); }
+.cform .req,.sub-form .req { background: transparent; color: var(--chapter-rust); padding: 0; margin-inline-start: 3px; font-size: 12px; }
+.cform .req small { display: block; margin: 0; }
+.cform :is(input[type="text"],input[type="email"],select,textarea) { background: #fffdf8; border: 1px solid #958a77; border-radius: 2px; }
+.cform textarea { max-height: 24em; }
+.cform .tbl th { vertical-align: middle; }
+.cform :is(.accept,.form-policy,.consult,.form-alert) { border-radius: 0; }
+.cform .form-policy { border: 1px solid var(--chapter-rule); background: transparent; }
+.cform .go-submit .btn { border-radius: 0; }

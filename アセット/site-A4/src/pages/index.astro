@@ -1,0 +1,142 @@
+---
+import '../styles/home.css';
+import Diorama from '../components/Diorama.astro';
+import Base from '../layouts/Base.astro';
+import NewsList from '../components/NewsList.astro';
+import SlotStats from '../components/SlotStats.astro';
+import { loadPage } from '../lib/content';
+import { relPath } from '../lib/urls';
+import { pageByKey } from '../lib/pages';
+import { canonicalOf, describe, homeLd, titleOf } from '../lib/seo';
+
+const from = 'index.html';
+const elements = loadPage('index').elements;
+const copy = (index: number) => elements[index].text.replace(/\n/g, '');
+const rel = (target: string) => relPath(from, target);
+const news = elements.filter((element) => element.type === 'news');
+const [joinEn, joinJa] = elements[18].text.split('\n');
+const services = [
+  { title: 9, description: 10, section: 'service' },
+  { title: 12, description: 13, section: 'engineer' },
+  { title: 15, description: 16, section: 'esn' },
+];
+const albums = [
+  { id: 'family', label: '社員', image: 'img/top_menu_ph6.jpg', width: 600, height: 380, alt: 'クレイスの社員3人' },
+  { id: 'event', label: 'イベント', image: 'photo/img/event/ph01.jpg', width: 500, height: 333, alt: 'クレイスの社内イベント' },
+  { id: 'office', label: 'オフィス', image: 'photo/img/office/ph01.jpg', width: 500, height: 333, alt: 'クレイスのオフィス' },
+];
+---
+<Base from={from} title={titleOf('index')} description={describe('index')} canonical={canonicalOf(pageByKey('index'))} ld={homeLd()} bodyClass="home-edition" scripts={['cover-scene.js']}>
+<main id="main" class="edition">
+  <div class="scene-runway" id="scene">
+    <div class="scene-sticky">
+      <div class="scene-leaves">
+        <section class="edition-cover" aria-labelledby="page-title">
+          <div class="cover-plate">
+            <img class="cover-illustration" src={rel('illustrations/A.webp')} width="1536" height="1024" alt="ネットワークの図面を囲むエンジニアと、仲間のために引かれた椅子。" fetchpriority="high" decoding="async">
+            <div class="cover-copy">
+              <p lang="en" class="cover-signature">Human provisioning</p>
+              <h1 id="page-title">人を育て、<br>人と人・人と未来を<br>つなぎます</h1>
+              <a class="cover-feature" href="#education">クレイスの教育システム<span aria-hidden="true">↓</span></a>
+            </div>
+          </div>
+        </section>
+
+      <section class="scene-sheet" aria-labelledby="scene-business-heading">
+        <div class="scene-folio">
+          <div class="scene-caption">
+            <h2 id="scene-business-heading">事業内容</h2>
+            <p>{copy(7)}</p>
+          </div>
+          <figure class="scene-rack">
+            <img src={rel('web/about-rack-600.webp')} width="600" height="450" alt="ネットワーク機器に接続されたLANケーブル">
+          </figure>
+        </div>
+      </section>
+      </div>
+  <nav class="edition-routes" aria-label="目的から探す" data-entry-guard>
+    <div class="edition-width route-pair">
+      <a class="route-link route-company" href="#business"><strong>企業の方へ</strong><small>事業内容・お問い合せ</small><span class="route-arrow" aria-hidden="true">↓</span></a>
+      <a class="route-link route-team" href="#join"><strong>働きたい方へ</strong><small>教育システム・採用情報</small><span class="route-arrow" aria-hidden="true">↓</span></a>
+    </div>
+  </nav>
+    </div>
+  </div>
+
+  <section class="edition-business" id="business" aria-labelledby="business-title">
+    <div class="edition-width">
+      <div class="business-directory" id="tour-business">
+        <h2 class="edition-display" id="business-title">事業内容一覧</h2>
+        <div>
+          <ul class="service-index">
+            {services.map((service) => <li><h3><a href={rel('business/index.html#' + service.section)}>{copy(service.title)}<span aria-hidden="true">↗</span></a></h3><p>{copy(service.description)}</p></li>)}
+          </ul>
+          <div class="edition-minor-links"><a href={rel('business/index.html')}>事業内容一覧</a><a href={rel('form/index.html')}>お問い合せ</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <Diorama />
+
+  <section class="edition-join edition-width" id="join" aria-labelledby="join-title">
+    <div class="edition-title-row"><p class="edition-kicker">教育システム・採用情報</p><span lang="en" class="hand-sign">{joinEn}</span></div>
+    <h2 id="join-title" class="edition-display">{joinJa}</h2>
+    <div class="education-spread" id="education">
+      <figure class="education-portrait" id="tour-education"><img src={rel('img/top_menu_ph7.jpg')} width="600" height="380" alt="研修で講師の説明を聞くクレイスの社員" loading="lazy" decoding="async"></figure>
+      <article class="education-copy" aria-labelledby="education-title">
+        <h3 id="education-title">{copy(20)}</h3>
+        <p>{copy(21)}</p>
+        <a class="edition-link" href={rel('education/index.html#followup')}>フォローアップ制度を見る<span aria-hidden="true">→</span></a>
+        <div class="edition-minor-links"><a href={rel('education/index.html#qualification')}>エンジニアスター制度</a><a href={rel('education/index.html')}>教育システム一覧</a></div>
+      </article>
+    </div>
+    <article class="recruit-strip" id="recruit" aria-labelledby="recruit-title">
+      <div class="recruit-photo" id="tour-recruit"><img src={rel('img/top_menu_ph5b.jpg')} width="600" height="380" alt="クレイスの社員2人" loading="lazy" decoding="async"></div>
+      <div class="recruit-copy"><h3 id="recruit-title">{copy(24)}</h3><p>{copy(25)}</p>
+      <div class="edition-minor-links"><a href={rel('recruit/index.html')}>採用情報を見る</a><a href={rel('form/entry.html')} data-entry-guard>採用エントリーフォーム</a></div></div>
+    </article>
+  </section>
+
+  <section class="edition-about edition-width" id="about" aria-labelledby="about-title">
+    <div class="edition-title-row"><p class="edition-kicker" id="tour-about">クレイスについて</p></div>
+    <div class="about-spread">
+      <h2 class="edition-display" id="about-title">{copy(3)}</h2>
+      <div><p>{copy(5)}</p>
+        <div class="edition-minor-links"><a href={rel('about/index.html')}>クレイスについて</a><a href={rel('profile/index.html')}>会社概要・取引先実績</a></div>
+      </div>
+    </div>
+  </section>
+  <SlotStats />
+
+  <section class="edition-photos" id="photo" aria-labelledby="photo-title">
+    <div class="edition-width photo-spread" id="tour-photo">
+      <div class="photo-copy">
+        <h2 lang="en" class="photo-title" id="photo-title">{copy(28)}</h2>
+        <p>{copy(29)}</p>
+        <a class="edition-link" href={rel('photo/index.html')}>写真一覧を見る<span aria-hidden="true">→</span></a>
+      </div>
+      <div class="album-viewer">
+        <fieldset class="album-options"><legend>写真を選ぶ</legend>
+          {albums.map((album, index) => <label><input type="radio" name="album" value={album.id} checked={index === 0}><span>{album.label}</span></label>)}
+        </fieldset>
+        <div class="album-plates">
+          {albums.map((album) => <a class="album-plate" data-album={album.id} href={rel('photo/index.html#' + album.id)}>
+            <img src={rel(album.image)} width={album.width} height={album.height} alt={album.alt} loading="lazy" decoding="async">
+            <span>{album.label}の写真を見る <i aria-hidden="true">↗</i></span>
+          </a>)}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="edition-news edition-width" id="news" aria-label="新着情報と採用新着情報">
+    {['新着情報', '採用新着情報'].map((group, index) => <div class="edition-news-column">
+      <h2>{group}</h2><NewsList items={news.filter((item) => item.group === group)} from={from} />
+      {index === 0 && <a class="edition-link" href={rel('news/index.html')}>新着情報の一覧<span aria-hidden="true">→</span></a>}
+    </div>)}
+  </section>
+</main>
+</Base>

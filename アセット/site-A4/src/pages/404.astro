@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import { relPath } from '../lib/urls';
+import { PAGES } from '../lib/pages';
+
+const from = '404.html';
+const links = PAGES.filter((page) => page.key !== 'index');
+---
+<Base from={from} title="ページが見つかりません│株式会社クレイス" description="お探しのページは見つかりませんでした。トップページ、または各ページからお探しください。" noindex bodyClass="sub sub-404">
+<main id="main" class="missing-page wrap">
+  <div class="missing-copy">
+    <p class="missing-code">404</p>
+    <h1>ページが<br>見つかりません</h1>
+    <p>お探しのページは移動または削除された可能性があります。</p>
+    <a class="btn btn-line" href={relPath(from, 'index.html')}>トップページへ <span aria-hidden="true">→</span></a>
+  </div>
+  <nav aria-label="各ページへのリンク"><ul class="notfound-links">
+    {links.map((link) => <li><a href={relPath(from, link.path)}>{link.name}<span aria-hidden="true">→</span></a></li>)}
+  </ul></nav>
+</main>
+</Base>

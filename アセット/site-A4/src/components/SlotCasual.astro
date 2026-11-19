@@ -1,0 +1,14 @@
+---
+import { slots } from '../data/slots';
+const s = slots.casual;
+const on = s.enabled && !!s.href && !!s.buttonLabel;
+---
+{on && (
+  <section class="sec slot slot-casual" aria-labelledby="slot-casual-title">
+    <div class="wrap">
+      <h2 class="sec-title" id="slot-casual-title">{s.heading}</h2>
+      {s.body && <p>{s.body}</p>}
+      <p class="btn-row"><a class="btn btn-entry" href={s.href}>{s.buttonLabel}<span class="arr" aria-hidden="true">→</span></a></p>
+    </div>
+  </section>
+)}

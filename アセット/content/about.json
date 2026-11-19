@@ -1,0 +1,1075 @@
+{
+  "page": "about",
+  "url": "https://www.claice.com/about/index.html",
+  "meta": {
+    "title": "クレイスについて│株式会社クレイス",
+    "description": "ネットワーク・システムソリューションサービス、ネットワークエンジニア派遣の（株）クレイスのwebサイトです。ネットワークエンジニアを随時募集中です。ネットワーク技術、ヒューマンスキルを磨きたい方、大歓迎！",
+    "keywords": "クレイス,ネットワーク,ネットワーク運用,CCNA,CCNA研修,ネットワークエンジニア,エンジニア派遣,人材募集"
+  },
+  "body_class": [
+    "ContentFrame",
+    "About"
+  ],
+  "elements": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "クレイスについて│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "html": "クレイスについて│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "PageTitle"
+      ],
+      "hidden": true,
+      "hidden_by": [
+        "common/css/pc.css [media=print, screen and (min-width: 768px)]: .PageTitle { position:absolute; left:0; top:-40px; margin:0; color:#fff; font-size:80%; line-height:40px; text-align:left; }",
+        "common/css/sp.css [media=handheld, only screen and (max-width: 767px)]: .PageTitle { display:none; }"
+      ],
+      "source": "header"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "クレイスについて",
+      "html": "クレイスについて",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "box": 1,
+      "box_class": "div.TitleWrap"
+    },
+    {
+      "type": "paragraph",
+      "text": "最新の技術とお客様第一の心をもって、価値の高いITサービスを提供いたします。",
+      "html": "最新の技術とお客様第一の心をもって、価値の高いITサービスを提供いたします。",
+      "tag": "p",
+      "classes": [],
+      "box": 1,
+      "box_class": "div.TitleWrap"
+    },
+    {
+      "type": "nav",
+      "items": [
+        {
+          "text": "社長あいさつ",
+          "href": "https://www.claice.com/about/index.html#greeting",
+          "href_raw": "#greeting"
+        },
+        {
+          "text": "企業理念",
+          "href": "https://www.claice.com/about/index.html#philosophy1",
+          "href_raw": "#philosophy1"
+        },
+        {
+          "text": "経営理念",
+          "href": "https://www.claice.com/about/index.html#philosophy2",
+          "href_raw": "#philosophy2"
+        },
+        {
+          "text": "社員行動指針",
+          "href": "https://www.claice.com/about/index.html#guideline",
+          "href_raw": "#guideline"
+        },
+        {
+          "text": "情報セキュリティポリシー",
+          "href": "https://www.claice.com/about/index.html#policy",
+          "href_raw": "#policy"
+        },
+        {
+          "text": "同一労働同一賃金",
+          "href": "https://www.claice.com/about/index.html#equal",
+          "href_raw": "#equal"
+        },
+        {
+          "text": "労働派遣法に基づく公開情報",
+          "href": "https://www.claice.com/about/index.html#publicinfo",
+          "href_raw": "#publicinfo"
+        }
+      ],
+      "classes": [
+        "PageNavi"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "社長あいさつ",
+      "html": "社長あいさつ",
+      "id": null,
+      "anchor": "greeting",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "greeting"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/about/img/ph_andou.jpg",
+      "src_raw": "img/ph_andou.jpg",
+      "alt": "株式会社クレイス代表取締役社長　安藤昭範",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "Portrait"
+      ],
+      "wrapper_classes": [
+        "ContentWrap",
+        "cFix"
+      ],
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "当社は2004年12月に設立しました。",
+      "html": "当社は2004年12月に設立しました。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "その前後を顧みますとインターネットを基軸としたネットワークは大きく変化してきました。",
+      "html": "その前後を顧みますとインターネットを基軸としたネットワークは大きく変化してきました。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "この間、社員一丸となって技術力向上および人間性の成長に取り組んで参りました。",
+      "html": "この間、社員一丸となって技術力向上および人間性の成長に取り組んで参りました。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "企業理念にもあるとおり、「お客様の喜びが私たちの喜びであり、ありがとうと言われ続ける会社になります。」を実現することを基本方針としております。",
+      "html": "企業理念にもあるとおり、「お客様の喜びが私たちの喜びであり、ありがとうと言われ続ける会社になります。」を実現することを基本方針としております。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "そのために、",
+      "html": "そのために、",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "１）素直な心を持つ\n２）感謝の気持ちを持つ\n３）謙虚な気持ちを持つ",
+      "html": "１）素直な心を持つ<br/>２）感謝の気持ちを持つ<br/>３）謙虚な気持ちを持つ",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "この3つの価値観を大切にしながら仕事や社員育成に取り組んで来た結果\nお客様から最良のパートナーとして、選ばれ続ける会社として成長しています。",
+      "html": "この3つの価値観を大切にしながら仕事や社員育成に取り組んで来た結果<br/>お客様から最良のパートナーとして、選ばれ続ける会社として成長しています。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "また、お客様からの御指導や御支援があってこそと、お客様には厚く感謝申し上げるところです。",
+      "html": "また、お客様からの御指導や御支援があってこそと、お客様には厚く感謝申し上げるところです。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "インターネットを基軸としたネットワークはこれからも益々進化して行きます。",
+      "html": "インターネットを基軸としたネットワークはこれからも益々進化して行きます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "どのような時代の変化でも、一貫してお客さまの心に響く価値を大切にすることによって、豊かな社会作りに貢献してまいります。",
+      "html": "どのような時代の変化でも、一貫してお客さまの心に響く価値を大切にすることによって、豊かな社会作りに貢献してまいります。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "クレイスの強みは、経営理念を共有する素晴らしい営業チームと、行動指針を共有する素晴らしい社員が、会社を率いていることです。",
+      "html": "クレイスの強みは、経営理念を共有する素晴らしい営業チームと、行動指針を共有する素晴らしい社員が、会社を率いていることです。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "社員の誰もが、当事者意識を持ち、リーダーシップを発揮しうる力をより一層高め努力し示していきます。",
+      "html": "社員の誰もが、当事者意識を持ち、リーダーシップを発揮しうる力をより一層高め努力し示していきます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "代表取締役社長　",
+      "html": "<span>代表取締役社長　</span><img alt=\"安藤昭範\" height=\"55\" src=\"https://www.claice.com/about/img/sign_andou.png\" width=\"200\"/>",
+      "tag": "p",
+      "classes": [
+        "Text",
+        "Sign"
+      ],
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/about/img/sign_andou.png",
+      "src_raw": "img/sign_andou.png",
+      "alt": "安藤昭範",
+      "width": "200",
+      "height": "55",
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Text",
+        "Sign"
+      ],
+      "inline": true,
+      "section": "greeting",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "企業理念",
+      "html": "企業理念",
+      "id": null,
+      "anchor": "philosophy1",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "philosophy1"
+    },
+    {
+      "type": "paragraph",
+      "text": "人の喜びが私たちの喜びであり、\nありがとうと言われ続ける会社になります。",
+      "html": "人の喜びが私たちの喜びであり、<br/>ありがとうと言われ続ける会社になります。",
+      "tag": "p",
+      "classes": [],
+      "section": "philosophy1",
+      "box": 4,
+      "box_class": "ul.PhilosophyLead>li"
+    },
+    {
+      "type": "paragraph",
+      "text": "人を幸せにする会社になります。",
+      "html": "人を幸せにする会社になります。",
+      "tag": "p",
+      "classes": [],
+      "section": "philosophy1",
+      "box": 5,
+      "box_class": "ul.PhilosophyLead>li"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "「企業理念」の思い",
+      "html": "「企業理念」の思い",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "philosophy1",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "我社には企業理念がふたつあります。",
+      "html": "我社には企業理念がふたつあります。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy1",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "ひとつは、「人の喜びが私たちの喜びであり、ありがとうと言われ続ける会社になります。」です。このひとつめの「人」はお客様の事です。企業として存在している限り、社会に価値のあるものを提供して行く必要があります。その提供したものが、お客様にとって真に価値あるものであった時、お客様から喜んでもらえます。お客様の喜びを私たちの喜びとし「ありがとう」を集め続けることを求めて行きます。",
+      "html": "ひとつは、<em>「人の喜びが私たちの喜びであり、ありがとうと言われ続ける会社になります。」</em>です。このひとつめの「人」はお客様の事です。企業として存在している限り、社会に価値のあるものを提供して行く必要があります。その提供したものが、お客様にとって真に価値あるものであった時、お客様から喜んでもらえます。お客様の喜びを私たちの喜びとし「ありがとう」を集め続けることを求めて行きます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy1",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "ふたつめは、「人を幸せにする会社になります。」このふたつめの「人」は、主に社員の皆さんの事です。この幸せにするということについては、単に仕事を明るく楽しく過ごしてもらいたい」というだけではなく、皆さんの人生の長い時間を注いでいる仕事、そして家庭生活も含めて幸せを感じて過ごせるようにしてもらいたいという願いを含んでいます。",
+      "html": "ふたつめは、<em>「人を幸せにする会社になります。」</em>このふたつめの「人」は、主に社員の皆さんの事です。この幸せにするということについては、単に仕事を明るく楽しく過ごしてもらいたい」というだけではなく、皆さんの人生の長い時間を注いでいる仕事、そして家庭生活も含めて幸せを感じて過ごせるようにしてもらいたいという願いを含んでいます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy1",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "会社として社員の皆さんを幸せにすることの努力は、利益を創出する事と、社員の成長を支援する事です。一方、社員の皆さんが自分の人生を幸せなものにするためには、皆さんの努力が是非とも必要です。",
+      "html": "会社として社員の皆さんを幸せにすることの努力は、利益を創出する事と、社員の成長を支援する事です。一方、社員の皆さんが自分の人生を幸せなものにするためには、皆さんの努力が是非とも必要です。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy1",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "数年前までは、能力主義一辺倒の声が多かったのですが、私はテクニカルな能力だけではなく、人間的な成長つまり「ヒューマンスキル」も非常に大切だと思っています。",
+      "html": "数年前までは、能力主義一辺倒の声が多かったのですが、私はテクニカルな能力だけではなく、<strong>人間的な成長つまり「ヒューマンスキル」も非常に大切</strong>だと思っています。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy1",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "若いうちは、テクニカルスキルを高め、いろいろな職場、いろいろな業務を通じて多様な働き方や仕事の進め方を学ぶ事は、スキルアップやキャリアアップにとても有益です。しかし、ある程度の年齢になった時、自分の技術のみではなく、チームマネジメントや部下の育成などの役割が期待されてきます。そして、ひとりで成果を出すよりも、さまざまな能力をもった人達の能力を引きだすことが大きな仕事の達成につながります。そのためには、早い段階から1〜2段高いレベルの「働き方」に取り組んでいってもらいたいと思います。",
+      "html": "若いうちは、テクニカルスキルを高め、いろいろな職場、いろいろな業務を通じて多様な働き方や仕事の進め方を学ぶ事は、スキルアップやキャリアアップにとても有益です。しかし、ある程度の年齢になった時、自分の技術のみではなく、チームマネジメントや部下の育成などの役割が期待されてきます。そして、ひとりで成果を出すよりも、さまざまな能力をもった人達の能力を引きだすことが大きな仕事の達成につながります。そのためには、早い段階から1〜2段高いレベルの「働き方」に取り組んでいってもらいたいと思います。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy1",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "企業という器を活用し、私達は仕事をしています。そして人生の多くの時間を仕事に費やしています。この「仕事」ということはどう捉えますか？「仕事」という言葉と似たものに「労働」もあります。しかしながら、これは全く違う意味になると思います。",
+      "html": "企業という器を活用し、私達は仕事をしています。そして人生の多くの時間を仕事に費やしています。この「仕事」ということはどう捉えますか？「仕事」という言葉と似たものに「労働」もあります。しかしながら、これは全く違う意味になると思います。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy1",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "私は、",
+      "html": "私は、",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy1",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "与えられたノルマを仕方なくやる。→「作業」",
+        "何も考えずにやる。→「動作」",
+        "いやいや苦しみながらやる→「労働」",
+        "社会のために価値あるものを積極的に創造する。→「仕事」"
+      ],
+      "items_html": [
+        "与えられたノルマを仕方なくやる。→「作業」",
+        "何も考えずにやる。→「動作」",
+        "いやいや苦しみながらやる→「労働」",
+        "社会のために価値あるものを積極的に創造する。→「仕事」"
+      ],
+      "item_links": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy1",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "だと思っています。この「社会のために価値のあるものを積極的に創造する」が、一度きりの人生の多くの時間を掛けて取り組む「仕事」だと思います。この「仕事」を1〜2段階高いものにするためには、一人ひとりが意欲・やる気、そして夢をもち、その夢を実現していくことだと思います。",
+      "html": "だと思っています。この「社会のために価値のあるものを積極的に創造する」が、一度きりの人生の多くの時間を掛けて取り組む「仕事」だと思います。この「仕事」を1〜2段階高いものにするためには、一人ひとりが意欲・やる気、そして夢をもち、その夢を実現していくことだと思います。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy1",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "その結果、社員ひとりひとり、そして家族の幸せにつながるものと確信しています。",
+      "html": "その結果、社員ひとりひとり、そして家族の幸せにつながるものと確信しています。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy1",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "経営理念",
+      "html": "経営理念",
+      "id": null,
+      "anchor": "philosophy2",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "philosophy2"
+    },
+    {
+      "type": "paragraph",
+      "text": "お客様の事業活動や生活の向上のため、最新の技術とお客様第一の心をもって価値の高いITサービスを提供していきます。",
+      "html": "お客様の事業活動や生活の向上のため、最新の技術とお客様第一の心をもって価値の高いITサービスを提供していきます。",
+      "tag": "p",
+      "classes": [],
+      "section": "philosophy2",
+      "box": 7,
+      "box_class": "ul.PhilosophyLead>li"
+    },
+    {
+      "type": "paragraph",
+      "text": "社員一人ひとりの成長を支え、社員の成長によって会社を強くし、より高い価値を社会に提供していきます。",
+      "html": "社員一人ひとりの成長を支え、社員の成長によって会社を強くし、より高い価値を社会に提供していきます。",
+      "tag": "p",
+      "classes": [],
+      "section": "philosophy2",
+      "box": 8,
+      "box_class": "ul.PhilosophyLead>li"
+    },
+    {
+      "type": "paragraph",
+      "text": "ネットワークは急速に高速化、かつ低廉化してきました。それと同時にネットワークを流れる情報量は大量化・多様化し、秘匿性も強く要求されてきています。また、IT機器も高価な物も多く、お客様の立場に立って考えて、お客様にとって価値の高いサービス提供していく事を進めて行きます。",
+      "html": "ネットワークは急速に高速化、かつ低廉化してきました。それと同時にネットワークを流れる情報量は大量化・多様化し、秘匿性も強く要求されてきています。また、IT機器も高価な物も多く、お客様の立場に立って考えて、お客様にとって価値の高いサービス提供していく事を進めて行きます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy2",
+      "box": 6,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "人間は時間が経つと年をとります。しかし何もしなければただ年齢がプラスされるだけで成長はありませんし、夢の実現もありません。人間は努力して成長し、そして夢を達成することに幸福感を憶えるものだと思います。",
+      "html": "人間は時間が経つと年をとります。しかし何もしなければただ年齢がプラスされるだけで成長はありませんし、夢の実現もありません。人間は努力して成長し、そして夢を達成することに幸福感を憶えるものだと思います。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy2",
+      "box": 6,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "仕事は決して楽しい事ばかりではありません。大変な事、苦しい事の方が多いかもしれません。しかしながら、困難な目標に勇気をもって立ち向かって、そして目標を達成することにより達成感を味わう事が出き、そして能力が向上します。そういう意味では、人生の一部に仕事があるというのではなく、多くの時間を掛ける仕事の中に人生そのものがあるのではないかと思います。そしてまた仕事を通して努力し成長することが人間としての成長になるのだと思います。",
+      "html": "仕事は決して楽しい事ばかりではありません。大変な事、苦しい事の方が多いかもしれません。しかしながら、困難な目標に勇気をもって立ち向かって、そして目標を達成することにより達成感を味わう事が出き、そして能力が向上します。そういう意味では、人生の一部に仕事があるというのではなく、多くの時間を掛ける仕事の中に人生そのものがあるのではないかと思います。そしてまた仕事を通して努力し成長することが人間としての成長になるのだと思います。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy2",
+      "box": 6,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "そのためには、会社は、意欲・やる気、そして夢のある社員の成長を支援し、目標達成そして人間としての成長ができるようにしていきます。",
+      "html": "そのためには、会社は、意欲・やる気、そして夢のある社員の成長を支援し、目標達成そして人間としての成長ができるようにしていきます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy2",
+      "box": 6,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "会社は社員の組織体です。しがたって、社員ひとりひとりが成長することによって会社が組織体として強くなります。会社が強くなり、より高い付加価値を世の中に提供する事が私たちの使命です。",
+      "html": "会社は社員の組織体です。しがたって、社員ひとりひとりが成長することによって会社が組織体として強くなります。会社が強くなり、より高い付加価値を世の中に提供する事が私たちの使命です。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "philosophy2",
+      "box": 6,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "社員行動指針",
+      "html": "社員行動指針",
+      "id": null,
+      "anchor": "guideline",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "guideline"
+    },
+    {
+      "type": "paragraph",
+      "text": "当社は、人を喜ばせ、人を幸せにする会社の企業理念を貫くために次の5つを行動指針として取り組んでまいります。",
+      "html": "当社は、人を喜ばせ、人を幸せにする会社の企業理念を貫くために次の5つを行動指針として取り組んでまいります。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "guideline",
+      "box": 9,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "お客様第一の精神で行動する。",
+        "法と規則を守り、高潔な倫理を保持する。",
+        "おもしろく、楽しく仕事をする。",
+        "周りの人への感謝の気持ちを忘れない。",
+        "意欲とやる気と夢をもってチャレンジする。"
+      ],
+      "items_html": [
+        "お客様第一の精神で行動する。",
+        "法と規則を守り、高潔な倫理を保持する。",
+        "おもしろく、楽しく仕事をする。",
+        "周りの人への感謝の気持ちを忘れない。",
+        "意欲とやる気と夢をもってチャレンジする。"
+      ],
+      "item_links": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "classes": [
+        "Guideline"
+      ],
+      "section": "guideline",
+      "box": 9,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "情報セキュリティポリシー",
+      "html": "情報セキュリティポリシー",
+      "id": null,
+      "anchor": "policy",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "policy"
+    },
+    {
+      "type": "paragraph",
+      "text": "株式会社クレイスは、当社の情報資産に対して、安全性・信頼性を確保するために、適切なセキュリティ対策を実施する。株式会社クレイスの情報セキュリティポリシーは、情報活用するうえでセキュリティ上保護すべき適用範囲と対策や管理体制などについて方針を定め、リスク管理の一環として当社の情報資産を保護することを目的とする。すべての社員は、情報セキュリティの重要性を認知し、この情報セキュリティポリシーを遵守しなければならない。",
+      "html": "株式会社クレイスは、当社の情報資産に対して、安全性・信頼性を確保するために、適切なセキュリティ対策を実施する。株式会社クレイスの情報セキュリティポリシーは、情報活用するうえでセキュリティ上保護すべき適用範囲と対策や管理体制などについて方針を定め、リスク管理の一環として当社の情報資産を保護することを目的とする。すべての社員は、情報セキュリティの重要性を認知し、この情報セキュリティポリシーを遵守しなければならない。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "１．適用範囲",
+      "html": "１．適用範囲",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "当社が業務で使用するすべての情報資産および情報資産を保全するための設備、情報資産に接するすべての役員、社員、派遣社員および業務委託先等とする。",
+      "html": "当社が業務で使用するすべての情報資産および情報資産を保全するための設備、情報資産に接するすべての役員、社員、派遣社員および業務委託先等とする。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "２．情報資産",
+      "html": "２．情報資産",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "情報資産とは、業務上生じるすべての情報および情報を処理するシステム、情報を流通するネットワークをいう。",
+      "html": "情報資産とは、業務上生じるすべての情報および情報を処理するシステム、情報を流通するネットワークをいう。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "社内情報のみならず顧客情報等社外の情報も含み、情報システム内に保存された情報の他に、紙情報、フロッピィ・光ディスク等に保存された情報も含む。",
+      "html": "社内情報のみならず顧客情報等社外の情報も含み、情報システム内に保存された情報の他に、紙情報、フロッピィ・光ディスク等に保存された情報も含む。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "情報資産は、業務遂行のみに利用することとし、業務以外、個人的用件等に用いてはならない。",
+      "html": "情報資産は、業務遂行のみに利用することとし、業務以外、個人的用件等に用いてはならない。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "３．管理体制",
+      "html": "３．管理体制",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "役員および社員は、所要の情報セキュリティ対策を実施するほか、業務委託先等の第三者との情報セキュリティに関しても必要な対策が実施されていることを確認する。会社は、情報セキュリティに関する適切な教育を実施するとともに、万一の事故が発生した場合には、事故の原因を追求のうえ、その損害を最小限に抑えるほか、未然に防止するための適切な処置を講ずる。",
+      "html": "役員および社員は、所要の情報セキュリティ対策を実施するほか、業務委託先等の第三者との情報セキュリティに関しても必要な対策が実施されていることを確認する。会社は、情報セキュリティに関する適切な教育を実施するとともに、万一の事故が発生した場合には、事故の原因を追求のうえ、その損害を最小限に抑えるほか、未然に防止するための適切な処置を講ずる。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "４．物理的セキュリティ対策",
+      "html": "４．物理的セキュリティ対策",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "役員および社員は、情報資産に不正に進入され盗難、改ざん、破壊等の危険にさらされることのないよう適切な保護を行う。会社は、オフィス、情報資産を取扱う装置、ネットワーク等についても同様な保護を行う。",
+      "html": "役員および社員は、情報資産に不正に進入され盗難、改ざん、破壊等の危険にさらされることのないよう適切な保護を行う。会社は、オフィス、情報資産を取扱う装置、ネットワーク等についても同様な保護を行う。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "５．不正アクセス対策",
+      "html": "５．不正アクセス対策",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "会社は、情報漏えいや改ざん等を防止するため、情報資産を参照・利用するための権限を定め、業務上正当な必要性を有する者のみがアクセスできるよう制御するとともに、無許可な不正なアクセスに対する危険性を排除するために適切な対策を講じる。役員および社員は、アクセス管理の重要性を理解したうえで、パスワード設定や機器の使用を適切に行う。",
+      "html": "会社は、情報漏えいや改ざん等を防止するため、情報資産を参照・利用するための権限を定め、業務上正当な必要性を有する者のみがアクセスできるよう制御するとともに、無許可な不正なアクセスに対する危険性を排除するために適切な対策を講じる。役員および社員は、アクセス管理の重要性を理解したうえで、パスワード設定や機器の使用を適切に行う。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "６．災害および事故への対策",
+      "html": "６．災害および事故への対策",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "会社は、自然災害、事故、機器の故障や不正行為によって、事業活動が中断、停止しないように適切な予防および回復措置を講じる。",
+      "html": "会社は、自然災害、事故、機器の故障や不正行為によって、事業活動が中断、停止しないように適切な予防および回復措置を講じる。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "代表取締役社長　安藤昭範（あんどうあきのり）",
+      "html": "<span>代表取締役社長　</span>安藤昭範<span>（あんどうあきのり）</span>",
+      "tag": "p",
+      "classes": [
+        "Text",
+        "Sign"
+      ],
+      "section": "policy",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "同一労働同一賃金",
+      "html": "同一労働同一賃金",
+      "id": null,
+      "anchor": "equal",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "equal"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "１．同一労働同一賃金とは",
+      "html": "１．同一労働同一賃金とは",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "equal",
+      "box": 11,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "2018年6月29日に働き方改革関連法案が成立しました。この「働き方改革」の一環として「同一労働同一賃金」の規定を盛り込んだ「改正パートタイム・有期雇用労働法」が施行されました。\u000b",
+      "html": "2018年6月29日に働き方改革関連法案が成立しました。この「働き方改革」の一環として「同一労働同一賃金」の規定を盛り込んだ「改正パートタイム・有期雇用労働法」が施行されました。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "equal",
+      "box": 11,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "「同一労働同一賃金」とは、パート社員、契約社員、派遣社員について、正社員と比較して不合理な待遇差を設けることを禁止するルールです。",
+      "html": "「同一労働同一賃金」とは、パート社員、契約社員、派遣社員について、正社員と比較して不合理な待遇差を設けることを禁止するルールです。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "equal",
+      "box": 11,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "rows": [
+        [
+          "派遣先均等・均衡方式",
+          "派遣先の通常の労働者との均等･均衡待遇を図る方式"
+        ],
+        [
+          "派遣元労使協定方式",
+          "一定の要件を満たす労使協定に基づいて待遇を決定する方式"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "派遣先均等・均衡方式",
+          "派遣先の通常の労働者との均等･均衡待遇を図る方式"
+        ],
+        [
+          "<strong class=\"Red\">派遣元労使協定方式</strong>",
+          "一定の要件を満たす労使協定に基づいて待遇を決定する方式"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [
+        "Table",
+        "SPBlock"
+      ],
+      "section": "equal",
+      "box": 11,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "２．同一労働同一賃金のスタート",
+      "html": "２．同一労働同一賃金のスタート",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "equal",
+      "box": 11,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "株式会社クレイスは、2020年4月1日から派遣元労使協定方式を採用し、公正な待遇を確保します。",
+      "html": "株式会社クレイスは、2020年4月1日から<strong class=\"Red\">派遣元労使協定方式</strong>を採用し、公正な待遇を確保します。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "equal",
+      "box": 11,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "３．賃金の基準",
+      "html": "３．賃金の基準",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "equal",
+      "box": 11,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/about/img/equal_chart.svg",
+      "src_raw": "img/equal_chart.svg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "Chart",
+        "Chart_M"
+      ],
+      "wrapper_classes": [
+        "ContentWrap",
+        "cFix"
+      ],
+      "section": "equal",
+      "box": 11,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "派遣元労使協定方式（一定の要件を満たす労使協定に基づいて労働条件の基準や待遇を決定する方式）を採用し、公正な待遇を確保します。",
+      "html": "派遣元労使協定方式（一定の要件を満たす労使協定に基づいて労働条件の基準や待遇を決定する方式）を採用し、公正な待遇を確保します。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "equal",
+      "box": 11,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "労働派遣法に基づく公開情報",
+      "html": "労働派遣法に基づく公開情報",
+      "id": null,
+      "anchor": "publicinfo",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "publicinfo"
+    },
+    {
+      "type": "paragraph",
+      "text": "｢労働者派遣事業の適正な運営の確保及び派遣労働者の保護等に関する法律｣第23条 第5項の規定により、下記の情報を公開します。",
+      "html": "｢労働者派遣事業の適正な運営の確保及び派遣労働者の保護等に関する法律｣第23条 第5項の規定により、下記の情報を公開します。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "publicinfo",
+      "box": 12,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "労働者派遣法に基づく公開情報〈令和5年6月1日付け（PDF）〉"
+      ],
+      "items_html": [
+        "<a href=\"https://www.claice.com/about/pdf/claice_publicinfo20230601.pdf\" target=\"_blank\"><span class=\"inBlock\">労働者派遣法に基づく公開情報</span><span class=\"inBlock\">〈令和5年6月1日付け（PDF）〉</span></a>"
+      ],
+      "item_links": [
+        [
+          {
+            "text": "労働者派遣法に基づく公開情報〈令和5年6月1日付け（PDF）〉",
+            "href": "https://www.claice.com/about/pdf/claice_publicinfo20230601.pdf",
+            "target": "_blank"
+          }
+        ]
+      ],
+      "classes": [
+        "PDFdownload"
+      ],
+      "section": "publicinfo",
+      "box": 12,
+      "box_class": "div.ContentWrap.cFix"
+    }
+  ]
+}

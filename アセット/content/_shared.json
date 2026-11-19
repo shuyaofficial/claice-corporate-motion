@@ -1,0 +1,705 @@
+{
+  "source": "index.html",
+  "identical_on_pages": [
+    "index"
+  ],
+  "differs_on_pages": {
+    "about": [
+      "/header/main_nav[4]/class[0]: index='photo' / このページ='cafe'",
+      "/header/sp_links[0]/href: index='https://www.claice.com/form/' / このページ='https://www.claice.com/form/index.html'"
+    ],
+    "business": [
+      "/header/main_nav[4]/class[0]: index='photo' / このページ='cafe'",
+      "/header/sp_links[0]/href: index='https://www.claice.com/form/' / このページ='https://www.claice.com/form/index.html'"
+    ],
+    "education": [
+      "/header/main_nav[4]/class[0]: index='photo' / このページ='cafe'",
+      "/header/sp_links[0]/href: index='https://www.claice.com/form/' / このページ='https://www.claice.com/form/index.html'"
+    ],
+    "recruit": [
+      "/header/main_nav[4]/class[0]: index='photo' / このページ='cafe'",
+      "/header/sp_links[0]/href: index='https://www.claice.com/form/' / このページ='https://www.claice.com/form/index.html'"
+    ],
+    "photo": [
+      "/header/main_nav[4]/class[0]: index='photo' / このページ='cafe'",
+      "/header/sp_links[0]/href: index='https://www.claice.com/form/' / このページ='https://www.claice.com/form/index.html'"
+    ],
+    "profile": [
+      "/header/main_nav[4]/class[0]: index='photo' / このページ='cafe'",
+      "/header/sp_links[0]/href: index='https://www.claice.com/form/' / このページ='https://www.claice.com/form/index.html'"
+    ],
+    "policy": [
+      "/header/main_nav[4]/class[0]: index='photo' / このページ='cafe'",
+      "/header/sp_links[0]/href: index='https://www.claice.com/form/' / このページ='https://www.claice.com/form/index.html'"
+    ],
+    "form": [
+      "/header/main_nav[4]/class[0]: index='photo' / このページ='cafe'",
+      "/header/sp_links[0]/href: index='https://www.claice.com/form/' / このページ='https://www.claice.com/form/index.html'"
+    ],
+    "form_entry": [
+      "/header/close_menu_text: index='メニューを閉じる' / このページ=None",
+      "/header/main_nav[4]/class[0]: index='photo' / このページ='cafe'",
+      "/header/sp_links[0]/href: index='https://www.claice.com/form/' / このページ='https://www.claice.com/form/index.html'"
+    ]
+  },
+  "head": {
+    "icons": [
+      {
+        "rel": "apple-touch-icon",
+        "href": "https://www.claice.com/favicon/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": null,
+        "color": null
+      },
+      {
+        "rel": "icon",
+        "href": "https://www.claice.com/favicon/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "color": null
+      },
+      {
+        "rel": "icon",
+        "href": "https://www.claice.com/favicon/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+        "color": null
+      },
+      {
+        "rel": "manifest",
+        "href": "https://www.claice.com/favicon/site.webmanifest",
+        "sizes": null,
+        "type": null,
+        "color": null
+      },
+      {
+        "rel": "mask-icon",
+        "href": "https://www.claice.com/favicon/safari-pinned-tab.svg",
+        "sizes": null,
+        "type": null,
+        "color": "#0973c1"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "viewport": "width=device-width, initial-scale=1.0"
+  },
+  "header": {
+    "logo": {
+      "src": "https://www.claice.com/common/img/claice_logo_pc.png",
+      "alt": "株式会社クレイス",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/index.html",
+      "wrapper_classes": []
+    },
+    "close_menu_text": "メニューを閉じる",
+    "main_nav": [
+      {
+        "classes": [],
+        "text": "クレイスについて",
+        "href": "https://www.claice.com/about/index.html",
+        "href_raw": "about/index.html",
+        "target": null,
+        "class": [
+          "about"
+        ]
+      },
+      {
+        "classes": [],
+        "text": "事業内容",
+        "href": "https://www.claice.com/business/index.html",
+        "href_raw": "business/index.html",
+        "target": null,
+        "class": [
+          "activities"
+        ]
+      },
+      {
+        "classes": [],
+        "text": "教育システム",
+        "href": "https://www.claice.com/education/index.html",
+        "href_raw": "education/index.html",
+        "target": null,
+        "class": [
+          "education"
+        ]
+      },
+      {
+        "classes": [],
+        "text": "採用情報",
+        "href": "https://www.claice.com/recruit/index.html",
+        "href_raw": "recruit/index.html",
+        "target": null,
+        "class": [
+          "recruit"
+        ]
+      },
+      {
+        "classes": [],
+        "text": "CLAICE Photo",
+        "href": "https://www.claice.com/photo/index.html",
+        "href_raw": "photo/index.html",
+        "target": null,
+        "class": [
+          "photo"
+        ]
+      }
+    ],
+    "sub_nav_1": [
+      {
+        "classes": [],
+        "text": "会社概要",
+        "href": "https://www.claice.com/profile/index.html",
+        "href_raw": "profile/index.html",
+        "target": null,
+        "class": []
+      },
+      {
+        "classes": [],
+        "text": "プライバシーポリシー",
+        "href": "https://www.claice.com/policy/index.html",
+        "href_raw": "policy/index.html",
+        "target": null,
+        "class": []
+      }
+    ],
+    "sub_nav_2": [
+      {
+        "classes": [],
+        "text": "お問い合せ",
+        "href": "https://www.claice.com/form/index.html",
+        "href_raw": "form/index.html",
+        "target": null,
+        "class": []
+      },
+      {
+        "classes": [],
+        "text": "アクセス",
+        "href": "https://www.claice.com/profile/index.html#access",
+        "href_raw": "profile/index.html#access",
+        "target": null,
+        "class": []
+      }
+    ],
+    "sp_links": [
+      {
+        "classes": [],
+        "text": "お問い合せ",
+        "href": "https://www.claice.com/form/",
+        "href_raw": "form/",
+        "target": null,
+        "class": []
+      },
+      {
+        "classes": [],
+        "text": "アクセス",
+        "href": "https://www.claice.com/profile/index.html#access",
+        "href_raw": "profile/index.html#access",
+        "target": null,
+        "class": []
+      }
+    ]
+  },
+  "footer": {
+    "sitemap": [
+      {
+        "classes": [],
+        "text": "クレイスについて",
+        "href": "https://www.claice.com/about/index.html",
+        "href_raw": "about/index.html",
+        "target": null,
+        "class": [],
+        "children": [
+          {
+            "classes": [],
+            "text": "社長あいさつ",
+            "href": "https://www.claice.com/about/index.html#greeting",
+            "href_raw": "about/index.html#greeting",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "企業理念",
+            "href": "https://www.claice.com/about/index.html#philosophy1",
+            "href_raw": "about/index.html#philosophy1",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "経営理念",
+            "href": "https://www.claice.com/about/index.html#philosophy2",
+            "href_raw": "about/index.html#philosophy2",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "社員行動指針",
+            "href": "https://www.claice.com/about/index.html#guideline",
+            "href_raw": "about/index.html#guideline",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "情報セキュリティポリシー",
+            "href": "https://www.claice.com/about/index.html#policy",
+            "href_raw": "about/index.html#policy",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "同一労働同一賃金",
+            "href": "https://www.claice.com/about/index.html#equal",
+            "href_raw": "about/index.html#equal",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "労働派遣法に基づく公開情報",
+            "href": "https://www.claice.com/about/index.html#publicinfo",
+            "href_raw": "about/index.html#publicinfo",
+            "target": null,
+            "class": []
+          }
+        ]
+      },
+      {
+        "classes": [],
+        "text": "事業内容",
+        "href": "https://www.claice.com/business/index.html",
+        "href_raw": "business/index.html",
+        "target": null,
+        "class": [],
+        "children": [
+          {
+            "classes": [],
+            "text": "ネットワーク・システムソリューションサービス",
+            "href": "https://www.claice.com/business/index.html#service",
+            "href_raw": "business/index.html#service",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "ネットワークエンジニアの派遣",
+            "href": "https://www.claice.com/business/index.html#engineer",
+            "href_raw": "business/index.html#engineer",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "ESNシステム",
+            "href": "https://www.claice.com/business/index.html#esn",
+            "href_raw": "business/index.html#esn",
+            "target": null,
+            "class": []
+          }
+        ]
+      },
+      {
+        "classes": [],
+        "text": "教育システム",
+        "href": "https://www.claice.com/education/index.html",
+        "href_raw": "education/index.html",
+        "target": null,
+        "class": [],
+        "children": [
+          {
+            "classes": [],
+            "text": "教育制度",
+            "href": "https://www.claice.com/education/index.html#education",
+            "href_raw": "education/index.html#education",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "エンジニアスター制度",
+            "href": "https://www.claice.com/education/index.html#qualification",
+            "href_raw": "education/index.html#qualification",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "3つの気持ちが形になったもの",
+            "href": "https://www.claice.com/education/index.html#idea",
+            "href_raw": "education/index.html#idea",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "フォローアップ制度",
+            "href": "https://www.claice.com/education/index.html#followup",
+            "href_raw": "education/index.html#followup",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "起業支援",
+            "href": "https://www.claice.com/education/index.html#startingbusiness",
+            "href_raw": "education/index.html#startingbusiness",
+            "target": null,
+            "class": []
+          }
+        ]
+      },
+      {
+        "classes": [],
+        "text": "採用情報",
+        "href": "https://www.claice.com/recruit/index.html",
+        "href_raw": "recruit/index.html",
+        "target": null,
+        "class": [],
+        "children": [
+          {
+            "classes": [],
+            "text": "採用担当者から",
+            "href": "https://www.claice.com/recruit/index.html#message",
+            "href_raw": "recruit/index.html#message",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "新卒採用",
+            "href": "https://www.claice.com/recruit/index.html#newgraduates",
+            "href_raw": "recruit/index.html#newgraduates",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "中途採用",
+            "href": "https://www.claice.com/recruit/index.html#career",
+            "href_raw": "recruit/index.html#career",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "採用スケジュール",
+            "href": "https://www.claice.com/recruit/index.html#shcedule",
+            "href_raw": "recruit/index.html#shcedule",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "社員の一日",
+            "href": "https://www.claice.com/recruit/index.html#oneday",
+            "href_raw": "recruit/index.html#oneday",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "退職者の再雇用制度",
+            "href": "https://www.claice.com/recruit/index.html#rehire",
+            "href_raw": "recruit/index.html#rehire",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "採用エントリーフォーム",
+            "href": "https://www.claice.com/form/entry.html",
+            "href_raw": "form/entry.html",
+            "target": null,
+            "class": []
+          }
+        ]
+      },
+      {
+        "classes": [],
+        "text": "CLAICE Photo",
+        "href": "https://www.claice.com/photo/index.html",
+        "href_raw": "photo/index.html",
+        "target": null,
+        "class": [],
+        "children": [
+          {
+            "classes": [],
+            "text": "CLAICE Family",
+            "href": "https://www.claice.com/photo/index.html#family",
+            "href_raw": "photo/index.html#family",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "CLAICE Event",
+            "href": "https://www.claice.com/photo/index.html#event",
+            "href_raw": "photo/index.html#event",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "CLAICE Office",
+            "href": "https://www.claice.com/photo/index.html#office",
+            "href_raw": "photo/index.html#office",
+            "target": null,
+            "class": []
+          },
+          {
+            "classes": [],
+            "text": "Office Tour",
+            "href": "https://www.claice.com/photo/index.html#officetour",
+            "href_raw": "photo/index.html#officetour ",
+            "target": null,
+            "class": []
+          }
+        ]
+      }
+    ],
+    "external_links": [
+      {
+        "classes": [
+          "Youtube"
+        ],
+        "text": "Youtube",
+        "href": "https://www.youtube.com/channel/UCREmuevgR344pRT_CJJhWew?view_as=subscriber",
+        "href_raw": "https://www.youtube.com/channel/UCREmuevgR344pRT_CJJhWew?view_as=subscriber",
+        "target": "_blank",
+        "class": []
+      },
+      {
+        "classes": [
+          "Twitter"
+        ],
+        "text": "X",
+        "href": "https://x.com/claice2004",
+        "href_raw": "https://x.com/claice2004",
+        "target": "_blank",
+        "class": []
+      },
+      {
+        "classes": [
+          "Instagram"
+        ],
+        "text": "Instagram",
+        "href": "https://www.instagram.com/claice_2004/",
+        "href_raw": "https://www.instagram.com/claice_2004/",
+        "target": "_blank",
+        "class": []
+      },
+      {
+        "classes": [
+          "Mynavi",
+          "Clear"
+        ],
+        "text": "マイナビ",
+        "href": "https://job.mynavi.jp/27/pc/search/corp269073/outline.html",
+        "href_raw": "https://job.mynavi.jp/27/pc/search/corp269073/outline.html",
+        "target": "_blank",
+        "class": []
+      },
+      {
+        "classes": [
+          "Gakujo"
+        ],
+        "text": "Re就活キャンパス",
+        "href": "https://www.gakujo.ne.jp/campus/company/employ/85308/",
+        "href_raw": "https://www.gakujo.ne.jp/campus/company/employ/85308/",
+        "target": "_blank",
+        "class": []
+      }
+    ],
+    "marks": [
+      {
+        "src": "https://www.claice.com/common/img/privacymark.png",
+        "alt": "たいせつにしますプライバシー：10823027",
+        "width": null,
+        "height": null,
+        "link": null,
+        "wrapper_classes": [
+          "p_mark"
+        ]
+      },
+      {
+        "src": "https://www.claice.com/common/img/whitemark.png",
+        "alt": "ホワイト企業認定",
+        "width": null,
+        "height": null,
+        "link": null,
+        "wrapper_classes": [
+          "w_mark"
+        ]
+      },
+      {
+        "src": "https://seal.globalsign.com/SiteSeal/images/gs_noscript_115-57_ja.gif",
+        "alt": "SSL　GMOグローバルサインのサイトシール",
+        "width": null,
+        "height": null,
+        "link": "https://jp.globalsign.com/",
+        "wrapper_classes": []
+      }
+    ],
+    "bottom_links": [
+      {
+        "classes": [],
+        "text": "トップページ",
+        "href": "https://www.claice.com/index.html",
+        "href_raw": "index.html",
+        "target": null,
+        "class": []
+      },
+      {
+        "classes": [
+          "NoPC"
+        ],
+        "text": "クレイスについて",
+        "href": "https://www.claice.com/about/index.html",
+        "href_raw": "about/index.html",
+        "target": null,
+        "class": []
+      },
+      {
+        "classes": [
+          "NoPC"
+        ],
+        "text": "事業内容",
+        "href": "https://www.claice.com/business/index.html",
+        "href_raw": "business/index.html",
+        "target": null,
+        "class": []
+      },
+      {
+        "classes": [
+          "NoPC"
+        ],
+        "text": "教育システム",
+        "href": "https://www.claice.com/education/index.html",
+        "href_raw": "education/index.html",
+        "target": null,
+        "class": []
+      },
+      {
+        "classes": [
+          "NoPC"
+        ],
+        "text": "採用情報",
+        "href": "https://www.claice.com/recruit/index.html",
+        "href_raw": "recruit/index.html",
+        "target": null,
+        "class": []
+      },
+      {
+        "classes": [
+          "NoPC"
+        ],
+        "text": "CLAICE Photo",
+        "href": "https://www.claice.com/photo/index.html",
+        "href_raw": "photo/index.html",
+        "target": null,
+        "class": []
+      },
+      {
+        "classes": [],
+        "text": "会社概要",
+        "href": "https://www.claice.com/profile/index.html",
+        "href_raw": "profile/index.html",
+        "target": null,
+        "class": []
+      },
+      {
+        "classes": [],
+        "text": "プライバシーポリシー",
+        "href": "https://www.claice.com/policy/index.html",
+        "href_raw": "policy/index.html",
+        "target": null,
+        "class": []
+      },
+      {
+        "classes": [],
+        "text": "お問い合せ",
+        "href": "https://www.claice.com/form/index.html",
+        "href_raw": "form/index.html",
+        "target": null,
+        "class": []
+      },
+      {
+        "classes": [],
+        "text": "アクセス",
+        "href": "https://www.claice.com/profile/index.html#access",
+        "href_raw": "profile/index.html#access",
+        "target": null,
+        "class": []
+      },
+      {
+        "classes": [
+          "External",
+          "Youtube",
+          "NoPC"
+        ],
+        "text": "Youtube",
+        "href": "https://www.youtube.com/channel/UCREmuevgR344pRT_CJJhWew?view_as=subscriber",
+        "href_raw": "https://www.youtube.com/channel/UCREmuevgR344pRT_CJJhWew?view_as=subscriber",
+        "target": "_blank",
+        "class": []
+      },
+      {
+        "classes": [
+          "External",
+          "Twitter",
+          "NoPC"
+        ],
+        "text": "X",
+        "href": "https://x.com/claice2004",
+        "href_raw": "https://x.com/claice2004",
+        "target": "_blank",
+        "class": []
+      },
+      {
+        "classes": [
+          "External",
+          "Instagram",
+          "NoPC"
+        ],
+        "text": "Instagram",
+        "href": "https://www.instagram.com/claice_2004/",
+        "href_raw": "https://www.instagram.com/claice_2004/",
+        "target": "_blank",
+        "class": []
+      },
+      {
+        "classes": [
+          "External",
+          "Mynavi",
+          "NoPC"
+        ],
+        "text": "マイナビ",
+        "href": "https://job.mynavi.jp/27/pc/search/corp269073/outline.html",
+        "href_raw": "https://job.mynavi.jp/27/pc/search/corp269073/outline.html",
+        "target": "_blank",
+        "class": []
+      },
+      {
+        "classes": [
+          "External",
+          "Gakujo",
+          "NoPC"
+        ],
+        "text": "Re就活キャンパス",
+        "href": "https://www.gakujo.ne.jp/campus/company/employ/85308/",
+        "href_raw": "https://www.gakujo.ne.jp/campus/company/employ/85308/",
+        "target": "_blank",
+        "class": []
+      }
+    ],
+    "copyright": "Copyright(C) CLAICE Co.Ltd., All rights reserved."
+  },
+  "page_top": {
+    "text": "ページトップへ",
+    "href": "#contents"
+  }
+}

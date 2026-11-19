@@ -1,0 +1,331 @@
+{
+  "page": "profile",
+  "url": "https://www.claice.com/profile/index.html",
+  "meta": {
+    "title": "会社概要│株式会社クレイス",
+    "description": "ネットワーク・システムソリューションサービス、ネットワークエンジニア派遣の（株）クレイスのwebサイトです。ネットワークエンジニアを随時募集中です。ネットワーク技術、ヒューマンスキルを磨きたい方、大歓迎！",
+    "keywords": "クレイス,ネットワーク,ネットワーク運用,CCNA,CCNA研修,ネットワークエンジニア,エンジニア派遣,人材募集"
+  },
+  "body_class": [
+    "ContentFrame",
+    "Profile"
+  ],
+  "elements": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "会社概要│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "html": "会社概要│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "PageTitle"
+      ],
+      "hidden": true,
+      "hidden_by": [
+        "common/css/pc.css [media=print, screen and (min-width: 768px)]: .PageTitle { position:absolute; left:0; top:-40px; margin:0; color:#fff; font-size:80%; line-height:40px; text-align:left; }",
+        "common/css/sp.css [media=handheld, only screen and (max-width: 767px)]: .PageTitle { display:none; }"
+      ],
+      "source": "header"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "会社概要",
+      "html": "会社概要",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Single"
+      ],
+      "box": 1,
+      "box_class": "div.TitleWrap"
+    },
+    {
+      "type": "nav",
+      "items": [
+        {
+          "text": "会社概要",
+          "href": "https://www.claice.com/profile/index.html#profile",
+          "href_raw": "#profile"
+        },
+        {
+          "text": "アクセス",
+          "href": "https://www.claice.com/profile/index.html#access",
+          "href_raw": "#access"
+        }
+      ],
+      "classes": [
+        "PageNavi"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "会社概要",
+      "html": "会社概要",
+      "id": null,
+      "anchor": "profile",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "profile"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "rows": [
+        [
+          "社名",
+          "株式会社クレイス\nCLAICE CO.,LTD."
+        ],
+        [
+          "設立",
+          "2004年12月"
+        ],
+        [
+          "資本金",
+          "40,000千円"
+        ],
+        [
+          "代表取締役社長",
+          "安藤　昭範\n(AKINORI ANDO)"
+        ],
+        [
+          "本社所在地",
+          "〒101-0041\n東京都千代田区神田須田町2丁目8-2　Daiwa神田須田町ビル4階"
+        ],
+        [
+          "取引銀行",
+          "みずほ銀行　赤坂支店\nりそな銀行　九段支店"
+        ],
+        [
+          "取引先実績\n（順不同・敬称略）",
+          "NTTドコモビジネス株式会社\nNTTドコモビジネスエンジニアリング株式会社\nNTTインフラネット株式会社\nNTTテクノクロスサービス株式会社\n株式会社NTT東日本-東北\n株式会社NTTデータエマーズ\nエヌ・ティ・ティ・ブロードバンドプラットフォーム株式会社\nテルウェル東日本株式会社\n日本コムシス株式会社\nエクシオグループ株式会社\n株式会社ミライト・ワン\n株式会社カンドー\n株式会社TTK\nNECネッツエスアイ株式会社\nNECフィールディング株式会社\n株式会社日立ソリューションズ\n株式会社ITワークス\n株式会社 IT働楽研究所\n株式会社SRA\n株式会社コムリード\nニスコム株式会社\n日本ディクス株式会社"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "社名",
+          "株式会社クレイス<br/>CLAICE CO.,LTD."
+        ],
+        [
+          "設立",
+          "2004年12月"
+        ],
+        [
+          "資本金",
+          "40,000千円"
+        ],
+        [
+          "代表取締役社長",
+          "安藤　昭範<br/>(AKINORI ANDO)"
+        ],
+        [
+          "本社所在地",
+          "〒101-0041<br/>東京都千代田区神田須田町2丁目8-2　Daiwa神田須田町ビル4階"
+        ],
+        [
+          "取引銀行",
+          "<ul class=\"Text\"> <li>みずほ銀行　赤坂支店</li> <li>りそな銀行　九段支店</li> </ul>"
+        ],
+        [
+          "取引先実績<br/>（順不同・敬称略）",
+          "<ul class=\"Text\"> <li>NTTドコモビジネス株式会社</li> <li>NTTドコモビジネスエンジニアリング株式会社</li> <li>NTTインフラネット株式会社</li> <li>NTTテクノクロスサービス株式会社</li> <li>株式会社NTT東日本-東北</li> <li>株式会社NTTデータエマーズ</li> <li>エヌ・ティ・ティ・ブロードバンドプラットフォーム株式会社</li> <li>テルウェル東日本株式会社</li> <li>日本コムシス株式会社</li> <li>エクシオグループ株式会社</li> <li>株式会社ミライト・ワン</li> <li>株式会社カンドー</li> <li>株式会社TTK</li> <li>NECネッツエスアイ株式会社</li> <li>NECフィールディング株式会社</li> <li>株式会社日立ソリューションズ</li> <li>株式会社ITワークス</li> <li>株式会社 IT働楽研究所</li> <li>株式会社SRA</li> <li>株式会社コムリード</li> <li>ニスコム株式会社</li> <li>日本ディクス株式会社</li> </ul>"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [
+        "Table",
+        "SPBlock"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "アクセス",
+      "html": "アクセス",
+      "id": null,
+      "anchor": "access",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "access"
+    },
+    {
+      "type": "iframe",
+      "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d810.0634658683836!2d139.773974!3d35.69537!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c6b21354227%3A0xb3900cf443c51da0!2z44ix44Kv44Os44Kk44K5!5e0!3m2!1sja!2sjp!4v1678688791872!5m2!1sja!2sjp",
+      "width": "992",
+      "height": "400",
+      "title": null,
+      "loading": "lazy",
+      "classes": [],
+      "section": "access",
+      "box": 6,
+      "box_class": "div.GoogleMap"
+    },
+    {
+      "type": "link",
+      "text": "google mapで見る",
+      "html": "google mapで見る",
+      "href": "https://goo.gl/maps/Wsydi8Bfi8sF3WF59",
+      "target": "_blank",
+      "rel": null,
+      "classes": [],
+      "wrapper_classes": [
+        "PrintBtn"
+      ],
+      "section": "access",
+      "box": 5,
+      "box_class": "div.MapWrap"
+    },
+    {
+      "type": "paragraph",
+      "text": "〒101-0041　東京都千代田区神田須田町2丁目8-2　Daiwa神田須田町ビル4階",
+      "html": "〒101-0041<br class=\"NoPC\"/>　東京都千代田区神田須田町2丁目8-2　<br class=\"NoPC\"/>Daiwa神田須田町ビル4階",
+      "tag": "p",
+      "classes": [
+        "Text",
+        "Center"
+      ],
+      "section": "access",
+      "box": 5,
+      "box_class": "div.MapWrap"
+    },
+    {
+      "type": "paragraph",
+      "text": "株式会社クレイス",
+      "html": "株式会社クレイス",
+      "tag": "p",
+      "classes": [
+        "Text",
+        "Center",
+        "CorpName"
+      ],
+      "section": "access",
+      "box": 5,
+      "box_class": "div.MapWrap"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "都営新宿線",
+          "term_html": "都営新宿線",
+          "definitions": [
+            "岩本町駅 A1番出口より徒歩1分"
+          ],
+          "definitions_html": [
+            "岩本町駅 A1番出口より徒歩1分"
+          ]
+        }
+      ],
+      "classes": [
+        "Text",
+        "Traffic"
+      ],
+      "section": "access",
+      "box": 5,
+      "box_class": "div.MapWrap"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "東京メトロ日比谷線",
+          "term_html": "東京メトロ日比谷線",
+          "definitions": [
+            "秋葉原駅 5番出口より徒歩4分"
+          ],
+          "definitions_html": [
+            "秋葉原駅 5番出口より徒歩4分"
+          ]
+        }
+      ],
+      "classes": [
+        "Text",
+        "Traffic"
+      ],
+      "section": "access",
+      "box": 5,
+      "box_class": "div.MapWrap"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "東京メトロ銀座線",
+          "term_html": "東京メトロ銀座線",
+          "definitions": [
+            "神田駅　 5・6番出口より徒歩5分"
+          ],
+          "definitions_html": [
+            "神田駅　 5・6番出口より徒歩5分"
+          ]
+        }
+      ],
+      "classes": [
+        "Text",
+        "Traffic"
+      ],
+      "section": "access",
+      "box": 5,
+      "box_class": "div.MapWrap"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "JR線",
+          "term_html": "JR線",
+          "definitions": [
+            "秋葉原駅　中央改札口より徒歩5分\n神田駅　 北口・東口より徒歩7分"
+          ],
+          "definitions_html": [
+            "秋葉原駅　中央改札口より徒歩5分<br/>神田駅　 北口・東口より徒歩7分"
+          ]
+        }
+      ],
+      "classes": [
+        "Text",
+        "Traffic"
+      ],
+      "section": "access",
+      "box": 5,
+      "box_class": "div.MapWrap"
+    }
+  ]
+}

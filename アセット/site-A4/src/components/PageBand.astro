@@ -1,0 +1,63 @@
+---
+import { relPath } from '../lib/urls';
+import { crumbs } from '../lib/seo';
+import { pageByKey } from '../lib/pages';
+
+interface Props { pageKey: string; h1: [string, string]; lead?: string; from: string }
+const { pageKey, h1, lead = '', from } = Astro.props;
+const trail = crumbs(pageByKey(pageKey));
+const rel = (path: string) => relPath(from, path);
+const plates: Record<string, { src: string; alt: string; w: number; h: number }> = {
+  about: { src: 'illustrations/A.webp', alt: '円卓で図面を囲むエンジニアのイラスト', w: 1536, h: 1024 },
+  business: { src: 'web/band-business-1280.webp', alt: 'ネットワーク機器と接続ケーブル', w: 1280, h: 720 },
+  education: { src: 'illustrations/B.webp', alt: '研修と技術者の仕事を描いた断面図', w: 1536, h: 1024 },
+  recruit: { src: 'illustrations/C.webp', alt: 'エンジニアの仕事と人の横顔を重ねたイラスト', w: 1536, h: 1024 },
+  profile: { src: 'photo/img/office/ph01.jpg', alt: '株式会社クレイスのエントランス', w: 500, h: 333 },
+};
+const shortcuts: Record<string, [string,string][]> = {
+  about: [['社長あいさつ', '#greeting']],
+  business: [['サービスの内容', '#service']],
+  education: [['教育制度', '#education'], ['フォローアップ制度', '#followup']],
+  recruit: [['新卒採用', '#newgraduates'], ['中途採用', '#career']],
+  profile: [['アクセス', '#access']],
+  policy: [['個人情報保護方針', '#profile']],
+  photo: [['社員', '#family'], ['イベント', '#event'], ['オフィス', '#office']],
+  news: [['新着情報', '#news-0'], ['採用新着情報', '#news-1']],
+  form: [['入力欄へ', '#form-fields']],
+  form_entry: [['入力欄へ', '#form-fields']],
+};
+const plate = plates[pageKey];
+const album: [string, string, number][] = [
+  ['photo/img/office/ph09.jpg','ミーティングルーム', 333],
+  ['photo/img/event/ph01.jpg','キックオフミーティング', 333],
+  ['photo/img/office/ph10.jpg','社内での打ち合わせ', 334],
+];
+const compact = !plate && pageKey !== 'photo';
+---
+<section class:list={['chapter-cover', `cover-${pageKey}`, { 'cover-compact': compact }]}>
+  <div class="wrap">
+    <nav class="crumbs" aria-label="パンくずリスト">
+      <ol>{trail.map((c, i) => <li>{i < trail.length - 1 ? <a href={rel(c.path)}>{c.name}</a> : <span aria-current="page">{c.name}</span>}</li>)}</ol>
+    </nav>
+    <div class="cover-layout">
+      <div class="chapter-copy">
+        <h1>{h1[0]}{h1[1] && <span class="title-context">{h1[1]}</span>}</h1>
+        {lead && <div class="chapter-lead" set:html={lead} />}
+        <nav class="cover-shortcuts" aria-label="このページの主な項目">
+          {shortcuts[pageKey]?.map(([label, url]) => <a href={url}>{label}<span aria-hidden="true">↓</span></a>)}
+        </nav>
+      </div>
+      {plate && <figure class="chapter-plate">
+        <img src={rel(plate.src)} alt={plate.alt} width={plate.w} height={plate.h} decoding="async" fetchpriority="high">
+        {pageKey === 'business' && <>
+          <video class="plate-video loop-video" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1" hidden
+            data-media="(min-width: 900px)" data-webm={rel('video/business.webm')} data-mp4={rel('video/business.mp4')}></video>
+          <button class="loop-toggle" type="button" aria-pressed="false" hidden>動きを止める</button>
+        </>}
+        {pageKey === 'profile' && <figcaption>本社エントランス</figcaption>}
+      </figure>}
+      {pageKey === 'photo' && <div class="chapter-album">{album.map(([path, label, height]) =>
+        <figure><img src={rel(path)} alt={label} width="500" height={height} decoding="async"></figure>)}</div>}
+    </div>
+  </div>
+</section>

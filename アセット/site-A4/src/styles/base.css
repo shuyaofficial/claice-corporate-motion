@@ -1,0 +1,78 @@
+/* 色・文字・基本部品。値は DESIGN.md が正本。色は意味で使う（青＝会社・企業向け・お問い合せ、赤茶＝採用・エントリー） */
+:root {
+  --paper: #fcfbf9;
+  --paper-2: #f5f2ec;
+  --paper-3: #ece7de;
+  --white: #ffffff;
+  --ink: #1c2636;
+  --ink-2: #485263;
+  --line: #ddd7cc;
+  --line-strong: #b5ad9f;
+  --blue: #0064b5;
+  --blue-dark: #004f8f;
+  --blue-soft: #e6eef7;
+  --entry: #b0442a;
+  --entry-dark: #8f3520;
+  --entry-soft: #f6e9e4;
+  --focus: #0064b5;
+  --shadow: 0 1px 2px rgba(28, 38, 54, .06), 0 8px 24px rgba(28, 38, 54, .06);
+  /* ジオラマ・静止図の色（墨・青・紙） */
+  --c-core: #0064b5;
+  --c-dist: #2b374a;
+  --c-link: #3a4558;
+  --c-pkt: #0064b5;
+  --c-window: #f4f1eb;
+  --font-ja: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", sans-serif;
+  --font-en: "Avenir Next", "Helvetica Neue", "Segoe UI", Arial, var(--font-ja);
+  --wrap: 1160px;
+  --header-h: 68px;
+  --ease-out: cubic-bezier(.2, .8, .2, 1);
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-padding-top: calc(var(--header-h) + 16px); }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: var(--font-ja); font-size: 16px; line-height: 1.85;
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+  overflow-wrap: anywhere;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--blue); text-underline-offset: .2em; }
+[tabindex="-1"]:focus { outline: none; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 6px;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, figure, table { margin: 0; }
+h1, h2, h3, h4, h5, h6, .sitemap a, .news-text { word-break: auto-phrase; }
+p, dd, li { text-wrap: pretty; }
+ul, ol { padding: 0; list-style: none; }
+.wrap { width: min(100% - 48px, var(--wrap)); margin-inline: auto; }
+.skip { position: absolute; left: 12px; top: -60px; z-index: 100; background: var(--ink); color: var(--white); padding: 8px 14px; border-radius: 6px; }
+.skip:focus { top: 12px; }
+.nb { display: inline-block; }
+
+/* ボタン */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px;
+  padding: 0 20px; border-radius: 999px; font-weight: 700; font-size: 14px; letter-spacing: .04em;
+  text-decoration: none; border: 1.5px solid transparent; line-height: 1.2; font-family: inherit; cursor: pointer;
+  transition: transform .16s var(--ease-out), background .16s, color .16s, box-shadow .16s;
+}
+.btn:hover { transform: translateY(-2px); }
+.btn:active { transform: translateY(0); transition-duration: .05s; }
+.btn-entry { background: var(--entry); color: var(--white); }
+.btn-entry:hover { background: var(--entry-dark); box-shadow: 0 6px 16px rgba(176, 68, 42, .25); }
+.btn-contact { background: var(--white); color: var(--blue); border-color: var(--blue); }
+.btn-contact:hover { background: var(--blue); color: var(--white); }
+.btn-contact-solid { background: var(--blue); color: var(--white); }
+.btn-contact-solid:hover { background: var(--blue-dark); box-shadow: 0 6px 16px rgba(0, 100, 181, .25); }
+.btn-line { background: transparent; color: var(--ink); border-color: var(--ink); }
+.btn-line:hover { background: var(--ink); color: var(--white); }
+.btn .arr { display: inline-block; transition: transform .18s var(--ease-out); }
+.btn:hover .arr { transform: translateX(4px); }
+.btn-row { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 10px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-delay: 0s !important; scroll-behavior: auto !important; }
+  .btn:hover, .btn:hover .arr { transform: none; }
+}

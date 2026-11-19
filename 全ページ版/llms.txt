@@ -1,0 +1,15 @@
+# 株式会社クレイス
+
+> ネットワーク・システムソリューションサービス、ネットワークエンジニア派遣の（株）クレイスのwebサイトです。
+
+## ページ
+- [クレイスについて](https://www.claice.com/about/index.html): 最新の技術とお客様第一の心をもって、価値の高いITサービスを提供いたします。
+- [事業内容](https://www.claice.com/business/index.html): 高度・信頼性・安定性をポリシーとしたサービスの提供・ネットワークエンジニアの派遣
+- [教育システム](https://www.claice.com/education/index.html): フォローアップ制度・エンジニアスター制度などで夢の実現・幸せな人生の創出を支援します
+- [採用情報](https://www.claice.com/recruit/index.html): 多くのお客様に必要とされているクレイスのエンジニア。
+- [CLAICE Photo](https://www.claice.com/photo/index.html): Enjoy Life Happiness!! クレイスの仲間たちと社内の様子をちょっとだけご紹介
+- [会社概要](https://www.claice.com/profile/index.html): 〒101-0041 東京都千代田区神田須田町2丁目8-2 Daiwa神田須田町ビル4階
+- [プライバシーポリシー](https://www.claice.com/policy/index.html): 当社は、個人情報の取扱いに関する法令・国が定める指針およびその他の規範を遵守します。
+- [お問い合せ](https://www.claice.com/form/index.html): お問い合せ、このサイトへのご意見・ご感想などは、下記の送信フォームをご利用の上、送信して下さい。
+- [採用応募フォーム](https://www.claice.com/form/entry.html): 必要事項をご入力ください。
+- [新着情報](https://www.claice.com/news/index.html): ネットワーク・システムソリューションサービス、ネットワークエンジニア派遣の（株）クレイスのwebサイトです。

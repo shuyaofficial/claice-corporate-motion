@@ -1,0 +1,750 @@
+{
+  "page": "index",
+  "url": "https://www.claice.com/index.html",
+  "meta": {
+    "title": "株式会社クレイス",
+    "description": "ネットワーク・システムソリューションサービス、ネットワークエンジニア派遣の（株）クレイスのwebサイトです。ネットワークエンジニアを随時募集中です。ネットワーク技術、ヒューマンスキルを磨きたい方、大歓迎！",
+    "keywords": "クレイス,ネットワーク,ネットワーク運用,CCNA,CCNA研修,ネットワークエンジニア,エンジニア派遣,人材募集"
+  },
+  "body_class": [
+    "ContentFrame"
+  ],
+  "elements": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "ネットワーク・システムソリューションサービスの（株）クレイス",
+      "html": "ネットワーク・システムソリューションサービスの（株）クレイス",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "PageTitle"
+      ],
+      "hidden": true,
+      "hidden_by": [
+        "common/css/pc.css [media=print, screen and (min-width: 768px)]: .PageTitle { position:absolute; left:0; top:-40px; margin:0; color:#fff; font-size:80%; line-height:40px; text-align:left; }",
+        "common/css/sp.css [media=handheld, only screen and (max-width: 767px)]: .PageTitle { display:none; }"
+      ],
+      "source": "header"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/img/top_image_pc.jpg",
+      "src_raw": "img/top_image_pc.jpg",
+      "alt": "human provisioning　人を育て、人と人・人と未来をつなぎます",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "NoSP"
+      ],
+      "wrapper_classes": [
+        "TopVisual"
+      ],
+      "box": 1,
+      "box_class": "div.TopVisual"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/img/top_image_sp.jpg",
+      "src_raw": "img/top_image_sp.jpg",
+      "alt": "human provisioning　人を育て、人と人・人と未来をつなぎます",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "NoPC"
+      ],
+      "wrapper_classes": [
+        "TopVisual"
+      ],
+      "box": 1,
+      "box_class": "div.TopVisual"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "最新の技術とお客様第一の心をもって、\n価値の高いITサービスを提供いたします。",
+      "html": "最新の技術とお客様第一の心をもって、<br/>価値の高いITサービスを提供いたします。",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline2"
+      ],
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/img/top_lead_image.jpg",
+      "src_raw": "img/top_lead_image.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "TopAboutImage"
+      ],
+      "wrapper_classes": [
+        "ContentWrap",
+        "cFix"
+      ],
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "ネットワークは急速に高速化、かつ低廉化してきました。\nそれと同時にネットワークを流れる情報量は大量化・多様化し、秘匿性も強く要求されてきています。\nクレイスではお客様の立場に立って考え、お客様にとって価値の高いサービスを提供しております。",
+      "html": "ネットワークは急速に高速化、かつ低廉化してきました。<br/> それと同時にネットワークを流れる情報量は大量化・多様化し、<br class=\"NoSP\"/> 秘匿性も強く要求されてきています。<br/> クレイスではお客様の立場に立って考え、<br class=\"NoSP\"/> お客様にとって価値の高いサービスを提供しております。",
+      "tag": "p",
+      "classes": [
+        "TopAboutText"
+      ],
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/img/top_btn_about.png",
+      "src_raw": "img/top_btn_about.png",
+      "alt": "クレイスについて",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/about/index.html",
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "LinkBtn"
+      ],
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "高度・信頼性・安定性をポリシーとした\nサービスの提供・ネットワークエンジニアの派遣",
+      "html": "高度・信頼性・安定性をポリシーとした<br/>サービスの提供・ネットワークエンジニアの派遣",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline2"
+      ],
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/img/top_menu_ph1.jpg",
+      "src_raw": "img/top_menu_ph1.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/business/index.html#service",
+      "link_target": null,
+      "classes": [],
+      "box": 4,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ネットワーク・システムソリューションサービス",
+      "html": "ネットワーク・システムソリューションサービス",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline3"
+      ],
+      "box": 4,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "paragraph",
+      "text": "ネットワーク機器、サーバ系システムの「設計・構築・運用」までの全ての\nサービス提供を行っています。",
+      "html": "ネットワーク機器、サーバ系システムの<br class=\"NoSP\"/>「設計・構築・運用」までの全ての<br/>サービス提供を行っています。",
+      "tag": "p",
+      "classes": [
+        "TopMenuText"
+      ],
+      "box": 4,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/img/top_menu_ph2.jpg",
+      "src_raw": "img/top_menu_ph2.jpg",
+      "alt": "ネットワークエンジニアの派遣",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/business/index.html#engineer",
+      "link_target": null,
+      "classes": [],
+      "box": 5,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ネットワークエンジニアの派遣",
+      "html": "ネットワークエンジニアの派遣",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline3"
+      ],
+      "box": 5,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "paragraph",
+      "text": "ＩＴ業界の第一線企業で経験を積んだ即戦力となる人材を派遣します。\n人材の育成、成長支援にも力を注いでいます。",
+      "html": "ＩＴ業界の第一線企業で経験を積んだ<br class=\"NoSP\"/>即戦力となる人材を派遣します。<br/>人材の育成、成長支援にも力を注いでいます。",
+      "tag": "p",
+      "classes": [
+        "TopMenuText"
+      ],
+      "box": 5,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/img/top_menu_ph3.jpg",
+      "src_raw": "img/top_menu_ph3.jpg",
+      "alt": "ESNシステム",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/business/index.html#esn",
+      "link_target": null,
+      "classes": [],
+      "box": 6,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ESNシステム",
+      "html": "ESNシステム",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline3"
+      ],
+      "box": 6,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "paragraph",
+      "text": "テクニカルスキルはもちろん、ヒューマンスキルも兼ね備えたあなたの右腕になれるエンジニアを提供します。",
+      "html": "テクニカルスキルはもちろん、<br class=\"NoSP\"/>ヒューマンスキルも兼ね備えた<br class=\"NoSP\"/>あなたの右腕になれるエンジニアを提供します。",
+      "tag": "p",
+      "classes": [
+        "TopMenuText"
+      ],
+      "box": 6,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/img/top_btn_activities.png",
+      "src_raw": "img/top_btn_activities.png",
+      "alt": "事業内容",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/business/index.html",
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "LinkBtn"
+      ],
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Enjoy Life Happiness!!\nクレイスの仲間になりませんか？",
+      "html": "Enjoy Life Happiness!!<br/>クレイスの仲間になりませんか？",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline2"
+      ],
+      "box": 7,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/img/top_menu_ph7.jpg",
+      "src_raw": "img/top_menu_ph7.jpg",
+      "alt": "クレイスの教育システム",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/education/index.html",
+      "link_target": null,
+      "classes": [],
+      "box": 8,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "クレイスの教育システム",
+      "html": "クレイスの教育システム",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline3"
+      ],
+      "box": 8,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "paragraph",
+      "text": "クレイスならではのフォローアップ制度で未経験者でもネットワークの知識習得ができます。\nさらにエンジニアスター制度、起業支援など、夢の実現・幸せな人生の創出を支援しています。",
+      "html": "クレイスならではのフォローアップ制度で<br class=\"NoSP\"/>未経験者でもネットワークの知識習得ができます。<br/>さらにエンジニアスター制度、起業支援など、<br class=\"NoSP\"/>夢の実現・幸せな人生の創出を支援しています。",
+      "tag": "p",
+      "classes": [
+        "TopMenuText"
+      ],
+      "box": 8,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/img/top_btn_education.png",
+      "src_raw": "img/top_btn_education.png",
+      "alt": "教育システム",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/education/index.html",
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "LinkBtn"
+      ],
+      "box": 8,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/img/top_menu_ph5b.jpg",
+      "src_raw": "img/top_menu_ph5b.jpg",
+      "alt": "採用情報",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/recruit/index.html",
+      "link_target": null,
+      "classes": [],
+      "box": 9,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "新卒・中途採用情報",
+      "html": "新卒・中途採用情報",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline3"
+      ],
+      "box": 9,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "paragraph",
+      "text": "クレイスのエンジニアは、多くのお客様に必要とされています。\n意欲・やる気、そして夢をもち、あなたの夢を私達と一緒に実現してみませんか？",
+      "html": "クレイスのエンジニアは、<br class=\"NoSP\"/>多くのお客様に必要とされています。<br/>意欲・やる気、そして夢をもち、<br class=\"NoSP\"/>あなたの夢を私達と一緒に実現してみませんか？",
+      "tag": "p",
+      "classes": [
+        "TopMenuText"
+      ],
+      "box": 9,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/img/top_btn_recruit.png",
+      "src_raw": "img/top_btn_recruit.png",
+      "alt": "採用情報",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/recruit/index.html",
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "LinkBtn"
+      ],
+      "box": 9,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/img/top_menu_ph6.jpg",
+      "src_raw": "img/top_menu_ph6.jpg",
+      "alt": "CLAICE Photo",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/photo/index.html",
+      "link_target": null,
+      "classes": [],
+      "box": 10,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CLAICE Photo",
+      "html": "CLAICE Photo",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline3"
+      ],
+      "box": 10,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "paragraph",
+      "text": "クレイスの仲間たちと社内の様子をちょっとだけご紹介。\nスポーツ大会やBBQなど、レクリエーションも充実しています！",
+      "html": "クレイスの仲間たちと社内の様子を<br class=\"NoSP\"/>ちょっとだけご紹介。<br/>スポーツ大会やBBQなど、<br class=\"NoSP\"/>レクリエーションも充実しています！",
+      "tag": "p",
+      "classes": [
+        "TopMenuText"
+      ],
+      "box": 10,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/img/top_btn_photo.png",
+      "src_raw": "img/top_btn_photo.png",
+      "alt": "CLAICE Photo",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/photo/index.html",
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "LinkBtn"
+      ],
+      "box": 10,
+      "box_class": "ul.TopLeadMenu.cFix>li"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "新着情報",
+      "html": "新着情報",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline2"
+      ],
+      "box": 12,
+      "box_class": "div.InfoHead.cFix"
+    },
+    {
+      "type": "news",
+      "group": "新着情報",
+      "date": "2026.10.21",
+      "text": "飲み会〜酔ってかNight〜が開催されました。",
+      "html": "飲み会〜酔ってかNight〜が開催されました。",
+      "link": null,
+      "link_target": null,
+      "image": {
+        "src": "https://www.claice.com/img/info/info20221116.jpg",
+        "src_raw": "img/info/info20221116.jpg",
+        "alt": "飲み会〜酔ってかNight〜",
+        "width": null,
+        "height": null,
+        "link": null,
+        "link_target": null
+      },
+      "image_link": null,
+      "classes": [],
+      "box": 13,
+      "box_class": "div.InfoBlock"
+    },
+    {
+      "type": "news",
+      "group": "新着情報",
+      "date": "2026.08.07",
+      "text": "暑気払いが開催されました。",
+      "html": "暑気払いが開催されました。",
+      "link": null,
+      "link_target": null,
+      "image": {
+        "src": "https://www.claice.com/img/info/info20240802.jpg",
+        "src_raw": "img/info/info20240802.jpg",
+        "alt": "暑気払い",
+        "width": null,
+        "height": null,
+        "link": null,
+        "link_target": null
+      },
+      "image_link": null,
+      "classes": [],
+      "box": 13,
+      "box_class": "div.InfoBlock"
+    },
+    {
+      "type": "news",
+      "group": "新着情報",
+      "date": "2026.07.04",
+      "text": "全社キックオフ＆懇親会が開催されました。",
+      "html": "全社キックオフ＆懇親会が開催されました。",
+      "link": null,
+      "link_target": null,
+      "image": {
+        "src": "https://www.claice.com/img/info/info20240704.jpg",
+        "src_raw": "img/info/info20240704.jpg",
+        "alt": "全社キックオフ＆懇親会",
+        "width": null,
+        "height": null,
+        "link": null,
+        "link_target": null
+      },
+      "image_link": null,
+      "classes": [],
+      "box": 13,
+      "box_class": "div.InfoBlock"
+    },
+    {
+      "type": "news",
+      "group": "新着情報",
+      "date": "2026.04.03",
+      "text": "新卒入社歓迎会が開催されました。",
+      "html": "新卒入社歓迎会が開催されました。",
+      "link": null,
+      "link_target": null,
+      "image": {
+        "src": "https://www.claice.com/img/info/info20240403.jpg",
+        "src_raw": "img/info/info20240403.jpg",
+        "alt": "新卒入社歓迎会",
+        "width": null,
+        "height": null,
+        "link": null,
+        "link_target": null
+      },
+      "image_link": null,
+      "classes": [],
+      "box": 13,
+      "box_class": "div.InfoBlock"
+    },
+    {
+      "type": "news",
+      "group": "新着情報",
+      "date": "2026.01.05",
+      "text": "ホワイト企業認定されました。",
+      "html": "<a href=\"https://prtimes.jp/main/html/rd/p/000000392.000039303.html\" target=\"_blank\">ホワイト企業認定されました。</a>",
+      "link": "https://prtimes.jp/main/html/rd/p/000000392.000039303.html",
+      "link_target": "_blank",
+      "image": {
+        "src": "https://www.claice.com/img/info/info20260109.png",
+        "src_raw": "img/info/info20260109.png",
+        "alt": "ホワイト企業認定",
+        "width": "300",
+        "height": "89",
+        "link": "https://prtimes.jp/main/html/rd/p/000000392.000039303.html",
+        "link_target": "_blank"
+      },
+      "image_link": "https://prtimes.jp/main/html/rd/p/000000392.000039303.html",
+      "classes": [],
+      "box": 13,
+      "box_class": "div.InfoBlock"
+    },
+    {
+      "type": "news",
+      "group": "新着情報",
+      "date": "2025.11.08",
+      "text": "フットサル大会に参加しました。",
+      "html": "フットサル大会に参加しました。",
+      "link": null,
+      "link_target": null,
+      "image": {
+        "src": "https://www.claice.com/img/info/info20241116.jpg",
+        "src_raw": "img/info/info20241116.jpg",
+        "alt": "フットサル大会",
+        "width": null,
+        "height": null,
+        "link": null,
+        "link_target": null
+      },
+      "image_link": null,
+      "classes": [],
+      "box": 13,
+      "box_class": "div.InfoBlock"
+    },
+    {
+      "type": "news",
+      "group": "新着情報",
+      "date": "2025.11.03",
+      "text": "駅伝大会に参加しました。",
+      "html": "駅伝大会に参加しました。",
+      "link": null,
+      "link_target": null,
+      "image": {
+        "src": "https://www.claice.com/img/info/info20241104.jpg",
+        "src_raw": "img/info/info20241104.jpg",
+        "alt": "駅伝大会",
+        "width": null,
+        "height": null,
+        "link": null,
+        "link_target": null
+      },
+      "image_link": null,
+      "classes": [],
+      "box": 13,
+      "box_class": "div.InfoBlock"
+    },
+    {
+      "type": "news",
+      "group": "新着情報",
+      "date": "2025.10.25",
+      "text": "BBQ大会が実施されました。",
+      "html": "BBQ大会が実施されました。",
+      "link": null,
+      "link_target": null,
+      "image": {
+        "src": "https://www.claice.com/img/info/info20241019.jpg",
+        "src_raw": "img/info/info20241019.jpg",
+        "alt": "秋のBBQ大会",
+        "width": null,
+        "height": null,
+        "link": null,
+        "link_target": null
+      },
+      "image_link": null,
+      "classes": [],
+      "box": 13,
+      "box_class": "div.InfoBlock"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "採用新着情報",
+      "html": "採用新着情報",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline2"
+      ],
+      "box": 15,
+      "box_class": "div.InfoHead.cFix"
+    },
+    {
+      "type": "news",
+      "group": "採用新着情報",
+      "date": "2026.10.19",
+      "text": "求人サイトdodaで中途採用にて求人募集中です。",
+      "html": "<a href=\"https://doda.jp/DodaFront/View/CompanyJobs/j_id__10096115818/\" target=\"_blank\">求人サイトdodaで中途採用にて求人募集中です。</a>",
+      "link": "https://doda.jp/DodaFront/View/CompanyJobs/j_id__10096115818/",
+      "link_target": "_blank",
+      "image": {
+        "src": "https://www.claice.com/img/info/info_doda.png",
+        "src_raw": "img/info/info_doda.png",
+        "alt": null,
+        "width": null,
+        "height": null,
+        "link": "https://doda.jp/DodaFront/View/CompanyJobs/j_id__10096115818/",
+        "link_target": "_blank"
+      },
+      "image_link": "https://doda.jp/DodaFront/View/CompanyJobs/j_id__10096115818/",
+      "classes": [],
+      "box": 16,
+      "box_class": "div.InfoBlock"
+    },
+    {
+      "type": "news",
+      "group": "採用新着情報",
+      "date": "2026.09.25",
+      "text": "求人サイトマイナビ転職で中途採用にて求人募集中です。",
+      "html": "<a href=\"https://tenshoku.mynavi.jp/company/400280/?ty=ot\" target=\"_blank\">求人サイトマイナビ転職で中途採用にて求人募集中です。</a>",
+      "link": "https://tenshoku.mynavi.jp/company/400280/?ty=ot",
+      "link_target": "_blank",
+      "image": {
+        "src": "https://tenshoku.mynavi.jp/ext/img/mynavi_tenshoku_bnr.png",
+        "src_raw": "https://tenshoku.mynavi.jp/ext/img/mynavi_tenshoku_bnr.png",
+        "alt": "マイナビ転職に掲載中の求人情報はこちら",
+        "width": "300",
+        "height": "89",
+        "link": "https://tenshoku.mynavi.jp/company/400280/?ty=ot",
+        "link_target": "_blank"
+      },
+      "image_link": "https://tenshoku.mynavi.jp/company/400280/?ty=ot",
+      "classes": [],
+      "box": 16,
+      "box_class": "div.InfoBlock"
+    },
+    {
+      "type": "news",
+      "group": "採用新着情報",
+      "date": "2026.03.01",
+      "text": "求人サイトマイナビ2027で新卒採用にて求人募集中です。",
+      "html": "<a href=\"https://job.mynavi.jp/27/pc/search/corp269073/outline.html\" target=\"_blank\">求人サイトマイナビ2027で新卒採用にて求人募集中です。</a>",
+      "link": "https://job.mynavi.jp/27/pc/search/corp269073/outline.html",
+      "link_target": "_blank",
+      "image": {
+        "src": "https://www.claice.com/img/info/info_mynavi2027.png",
+        "src_raw": "img/info/info_mynavi2027.png",
+        "alt": "",
+        "width": null,
+        "height": null,
+        "link": "https://job.mynavi.jp/27/pc/search/corp269073/outline.html",
+        "link_target": "_blank"
+      },
+      "image_link": "https://job.mynavi.jp/27/pc/search/corp269073/outline.html",
+      "classes": [],
+      "box": 16,
+      "box_class": "div.InfoBlock"
+    },
+    {
+      "type": "news",
+      "group": "採用新着情報",
+      "date": "2026.03.01",
+      "text": "求人サイトRe就活キャンパスで新卒採用にて求人募集中です。",
+      "html": "<a href=\"https://www.gakujo.ne.jp/campus/company/employ/85308/\" target=\"_blank\">求人サイトRe就活キャンパスで新卒採用にて求人募集中です。</a>",
+      "link": "https://www.gakujo.ne.jp/campus/company/employ/85308/",
+      "link_target": "_blank",
+      "image": {
+        "src": "https://www.claice.com/img/info/info_gakujo.png",
+        "src_raw": "img/info/info_gakujo.png",
+        "alt": "",
+        "width": null,
+        "height": null,
+        "link": "https://www.gakujo.ne.jp/campus/company/employ/85308/",
+        "link_target": "_blank"
+      },
+      "image_link": "https://www.gakujo.ne.jp/campus/company/employ/85308/",
+      "classes": [],
+      "box": 16,
+      "box_class": "div.InfoBlock"
+    },
+    {
+      "type": "news",
+      "group": "採用新着情報",
+      "date": "2025.02.15",
+      "text": "求人サイトWantedlyで中途採用にて求人募集中です。",
+      "html": "<a href=\"https://www.wantedly.com/companies/company_9431793/projects\" target=\"_blank\">求人サイトWantedlyで中途採用にて求人募集中です。</a>",
+      "link": "https://www.wantedly.com/companies/company_9431793/projects",
+      "link_target": "_blank",
+      "image": {
+        "src": "https://www.claice.com/img/info/info_wantedly.png",
+        "src_raw": "img/info/info_wantedly.png",
+        "alt": "",
+        "width": null,
+        "height": null,
+        "link": "https://www.wantedly.com/companies/company_9431793/projects",
+        "link_target": "_blank"
+      },
+      "image_link": "https://www.wantedly.com/companies/company_9431793/projects",
+      "classes": [],
+      "box": 16,
+      "box_class": "div.InfoBlock"
+    }
+  ]
+}

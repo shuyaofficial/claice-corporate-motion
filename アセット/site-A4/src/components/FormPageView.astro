@@ -1,0 +1,65 @@
+---
+// お問い合せ・エントリーのフォームページ。導入の文章は content/*.json、フォーム本体は元 HTML から。
+import Base from '../layouts/Base.astro';
+import PageBand from './PageBand.astro';
+import { loadPage, splitH1, textToHtml } from '../lib/content';
+import { pageByKey } from '../lib/pages';
+import { breadcrumbLd, canonicalOf, describe, titleOf } from '../lib/seo';
+import { buildForm } from '../lib/render/form';
+import * as E from '../lib/render/elements';
+
+interface Props { pageKey: 'form' | 'form_entry' }
+const { pageKey } = Astro.props;
+const p = pageByKey(pageKey);
+const from = p.path;
+const els = loadPage(pageKey).elements;
+const ctx = E.makeCtx(from);
+const h1 = splitH1(els.find((e) => e.type === 'heading' && e.level === 1)!.text);
+const titleEl = els.find((e) => e.type === 'heading' && e.level === 3)!;
+E.headingLevel(3, ctx); // 章見出し（h2）
+const leadH = els.find((e) => e.type === 'heading' && e.level === 4)!;
+const ssl = els.find((e) => e.type === 'definition_list')!;
+const sealImg = els.find((e) => e.type === 'image')!;
+const intro = els.find((e) => e.type === 'paragraph' && (e.classes ?? []).includes('Text') && !(e.classes ?? []).includes('FormNotice'));
+const useH = els.find((e) => e.type === 'heading' && e.level === 5)!;
+const useList = els.find((e) => e.type === 'list')!;
+const notice = els.find((e) => e.type === 'paragraph' && (e.classes ?? []).includes('FormNotice'))!;
+const sslText = ssl.items[0].definitions[0] as string;
+const form = buildForm(pageKey === 'form' ? 'form.html' : 'form_entry.html', from, pageKey === 'form' ? 'contact' : 'entry');
+---
+<Base
+  from={from}
+  title={titleOf(pageKey)}
+  description={describe(pageKey)}
+  canonical={canonicalOf(p)}
+  ld={[breadcrumbLd(p)]}
+  bodyClass={`sub sub-${pageKey}`}
+  scripts={['form.js']}
+>
+<main id="main">
+  <PageBand pageKey={pageKey} h1={h1} from={from} />
+  <section class="sec sec-split form-chapter">
+    <div class="wrap">
+      <h2 class="sec-title" set:html={textToHtml(titleEl.text)} />
+      <div class="sec-body">
+      <p class="preview-guide">この見本では入力内容の確認までお試しいただけます。入力した情報は送信されません。</p>
+      <details class="form-guide">
+        <summary>ご利用方法と個人情報の保護について</summary>
+        <div class="form-lead">
+        <Fragment set:html={E.heading(leadH, ctx)} />
+        <div class="ssl-note">
+          <a class="seal-box" href={sealImg.link} target="_blank" rel="noopener"><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect x="9" y="18" width="22" height="16" rx="3" fill="none" stroke="var(--ink)" stroke-width="2.5"/><path d="M14 18v-5a6 6 0 0 1 12 0v5" fill="none" stroke="var(--ink)" stroke-width="2.5"/></svg><span>{sealImg.alt}</span></a>
+          <p>{sslText}</p>
+        </div>
+        {intro && <Fragment set:html={E.paragraph(intro, ctx)} />}
+        <Fragment set:html={E.heading(useH, ctx)} />
+        <Fragment set:html={E.list(useList, ctx)} />
+      </div>
+      </details>
+      <div class="form-wrap" id="form-fields" set:html={form.html} />
+      <Fragment set:html={E.paragraph(notice, ctx)} />
+      </div>
+    </div>
+  </section>
+</main>
+</Base>

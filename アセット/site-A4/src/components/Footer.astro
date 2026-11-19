@@ -1,0 +1,62 @@
+---
+// サイトマップと認証表示は公式サイトの共通データから取得する。
+import { loadShared } from '../lib/content';
+import { internal, relPath, imgSize } from '../lib/urls';
+
+interface Props { from: string }
+const { from } = Astro.props;
+const f = loadShared().footer;
+const pageTop = loadShared().page_top;
+const link = (u: string) => internal(u, from) ?? u;
+const ext = (u: string) => internal(u, from) === null;
+const bottom = f.bottom_links.filter((l: any) => !ext(l.href));
+const marks = f.marks as any[];
+const logo = loadShared().header.logo;
+const pm = imgSize('common/img/privacymark.png') ?? [216, 232];
+const wm = imgSize('common/img/whitemark.png') ?? [165, 216];
+---
+<footer class="site-footer">
+  <div class="wrap">
+    <nav class="footer-destinations" aria-label="相談・応募の窓口">
+      <a href={relPath(from, 'form/index.html')}>お問い合せ<span aria-hidden="true">↗</span></a>
+      <a href={relPath(from, 'form/entry.html')}>採用エントリー<span aria-hidden="true">↗</span></a>
+    </nav>
+    <div class="f-top">
+      <div class="f-company">
+        <a class="logo" href={relPath(from, 'index.html')}>
+          <img class="logo-img" src={relPath(from, 'common/img/claice_logo_sp.png')} width="131" height="36" alt={logo.alt}>
+        </a>
+        <ul class="f-ext" aria-label="外部サイト">
+          {f.external_links.map((l: any) => <li><a href={l.href} target="_blank" rel="noopener">{l.text}</a></li>)}
+        </ul>
+      </div>
+      <nav aria-label="サイトマップ">
+        <ul class="sitemap">
+          {f.sitemap.map((s: any) => (
+            <li><a href={link(s.href)}>{s.text}</a>
+              <ul>{s.children.map((c: any) => <li><a href={link(c.href)}>{c.text}</a></li>)}</ul>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </div>
+
+    <ul class="f-marks" aria-label="認証・認定">
+      <li class="mark"><img src={relPath(from, 'common/img/privacymark.png')} width={pm[0]} height={pm[1]} alt={marks[0].alt}></li>
+      <li class="mark"><img src={relPath(from, 'common/img/whitemark.png')} width={wm[0]} height={wm[1]} alt={marks[1].alt}></li>
+      <li><a class="mark seal" href={marks[2].link} target="_blank" rel="noopener"><svg viewBox="0 0 40 40" aria-hidden="true" focusable="false"><rect x="9" y="18" width="22" height="16" rx="3" fill="none" stroke="var(--ink)" stroke-width="2.5"/><path d="M14 18v-5a6 6 0 0 1 12 0v5" fill="none" stroke="var(--ink)" stroke-width="2.5"/></svg><span>{marks[2].alt}</span></a></li>
+    </ul>
+
+    <div class="f-bottom">
+      <ul class="f-links">
+        {bottom.map((l: any) => (
+          <li class={(l.classes ?? []).includes('NoPC') ? 'sp-only' : undefined}><a href={link(l.href)}>{l.text}</a></li>
+        ))}
+      </ul>
+      <a class="pagetop" href={pageTop.href}>{pageTop.text}<span aria-hidden="true">↑</span></a>
+    </div>
+    <p class="copy">{f.copyright}</p>
+  </div>
+</footer>
+{/* お問い合せ（企業の方のページ）では、固定のエントリーボタンを出さない */}
+{!from.startsWith('form/') && <a class="sp-entry btn btn-entry" href={relPath(from, 'form/entry.html')}>エントリー</a>}

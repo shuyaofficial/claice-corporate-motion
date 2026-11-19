@@ -1,0 +1,31 @@
+.signal-chart, .steps-anchor { scroll-margin-top:calc(var(--header-h) + 16px); }
+.sub-business .prose .signal-chart { margin:30px 0; max-width:840px; background:#f4f0e6; border-block:1px solid var(--chapter-navy); }
+.signal-chart figcaption { display:flex; align-items:center; justify-content:space-between; padding:14px 5%; color:var(--chapter-navy); font-family:var(--book-serif); font-weight:600; }
+.signal-key { display:inline-flex; align-items:center; gap:.6em; color:var(--chapter-rust); font:600 12px/1.5 var(--font-ja, sans-serif); }
+.signal-key::before { content:""; width:.65em; height:.65em; background:currentColor; transform:rotate(45deg); }
+.signal-image { display:block; width:100%; height:auto; }
+.signal-labels, .sub-business .prose .service-phases { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); text-align:center; }
+.signal-labels { font-size:clamp(11px,1.5vw,14px); font-weight:600; padding:0 0 14px; }
+.sub-business .prose .service-phases { margin:0; padding:0; list-style:none; border-top:1px solid var(--chapter-rule); background:var(--paper); color:var(--chapter-navy); font:600 clamp(16px,2vw,21px)/1.5 var(--book-serif); }
+.sub-business .service-phases li { position:relative; padding:.75em .25em; }
+.service-phases li + li::before { content:"›"; position:absolute; left:0; color:var(--chapter-rust); }
+.sub-business .service-phases li::after { content:""; position:absolute; inset:auto 0 0; height:3px; background:var(--chapter-rust); transform-origin:left; transform:scaleX(var(--phase,0)); }
+.education-rail { position:sticky; z-index:4; top:var(--header-h); background:var(--paper); border-block:1px solid var(--chapter-rule); }
+.rail-inner { min-height:50px; display:flex; justify-content:space-between; align-items:center; gap:12px; }
+.rail-current { display:flex; align-items:baseline; gap:14px; line-height:1.45; font-size:15px; font-family:var(--book-serif); color:var(--chapter-navy); font-weight:600; }
+.rail-fraction { white-space:nowrap; color:var(--chapter-rust); font:600 12px/1 var(--font-en); font-variant-numeric:tabular-nums; }
+.education-rail ol { list-style:none; padding:0; margin:0; display:flex; }
+.education-rail a { display:grid; min-width:clamp(24px,4vw,64px); height:44px; place-items:center; }
+.education-rail a span { width:calc(100% - 4px); height:3px; background:var(--chapter-rule); }
+.education-rail a[aria-current] span { position:relative; height:5px; background:#bd9784; }
+.education-rail a[aria-current] span::after { content:""; position:absolute; inset:0; background:var(--chapter-rust); transform-origin:left; transform:scaleX(var(--chapter-read,0)); }
+html[data-motion=off] .education-rail a[aria-current] span { background:var(--chapter-rust); }
+@media(prefers-reduced-motion:reduce) { .education-rail a[aria-current] span { background:var(--chapter-rust); } }
+.sub-education .chapter-section { scroll-margin-top:calc(var(--header-h) + 60px); }
+@media(min-width:1100px) {
+  .sub-education.sub .chapter-section:not(#followup) > .wrap > .sec-title { top:calc(var(--header-h) + 72px); }
+}
+@media(max-width:600px) {
+  .rail-current { gap:5px; flex-direction:column; font-size:12px; }
+  .rail-fraction { font-size:10px; }
+}

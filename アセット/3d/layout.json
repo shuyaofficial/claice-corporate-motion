@@ -1,0 +1,405 @@
+{
+ "_note": "Blender 座標（メートル、Z上）。three.js へは (x, z, -y) で変換。ここを唯一の正とし、build.py と hero.js の両方がこれを読む。",
+ "palette": {
+  "floor": "#ebe5da",
+  "floor_tile": "#e2dbcf",
+  "vent": "#cfc7ba",
+  "wall": "#f4f0ea",
+  "wall_cap": "#fbf9f5",
+  "rack": "#f5f2ec",
+  "rack_face": "#2b374a",
+  "rack_slat": "#3d4b62",
+  "switch": "#1c2636",
+  "port": "#0b111a",
+  "led": "#7fd1a0",
+  "cable": "#0064b5",
+  "plinth": "#f1ede6",
+  "desk": "#efe8dc",
+  "monitor": "#1c2636",
+  "screen": "#3a80c0",
+  "chair": "#2b3a55",
+  "pot": "#f3efe8",
+  "leaf": "#7d9a66",
+  "whiteboard": "#ffffff",
+  "frame": "#b5ad9f",
+  "door": "#b0442a",
+  "sofa": "#c9d6e6",
+  "photo1": "#a9bfd8",
+  "photo2": "#d9cdb8",
+  "photo3": "#8fa7c2",
+  "lamp": "#fff4dc",
+  "mat": "#3d4b62",
+  "wood": "#dcc29b",
+  "wood_line": "#c9ac82",
+  "tile": "#d8dbe0",
+  "tile_line": "#bcc2ca",
+  "carpet": "#c6d1df",
+  "carpet_line": "#b3bfcf",
+  "stone": "#e7e2d9",
+  "rug": "#b9cce3",
+  "skin": "#e9c9a6",
+  "hair": "#3b302a",
+  "shirt_w": "#f4f2ee",
+  "shirt_n": "#2b3a55",
+  "shirt_b": "#3a80c0",
+  "shirt_t": "#b0442a",
+  "shirt_y": "#d9a43b",
+  "raceway": "#e8b923",
+  "sky": "#9fd0f5",
+  "logo_d": "#0064b5",
+  "logo_l": "#3fa9f5",
+  "led_b": "#4fb3ff",
+  "screen2": "#bfe0ff",
+  "book1": "#3a80c0",
+  "book2": "#d9a43b",
+  "book3": "#b0442a",
+  "book4": "#7d9a66",
+  "camera": "#22262c"
+ },
+ "floor": {
+  "x": [
+   0,
+   10
+  ],
+  "y": [
+   0,
+   7
+  ],
+  "thick": 0.35
+ },
+ "walls": [
+  {
+   "name": "back",
+   "x": [
+    0,
+    10
+   ],
+   "y": [
+    6.85,
+    7.0
+   ],
+   "h": 1.6
+  },
+  {
+   "name": "left",
+   "x": [
+    0,
+    0.15
+   ],
+   "y": [
+    0,
+    6.85
+   ],
+   "h": 1.6
+  }
+ ],
+ "core": {
+  "center": [
+   4.9,
+   3.0
+  ],
+  "plinth": [
+   1.3,
+   0.9,
+   0.32
+  ],
+  "switch": [
+   0.95,
+   0.5,
+   0.13
+  ],
+  "stack": 2
+ },
+ "zones": [
+  {
+   "id": "about",
+   "label": "クレイスについて",
+   "href": "about/index.html",
+   "anchor": [
+    8.1,
+    1.5,
+    1.35
+   ],
+   "box": [
+    6.4,
+    9.85,
+    0.25,
+    2.9,
+    1.3
+   ]
+  },
+  {
+   "id": "business",
+   "label": "事業内容",
+   "href": "business/index.html",
+   "anchor": [
+    8.0,
+    5.1,
+    2.05
+   ],
+   "box": [
+    6.4,
+    9.85,
+    3.4,
+    6.85,
+    1.7
+   ]
+  },
+  {
+   "id": "education",
+   "label": "教育システム",
+   "href": "education/index.html",
+   "anchor": [
+    1.8,
+    5.5,
+    1.6
+   ],
+   "box": [
+    0.15,
+    3.5,
+    4.1,
+    6.85,
+    1.5
+   ]
+  },
+  {
+   "id": "recruit",
+   "label": "採用情報",
+   "href": "recruit/index.html",
+   "anchor": [
+    0.9,
+    1.4,
+    1.75
+   ],
+   "box": [
+    0.15,
+    3.0,
+    0.25,
+    4.2,
+    1.5
+   ]
+  },
+  {
+   "id": "photo",
+   "label": "CLAICE Photo",
+   "href": "photo/index.html",
+   "anchor": [
+    5.0,
+    5.9,
+    1.6
+   ],
+   "box": [
+    3.8,
+    6.2,
+    4.9,
+    6.85,
+    1.5
+   ]
+  }
+ ],
+ "cables": {
+  "radius": 0.035,
+  "strands": 3,
+  "gap": 0.075,
+  "z": 0.05,
+  "corner": 0.35,
+  "paths": {
+   "about": [
+    [
+     5.5,
+     2.75
+    ],
+    [
+     6.3,
+     2.75
+    ],
+    [
+     6.3,
+     1.2
+    ],
+    [
+     6.7,
+     1.2
+    ]
+   ],
+   "business": [
+    [
+     5.5,
+     3.2
+    ],
+    [
+     6.2,
+     3.2
+    ],
+    [
+     6.2,
+     4.1
+    ],
+    [
+     6.5,
+     4.1
+    ]
+   ],
+   "education": [
+    [
+     4.3,
+     3.2
+    ],
+    [
+     3.7,
+     3.2
+    ],
+    [
+     3.7,
+     4.6
+    ],
+    [
+     3.25,
+     4.6
+    ]
+   ],
+   "photo": [
+    [
+     4.9,
+     3.45
+    ],
+    [
+     4.9,
+     4.75
+    ]
+   ],
+   "recruit": [
+    [
+     4.3,
+     2.7
+    ],
+    [
+     3.6,
+     2.7
+    ],
+    [
+     3.6,
+     0.6
+    ],
+    [
+     2.6,
+     0.6
+    ]
+   ]
+  },
+  "outlets": [
+   "about",
+   "education",
+   "photo",
+   "recruit"
+  ]
+ },
+ "camera": {
+  "dir": [
+   1,
+   -1.05,
+   1.15
+  ],
+  "target": [
+   4.942,
+   3.561,
+   0.588
+  ],
+  "ortho": 13.52,
+  "aspect": [
+   4,
+   3
+  ]
+ },
+ "version": 2,
+ "actors": {
+  "teacher": {
+   "type": "walk",
+   "facing": 2.6704,
+   "pos": [
+    2.95,
+    6.35
+   ],
+   "path": [
+    [
+     2.85,
+     6.33
+    ],
+    [
+     0.95,
+     6.33
+    ]
+   ],
+   "rest": [
+    0,
+    -1
+   ],
+   "speed": 0.42,
+   "pause": 2.6
+  },
+  "eng1": {
+   "type": "walk",
+   "facing": 0,
+   "pos": [
+    8.2,
+    3.2
+   ],
+   "path": [
+    [
+     8.2,
+     3.2
+    ],
+    [
+     9.25,
+     3.2
+    ]
+   ],
+   "rest": [
+    0,
+    1
+   ],
+   "speed": 0.38,
+   "pause": 2.2
+  },
+  "off5": {
+   "type": "talk",
+   "facing": -1.2,
+   "pos": [
+    6.75,
+    2.55
+   ]
+  },
+  "off6": {
+   "type": "talk",
+   "facing": 1.9,
+   "pos": [
+    7.15,
+    2.6
+   ]
+  },
+  "off1": {
+   "type": "sit",
+   "facing": 0,
+   "pos": [
+    7.3,
+    0.45
+   ]
+  },
+  "off3": {
+   "type": "sit",
+   "facing": 3.1416,
+   "pos": [
+    7.9,
+    2.15
+   ]
+  },
+  "stu01": {
+   "type": "sit",
+   "facing": 0,
+   "pos": [
+    1.55,
+    5.17
+   ]
+  }
+ }
+}

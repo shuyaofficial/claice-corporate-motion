@@ -1,0 +1,1265 @@
+{
+  "page": "recruit",
+  "url": "https://www.claice.com/recruit/index.html",
+  "meta": {
+    "title": "採用情報│株式会社クレイス",
+    "description": "ネットワーク・システムソリューションサービス、ネットワークエンジニア派遣の（株）クレイスのwebサイトです。ネットワークエンジニアを随時募集中です。ネットワーク技術、ヒューマンスキルを磨きたい方、大歓迎！",
+    "keywords": "クレイス,ネットワーク,ネットワーク運用,CCNA,CCNA研修,ネットワークエンジニア,エンジニア派遣,人材募集"
+  },
+  "body_class": [
+    "ContentFrame",
+    "Recruit"
+  ],
+  "elements": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "採用情報│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "html": "採用情報│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "PageTitle"
+      ],
+      "hidden": true,
+      "hidden_by": [
+        "common/css/pc.css [media=print, screen and (min-width: 768px)]: .PageTitle { position:absolute; left:0; top:-40px; margin:0; color:#fff; font-size:80%; line-height:40px; text-align:left; }",
+        "common/css/sp.css [media=handheld, only screen and (max-width: 767px)]: .PageTitle { display:none; }"
+      ],
+      "source": "header"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "採用情報",
+      "html": "採用情報",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "box": 1,
+      "box_class": "div.TitleWrap"
+    },
+    {
+      "type": "paragraph",
+      "text": "多くのお客様に必要とされているクレイスのエンジニア。あなたの夢を私達と一緒に実現してみませんか？",
+      "html": "多くのお客様に必要とされているクレイスのエンジニア。あなたの夢を私達と一緒に実現してみませんか？",
+      "tag": "p",
+      "classes": [],
+      "box": 1,
+      "box_class": "div.TitleWrap"
+    },
+    {
+      "type": "nav",
+      "items": [
+        {
+          "text": "採用担当者から",
+          "href": "https://www.claice.com/recruit/index.html#message",
+          "href_raw": "#message"
+        },
+        {
+          "text": "新卒採用",
+          "href": "https://www.claice.com/recruit/index.html#newgraduates",
+          "href_raw": "#newgraduates"
+        },
+        {
+          "text": "中途採用",
+          "href": "https://www.claice.com/recruit/index.html#career",
+          "href_raw": "#career"
+        },
+        {
+          "text": "採用スケジュール",
+          "href": "https://www.claice.com/recruit/index.html#shcedule",
+          "href_raw": "#shcedule"
+        },
+        {
+          "text": "社員の一日",
+          "href": "https://www.claice.com/recruit/index.html#oneday",
+          "href_raw": "#oneday"
+        },
+        {
+          "text": "退職者の再雇用制度",
+          "href": "https://www.claice.com/recruit/index.html#rehire",
+          "href_raw": "#rehire"
+        }
+      ],
+      "classes": [
+        "PageNavi"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "採用担当者から",
+      "html": "採用担当者から",
+      "id": null,
+      "anchor": "message",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "message"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/recruit/img/banner_white.jpg",
+      "src_raw": "img/banner_white.jpg",
+      "alt": "ホワイト企業認定取得！",
+      "width": null,
+      "height": null,
+      "link": "https://prtimes.jp/main/html/rd/p/000000392.000039303.html",
+      "link_target": "_blank",
+      "classes": [],
+      "section": "message",
+      "box": 3,
+      "box_class": "ul.RecruitBanner.FullWidth>li"
+    },
+    {
+      "type": "paragraph",
+      "text": "クレイスの採用情報ページをご覧頂き、ありがとうございます。",
+      "html": "クレイスの採用情報ページをご覧頂き、ありがとうございます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "message",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "現在当社のエンジニアは、多くのお客様に必要とされています。その声に確実にお答えするため、そして、技術・経験・知識・力を身につけ、私達自身がお客様に「ありがとう」と言われる会社になるため、前進し続けています。",
+      "html": "現在当社のエンジニアは、多くのお客様に必要とされています。その声に確実にお答えするため、そして、技術・経験・知識・力を身につけ、私達自身がお客様に「ありがとう」と言われる会社になるため、前進し続けています。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "message",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "当社は「人間性」を重視しています",
+      "html": "当社は「人間性」を重視しています",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "message",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "前向きな姿勢、明るさ",
+        "困難に立ち向かう精神力",
+        "社会人としてマナーを守る気持ち",
+        "お客様や仲間とのコミュニケーション能力"
+      ],
+      "items_html": [
+        "前向きな姿勢、明るさ",
+        "困難に立ち向かう精神力",
+        "社会人としてマナーを守る気持ち",
+        "お客様や仲間とのコミュニケーション能力"
+      ],
+      "item_links": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "message",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "意欲・やる気、そして夢をもち、その夢を私達と一緒に実現してみませんか？",
+      "html": "意欲・やる気、そして夢をもち、その夢を私達と一緒に実現してみませんか？",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "message",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "採用担当一同",
+      "html": "<span>採用担当一同</span>",
+      "tag": "p",
+      "classes": [
+        "Text",
+        "Sign"
+      ],
+      "section": "message",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "新卒採用",
+      "html": "新卒採用",
+      "id": null,
+      "anchor": "newgraduates",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "newgraduates"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "2027年新卒採用エントリーを開始いたしました。",
+      "html": "2027年<br class=\"NoPC\"/>新卒採用エントリーを<br class=\"NoPC\"/>開始いたしました。",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "RecruitHeadline"
+      ],
+      "section": "newgraduates",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "株式会社クレイスでは、2027年の新卒採用エントリーを開始いたしました。\n詳細はマイナビ2027またはRe就活キャンパスのページをご覧ください。",
+      "html": "株式会社クレイスでは、<br class=\"NoPC\"/>2027年の新卒採用エントリーを<br class=\"NoPC\"/>開始いたしました。<br/> 詳細はマイナビ2027またはRe就活キャンパスのページをご覧ください。",
+      "tag": "p",
+      "classes": [
+        "RecruitLead"
+      ],
+      "section": "newgraduates",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "皆さまからのご応募を心よりお待ちしております。",
+      "html": "皆さまからのご応募を<br class=\"NoPC\"/>心よりお待ちしております。",
+      "tag": "p",
+      "classes": [
+        "RecruitLead"
+      ],
+      "section": "newgraduates",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/recruit/img/banner_mynavi2027.png",
+      "src_raw": "img/banner_mynavi2027.png",
+      "alt": "マイナビの弊社画面へ",
+      "width": null,
+      "height": null,
+      "link": "https://job.mynavi.jp/27/pc/search/corp269073/outline.html",
+      "link_target": "_blank",
+      "classes": [],
+      "section": "newgraduates",
+      "box": 5,
+      "box_class": "ul.RecruitBanner>li"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/recruit/img/banner_gakujo.png",
+      "src_raw": "img/banner_gakujo.png",
+      "alt": "Re就活キャンパスの弊社画面へ",
+      "width": null,
+      "height": null,
+      "link": "https://www.gakujo.ne.jp/campus/company/employ/85308/",
+      "link_target": "_blank",
+      "classes": [],
+      "section": "newgraduates",
+      "box": 6,
+      "box_class": "ul.RecruitBanner>li"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "中途採用",
+      "html": "中途採用",
+      "id": null,
+      "anchor": "career",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "career"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "中途採用　募集要項",
+      "html": "中途採用　募集要項",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "career",
+      "box": 7,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "table",
+      "caption": "仕事内容",
+      "rows": [
+        [
+          "サーバ・ネットワーク機器の\n設計・構築・運用・保守",
+          "［具体例］\nNW、サーバの運用管理・監視業務\nテクニカルサポート、ヘルプデスク業務\nLAN/WANの設計構築\nファイヤーウォール、ロードバランサーの設計構築\nWindows、Linux/UNIXサーバーの設計構築"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "サーバ・ネットワーク機器の<br/>設計・構築・運用・保守",
+          "<dl> <dt>［具体例］</dt> <dd> <ul class=\"Text\"> <li>NW、サーバの運用管理・監視業務</li> <li>テクニカルサポート、ヘルプデスク業務</li> <li>LAN/WANの設計構築</li> <li>ファイヤーウォール、ロードバランサーの設計構築</li> <li>Windows、Linux/UNIXサーバーの設計構築</li> </ul> </dd> </dl>"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [
+        "Table",
+        "SPBlock"
+      ],
+      "section": "career",
+      "box": 7,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "table",
+      "caption": "募集対象者",
+      "rows": [
+        [
+          "エンジニア経験者",
+          "★ネットワーク運用・構築の経験、もしくは監視・保守対応の経験者\n＜優遇＞ IPv6関連の業務経験者\n\n★Linux・UNIXまたはWindowsでのサーバ運用・構築の経験者\n＜優遇＞仮想化環境（Vmware、Xen等）の知識又は設計構築経験のある方\n\n★ソフトウエア・アプリ開発のエンジニア経験者で、ネットワークエンジニアを目指している方"
+        ],
+        [
+          "未経験者",
+          "★未経験者大歓迎！未経験でも活躍している社員がたくさんいます。\nフォローアップ制度もあるので、技術もしっかりと身につけられます。\n\n★TOEIC®テスト600点以上もしくはビジネスレベルの英語力をお持ちの方、グローバルプロジェクトで英会話スキルを活かしたい方"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "エンジニア経験者",
+          "★ネットワーク運用・構築の経験、もしくは監視・保守対応の経験者<br/> ＜優遇＞ IPv6関連の業務経験者<br/><br/> ★Linux・UNIXまたはWindowsでのサーバ運用・構築の経験者<br/> ＜優遇＞仮想化環境（Vmware、Xen等）の知識又は設計構築経験のある方<br/><br/> ★ソフトウエア・アプリ開発のエンジニア経験者で、ネットワークエンジニアを目指している方"
+        ],
+        [
+          "未経験者",
+          "★未経験者大歓迎！未経験でも活躍している社員がたくさんいます。<br/>フォローアップ制度もあるので、技術もしっかりと身につけられます。<br/><br/> ★TOEIC®テスト600点以上もしくはビジネスレベルの英語力をお持ちの方、グローバルプロジェクトで英会話スキルを活かしたい方"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [
+        "Table",
+        "SPBlock"
+      ],
+      "section": "career",
+      "box": 7,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "table",
+      "caption": "待遇・条件",
+      "rows": [
+        [
+          "雇用形態",
+          "【正社員】インフラエンジニア"
+        ],
+        [
+          "給与",
+          "月例給与\n月給25万円以上＋賞与年2回＋プチボーナス年4回\n※月給額は資格や経験などを考慮のうえ決定します。\n★残業が発生した場合は、給与とは別に時間外手当を支給！\n年収例\n年収700万円／32才（中途入社7年目）\n年収530万円／28才（中途入社5年目）\n年収420万円／25才（新卒入社2年目）\n賞与\n年2回（6・12月）＋年4回プチボーナス\n諸手当\n職責手当（主査 1万9000円～／月）\n住宅手当（最大 3万円／月、入社4カ月後から支給）※持ち家も手当対象\n親孝行手当（1万5000円／月、入社4カ月後から支給）\n扶養手当（配偶者 5000円／月、子 2000円～／月）\n通勤手当（最大 5万円／月）\nエンジニアスター手当（資格取得手当）（2000円～／月）\n資格受験料全額支給\n英語手当（1万円／月、入社6カ月後から支給）\n常駐先手当（5000円～／月、入社6カ月後から支給）\n時間外勤務手当、休日勤務手当、深夜勤務手当"
+        ],
+        [
+          "勤務時間",
+          "9：30～18：00（所定労働時間7.5時間／休憩時間60分）\n※配属されたプロジェクトにより異なります。"
+        ],
+        [
+          "勤務地",
+          "首都圏（千代田区、港区、中央区、渋谷区、新宿区等）"
+        ],
+        [
+          "福利厚生",
+          "保険制度\n・健康保険\n・厚生年金\n・雇用保険\n・労災保険\n■育児・介護休業取得実績あり\n■企業型確定拠出年金制度（退職金に該当する）\n■コミュニケーション支援金支給\n・社内交際費・クレイスポイント・E-KAOポイント・社内懇親会費用援助"
+        ],
+        [
+          "休日・休暇",
+          "・完全週休2日制（年間休日120日以上）\n　※プロジェクトにより休日が異なる場合があります。\n・夏季休暇\n・年末年始休暇\n・慶弔休暇\n・産前・産後休暇\n・育児休暇"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "雇用形態",
+          "<ol> <li>【正社員】インフラエンジニア</li> </ol>"
+        ],
+        [
+          "給与",
+          "<h5 class=\"td_heading\">月例給与</h5> <ul> <li>月給25万円以上＋賞与年2回＋プチボーナス年4回<br/> ※月給額は資格や経験などを考慮のうえ決定します。<br/> ★残業が発生した場合は、給与とは別に時間外手当を支給！</li> </ul> <h5 class=\"td_heading\">年収例</h5> <ul> <li>年収700万円／32才（中途入社7年目）</li> <li>年収530万円／28才（中途入社5年目）</li> <li>年収420万円／25才（新卒入社2年目）</li> </ul> <h5 class=\"td_heading\">賞与</h5> <ul> <li>年2回（6・12月）＋年4回プチボーナス</li> </ul> <h5 class=\"td_heading\">諸手当</h5> <ul> <li>職責手当（主査 1万9000円～／月）</li> <li>住宅手当（最大 3万円／月、入社4カ月後から支給）※持ち家も手当対象</li> <li>親孝行手当（1万5000円／月、入社4カ月後から支給）</li> <li>扶養手当（配偶者 5000円／月、子 2000円～／月）</li> <li>通勤手当（最大 5万円／月）</li> <li>エンジニアスター手当（資格取得手当）（2000円～／月）</li> <li>資格受験料全額支給</li> <li>英語手当（1万円／月、入社6カ月後から支給）</li> <li>常駐先手当（5000円～／月、入社6カ月後から支給）</li> <li>時間外勤務手当、休日勤務手当、深夜勤務手当</li> </ul>"
+        ],
+        [
+          "勤務時間",
+          "9：30～18：00（所定労働時間7.5時間／休憩時間60分）<br/>※配属されたプロジェクトにより異なります。"
+        ],
+        [
+          "勤務地",
+          "首都圏（千代田区、港区、中央区、渋谷区、新宿区等）"
+        ],
+        [
+          "福利厚生",
+          "<h5 class=\"td_heading\">保険制度</h5> <ul> <li>・健康保険</li> <li>・厚生年金</li> <li>・雇用保険</li> <li>・労災保険</li> </ul> <br/> <ul> <li>■育児・介護休業取得実績あり</li> <li>■企業型確定拠出年金制度（退職金に該当する）</li> <li>■コミュニケーション支援金支給<br/>・社内交際費・クレイスポイント・E-KAOポイント・社内懇親会費用援助</li> </ul>"
+        ],
+        [
+          "休日・休暇",
+          "<ul> <li>・完全週休2日制（年間休日120日以上）<br/>　※プロジェクトにより休日が異なる場合があります。</li> <li>・夏季休暇</li> <li>・年末年始休暇</li> <li>・慶弔休暇</li> <li>・産前・産後休暇</li> <li>・育児休暇</li> </ul>"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [
+        "Table",
+        "SPBlock"
+      ],
+      "section": "career",
+      "box": 7,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "入社後について",
+      "html": "入社後について",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "career",
+      "box": 7,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "当社は「ヒューマンスキル」を重視していることから、ビジネス能力向上、コミュニケーション能力向上研修等を行います。詳しくは「教育システム」のページをご覧ください。",
+      "html": "当社は「ヒューマンスキル」を重視していることから、ビジネス能力向上、コミュニケーション能力向上研修等を行います。詳しくは<a href=\"https://www.claice.com/education/index.html\">「教育システム」のページ</a>をご覧ください。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "career",
+      "box": 7,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/recruit/img/btn_entry_c2.png",
+      "src_raw": "img/btn_entry_c2.png",
+      "alt": "中途採用エントリーフォーム",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/form/entry.html",
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "LinkBtn"
+      ],
+      "section": "career",
+      "box": 7,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "採用スケジュール",
+      "html": "採用スケジュール",
+      "id": null,
+      "anchor": "shcedule",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "shcedule"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "エントリー",
+          "term_html": "エントリー",
+          "definitions": [
+            "「エントリーフォーム」に必要事項を入力し、エントリーしてください。"
+          ],
+          "definitions_html": [
+            "<a href=\"https://www.claice.com/form/entry.html\">「エントリーフォーム」</a>に必要事項を入力し、エントリーしてください。"
+          ]
+        }
+      ],
+      "classes": [],
+      "section": "shcedule",
+      "box": 9,
+      "box_class": "div.Schedule"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "書類選考",
+          "term_html": "書類選考",
+          "definitions": [
+            "書類選考後に、面接日時についてご相談いたします。"
+          ],
+          "definitions_html": [
+            "書類選考後に、面接日時についてご相談いたします。"
+          ]
+        }
+      ],
+      "classes": [],
+      "section": "shcedule",
+      "box": 9,
+      "box_class": "div.Schedule"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "一次面接",
+          "term_html": "一次面接",
+          "definitions": [
+            "筆記テスト、面接を実施いたします。（オンライン予定）"
+          ],
+          "definitions_html": [
+            "筆記テスト、面接を実施いたします。<span class=\"inlineblock\">（オンライン予定）</span>"
+          ]
+        }
+      ],
+      "classes": [],
+      "section": "shcedule",
+      "box": 9,
+      "box_class": "div.Schedule"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "二次面接",
+          "term_html": "二次面接",
+          "definitions": [
+            "適性検査、面接を実施いたします。（本社までご来社いただきます）"
+          ],
+          "definitions_html": [
+            "適性検査、面接を実施いたします。<span class=\"inlineblock\">（本社までご来社いただきます）</span>"
+          ]
+        }
+      ],
+      "classes": [],
+      "section": "shcedule",
+      "box": 9,
+      "box_class": "div.Schedule"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "内定",
+          "term_html": "内定",
+          "definitions": [
+            " "
+          ],
+          "definitions_html": [
+            ""
+          ]
+        }
+      ],
+      "classes": [
+        "End"
+      ],
+      "section": "shcedule",
+      "box": 9,
+      "box_class": "div.Schedule"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "社員の一日",
+      "html": "社員の一日",
+      "id": null,
+      "anchor": "oneday",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "oneday"
+    },
+    {
+      "type": "paragraph",
+      "text": "クレイスで活躍する先輩社員の1日をご紹介します。",
+      "html": "クレイスで活躍する先輩社員の1日をご紹介します。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "oneday",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "T.Nさん［技術部　エンジニア／2017年入社］",
+      "html": "T.Nさん<span>［技術部　エンジニア／2017年入社］</span>",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "OnedayTitle"
+      ],
+      "section": "oneday",
+      "box": 11,
+      "box_class": "div.Oneday"
+    },
+    {
+      "type": "paragraph",
+      "text": "前職は飲食店だったNさん。\n現在はネットワーク運用保守業務で活躍されています。",
+      "html": "前職は飲食店だったNさん。<br/> 現在はネットワーク運用保守業務で活躍されています。",
+      "tag": "p",
+      "classes": [
+        "OnedayLead"
+      ],
+      "section": "oneday",
+      "box": 11,
+      "box_class": "div.Oneday"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/recruit/img/staff_ph_tn.jpg",
+      "src_raw": "img/staff_ph_tn.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "StaffPhoto"
+      ],
+      "wrapper_classes": [
+        "StaffMessage",
+        "cFix"
+      ],
+      "section": "oneday",
+      "box": 12,
+      "box_class": "div.StaffMessage.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 6,
+      "text": "入社を希望する人へのメッセージ",
+      "html": "入社を希望する人へのメッセージ",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "MessageTitle"
+      ],
+      "section": "oneday",
+      "box": 12,
+      "box_class": "div.StaffMessage.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "私は前職では飲食関係の仕事をしていました。\nネットワークに関する知識はもちろんビジネスマナーに関する知識もありませんでしたが、フォローアップ期間中に2名の先輩からの手厚い教育を受けて知識を身に着けることが出来ました。\nまた、担当ではない先輩方からも本社に帰ってきた際に勉強について教えてもらえたことがとても印象的で、安心して学べる環境だなと感じました。\n今では自分が教育をする立場となり、新たな学びを得ながら日々ステップアップしています。\n入社された際は全力でサポートします。一緒に働けることを楽しみにしています！",
+      "html": "私は前職では飲食関係の仕事をしていました。<br/> ネットワークに関する知識はもちろんビジネスマナーに関する知識もありませんでしたが、フォローアップ期間中に2名の先輩からの手厚い教育を受けて知識を身に着けることが出来ました。<br/> また、担当ではない先輩方からも本社に帰ってきた際に勉強について教えてもらえたことがとても印象的で、安心して学べる環境だなと感じました。<br/> 今では自分が教育をする立場となり、新たな学びを得ながら日々ステップアップしています。<br/> 入社された際は全力でサポートします。一緒に働けることを楽しみにしています！",
+      "tag": "p",
+      "classes": [
+        "MessageText"
+      ],
+      "section": "oneday",
+      "box": 12,
+      "box_class": "div.StaffMessage.cFix"
+    },
+    {
+      "type": "table",
+      "caption": "ある日のスケジュール",
+      "rows": [
+        [
+          "9：30",
+          "業務の引継ぎ\n24時間体制でお客様の利用しているネットワークを監視している現場なので、出社後はまず夜勤者の方から継続して対応している業務を引き受けます。"
+        ],
+        [
+          "10：00",
+          "監視業務\nお客様が利用しているネットワークに障害が発生した場合は、お客様への通知と復旧に向けたオペレーションを行い、提供しているサービスが停止しないよう迅速な対応を行います。併せて、事前に予定されている作業があれば役割分担をしながら業務を進めていきます。"
+        ],
+        [
+          "11：00",
+          "監視装置のチェック\nお客様へ提供しているサービスの品質を維持するために、監視装置が正常に作動しているか、対応できていない障害がないかを定期的に確認しています。"
+        ],
+        [
+          "12：00",
+          "ランチ\n近くの駅ビルでその日の気分に合ったお店に入ります。食事をとった後は午後の業務に備えてしっかりと休息をとります。"
+        ],
+        [
+          "13：00",
+          "入室調整\n提供しているネットワーク回線や機器に障害が発生した場合は復旧の手配を進めます。お客様や保守員のスケジュールを調整し、復旧するまでの統制を行います。"
+        ],
+        [
+          "15：00",
+          "技術問い合わせ\nお客様から技術的な問い合わせを受けた場合は契約している保守ベンダへ問い合わせます。より専門的な知識について触れることができます。"
+        ],
+        [
+          "17：00",
+          "業務の引継ぎ\n継続している対応や夜間帯で実施される作業などをまとめて引継ぎます。\n引継ぎ後は当日行った業務の見直しを行い、改善点などをまとめて業務品質向上に取り組んでいます。"
+        ],
+        [
+          "18：00",
+          "退社\n現場の業務は夜勤者へ引き継ぐため、ほとんど定時で終わります。\n自分の時間を確保しやすいので現場の仲間と食事に行ったり、好きなことをする時間にあてたりと、プライベートな時間を過ごしています。"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "9：30",
+          "<dl> <dt>業務の引継ぎ</dt> <dd>24時間体制でお客様の利用しているネットワークを監視している現場なので、出社後はまず夜勤者の方から継続して対応している業務を引き受けます。</dd> </dl>"
+        ],
+        [
+          "10：00",
+          "<dl> <dt>監視業務</dt> <dd>お客様が利用しているネットワークに障害が発生した場合は、お客様への通知と復旧に向けたオペレーションを行い、提供しているサービスが停止しないよう迅速な対応を行います。併せて、事前に予定されている作業があれば役割分担をしながら業務を進めていきます。</dd> </dl>"
+        ],
+        [
+          "11：00",
+          "<dl> <dt>監視装置のチェック</dt> <dd>お客様へ提供しているサービスの品質を維持するために、監視装置が正常に作動しているか、対応できていない障害がないかを定期的に確認しています。</dd> </dl>"
+        ],
+        [
+          "12：00",
+          "<dl> <dt>ランチ</dt> <dd>近くの駅ビルでその日の気分に合ったお店に入ります。食事をとった後は午後の業務に備えてしっかりと休息をとります。</dd> </dl>"
+        ],
+        [
+          "13：00",
+          "<dl> <dt>入室調整</dt> <dd>提供しているネットワーク回線や機器に障害が発生した場合は復旧の手配を進めます。お客様や保守員のスケジュールを調整し、復旧するまでの統制を行います。</dd> </dl>"
+        ],
+        [
+          "15：00",
+          "<dl> <dt>技術問い合わせ</dt> <dd>お客様から技術的な問い合わせを受けた場合は契約している保守ベンダへ問い合わせます。より専門的な知識について触れることができます。</dd> </dl>"
+        ],
+        [
+          "17：00",
+          "<dl> <dt>業務の引継ぎ</dt> <dd>継続している対応や夜間帯で実施される作業などをまとめて引継ぎます。<br/>引継ぎ後は当日行った業務の見直しを行い、改善点などをまとめて業務品質向上に取り組んでいます。</dd> </dl>"
+        ],
+        [
+          "18：00",
+          "<dl> <dt>退社</dt> <dd>現場の業務は夜勤者へ引き継ぐため、ほとんど定時で終わります。<br/> 自分の時間を確保しやすいので現場の仲間と食事に行ったり、好きなことをする時間にあてたりと、プライベートな時間を過ごしています。</dd> </dl>"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [
+        "Table",
+        "OnedaySchedule"
+      ],
+      "section": "oneday",
+      "box": 11,
+      "box_class": "div.Oneday"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "M.Mさん［技術部　エンジニア／2018年入社］",
+      "html": "M.Mさん<span>［技術部　エンジニア／2018年入社］</span>",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "OnedayTitle"
+      ],
+      "section": "oneday",
+      "box": 13,
+      "box_class": "div.Oneday"
+    },
+    {
+      "type": "paragraph",
+      "text": "前職は営業職だったMさん。\n現在は大手ISPのバックボーン運用保守業務で活躍されています。",
+      "html": "前職は営業職だったMさん。<br/> 現在は大手ISPのバックボーン運用保守業務で活躍されています。",
+      "tag": "p",
+      "classes": [
+        "OnedayLead"
+      ],
+      "section": "oneday",
+      "box": 13,
+      "box_class": "div.Oneday"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/recruit/img/staff_ph_mm.jpg",
+      "src_raw": "img/staff_ph_mm.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "StaffPhoto"
+      ],
+      "wrapper_classes": [
+        "StaffMessage",
+        "cFix"
+      ],
+      "section": "oneday",
+      "box": 14,
+      "box_class": "div.StaffMessage.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 6,
+      "text": "入社を希望する人へのメッセージ",
+      "html": "入社を希望する人へのメッセージ",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "MessageTitle"
+      ],
+      "section": "oneday",
+      "box": 14,
+      "box_class": "div.StaffMessage.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "クレイスには、スキルに応じて案件をステップアップできる環境が整っています。\n未経験者はもちろん、業界経験者も成長できると思います。\n私は業界未経験で入社しましたが、今ではISPバックボーンの運用保守業務の全体像がかなり理解できるようになりました。\nわからないことは、私を含め先輩社員が丁寧に教えますので、安心して入社してください。\n経験者の方も、未経験者の方も、一緒に一歩ずつ成長していきましょう！",
+      "html": "クレイスには、スキルに応じて案件をステップアップできる環境が整っています。<br/> 未経験者はもちろん、業界経験者も成長できると思います。<br/> 私は業界未経験で入社しましたが、今ではISPバックボーンの運用保守業務の全体像がかなり理解できるようになりました。<br/> わからないことは、私を含め先輩社員が丁寧に教えますので、安心して入社してください。<br/> 経験者の方も、未経験者の方も、一緒に一歩ずつ成長していきましょう！",
+      "tag": "p",
+      "classes": [
+        "MessageText"
+      ],
+      "section": "oneday",
+      "box": 14,
+      "box_class": "div.StaffMessage.cFix"
+    },
+    {
+      "type": "table",
+      "caption": "ある日のスケジュール",
+      "rows": [
+        [
+          "9：30",
+          "メールとスケジュールの確認\nメールやスケジュールで今日の作業や今後の作業予定を把握します。スケジュールも随時更新されるため、何をするべきか朝に予定を立ててから業務に取り組みます。"
+        ],
+        [
+          "10：00",
+          "前日作業の事務処理\n作業によって変更になった回線の情報を更新します。通信の量がリアルタイムでわかるグラフを作成し、常駐先のホームページに掲載します。"
+        ],
+        [
+          "11：00",
+          "午後に行う作業の予習\n午後から予定されている作業の流れなどを把握します。作業には必ず手順書が作成され、その手順に沿って進められます。知らないコマンドがあれば調べたり、先輩達に質問して作業がスムーズに進むように準備します。"
+        ],
+        [
+          "12：00",
+          "ランチ\n基本的にはコンビニで買って自分の席で食べています。社員食堂や外にも時々食べに行きます！"
+        ],
+        [
+          "13：00",
+          "作業開始\n今回はルータに搭載されている部品の交換作業です。\n作業は必ずダブルチェックを行いミスを抑止します。主に通信の上位装置を扱うため、一つのミスで多大な影響を与えてしまいます。何度か作業を経験しても緊張します。"
+        ],
+        [
+          "16：30",
+          "作業の事前打ち合わせ\n作業がある際は必ず事前に打ち合わせを行います。\n今回の作業の目的や手順などを共有してから、後日作業に臨みます。現地で作業の担当になれば、持っていく道具の準備なども打ち合わせの後に行います。"
+        ],
+        [
+          "17：30",
+          "勉強タイム\n今日の業務を通じて分からなかったものを調べて勉強します。\n内容は自分のパソコンにメモなどでまとめて保存しておきわからなかった時のために見れるようまとめておきます。"
+        ],
+        [
+          "18：00",
+          "退社\nプライベートの時間もしっかり確保できます。帰り道に寄り道して帰ることもよくあります。\nまた、クレイスは社内行事も充実しており、常駐先で業務を行う仕事ですがクレイスのメンバーと仲良くなれる機会もたくさんあります！"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "9：30",
+          "<dl> <dt>メールとスケジュールの確認</dt> <dd>メールやスケジュールで今日の作業や今後の作業予定を把握します。スケジュールも随時更新されるため、何をするべきか朝に予定を立ててから業務に取り組みます。</dd> </dl>"
+        ],
+        [
+          "10：00",
+          "<dl> <dt>前日作業の事務処理</dt> <dd>作業によって変更になった回線の情報を更新します。通信の量がリアルタイムでわかるグラフを作成し、常駐先のホームページに掲載します。</dd> </dl>"
+        ],
+        [
+          "11：00",
+          "<dl> <dt>午後に行う作業の予習</dt> <dd>午後から予定されている作業の流れなどを把握します。作業には必ず手順書が作成され、その手順に沿って進められます。知らないコマンドがあれば調べたり、先輩達に質問して作業がスムーズに進むように準備します。</dd> </dl>"
+        ],
+        [
+          "12：00",
+          "<dl> <dt>ランチ</dt> <dd>基本的にはコンビニで買って自分の席で食べています。社員食堂や外にも時々食べに行きます！</dd> </dl>"
+        ],
+        [
+          "13：00",
+          "<dl> <dt>作業開始</dt> <dd>今回はルータに搭載されている部品の交換作業です。<br/> 作業は必ずダブルチェックを行いミスを抑止します。主に通信の上位装置を扱うため、一つのミスで多大な影響を与えてしまいます。何度か作業を経験しても緊張します。</dd> </dl>"
+        ],
+        [
+          "16：30",
+          "<dl> <dt>作業の事前打ち合わせ</dt> <dd>作業がある際は必ず事前に打ち合わせを行います。<br/> 今回の作業の目的や手順などを共有してから、後日作業に臨みます。現地で作業の担当になれば、持っていく道具の準備なども打ち合わせの後に行います。</dd> </dl>"
+        ],
+        [
+          "17：30",
+          "<dl> <dt>勉強タイム</dt> <dd>今日の業務を通じて分からなかったものを調べて勉強します。<br/> 内容は自分のパソコンにメモなどでまとめて保存しておきわからなかった時のために見れるようまとめておきます。</dd> </dl>"
+        ],
+        [
+          "18：00",
+          "<dl> <dt>退社</dt> <dd>プライベートの時間もしっかり確保できます。帰り道に寄り道して帰ることもよくあります。<br/> また、クレイスは社内行事も充実しており、常駐先で業務を行う仕事ですがクレイスのメンバーと仲良くなれる機会もたくさんあります！</dd> </dl>"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [
+        "Table",
+        "OnedaySchedule"
+      ],
+      "section": "oneday",
+      "box": 13,
+      "box_class": "div.Oneday"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/recruit/img/btn_entry.png",
+      "src_raw": "img/btn_entry.png",
+      "alt": "採用エントリーフォーム",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/form/entry.html",
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "LinkBtn"
+      ],
+      "section": "oneday",
+      "box": 10,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "退職者の再雇用制度",
+      "html": "退職者の再雇用制度",
+      "id": null,
+      "anchor": "rehire",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "rehire"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/recruit/img/rehire_image.jpg",
+      "src_raw": "img/rehire_image.jpg",
+      "alt": "まずはカフェスペースにお茶を飲みに来ませんか？",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "Portrait"
+      ],
+      "wrapper_classes": [
+        "ContentWrap",
+        "cFix"
+      ],
+      "section": "rehire",
+      "box": 15,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "自己都合により当社を退職した人を再雇用する制度です",
+      "html": "自己都合により当社を退職した人を<br class=\"NoPC\"/>再雇用する制度です",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "rehire",
+      "box": 16,
+      "box_class": "div.RehireLead"
+    },
+    {
+      "type": "paragraph",
+      "text": "以前にも戻ってきた人はいます。",
+      "html": "以前にも戻ってきた人はいます。",
+      "tag": "p",
+      "classes": [],
+      "section": "rehire",
+      "box": 16,
+      "box_class": "div.RehireLead"
+    },
+    {
+      "type": "paragraph",
+      "text": "「自分から辞めたのに、自分から戻りたいとは言いづらい。」ということも良く解ります。",
+      "html": "「自分から辞めたのに、自分から戻りたいとは言いづらい。」ということも良く解ります。",
+      "tag": "p",
+      "classes": [],
+      "section": "rehire",
+      "box": 16,
+      "box_class": "div.RehireLead"
+    },
+    {
+      "type": "paragraph",
+      "text": "だから『いつでも戻っておいで！』を制度としました。",
+      "html": "だから『いつでも戻っておいで！』を制度としました。",
+      "tag": "p",
+      "classes": [],
+      "section": "rehire",
+      "box": 16,
+      "box_class": "div.RehireLead"
+    },
+    {
+      "type": "paragraph",
+      "text": "たとえば、",
+      "html": "たとえば、",
+      "tag": "p",
+      "classes": [],
+      "section": "rehire",
+      "box": 16,
+      "box_class": "div.RehireLead"
+    },
+    {
+      "type": "paragraph",
+      "text": "家庭の事情でやむなく退職せざるを得なかったけど、事情が解消された…\nよくよく考え直したら、やっぱりクレイスが良かったと思う…",
+      "html": "家庭の事情でやむなく退職せざるを得なかったけど、事情が解消された… <br/>よくよく考え直したら、やっぱりクレイスが良かったと思う…",
+      "tag": "p",
+      "classes": [],
+      "section": "rehire",
+      "box": 16,
+      "box_class": "div.RehireLead"
+    },
+    {
+      "type": "paragraph",
+      "text": "そんなあなた、まずはカフェスペースにお茶を飲みに来てみませんか？",
+      "html": "そんなあなた、まずはカフェスペースにお茶を飲みに来てみませんか？",
+      "tag": "p",
+      "classes": [],
+      "section": "rehire",
+      "box": 16,
+      "box_class": "div.RehireLead"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "雇用条件",
+      "html": "雇用条件",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "rehire",
+      "box": 15,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "退職時の等級、またはそれ以上で再雇用します。\n（当社を退職後の業務経験による能力向上も考慮します）",
+      "html": "退職時の等級、またはそれ以上で再雇用します。<br/>（当社を退職後の業務経験による能力向上も考慮します）",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "rehire",
+      "box": 15,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "選考方法",
+      "html": "選考方法",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "rehire",
+      "box": 15,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "在職中の業績、および退職後の職歴等を考慮して選考します。",
+      "html": "在職中の業績、および退職後の職歴等を考慮して選考します。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "rehire",
+      "box": 15,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "連絡方法",
+      "html": "連絡方法",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "rehire",
+      "box": 15,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "次のいずれかによります。",
+      "html": "次のいずれかによります。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "rehire",
+      "box": 15,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "知り合いの当社社員を通じてお話をいただいても大丈夫です。",
+        "お問い合せ、またはお電話で。"
+      ],
+      "items_html": [
+        "知り合いの当社社員を通じてお話をいただいても大丈夫です。",
+        "<a href=\"https://www.claice.com/form/index.html\">お問い合せ</a>、またはお電話で。"
+      ],
+      "item_links": [
+        [],
+        [
+          {
+            "text": "お問い合せ",
+            "href": "https://www.claice.com/form/index.html",
+            "target": null
+          }
+        ]
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "rehire",
+      "box": 15,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/recruit/img/btn_form.png",
+      "src_raw": "img/btn_form.png",
+      "alt": "お問い合せフォーム",
+      "width": null,
+      "height": null,
+      "link": "https://www.claice.com/form/index.html",
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "LinkBtn"
+      ],
+      "section": "rehire",
+      "box": 15,
+      "box_class": "div.ContentWrap.cFix"
+    }
+  ]
+}

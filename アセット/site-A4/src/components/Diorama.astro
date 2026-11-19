@@ -1,0 +1,96 @@
+---
+const rooms = [
+  { page: 'business', name: '事業内容', place: 'サーバー室' },
+  { page: 'education', name: '教育システム', place: '研修室' },
+  { page: 'recruit', name: '採用情報', place: 'エントランス' },
+];
+---
+<section id="diorama" class="model-room" aria-labelledby="model-title" data-entry-guard>
+  <div class="edition-width model-spread">
+    <div class="model-guide">
+      <h2 id="model-title">紙のジオラマ</h2>
+      <nav aria-label="ジオラマから訪ねる">
+        {rooms.map(room => (
+          <a href={room.page + '/index.html'}>
+            <img src={'3d/view_' + room.page + '.webp'} alt="" width="76" height="58" loading="lazy">
+            <span><small>{room.place}</small><strong>{room.name}</strong></span>
+            <span class="model-route-arrow" aria-hidden="true">↗</span>
+          </a>
+        ))}
+      </nav>
+    </div>
+    <figure class="model-figure">
+      <div class="model-stage">
+        <img class="model-poster" src="3d/poster.webp" alt="青い配線でサーバー室、研修室、入口がつながった紙の模型" loading="lazy">
+      </div>
+      <figcaption class="model-tools">
+        <span class="model-help" id="model-help" role="status">ジオラマの全景</span>
+        <div class="model-turn" hidden>
+          <button type="button" data-turn="-1" aria-label="模型を左に回す">←</button>
+          <button type="button" data-turn="0">正面</button>
+          <button type="button" data-turn="1" aria-label="模型を右に回す">→</button>
+        </div>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+<script is:inline>
+(() => {
+  const section = document.getElementById('diorama');
+  const motion = matchMedia('(prefers-reduced-motion: reduce)');
+  let loading = false;
+  let nearby = false;
+  function loadViewer() {
+    if (!nearby || loading || document.documentElement.dataset.motion === 'off' || motion.matches) return;
+    loading = true;
+    const script = document.createElement('script');
+    script.src = 'diorama-viewer.js';
+    script.onerror = () => { section.querySelector('.model-help').textContent = 'ジオラマの静止画を表示しています'; };
+    document.head.append(script);
+  }
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(([entry]) => {
+      nearby = entry.isIntersecting;
+      loadViewer();
+    }, { rootMargin: '160px' });
+    observer.observe(section);
+  } else {
+    nearby = true;
+    loadViewer();
+  }
+  motion.addEventListener('change', loadViewer);
+  document.addEventListener('motionchange', loadViewer);
+})();
+</script>
+<style>
+  .model-room { padding-block: var(--spread-space); background: var(--edition-paper); border-block: 1px solid var(--line); scroll-margin-top: 6rem; }
+  .model-spread { display: grid; grid-template-columns: minmax(230px,.72fr) minmax(0,1.7fr); align-items: center; gap: clamp(20px,5vw,84px); }
+  .model-guide h2 { font: 650 clamp(30px,3.2vw,54px)/1.4 var(--display-face); letter-spacing: -.04em; margin: 0 0 1em; }
+  .model-guide nav { border-top: 1px solid var(--line-strong); }
+  .model-guide a { display: flex; align-items: center; gap: .85em; padding-block: .8em; color: inherit; text-decoration: none; border-bottom: 1px solid var(--line-strong); }
+  .model-guide a:hover strong { text-decoration: underline; text-underline-offset: .25em; }
+  .model-guide img { object-fit: contain; width: 66px; height: 52px; }
+  .model-guide small, .model-guide strong { display: block; }
+  .model-guide small { font-size: .76rem; color: var(--ink-2); }
+  .model-guide strong { font-size: 1.05rem; }
+  .model-route-arrow { margin-inline-start: auto; font-size: 1.1rem; }
+  .model-figure { margin: 0; }
+  .model-stage { position: relative; aspect-ratio: 1.65; }
+  .model-poster, .model-stage :global(canvas) { width: 100%; height: 100%; object-fit: contain; position: absolute; inset: 0; }
+  .model-stage :global(canvas) { cursor: grab; touch-action: pan-y; }
+  .model-stage :global(canvas:active) { cursor: grabbing; }
+  .model-stage :global(canvas:focus-visible) { outline: 2px solid var(--blue); outline-offset: -2px; }
+  .model-room [hidden], .model-stage :global(canvas[hidden]) { display: none !important; }
+  .model-tools { border-top: 1px solid var(--line-strong); padding-block-start: 10px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+  .model-help { font-size: 13px; color: var(--ink-2); }
+  .model-turn { display: flex; gap: 4px; }
+  .model-turn button { background: var(--paper); border: 1px solid var(--line-strong); color: var(--ink); border-radius: 3px; min-width: 44px; min-height: 44px; padding: 4px 9px; cursor: pointer; font: inherit; font-size: 14px; }
+  .model-turn button:hover { border-color: var(--ink); }
+  @media (max-width: 760px) {
+    .model-spread { grid-template-columns: 1fr; gap: 18px; }
+    .model-guide { display: contents; }
+    .model-guide h2 { margin: 0; }
+    .model-guide nav { grid-row: 3; }
+    .model-stage { aspect-ratio: 1.32; }
+  }
+</style>

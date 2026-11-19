@@ -1,0 +1,59 @@
+---
+// content/<key>.json の下層ページを、見出し帯＋章に組み立てて出す。
+import Base from '../layouts/Base.astro';
+import PageBand from './PageBand.astro';
+import '../styles/chapter-motion.css';
+import SlotFaq from './SlotFaq.astro';
+import SlotCasual from './SlotCasual.astro';
+import { pageByKey } from '../lib/pages';
+import { breadcrumbLd, canonicalOf, describe, titleOf } from '../lib/seo';
+import { buildSubPage } from '../lib/render/sections';
+import { textToHtml } from '../lib/content';
+
+interface Props { pageKey: string }
+const { pageKey } = Astro.props;
+const p = pageByKey(pageKey);
+const from = p.path;
+const sub = buildSubPage(pageKey, from);
+// 元のサービス章では同じ題を章と段落の両方に使っている。章見出しを1回表示する。
+const sections = sub.sections.map((s) => pageKey === 'business' && s.id === 'service'
+  ? { ...s, html: s.html.replace(`<h3 class="hs-4">${textToHtml(s.title)}</h3>`, '') }
+  : s);
+// 差し込み枠（enabled: false の間は何も出ない）を置く章
+const AFTER: Record<string, 'faq' | 'casual'> = pageKey === 'recruit' ? { message: 'faq', career: 'casual' } : {};
+---
+<Base
+  from={from}
+  title={titleOf(pageKey)}
+  description={describe(pageKey)}
+  canonical={canonicalOf(p)}
+  ld={[breadcrumbLd(p)]}
+  bodyClass={`sub sub-${pageKey}`}
+  scripts={['business', 'education'].includes(pageKey) ? ['chapter-motion.js'] : []}
+>
+<main id="main">
+  <PageBand pageKey={pageKey} h1={sub.h1} lead={sub.lead} from={from} />
+  {sub.nav && <div class="chapter-directory"><div class="wrap">
+    <p class="directory-heading">目次</p>
+    <Fragment set:html={sub.nav} />
+  </div></div>}
+  {pageKey === 'education' && <>
+    <div id="steps" class="steps-anchor"></div>
+    <nav class="education-rail" aria-label="教育システムの章">
+      <div class="wrap rail-inner">
+        <p class="rail-current"><span class="rail-fraction">01 / {String(sections.length).padStart(2,'0')}</span><span class="rail-label">{sections[0].title}</span></p>
+        <ol>{sections.map((section, index) => <li><a href={`#${section.id}`} aria-label={section.title} title={section.title} aria-current={index === 0 ? 'location' : undefined}><span></span></a></li>)}</ol>
+      </div>
+    </nav>
+  </>}
+  {sections.map((s, i) => (
+    <>
+      <section class={`sec sec-split chapter-section${i % 2 === 1 ? ' sec-alt' : ''}`} id={s.id} aria-labelledby={s.id ? `${s.id}-h` : undefined}>
+        <div class="wrap" set:html={s.html} />
+      </section>
+      {s.id && AFTER[s.id] === 'faq' && <SlotFaq />}
+      {s.id && AFTER[s.id] === 'casual' && <SlotCasual />}
+    </>
+  ))}
+</main>
+</Base>

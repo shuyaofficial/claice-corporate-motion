@@ -1,0 +1,27 @@
+---
+// ニュース一覧（新設）。content/index.json のニュース13件を、トップと同じ2つの見出しで並べる。
+import Base from '../../layouts/Base.astro';
+import PageBand from '../../components/PageBand.astro';
+import NewsList from '../../components/NewsList.astro';
+import { loadPage } from '../../lib/content';
+import { pageByKey } from '../../lib/pages';
+import { breadcrumbLd, canonicalOf, describe, titleOf } from '../../lib/seo';
+
+const p = pageByKey('news');
+const from = p.path;
+const els = loadPage('index').elements;
+const groups = ['新着情報', '採用新着情報'].map((g) => ({ title: g, items: els.filter((e) => e.type === 'news' && e.group === g) }));
+---
+<Base from={from} title={titleOf('news')} description={describe('news')} canonical={canonicalOf(p)} ld={[breadcrumbLd(p)]} bodyClass="sub sub-news">
+<main id="main">
+  <PageBand pageKey="news" h1={['新着情報', '']} from={from} />
+  {groups.map((g, i) => (
+    <section class={`sec sec-split news-chapter${i % 2 === 1 ? ' sec-alt' : ''}`} aria-labelledby={`news-${i}`}>
+      <div class="wrap">
+        <h2 class="sec-title" id={`news-${i}`}>{g.title}</h2>
+        <div class="sec-body"><NewsList items={g.items} from={from} /></div>
+      </div>
+    </section>
+  ))}
+</main>
+</Base>

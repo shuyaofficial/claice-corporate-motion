@@ -1,0 +1,17 @@
+---
+import { slots } from '../data/slots';
+const s = slots.faq;
+const on = s.enabled && s.items.length > 0;
+---
+{on && (
+  <section class="sec slot slot-faq" aria-labelledby="slot-faq-title">
+    <div class="wrap">
+      <h2 class="sec-title" id="slot-faq-title">{s.heading}</h2>
+      <div class="faq">
+        {s.items.map((i) => (
+          <details><summary>{i.question}</summary><p>{i.answer}</p></details>
+        ))}
+      </div>
+    </div>
+  </section>
+)}

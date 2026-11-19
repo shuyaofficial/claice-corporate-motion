@@ -1,0 +1,806 @@
+{
+  "page": "policy",
+  "url": "https://www.claice.com/policy/index.html",
+  "meta": {
+    "title": "プライバシーポリシー│株式会社クレイス",
+    "description": "ネットワーク・システムソリューションサービス、ネットワークエンジニア派遣の（株）クレイスのwebサイトです。ネットワークエンジニアを随時募集中です。ネットワーク技術、ヒューマンスキルを磨きたい方、大歓迎！",
+    "keywords": "クレイス,ネットワーク,ネットワーク運用,CCNA,CCNA研修,ネットワークエンジニア,エンジニア派遣,人材募集"
+  },
+  "body_class": [
+    "ContentFrame",
+    "Policy"
+  ],
+  "elements": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "プライバシーポリシー│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "html": "プライバシーポリシー│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "PageTitle"
+      ],
+      "hidden": true,
+      "hidden_by": [
+        "common/css/pc.css [media=print, screen and (min-width: 768px)]: .PageTitle { position:absolute; left:0; top:-40px; margin:0; color:#fff; font-size:80%; line-height:40px; text-align:left; }",
+        "common/css/sp.css [media=handheld, only screen and (max-width: 767px)]: .PageTitle { display:none; }"
+      ],
+      "source": "header"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "プライバシーポリシー",
+      "html": "プライバシーポリシー",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Single"
+      ],
+      "box": 1,
+      "box_class": "div.TitleWrap"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "個人情報保護方針",
+      "html": "個人情報保護方針",
+      "id": null,
+      "anchor": "profile",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "profile"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "個人情報保護方針",
+      "html": "個人情報保護方針",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "LeadHeadline"
+      ],
+      "section": "profile",
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "paragraph",
+      "text": "2005年6月1日 制定\n2018年6月20日改訂",
+      "html": "2005年6月1日 制定<br/>2018年6月20日改訂",
+      "tag": "p",
+      "classes": [
+        "Text",
+        "Date"
+      ],
+      "section": "profile",
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "paragraph",
+      "text": "株式会社クレイス（以下、当社）は、お客様のネットワークの設計・構築・運用及び保守に関わるサービスを提供する上での個人情報の重要性を認識し、安心してサービスをご利用いただけるよう、その保護の徹底をはかり、個人情報に関する法律等を遵守し、個人情報の適切な保護に努めます。",
+      "html": "株式会社クレイス（以下、当社）は、お客様のネットワークの設計・構築・運用及び保守に関わるサービスを提供する上での個人情報の重要性を認識し、安心してサービスをご利用いただけるよう、その保護の徹底をはかり、個人情報に関する法律等を遵守し、個人情報の適切な保護に努めます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "１．法令、規範を遵守します。",
+          "term_html": "１．法令、規範を遵守します。",
+          "definitions": [
+            "当社は、個人情報の取扱いに関する法令・国が定める指針およびその他の規範を遵守します。"
+          ],
+          "definitions_html": [
+            "当社は、個人情報の取扱いに関する法令・国が定める指針およびその他の規範を遵守します。"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "２．社内規程を制定し、役員および社員等（以下、社員）に周知します。",
+          "term_html": "２．社内規程を制定し、役員および社員等（以下、社員）に周知します。",
+          "definitions": [
+            "当社は、個人情報保護に関する管理体制を確立するとともに、社内規程を制定し、個人情報保護マネジメントシステムを着実に実施、維持するとともに、見直し、継続的に改善をおこないます。"
+          ],
+          "definitions_html": [
+            "当社は、個人情報保護に関する管理体制を確立するとともに、社内規程を制定し、個人情報保護マネジメントシステムを着実に実施、維持するとともに、見直し、継続的に改善をおこないます。"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "３．利用目的の範囲内で取り扱います。",
+          "term_html": "３．利用目的の範囲内で取り扱います。",
+          "definitions": [
+            "当社は、個人情報を取得する際、利用目的を特定し、利用目的の達成に必要な範囲内でのみ個人情報を取り扱います。目的外利用を行わないための措置を講じます。"
+          ],
+          "definitions_html": [
+            "当社は、個人情報を取得する際、利用目的を特定し、利用目的の達成に必要な範囲内でのみ個人情報を取り扱います。目的外利用を行わないための措置を講じます。"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "４．安全管理を徹底します。",
+          "term_html": "４．安全管理を徹底します。",
+          "definitions": [
+            "当社は、個人情報の安全性および正確性を確保するため、組織面および技術面における安全対策を実施し、個人情報への不正アクセス、個人情報の漏えい、滅失、き損等の防止を徹底し、情報セキュリティの向上、是正を継続的に実施します。"
+          ],
+          "definitions_html": [
+            "当社は、個人情報の安全性および正確性を確保するため、組織面および技術面における安全対策を実施し、個人情報への不正アクセス、個人情報の漏えい、滅失、き損等の防止を徹底し、情報セキュリティの向上、是正を継続的に実施します。"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "５．苦情および相談に対応します。",
+          "term_html": "５．苦情および相談に対応します。",
+          "definitions": [
+            "当社は、個人情報に関する苦情および相談に迅速に対応します。"
+          ],
+          "definitions_html": [
+            "当社は、個人情報に関する苦情および相談に迅速に対応します。"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "paragraph",
+      "text": "代表取締役社長　安藤昭範（あんどうあきのり）",
+      "html": "<span class=\"Small\">代表取締役社長　</span>安藤昭範<span class=\"Small\">（あんどうあきのり）</span>",
+      "tag": "p",
+      "classes": [
+        "Text",
+        "Sign"
+      ],
+      "section": "profile",
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "heading",
+      "level": 6,
+      "text": "株式会社クレイス苦情・相談窓口",
+      "html": "株式会社クレイス苦情・相談窓口",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "profile",
+      "box": 4,
+      "box_class": "div.ConsultationBlock"
+    },
+    {
+      "type": "paragraph",
+      "text": "株式会社クレイス\n住所：101-0041 東京都千代田区神田須田町2丁目8-2　Daiwa神田須田町ビル 4階\n情報セキュリティ推進室（個人情報保護管理者）\n電話：03-6206-0245　FAX：03-6206-0246\nE-mail：",
+      "html": "株式会社クレイス<br/>住所：101-0041 東京都千代田区神田須田町2丁目8-2　Daiwa神田須田町ビル 4階<br/> 情報セキュリティ推進室（個人情報保護管理者）<br/> 電話：03-6206-0245　FAX：03-6206-0246<br/> E-mail：<img alt=\"\" class=\"Address\" height=\"16\" src=\"https://www.claice.com/policy/img/policy_ad.gif\" width=\"162\"/>",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 4,
+      "box_class": "div.ConsultationBlock"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/policy/img/policy_ad.gif",
+      "src_raw": "img/policy_ad.gif",
+      "alt": "",
+      "width": "162",
+      "height": "16",
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "Address"
+      ],
+      "wrapper_classes": [
+        "Text"
+      ],
+      "inline": true,
+      "section": "profile",
+      "box": 4,
+      "box_class": "div.ConsultationBlock"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "個人情報の取り扱いについて",
+      "html": "個人情報の取り扱いについて",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "株式会社クレイス\n代表取締役社長　安藤　昭範\n東京都千代田区神田須田町二丁目8番地2\nDaiwa神田須田町ビル4F",
+      "html": "株式会社クレイス<br/> 代表取締役社長　安藤　昭範<br/> 東京都千代田区神田須田町二丁目8番地2<br/> Daiwa神田須田町ビル4F",
+      "tag": "p",
+      "classes": [
+        "Text",
+        "Sign"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "１．個人情報保護管理者",
+      "html": "１．個人情報保護管理者",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline5"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "営業部　役職：担当部長\n電話：03-6206-0245（代）\nE-mail：",
+      "html": "営業部　役職：担当部長<br/> 電話：03-6206-0245（代）<br/> E-mail：<img alt=\"\" class=\"Address\" height=\"16\" src=\"https://www.claice.com/policy/img/policy_ad.gif\" width=\"162\"/>",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/policy/img/policy_ad.gif",
+      "src_raw": "img/policy_ad.gif",
+      "alt": "",
+      "width": "162",
+      "height": "16",
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "Address"
+      ],
+      "wrapper_classes": [
+        "Text"
+      ],
+      "inline": true,
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "２．利用目的",
+      "html": "２．利用目的",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline5"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 6,
+      "text": "（１）お取引先様に関する個人情報",
+      "html": "（１）お取引先様に関する個人情報",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline6"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "お取引に関する連絡、契約事務等",
+        "請求等の文書の発送等",
+        "お問い合わせへの対応"
+      ],
+      "items_html": [
+        "お取引に関する連絡、契約事務等",
+        "請求等の文書の発送等",
+        "お問い合わせへの対応"
+      ],
+      "item_links": [
+        [],
+        [],
+        []
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 6,
+      "text": "（２）従業員に関する個人情報",
+      "html": "（２）従業員に関する個人情報",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline6"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "従業員の育成・人事管理等",
+        "従業員の就労時の労務管理等",
+        "顧客就労時に入室管理",
+        "派遣手続き"
+      ],
+      "items_html": [
+        "従業員の育成・人事管理等",
+        "従業員の就労時の労務管理等",
+        "顧客就労時に入室管理",
+        "派遣手続き"
+      ],
+      "item_links": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 6,
+      "text": "（３）採用に関する個人情報",
+      "html": "（３）採用に関する個人情報",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline6"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "応募者への連絡",
+        "面接等の日程調整",
+        "応募者の管理",
+        "採用選考等"
+      ],
+      "items_html": [
+        "応募者への連絡",
+        "面接等の日程調整",
+        "応募者の管理",
+        "採用選考等"
+      ],
+      "item_links": [
+        [],
+        [],
+        [],
+        []
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 6,
+      "text": "（４）特定個人情報",
+      "html": "（４）特定個人情報",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline6"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "当社で取り扱う特定個人情報は、以下の利用目的の範囲内で取り扱います。\n尚、利用目的は番号法第9条第3項に定めた個人番号関係事務に限定します。法令に基づき、従業者等の個人番号を給与所得の源泉徴収票、健康保険/厚生年金保険被保険者資格取得届等の書類に記載して、行政機関等及び健康保険組合等に提出する事務及び付随して行う事務作業のみとします。\n（従業者（役員、パート含む）、従業者の配偶者、扶養親族等）",
+      "html": "当社で取り扱う特定個人情報は、以下の利用目的の範囲内で取り扱います。<br/> 尚、利用目的は番号法第9条第3項に定めた個人番号関係事務に限定します。法令に基づき、従業者等の個人番号を給与所得の源泉徴収票、健康保険/厚生年金保険被保険者資格取得届等の書類に記載して、行政機関等及び健康保険組合等に提出する事務及び付随して行う事務作業のみとします。<br/> （従業者（役員、パート含む）、従業者の配偶者、扶養親族等）",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        "健康保険・厚生年金保険関係届出事務",
+        "雇用保険関係届出事務",
+        "給与所得に係る源泉徴収票作成事務　等"
+      ],
+      "items_html": [
+        "健康保険・厚生年金保険関係届出事務",
+        "雇用保険関係届出事務",
+        "給与所得に係る源泉徴収票作成事務　等"
+      ],
+      "item_links": [
+        [],
+        [],
+        []
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "３．保有個人データの利用目的",
+      "html": "３．保有個人データの利用目的",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline5"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "上記、２．利用目的の全て。ただし、採用に関連し就職サイトなどから取得した個人情報は対象外です。また、現在はありませんが、委託業務で取得する個人情報も対象外となります。",
+      "html": "上記、２．利用目的の全て。ただし、採用に関連し就職サイトなどから取得した個人情報は対象外です。また、現在はありませんが、委託業務で取得する個人情報も対象外となります。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "４．第三者提供について",
+      "html": "４．第三者提供について",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline5"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "取得した個人情報について、本人の同意がある場合または法令に基づく場合を除き第三者に提供・開示することはありません。",
+      "html": "取得した個人情報について、本人の同意がある場合または法令に基づく場合を除き第三者に提供・開示することはありません。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "５．問合せ先（保有個人データの請求先、個人情報に関する問合せ先）について",
+      "html": "５．問合せ先（保有個人データの請求先、個人情報に関する問合せ先）について",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline5"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "情報セキュリティ推進室（個人情報保護管理者）\n営業部　役職：担当部長\n電話：03-6206-0245（代）\nE-mail：",
+      "html": "情報セキュリティ推進室（個人情報保護管理者）<br/> 営業部　役職：担当部長<br/> 電話：03-6206-0245（代）<br/> E-mail：<img alt=\"\" class=\"Address\" height=\"16\" src=\"https://www.claice.com/policy/img/policy_ad.gif\" width=\"162\"/>",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/policy/img/policy_ad.gif",
+      "src_raw": "img/policy_ad.gif",
+      "alt": "",
+      "width": "162",
+      "height": "16",
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "Address"
+      ],
+      "wrapper_classes": [
+        "Text"
+      ],
+      "inline": true,
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "６．苦情の申出先",
+      "html": "６．苦情の申出先",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline5"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "（１）認定個人情報保護団体の名称",
+          "term_html": "（１）認定個人情報保護団体の名称",
+          "definitions": [
+            "一般財団法人日本情報経済社会推進協会"
+          ],
+          "definitions_html": [
+            "一般財団法人日本情報経済社会推進協会"
+          ]
+        },
+        {
+          "term": "（２）苦情の解決の申出先",
+          "term_html": "（２）苦情の解決の申出先",
+          "definitions": [
+            "認定個人情報保護団体事務局"
+          ],
+          "definitions_html": [
+            "認定個人情報保護団体事務局"
+          ]
+        },
+        {
+          "term": "（３）住所",
+          "term_html": "（３）住所",
+          "definitions": [
+            "〒106-0032　東京都港区六本木一丁目9番9号　六本木ファーストビル内"
+          ],
+          "definitions_html": [
+            "〒106-0032　東京都港区六本木一丁目9番9号　六本木ファーストビル内"
+          ]
+        },
+        {
+          "term": "（４）電話番号",
+          "term_html": "（４）電話番号",
+          "definitions": [
+            "03-5860-7565／0120-700-779"
+          ],
+          "definitions_html": [
+            "03-5860-7565／0120-700-779"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 6,
+      "text": "※認定個人情報保護団体について",
+      "html": "※認定個人情報保護団体について",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline6"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "当社は経済産業大臣および総務大臣より認定を受けた認定個人情報保護団体である一般財団法人日本情報経済社会推進協会の対象事業者です。\n当社の対応が満足できない場合、お客様は「認定個人情報保護団体」へ苦情を申し立てることが出来ます。",
+      "html": "当社は経済産業大臣および総務大臣より認定を受けた認定個人情報保護団体である一 般財団法人日本情報経済社会推進協会の対象事業者です。<br/> 当社の対応が満足できない場合、お客様は「認定個人情報保護団体」へ苦情を申し立てることが出来ます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "７．開示等の請求等に応じる手続について",
+      "html": "７．開示等の請求等に応じる手続について",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline5"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "個人情報の開示等（利用目的の通知・開示・訂正・追加又は削除・利用の停止・提供の停止・消去、又は、第三者提供記録の開示）について迅速・適切に対応いたします。\nご本人（または代理人）からの個人情報の開示等については、上記、問合せ先までご連絡をお願い申し上げます。",
+      "html": "<strong class=\"Bold\">個人情報の開示等（利用目的の通知・開示・訂正・追加又は削除・利用の停止・提供の停止・消去、又は、第三者提供記録の開示）について迅速・適切に対応いたします。</strong><br/> ご本人（または代理人）からの個人情報の開示等については、上記、問合せ先までご連絡をお願い申し上げます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "８．安全管理処理について",
+      "html": "８．安全管理処理について",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline5"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/common/img/privacymark.png",
+      "src_raw": "../common/img/privacymark.png",
+      "alt": "たいせつにしますプライバシー：10823027",
+      "width": "100",
+      "height": "100",
+      "link": "http://privacymark.jp/",
+      "link_target": "_blank",
+      "classes": [
+        "Pmark"
+      ],
+      "wrapper_classes": [
+        "ContentWrap",
+        "cFix"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "実際に個人情報を取り扱うにあたり、組織的、人的、物理的、技術的の4つの観点より安全措置管理を講じております。\n安全措置の詳細については「お問い合わせフォーム」よりお問い合わせください。",
+      "html": "実際に個人情報を取り扱うにあたり、組織的、人的、物理的、技術的の4つの観点より安全措置管理を講じております。<br/> 安全措置の詳細については<a href=\"https://www.claice.com/form/index.html\">「お問い合わせフォーム」</a>よりお問い合わせください。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 6,
+      "text": "※クッキー（Cookie）の取り扱いについて",
+      "html": "※クッキー（Cookie）の取り扱いについて",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline6"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "当社では利用しておりません。\n当社のホームページでは、Cookieやサイトの得た閲覧ログなどを取得しておりません。",
+      "html": "当社では利用しておりません。<br/> 当社のホームページでは、Cookieやサイトの得た閲覧ログなどを取得しておりません。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "profile",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    }
+  ]
+}

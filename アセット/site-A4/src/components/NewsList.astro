@@ -1,0 +1,38 @@
+---
+// ニュース1件ずつの行（トップとニュース一覧で共通）。外部リンクは別タブ、画像が外部ドメインのものは枠だけ出す。
+import { isoDate } from '../lib/content';
+import { asset, imgSize } from '../lib/urls';
+
+interface Props { items: any[]; from: string }
+const { items, from } = Astro.props;
+const ALT_FALLBACK: Record<string, string> = {
+  'img/info/info_doda.png': 'doda', 'img/info/info_mynavi2027.png': 'マイナビ2027',
+  'img/info/info_gakujo.png': 'Re就活キャンパス', 'img/info/info_wantedly.png': 'Wantedly',
+};
+const rows = items.map((n) => {
+  const img = n.image;
+  const local = img && img.src_raw && !/^https?:\/\//.test(img.src_raw);
+  const size = local ? imgSize(img.src_raw) : undefined;
+  return {
+    date: n.date, iso: isoDate(n.date), text: n.text, link: n.link as string | null,
+    img: local ? { src: asset(img.src_raw, from), alt: img.alt || ALT_FALLBACK[img.src_raw] || '', w: size?.[0] ?? 500, h: size?.[1] ?? 333 } : null,
+  };
+});
+---
+<ul class="news-list">
+  {rows.map((n) => (
+    <li>
+      {n.link ? (
+        <a class="news-row" href={n.link} target="_blank" rel="noopener">
+          {n.img ? <img class="news-thumb" src={n.img.src} alt={n.img.alt} width={n.img.w} height={n.img.h} loading="lazy" decoding="async"> : <span class="news-ph" aria-hidden="true"></span>}
+          <p><time datetime={n.iso}>{n.date}</time><span class="news-text">{n.text}<span class="ext">（外部サイト）</span></span></p>
+        </a>
+      ) : (
+        <div class="news-row">
+          {n.img ? <img class="news-thumb" src={n.img.src} alt={n.img.alt} width={n.img.w} height={n.img.h} loading="lazy" decoding="async"> : <span class="news-ph" aria-hidden="true"></span>}
+          <p><time datetime={n.iso}>{n.date}</time><span class="news-text">{n.text}</span></p>
+        </div>
+      )}
+    </li>
+  ))}
+</ul>

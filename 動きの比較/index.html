@@ -1,0 +1,159 @@
+<!doctype html><html lang="ja" data-theme="light"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>動きの比較｜株式会社クレイス</title><style>
+/* Layout: 1本の読み物の列（最大 820px）。各話題は「説明 → 実際の画面 → その場の質問」。回答は最下部の帯でいつでもまとめてコピー。 */
+:root{
+  --bg:#fffcf7; --surface:#ffffff; --surface-2:#fff3e6; --ink:#292622; --ink-2:#65594d; --line:#e5cdb8;
+  --accent:#6535b5; --accent-soft:#f1eafa; --on-accent:#ffffff; --ok:#276846; --ok-soft:#e4f3ea; --warn:#a4561b; --warn-soft:#fbeee2;
+  --key:#ffffff; --key-on:#efe6fb; --key-line:#cdbfdc;
+  --display:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Hiragino Sans",sans-serif;
+  --body:"Noto Sans JP","Hiragino Sans","Yu Gothic UI",system-ui,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,monospace;
+  --rainbow:linear-gradient(100deg,#f47a91,#f9c65d,#94cf89,#70c5e5,#a092e5,#e495ce);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#1c1a20; --surface:#26232c; --surface-2:#2e2a35; --ink:#f1ece6; --ink-2:#bdb3a8; --line:#463f4d;
+  --accent:#b99af0; --accent-soft:#332a45; --on-accent:#1c1a20; --ok:#7fd1a0; --ok-soft:#1f3328; --warn:#f0b07a; --warn-soft:#3a2b1f;
+  --key:#2e2a35; --key-on:#3d3252; --key-line:#5a4f69; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1c1a20; --surface:#26232c; --surface-2:#2e2a35; --ink:#f1ece6; --ink-2:#bdb3a8; --line:#463f4d;
+  --accent:#b99af0; --accent-soft:#332a45; --on-accent:#1c1a20; --ok:#7fd1a0; --ok-soft:#1f3328; --warn:#f0b07a; --warn-soft:#3a2b1f;
+  --key:#2e2a35; --key-on:#3d3252; --key-line:#5a4f69; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.8;margin:0}
+.wrap{max-width:820px;margin:0 auto;padding-inline:16px;padding-block:28px 140px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.35;margin:0}
+h1{font-size:30px;font-weight:900}
+h2{font-size:22px;font-weight:900;margin-top:52px;padding-top:20px;border-top:1px solid var(--line)}
+h3{font-size:17px;font-weight:700;margin-top:18px}
+p{margin:8px 0}
+.lead{color:var(--ink-2);margin-top:6px}
+.bar{height:4px;border-radius:2px;background:var(--rainbow);margin:16px 0 4px}
+.small{color:var(--ink-2);font-size:14px;line-height:1.65}
+ul{margin:6px 0;padding-left:1.2em} li{margin:3px 0}
+code{font-family:var(--mono);font-size:.86em;background:var(--surface-2);padding:1px 6px;border-radius:6px;overflow-wrap:anywhere}
+pre{font-family:var(--mono);font-size:13px;background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:12px;overflow-x:auto;white-space:pre;margin:8px 0}
+.pill{display:inline-block;font-size:12px;font-weight:700;padding:1px 9px;border-radius:999px;margin-right:6px;vertical-align:2px;white-space:nowrap}
+.p-done{background:var(--ok-soft);color:var(--ok)} .p-wait{background:var(--warn-soft);color:var(--warn)} .p-you{background:var(--accent-soft);color:var(--accent)}
+.answered{border-left:3px solid var(--ok);background:var(--ok-soft);border-radius:0 10px 10px 0;padding:6px 12px;margin:10px 0;font-size:14px;line-height:1.65}
+.answered b{color:var(--ok)}
+/* 実際の画面 */
+.shots{display:grid;gap:12px;margin:12px 0}
+.shots.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+figure{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:8px;min-width:0}
+figure img{display:block;width:100%;height:auto;border-radius:8px}
+figure.phone{max-width:300px;justify-self:center;width:100%}
+figcaption{font-size:13px;color:var(--ink-2);padding:6px 4px 0;line-height:1.55}
+/* 表 */
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:15px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:var(--accent-soft);font-size:13px;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+/* キーボード */
+.kbd{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:10px;margin:12px 0;overflow-x:auto}
+.kbd svg{display:block;width:100%;min-width:560px;height:auto}
+.kbd .k{fill:var(--key);stroke:var(--key-line)} .kbd .k.on{fill:var(--key-on);stroke:var(--accent)}
+.kbd .kl{fill:var(--ink);font:700 15px var(--body)} .kbd .k-on-l{fill:var(--accent)} .kbd .kr{fill:var(--accent);font:500 9.5px var(--body)}
+/* 質問 */
+.q{border:1px solid var(--accent);border-radius:16px;background:var(--surface);padding:12px 16px 14px;margin:14px 0 0;min-width:0}
+.q legend{font-family:var(--display);font-weight:700;font-size:16px;padding:0 6px;line-height:1.5;color:var(--accent)}
+.opts{display:grid;gap:6px}
+.opt{display:flex;gap:10px;align-items:flex-start;padding:7px 10px;border-radius:10px;border:1px solid transparent;cursor:pointer;line-height:1.55}
+.opt:hover{background:var(--surface-2)}
+.opt input{margin-top:4px;accent-color:var(--accent);width:18px;height:18px;flex:none}
+.opt:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+textarea{width:100%;min-height:56px;margin-top:8px;font:inherit;font-size:15px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px 10px;resize:vertical}
+textarea:focus-visible,input:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+/* 下の帯 */
+.dock{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));z-index:5}
+.dock-in{max-width:820px;margin:0 auto;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.dock .count{font-size:14px;color:var(--ink-2);margin-right:auto;font-variant-numeric:tabular-nums}
+button{font:inherit;font-weight:700;border-radius:12px;padding:9px 16px;cursor:pointer;border:1px solid var(--accent);background:var(--accent);color:var(--on-accent)}
+button.ghost{background:transparent;color:var(--accent)}
+#copied{color:var(--ok);font-weight:700;font-size:14px;width:100%}
+details.result{margin-top:12px} details.result summary{cursor:pointer;color:var(--accent);font-weight:700}
+#result{min-height:160px;font-family:var(--mono);font-size:13px}
+@media (max-width:620px){.shots.two{grid-template-columns:1fr}h1{font-size:25px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style><style>
+:root{--accent:#0064b5;--accent-soft:#e6eef7;--bg:#fcfbf9;--surface-2:#f5f2ec;--line:#d8d1c5;--ink:#142d43;--display:"Hiragino Mincho ProN","Yu Mincho",serif}
+.wrap{max-width:1120px}.hero{padding:3vw 0 2vw;border-bottom:2px solid var(--ink)}h1{font-size:clamp(38px,6vw,78px)}h2{font-size:clamp(24px,3.3vw,40px)}a{color:var(--accent);text-underline-offset:4px}header nav,.compare-nav{display:flex;gap:.7em 1.6em;flex-wrap:wrap}figure{padding:0;overflow:hidden;border-radius:2px}figure img{border-radius:0}figcaption{padding:.6em 1em}figcaption a{display:block;font-weight:700}summary{cursor:pointer}.devices{margin:1em 0}.devices button{padding:.55em .9em;color:var(--ink);background:var(--surface);border:1px solid var(--line);cursor:pointer}.devices [aria-pressed=true]{color:white;background:#142d43}.shots.phone-view figure{max-width:390px;justify-self:center}fieldset.q{margin-top:2em}
+@media(max-width:620px){.shots.two{grid-template-columns:1fr 1fr;gap:6px}figcaption{padding:.5em;font-size:12px}.dock-in{flex-wrap:wrap}.wrap{padding-bottom:155px}}
+</style><main class="wrap"><header class="hero"><p>株式会社クレイス　／　コーポレートサイト</p><h1>動きの比較</h1><p>第3版と実験版を同じ場面で見比べられます。画像を押すと、その場面を開きます。</p><nav><a href="../動きの実験版/index.html">実験版を最初から見る ↗</a><a href="../全ページ版/index.html">第3版を見る ↗</a></nav></header><div class="devices" aria-label="比較画像の幅"><button type="button" data-device="pc">PCの画像</button><button type="button" data-device="sp">スマホの画像</button></div><h2>円卓から事業へ</h2><div class="answered"><b>前回の回答を反映</b>　A案の見出しと円卓を引き継ぎ、第2版のグラデーションを絵の境目に使いました。</div><div class="shots two"><figure><a href="../全ページ版/index.html" aria-label="第3版の円卓を開く"><img data-shot="hero-old" src="img/hero-old-pc.webp" loading="lazy" alt="第3版の円卓の実画面"></a><figcaption><a href="../全ページ版/index.html">第3版の円卓 ↗</a></figcaption></figure><figure><a href="../動きの実験版/index.html" aria-label="実験版の円卓を開く"><img data-shot="hero-new" src="img/hero-new-pc.webp" loading="lazy" alt="実験版の円卓の実画面"></a><figcaption><a href="../動きの実験版/index.html">実験版の円卓 ↗</a></figcaption></figure></div><details><summary>第2版のグラデーションを見る</summary><figure><a href="../保存版/第2版/トップページ3案/A.html" aria-label="第2版のA案を開く"><img data-shot="v2" src="img/v2-pc.webp" loading="lazy" alt="第2版のA案の実画面"></a><figcaption><a href="../保存版/第2版/トップページ3案/A.html">第2版のA案 ↗</a></figcaption></figure></details><p>円卓の上でゆっくり下へスクロールしてください。途中で指を止めると、絵と現場写真の境目を見られます。</p><div class="shots two"><figure><a href="../全ページ版/index.html#business" aria-label="第3版の事業紹介を開く"><img data-shot="scene-old" src="img/scene-old-pc.webp" loading="lazy" alt="第3版の事業紹介の実画面"></a><figcaption><a href="../全ページ版/index.html#business">第3版の事業紹介 ↗</a></figcaption></figure><figure><a href="../動きの実験版/index.html#scene" aria-label="実験版の場面転換を開く"><img data-shot="scene-new" src="img/scene-new-pc.webp" loading="lazy" alt="実験版の場面転換の実画面"></a><figcaption><a href="../動きの実験版/index.html#scene">実験版の場面転換 ↗</a></figcaption></figure></div><h2>紙のジオラマから各ページへ</h2><p>模型を左右にドラッグするか、矢印で向きを変えてください。サーバー室・研修室・エントランスから各ページへ進めます。</p><div class="shots two"><figure><a href="../全ページ版/index.html#join" aria-label="第3版の育成・採用への入口を開く"><img data-shot="routes-old" src="img/routes-old-pc.webp" loading="lazy" alt="第3版の育成・採用への入口の実画面"></a><figcaption><a href="../全ページ版/index.html#join">第3版の育成・採用への入口 ↗</a></figcaption></figure><figure><a href="../動きの実験版/index.html#diorama" aria-label="実験版のジオラマを開く"><img data-shot="diorama-new" src="img/diorama-new-pc.webp" loading="lazy" alt="実験版のジオラマの実画面"></a><figcaption><a href="../動きの実験版/index.html#diorama">実験版のジオラマ ↗</a></figcaption></figure></div><h2>通信の流れと仕事の工程</h2><p>信号が端末からサーバーへ届く様子を見て、ページ上部の「動きを止める」を押してください。</p><div class="shots two"><figure><a href="../全ページ版/business/index.html#service" aria-label="第3版のサービス紹介を開く"><img data-shot="network-old" src="img/network-old-pc.webp" loading="lazy" alt="第3版のサービス紹介の実画面"></a><figcaption><a href="../全ページ版/business/index.html#service">第3版のサービス紹介 ↗</a></figcaption></figure><figure><a href="../動きの実験版/business/index.html#network" aria-label="実験版の通信と工程を開く"><img data-shot="network-new" src="img/network-new-pc.webp" loading="lazy" alt="実験版の通信と工程の実画面"></a><figcaption><a href="../動きの実験版/business/index.html#network">実験版の通信と工程 ↗</a></figcaption></figure></div><h2>育成の段階をたどる</h2><p>目次の項目を押すか、各章を順に読んでください。読み進めた位置が目次にも反映されます。</p><div class="shots two"><figure><a href="../全ページ版/education/index.html#education" aria-label="第3版の教育制度を開く"><img data-shot="steps-old" src="img/steps-old-pc.webp" loading="lazy" alt="第3版の教育制度の実画面"></a><figcaption><a href="../全ページ版/education/index.html#education">第3版の教育制度 ↗</a></figcaption></figure><figure><a href="../動きの実験版/education/index.html#steps" aria-label="実験版の育成目次を開く"><img data-shot="steps-new" src="img/steps-new-pc.webp" loading="lazy" alt="実験版の育成目次の実画面"></a><figcaption><a href="../動きの実験版/education/index.html#steps">実験版の育成目次 ↗</a></figcaption></figure></div><fieldset class="q" data-q="adopt" data-title="Q1. どの動きを本採用したいですか？"><legend>Q1. どの動きを本採用したいですか？</legend><div class="opts"><label class="opt"><input type="checkbox" name="adopt" value="円卓から事業への場面転換">円卓から事業への場面転換</label><label class="opt"><input type="checkbox" name="adopt" value="紙のジオラマ">紙のジオラマ</label><label class="opt"><input type="checkbox" name="adopt" value="通信のGIF">通信のGIF</label><label class="opt"><input type="checkbox" name="adopt" value="事業の工程表示">事業の工程表示</label><label class="opt"><input type="checkbox" name="adopt" value="育成の現在位置表示">育成の現在位置表示</label><label class="opt"><input type="checkbox" name="adopt" value="まだ選ばない">まだ選ばない</label></div><label>自由記入<textarea name="adopt-note" placeholder="気になった場面や操作"></textarea></label></fieldset><h2>読む・応募する</h2><p>中途採用の募集要項から応募フォームまで進み、文章の追いやすさや操作を見比べてください。</p><nav class="compare-nav"><a href="../全ページ版/recruit/index.html#career">第3版の募集要項 ↗</a><a href="../動きの実験版/recruit/index.html#career">実験版の募集要項 ↗</a><a href="../動きの実験版/form/index.html">実験版のお問い合わせ ↗</a></nav><fieldset class="q" data-q="read" data-title="Q2. 読みづらくなった箇所はどこですか？"><legend>Q2. 読みづらくなった箇所はどこですか？</legend><div class="opts"><label class="opt"><input type="checkbox" name="read" value="円卓・見出し">円卓・見出し</label><label class="opt"><input type="checkbox" name="read" value="場面転換">場面転換</label><label class="opt"><input type="checkbox" name="read" value="ジオラマ">ジオラマ</label><label class="opt"><input type="checkbox" name="read" value="事業内容">事業内容</label><label class="opt"><input type="checkbox" name="read" value="育成">育成</label><label class="opt"><input type="checkbox" name="read" value="募集要項・フォーム">募集要項・フォーム</label><label class="opt"><input type="checkbox" name="read" value="特になし">特になし</label><label class="opt"><input type="checkbox" name="read" value="もう少し試してから答える">もう少し試してから答える</label></div><label>自由記入<textarea name="read-note" placeholder="気になった場面や操作"></textarea></label></fieldset><details class="result">
+  <summary>チャット に貼る文を見る</summary>
+  <textarea id="result" readonly aria-label="チャット に貼る文"></textarea>
+</details>
+</main>
+
+<div class="dock">
+  <div class="dock-in">
+    <span class="count" id="count">回答 0 / 1</span>
+    <button type="button" id="copy">回答をコピー</button>
+    <button type="button" class="ghost" id="clear">入力を消す</button>
+    <span id="copied" role="status"></span>
+  </div>
+</div>
+
+<script>
+(function(){
+  
+  /* 回答の集め方 */
+  var KEY='claice-motion-lab-review-v1';
+  var qs=[].slice.call(document.querySelectorAll('fieldset.q'));
+  var result=document.getElementById('result'),copied=document.getElementById('copied'),count=document.getElementById('count');
+  function answerOf(fs){
+    var name=fs.dataset.q;
+    var picked=[].slice.call(fs.querySelectorAll('input:checked')).map(function(i){return i.value;});
+    var note=(fs.querySelector('textarea')||{}).value||'';
+    return {title:fs.querySelector('legend').textContent.trim(),picked:picked,note:note.trim()};
+  }
+  function collect(){
+    var lines=['【クレイス・動きの実験版の回答】'],n=0;
+    qs.forEach(function(fs){
+      var a=answerOf(fs); if(!a.picked.length&&!a.note) return; n++;
+      lines.push('- '+a.title+'：'+(a.picked.length?a.picked.join('／'):'（選択なし）')+(a.note?'\n  メモ：'+a.note.replace(/\n/g,' '):''));
+    });
+    if(!n) lines.push('（まだ回答がありません）');
+    count.textContent='回答 '+n+' / '+qs.length;
+    return lines.join('\n');
+  }
+  function save(){
+    try{
+      var d={};
+      document.querySelectorAll('fieldset.q input').forEach(function(i){ if(i.checked)(d[i.name]=d[i.name]||[]).push(i.value); });
+      document.querySelectorAll('fieldset.q textarea').forEach(function(t){ if(t.value) d['t:'+t.name]=t.value; });
+      localStorage.setItem(KEY,JSON.stringify(d));
+    }catch(e){}
+  }
+  function load(){
+    try{
+      var d=JSON.parse(localStorage.getItem(KEY)||'{}');
+      document.querySelectorAll('fieldset.q input').forEach(function(i){ if((d[i.name]||[]).indexOf(i.value)>=0) i.checked=true; });
+      document.querySelectorAll('fieldset.q textarea').forEach(function(t){ if(d['t:'+t.name]) t.value=d['t:'+t.name]; });
+    }catch(e){}
+  }
+  load(); result.value=collect();
+  document.addEventListener('input',function(e){ if(!e.target.closest('fieldset.q')) return; save(); result.value=collect(); copied.textContent=''; });
+  document.addEventListener('change',function(e){ if(!e.target.closest('fieldset.q')) return; save(); result.value=collect(); copied.textContent=''; });
+  document.getElementById('copy').addEventListener('click',function(){
+    var text=collect(); result.value=text;
+    var done=function(){ copied.textContent='コピーしました。チャット の入力欄に貼ってください'; };
+    var fallback=function(){ document.querySelector('details.result').open=true; result.removeAttribute('readonly'); result.focus(); result.select(); result.setAttribute('readonly',''); copied.textContent='自動でコピーできなかったので、文を選択しました。⌘C でコピーしてください'; };
+    if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(done,fallback); } else fallback();
+  });
+  document.getElementById('clear').addEventListener('click',function(){
+    document.querySelectorAll('fieldset.q input').forEach(function(i){ i.checked=false; });
+    document.querySelectorAll('fieldset.q textarea').forEach(function(t){ t.value=''; });
+    try{localStorage.removeItem(KEY);}catch(e){} result.value=collect(); copied.textContent='入力を消しました';
+  });
+})();
+</script>
+<script>
+const deviceButtons = document.querySelectorAll('[data-device]');
+function switchDevice(device) {
+  deviceButtons.forEach(button => button.setAttribute('aria-pressed',String(button.dataset.device === device)));
+  document.querySelectorAll('[data-shot]').forEach(img => img.src = 'img/' + img.dataset.shot + '-' + device + '.webp');
+  document.querySelectorAll('.shots').forEach(row => row.classList.toggle('phone-view',device === 'sp'));
+}
+deviceButtons.forEach(button => button.addEventListener('click',() => switchDevice(button.dataset.device)));
+switchDevice(matchMedia('(max-width:620px)').matches ? 'sp' : 'pc');
+</script></html>

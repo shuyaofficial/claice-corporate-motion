@@ -1,0 +1,929 @@
+{
+  "page": "education",
+  "url": "https://www.claice.com/education/index.html",
+  "meta": {
+    "title": "教育システム│株式会社クレイス",
+    "description": "ネットワーク・システムソリューションサービス、ネットワークエンジニア派遣の（株）クレイスのwebサイトです。ネットワークエンジニアを随時募集中です。ネットワーク技術、ヒューマンスキルを磨きたい方、大歓迎！",
+    "keywords": "クレイス,ネットワーク,ネットワーク運用,CCNA,CCNA研修,ネットワークエンジニア,エンジニア派遣,人材募集"
+  },
+  "body_class": [
+    "ContentFrame",
+    "Education"
+  ],
+  "elements": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "教育システム│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "html": "教育システム│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "PageTitle"
+      ],
+      "hidden": true,
+      "hidden_by": [
+        "common/css/pc.css [media=print, screen and (min-width: 768px)]: .PageTitle { position:absolute; left:0; top:-40px; margin:0; color:#fff; font-size:80%; line-height:40px; text-align:left; }",
+        "common/css/sp.css [media=handheld, only screen and (max-width: 767px)]: .PageTitle { display:none; }"
+      ],
+      "source": "header"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "教育システム",
+      "html": "教育システム",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "box": 1,
+      "box_class": "div.TitleWrap"
+    },
+    {
+      "type": "paragraph",
+      "text": "フォローアップ制度・エンジニアスター制度などで夢の実現・幸せな人生の創出を支援します",
+      "html": "フォローアップ制度・エンジニアスター制度などで夢の実現・幸せな人生の創出を支援します",
+      "tag": "p",
+      "classes": [],
+      "box": 1,
+      "box_class": "div.TitleWrap"
+    },
+    {
+      "type": "nav",
+      "items": [
+        {
+          "text": "教育制度",
+          "href": "https://www.claice.com/education/index.html#education",
+          "href_raw": "#education"
+        },
+        {
+          "text": "エンジニアスター制度",
+          "href": "https://www.claice.com/education/index.html#qualification",
+          "href_raw": "#qualification"
+        },
+        {
+          "text": "3つの気持ちが形になったもの",
+          "href": "https://www.claice.com/education/index.html#idea",
+          "href_raw": "#idea"
+        },
+        {
+          "text": "フォローアップ制度",
+          "href": "https://www.claice.com/education/index.html#followup",
+          "href_raw": "#followup"
+        },
+        {
+          "text": "起業支援",
+          "href": "https://www.claice.com/education/index.html#startingbusiness",
+          "href_raw": "#startingbusiness"
+        }
+      ],
+      "classes": [
+        "PageNavi"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "教育制度",
+      "html": "教育制度",
+      "id": null,
+      "anchor": "education",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "education"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/education/img/education_image.jpg",
+      "src_raw": "img/education_image.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "Portrait"
+      ],
+      "wrapper_classes": [
+        "ContentWrap",
+        "cFix"
+      ],
+      "section": "education",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "弊社は、技術だけでなくマナーやコンプライアンス、個人情報保護知識などの“ヒューマンスキル”も兼ね備えたエンジニアを効率的に社会に送り出すため、エンジニア教育に大きな力を注いでいます。",
+      "html": "弊社は、技術だけでなくマナーやコンプライアンス、個人情報保護知識などの“ヒューマンスキル”も兼ね備えたエンジニアを効率的に社会に送り出すため、エンジニア教育に大きな力を注いでいます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "education",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "外部の専門教育機関を活用するほか、社内には実践型研修を可能とした設備を設置しており、ネットワークの未経験者も勉強・経験・知識習得ができます。",
+      "html": "外部の専門教育機関を活用するほか、社内には実践型研修を可能とした設備を設置しており、ネットワークの未経験者も勉強・経験・知識習得ができます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "education",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "さらに、先輩エンジニアが実践で得たノウハウを懇切丁寧に教える体制も充実しており、研修後の実践業務レベルにおいても相談できる人的ネットワークが出来ます。",
+      "html": "さらに、先輩エンジニアが実践で得たノウハウを懇切丁寧に教える体制も充実しており、研修後の実践業務レベルにおいても相談できる人的ネットワークが出来ます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "education",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "また、新入社員を先輩社員がサポートする弊社ならではのフォローアップ制度もあり、IT資格取得支援や様々な相談ごとにも乗ってくれます。",
+      "html": "また、新入社員を先輩社員がサポートする弊社ならではの<a href=\"https://www.claice.com/education/index.html#followup\">フォローアップ制度</a>もあり、IT資格取得支援や様々な相談ごとにも乗ってくれます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "education",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "エンジニアスター制度",
+      "html": "エンジニアスター制度",
+      "id": null,
+      "anchor": "qualification",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "qualification"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/education/img/qualification_image.jpg",
+      "src_raw": "img/qualification_image.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "Portrait"
+      ],
+      "wrapper_classes": [
+        "ContentWrap",
+        "cFix"
+      ],
+      "section": "qualification",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "対象資格を取得すると、その内容に応じてポイントがつく制度です。合格ポイント合計により、ポイント数がUPし、資格手当金に連動しています。",
+      "html": "対象資格を取得すると、その内容に応じてポイントがつく制度です。合格ポイント合計により、ポイント数がUPし、資格手当金に連動しています。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "qualification",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "資格の範囲は、公的資格からベンダー系資格までさまざまです。資格取得の際に学んだ知識が実業務での理解度の向上や応用力発揮に役立ちます。",
+      "html": "資格の範囲は、公的資格からベンダー系資格までさまざまです。資格取得の際に学んだ知識が実業務での理解度の向上や応用力発揮に役立ちます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "qualification",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "社員自らがポイントの獲得を頑張り、スキル向上へ繋がり成長しています。また、技術者としての自信、そしてお客様からの信頼の獲得にもつながります。",
+      "html": "社員自らがポイントの獲得を頑張り、スキル向上へ繋がり成長しています。また、技術者としての自信、そしてお客様からの信頼の獲得にもつながります。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "qualification",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "3つの気持ちが形になったもの",
+      "html": "3つの気持ちが形になったもの",
+      "id": null,
+      "anchor": "idea",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "idea"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/education/img/idea_chart.png",
+      "src_raw": "img/idea_chart.png",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "Chart300"
+      ],
+      "wrapper_classes": [
+        "ContentWrap",
+        "cFix"
+      ],
+      "section": "idea",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "我社では3つの気持ちを大切にしています。",
+      "html": "我社では3つの気持ちを大切にしています。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "idea",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "それは、「感謝の気持ち」「素直な気持ち」「謙虚な気持ち」です。",
+      "html": "それは、<strong>「感謝の気持ち」「素直な気持ち」「謙虚な気持ち」</strong>です。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "idea",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "新入社員は入社したらIT業界で活躍できるように知識と技術を身に付けてもらいます。",
+      "html": "新入社員は入社したらIT業界で活躍できるように知識と技術を身に付けてもらいます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "idea",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "そしてその新入社員をフォローアップする先輩社員が数名つきます。",
+      "html": "そしてその新入社員をフォローアップする先輩社員が数名つきます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "idea",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "新入社員はおよそ１ヶ月半〜２ヶ月で目標とするIT系の資格を取得しますが、実はこれはかなり大変で、『今までこんなに勉強した事がない』というくらい勉強しなければなりません。",
+      "html": "新入社員はおよそ１ヶ月半〜２ヶ月で目標とするIT系の資格を取得しますが、実はこれはかなり大変で、『今までこんなに勉強した事がない』というくらい勉強しなければなりません。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "idea",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "フォローアップメンバーは新入社員が困ったときに業務が終わった後、別の勤務地から駆けつけてわからないことを教えたりして助けてくれます。先輩には残業手当てがつくわけではないのですが、新入社員のために精一杯フォローをします。",
+      "html": "フォローアップメンバーは新入社員が困ったときに業務が終わった後、別の勤務地から駆けつけてわからないことを教えたりして助けてくれます。先輩には残業手当てがつくわけではないのですが、新入社員のために精一杯フォローをします。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "idea",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "まさに無償の愛です。",
+      "html": "まさに無償の愛です。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "idea",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "そんな先輩たちのフォローに対して新入社員は素直に、また謙虚に従い、目標としていた資格を取得することが出来るのです。",
+      "html": "そんな先輩たちのフォローに対して新入社員は素直に、また謙虚に従い、目標としていた資格を取得することが出来るのです。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "idea",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "そのとき新入社員も先輩社員も笑顔になり、大きな感謝の気持ちが表れます。",
+      "html": "そのとき新入社員も先輩社員も笑顔になり、大きな感謝の気持ちが表れます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "idea",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "こうして先輩から後輩への3つの大切な気持ちが形となり、連綿とつながっていきます。",
+      "html": "こうして先輩から後輩への3つの大切な気持ちが形となり、連綿とつながっていきます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "idea",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "フォローアップ体制は決して指示や命令ではできるものではありません。",
+      "html": "フォローアップ体制は決して指示や命令ではできるものではありません。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "idea",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "3つの気持ちを大切にしている我社だからこそ実現できたものです。",
+      "html": "3つの気持ちを大切にしている我社だからこそ実現できたものです。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "idea",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "フォローアップ制度",
+      "html": "フォローアップ制度",
+      "id": null,
+      "anchor": "followup",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "followup"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "フォローアップ制度とは",
+      "html": "フォローアップ制度とは",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "followup",
+      "box": 5,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "新人社員を先輩社員がサポートする体制です。入社後のCCNAの資格取得に関する相談、ITスキルの習得方法、社会人としてのマナー、日常生活の困りごとなど、分からないこと、悩んでいることがあれば、何でも相談できます。クレイスにしか出来ないフォローアップ体制によってIT業界未経験の方も安心して成長していけます！",
+      "html": "新人社員を先輩社員がサポートする体制です。入社後のCCNAの資格取得に関する相談、ITスキルの習得方法、社会人としてのマナー、日常生活の困りごとなど、分からないこと、悩んでいることがあれば、何でも相談できます。クレイスにしか出来ないフォローアップ体制によってIT業界未経験の方も安心して成長していけます！",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "followup",
+      "box": 5,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/education/img/followup_chart2021.png",
+      "src_raw": "img/followup_chart2021.png",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "Chart"
+      ],
+      "wrapper_classes": [
+        "ContentWrap",
+        "cFix"
+      ],
+      "section": "followup",
+      "box": 5,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "フォローアップメンバーの声",
+      "html": "フォローアップメンバーの声",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "followup",
+      "box": 5,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "フォローアップメンバーへインタビューをしてみました。",
+      "html": "フォローアップメンバーへインタビューをしてみました。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "followup",
+      "box": 5,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "K.Oさん［新入社員／2023年入社］",
+      "html": "K.Oさん<span>［新入社員／2023年入社］</span>",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "VoiceTitle"
+      ],
+      "section": "followup",
+      "box": 6,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "paragraph",
+      "text": "前職は建設の営業だったをOさん。\n異業種からの転職の為、入社時はIT業界でやっていけるか不安を抱えていました。\nそんなOさんをフォローアップリーダーやサブリーダーだけでなくクレイスの先輩もよく話を聞いてくれたそうです。\n今では見違えるほど活き活きとしていて、常駐先で活躍しています！",
+      "html": "前職は建設の営業だったをOさん。<br/> 異業種からの転職の為、入社時はIT業界でやっていけるか不安を抱えていました。<br/> そんなOさんをフォローアップリーダーやサブリーダーだけでなくクレイスの先輩もよく話を聞いてくれたそうです。<br/> 今では見違えるほど活き活きとしていて、常駐先で活躍しています！",
+      "tag": "p",
+      "classes": [
+        "VoiceLead"
+      ],
+      "section": "followup",
+      "box": 6,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/education/img/followupvoice_ph_ko.jpg",
+      "src_raw": "img/followupvoice_ph_ko.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "VoicePhoto"
+      ],
+      "wrapper_classes": [
+        "FollowupVoice"
+      ],
+      "section": "followup",
+      "box": 6,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "全くの未経験でこの業界に踏み込んだ決め手は何ですか？",
+          "term_html": "全くの未経験でこの業界に踏み込んだ決め手は何ですか？",
+          "definitions": [
+            "手に職をつけたいこと、そして英語を使った仕事がしたいという思いから、ITエンジニアを目指しました。\nその中でネットワークエンジニアを志望した理由は、日々使っているネットワークの仕組みに興味を持ったからです。\nまた、この職業にはコミュニケーション能力が求められることを知り、前職での営業経験を活かせると感じて、この仕事に就きました。"
+          ],
+          "definitions_html": [
+            "手に職をつけたいこと、そして英語を使った仕事がしたいという思いから、ITエンジニアを目指しました。<br/> その中でネットワークエンジニアを志望した理由は、日々使っているネットワークの仕組みに興味を持ったからです。<br/> また、この職業にはコミュニケーション能力が求められることを知り、前職での営業経験を活かせると感じて、この仕事に就きました。"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "followup",
+      "box": 6,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "入社後のフォローアップ制度の説明を受けたときの印象はどうでしたか？",
+          "term_html": "入社後のフォローアップ制度の説明を受けたときの印象はどうでしたか？",
+          "definitions": [
+            "とても安心できる制度だと感じました。私自身、業界未経験だったため、研修制度が充実している企業を探していました。\n3か月間のフォローアップ制度があると聞いたときに、その点に魅力を感じました。入社直後には先輩が2人ついてくれるため、疑問や不安をすぐに相談できる環境が整っています。\n新入社員への手厚いフォローが、クレイスに入社を決めた理由の一つです。"
+          ],
+          "definitions_html": [
+            "とても安心できる制度だと感じました。私自身、業界未経験だったため、研修制度が充実している企業を探していました。<br/> 3か月間のフォローアップ制度があると聞いたときに、その点に魅力を感じました。入社直後には先輩が2人ついてくれるため、疑問や不安をすぐに相談できる環境が整っています。<br/> 新入社員への手厚いフォローが、クレイスに入社を決めた理由の一つです。"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "followup",
+      "box": 6,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "実際にフォローアップを受けて、イメージと違うことや驚いたことはありますか？",
+          "term_html": "実際にフォローアップを受けて、イメージと違うことや驚いたことはありますか？",
+          "definitions": [
+            "入社前に想像していた以上に、フォローが手厚いと感じました。\nフォローアップ担当の先輩は、常駐先での業務が終わった後に本社まで来て話をしてくれたり、休日にも関わらず時間を作っていただくこともありました。\nまた、フォローアップ期間が終わった後も、常駐先での業務について教えてくれるなど、今でも親身に接してくれています。\n入社当初から現在まで、何でも相談しやすい環境を作ってもらえて、本当にありがたく、素晴らしい制度だと感じています。"
+          ],
+          "definitions_html": [
+            "入社前に想像していた以上に、フォローが手厚いと感じました。<br/> フォローアップ担当の先輩は、常駐先での業務が終わった後に本社まで来て話をしてくれたり、休日にも関わらず時間を作っていただくこともありました。<br/> また、フォローアップ期間が終わった後も、常駐先での業務について教えてくれるなど、今でも親身に接してくれています。<br/> 入社当初から現在まで、何でも相談しやすい環境を作ってもらえて、本当にありがたく、素晴らしい制度だと感じています。"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "followup",
+      "box": 6,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "フォローアップを受けて嬉しかったことは何ですか？",
+          "term_html": "フォローアップを受けて嬉しかったことは何ですか？",
+          "definitions": [
+            "常駐先に配属されても安心感があり、成長をしっかりと褒めてくれることが嬉しかったです。\n業界未経験だったため、配属時には不安がありましたが、フォローアップ担当のお二人が同じ常駐先で親身に業務を教えてくださり、今では安心して楽しく仕事ができています。\n配属当初から今でも、私の成長に期待してくれたり、やりたいことに対しても丁寧にサポートしてくれたことが本当に嬉しかったです。"
+          ],
+          "definitions_html": [
+            "常駐先に配属されても安心感があり、成長をしっかりと褒めてくれることが嬉しかったです。<br/> 業界未経験だったため、配属時には不安がありましたが、フォローアップ担当のお二人が同じ常駐先で親身に業務を教えてくださり、今では安心して楽しく仕事ができています。<br/> 配属当初から今でも、私の成長に期待してくれたり、やりたいことに対しても丁寧にサポートしてくれたことが本当に嬉しかったです。"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "followup",
+      "box": 6,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "入社を考えている方へメッセージをお願いします！",
+          "term_html": "入社を考えている方へメッセージをお願いします！",
+          "definitions": [
+            "この業界に初めてチャレンジする方は不安な点が多いと思います。\nしかし、クレイスには未経験で入社した方が多くいます。\n最初は大変かもしれませんが、諦めずに努力すれば必ず今まで頑張ってきて良かったと思えることが多く実感できます。\nクレイスの先輩社員の方々は他の人が成長したことに対して、自分のことのように嬉しく褒めてくれる人がたくさんいます。\n是非一緒に働いてクレイスを盛り上げていきましょう。"
+          ],
+          "definitions_html": [
+            "この業界に初めてチャレンジする方は不安な点が多いと思います。<br/> しかし、クレイスには未経験で入社した方が多くいます。<br/> 最初は大変かもしれませんが、諦めずに努力すれば必ず今まで頑張ってきて良かったと思えることが多く実感できます。<br/> クレイスの先輩社員の方々は他の人が成長したことに対して、自分のことのように嬉しく褒めてくれる人がたくさんいます。<br/> 是非一緒に働いてクレイスを盛り上げていきましょう。"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "followup",
+      "box": 6,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "H.Tさん［フォローアップリーダー／2018年入社］",
+      "html": "H.Tさん<span>［フォローアップリーダー／2018年入社］</span>",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "VoiceTitle"
+      ],
+      "section": "followup",
+      "box": 7,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "paragraph",
+      "text": "フォローアップリーダーを務めるTさんは、後輩思いで面倒見のいい優しい先輩。\n真面目な話からくだけた話まで、なんでもお話してくれます！",
+      "html": "フォローアップリーダーを務めるTさんは、後輩思いで面倒見のいい優しい先輩。<br/> 真面目な話からくだけた話まで、なんでもお話してくれます！",
+      "tag": "p",
+      "classes": [
+        "VoiceLead"
+      ],
+      "section": "followup",
+      "box": 7,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/education/img/followupvoice_ph_ht.jpg",
+      "src_raw": "img/followupvoice_ph_ht.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "VoicePhoto"
+      ],
+      "wrapper_classes": [
+        "FollowupVoice"
+      ],
+      "section": "followup",
+      "box": 7,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "フォローアップを行ううえでどのような心がけをしましたか？",
+          "term_html": "フォローアップを行ううえでどのような心がけをしましたか？",
+          "definitions": [
+            "新入社員は他業界から入ってくる方が多いので、その分不安を抱えていると思います。\n最初は社内業務を行ないながらネットワークの資格取得勉強も並行する中で、自分にできることは、話し相手になり、まずは少しでもクレイスに慣れてもらうことと考えて、なるべく常駐先業務後に帰社して担当の新人とコミュニケーションをとるようにしていました。"
+          ],
+          "definitions_html": [
+            "新入社員は他業界から入ってくる方が多いので、その分不安を抱えていると思います。<br/> 最初は社内業務を行ないながらネットワークの資格取得勉強も並行する中で、自分にできることは、話し相手になり、まずは少しでもクレイスに慣れてもらうことと考えて、なるべく常駐先業務後に帰社して担当の新人とコミュニケーションをとるようにしていました。"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "followup",
+      "box": 7,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "フォローアップをしていて楽しかった・嬉しかった出来事はありますか？",
+          "term_html": "フォローアップをしていて楽しかった・嬉しかった出来事はありますか？",
+          "definitions": [
+            "やはり資格試験合格の知らせを受けたときです。\n試験内容の不明点について相談を受け勉強を教えたりしていたのですが、当時試験の難易度が上がったこともあり、担当の新人がなかなか受からない時期が続きました。彼にとっても苦しい時期だったと思いますが、彼の配属先業務が始まる日の直前に合格の知らせをもらい、非常に嬉しかった記憶があります。よくやった！という思いでした。"
+          ],
+          "definitions_html": [
+            "やはり資格試験合格の知らせを受けたときです。<br/> 試験内容の不明点について相談を受け勉強を教えたりしていたのですが、当時試験の難易度が上がったこともあり、担当の新人がなかなか受からない時期が続きました。彼にとっても苦しい時期だったと思いますが、彼の配属先業務が始まる日の直前に合格の知らせをもらい、非常に嬉しかった記憶があります。よくやった！という思いでした。"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "followup",
+      "box": 7,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "入社を考えている方へメッセージをお願いします！",
+          "term_html": "入社を考えている方へメッセージをお願いします！",
+          "definitions": [
+            "フォローアップ制度で思う存分先輩に頼れる環境のため、先輩を通して社内の雰囲気に溶け込みやすいと思います。\nまた、熱意があればやりたいことをやらせてもらえる会社ですので、ぜひクレイスに入社して、一緒に色々なことに挑戦していきましょう！"
+          ],
+          "definitions_html": [
+            "フォローアップ制度で思う存分先輩に頼れる環境のため、先輩を通して社内の雰囲気に溶け込みやすいと思います。<br/> また、熱意があればやりたいことをやらせてもらえる会社ですので、ぜひクレイスに入社して、一緒に色々なことに挑戦していきましょう！"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "followup",
+      "box": 7,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "T.Sさん［フォローアップサブリーダー／2017年入社］",
+      "html": "T.Sさん<span>［フォローアップサブリーダー／2017年入社］</span>",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "VoiceTitle"
+      ],
+      "section": "followup",
+      "box": 8,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "paragraph",
+      "text": "フォローアップサブリーダーを勤めるSさんは2017年に未経験から入社した先輩社員。\nフォローアップを通じて得たものを、今度は自分がフォローアップをする側として頑張っています！",
+      "html": "フォローアップサブリーダーを勤めるSさんは2017年に未経験から入社した先輩社員。<br/> フォローアップを通じて得たものを、今度は自分がフォローアップをする側として頑張っています！",
+      "tag": "p",
+      "classes": [
+        "VoiceLead"
+      ],
+      "section": "followup",
+      "box": 8,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/education/img/followupvoice_ph_ts.jpg",
+      "src_raw": "img/followupvoice_ph_ts.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "VoicePhoto"
+      ],
+      "wrapper_classes": [
+        "FollowupVoice"
+      ],
+      "section": "followup",
+      "box": 8,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "フォローアップ制度についてどう思いますか？",
+          "term_html": "フォローアップ制度についてどう思いますか？",
+          "definitions": [
+            "一番の目的は新入社員の方をサポートすることですが、担当社員側も成長することが出来る制度だと思います。\nただ教育するだけでなく、各フォローアップ担当毎に色が出ているのがとても面白いです。"
+          ],
+          "definitions_html": [
+            "一番の目的は新入社員の方をサポートすることですが、担当社員側も成長することが出来る制度だと思います。<br/> ただ教育するだけでなく、各フォローアップ担当毎に色が出ているのがとても面白いです。"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "followup",
+      "box": 8,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "フォローアップをしていて楽しかった・嬉しかった出来事はありますか？",
+          "term_html": "フォローアップをしていて楽しかった・嬉しかった出来事はありますか？",
+          "definitions": [
+            "フォローアップ担当と新入社員でコミュニケーションを取り合い、お互いが成長していく過程はとても楽しいです。\nまた、フォローアップの担当をした新入社員が、「自分も今度はフォローアップする側をやりたい！」と言ってくれた事は、自分が行ってきたことが繋がったような気がして、とても嬉しかったです。"
+          ],
+          "definitions_html": [
+            "フォローアップ担当と新入社員でコミュニケーションを取り合い、お互いが成長していく過程はとても楽しいです。<br/> また、フォローアップの担当をした新入社員が、「自分も今度はフォローアップする側をやりたい！」と言ってくれた事は、自分が行ってきたことが繋がったような気がして、とても嬉しかったです。"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "followup",
+      "box": 8,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "入社を考えている方へメッセージをお願いします！",
+          "term_html": "入社を考えている方へメッセージをお願いします！",
+          "definitions": [
+            "業界未経験でも、技術者としてはもちろん社会人としても成長出来る会社です。\n皆、面倒見の良い先輩社員ばかりなので、良い意味でびっくりすると思います。入社後に不安なことが多々あると思いますが、その不安はフォローアップ担当や先輩社員と一緒に解決出来ます！是非一緒に働きましょう！"
+          ],
+          "definitions_html": [
+            "業界未経験でも、技術者としてはもちろん社会人としても成長出来る会社です。<br/> 皆、面倒見の良い先輩社員ばかりなので、良い意味でびっくりすると思います。入社後に不安なことが多々あると思いますが、その不安はフォローアップ担当や先輩社員と一緒に解決出来ます！是非一緒に働きましょう！"
+          ]
+        }
+      ],
+      "classes": [
+        "Text"
+      ],
+      "section": "followup",
+      "box": 8,
+      "box_class": "div.FollowupVoice"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "起業支援",
+      "html": "起業支援",
+      "id": null,
+      "anchor": "startingbusiness",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "startingbusiness"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "夢の実現・幸せな人生の創出のために",
+      "html": "夢の実現・幸せな人生の創出のために",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "startingbusiness",
+      "box": 9,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "クレイスは、夢の実現・幸せな人生の創出のために支援します。",
+      "html": "クレイスは、夢の実現・幸せな人生の創出のために支援します。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "startingbusiness",
+      "box": 9,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "クレイスの基幹事業と連携価値の高いビジネスプランに関して、社員におけるグループ会社の起業を支援します。社長としてグループ会社の経営を担ってもらいます。",
+      "html": "クレイスの基幹事業と連携価値の高いビジネスプランに関して、社員におけるグループ会社の起業を支援します。社長としてグループ会社の経営を担ってもらいます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "startingbusiness",
+      "box": 9,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/education/img/startingbusiness_chart.png",
+      "src_raw": "img/startingbusiness_chart.png",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "Chart"
+      ],
+      "wrapper_classes": [
+        "ContentWrap",
+        "cFix"
+      ],
+      "section": "startingbusiness",
+      "box": 9,
+      "box_class": "div.ContentWrap.cFix"
+    }
+  ]
+}

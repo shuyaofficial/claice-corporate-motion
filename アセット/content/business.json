@@ -1,0 +1,308 @@
+{
+  "page": "business",
+  "url": "https://www.claice.com/business/index.html",
+  "meta": {
+    "title": "事業内容│株式会社クレイス",
+    "description": "ネットワーク・システムソリューションサービス、ネットワークエンジニア派遣の（株）クレイスのwebサイトです。ネットワークエンジニアを随時募集中です。ネットワーク技術、ヒューマンスキルを磨きたい方、大歓迎！",
+    "keywords": "クレイス,ネットワーク,ネットワーク運用,CCNA,CCNA研修,ネットワークエンジニア,エンジニア派遣,人材募集"
+  },
+  "body_class": [
+    "ContentFrame",
+    "Business"
+  ],
+  "elements": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "事業内容│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "html": "事業内容│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "PageTitle"
+      ],
+      "hidden": true,
+      "hidden_by": [
+        "common/css/pc.css [media=print, screen and (min-width: 768px)]: .PageTitle { position:absolute; left:0; top:-40px; margin:0; color:#fff; font-size:80%; line-height:40px; text-align:left; }",
+        "common/css/sp.css [media=handheld, only screen and (max-width: 767px)]: .PageTitle { display:none; }"
+      ],
+      "source": "header"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "事業内容",
+      "html": "事業内容",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "box": 1,
+      "box_class": "div.TitleWrap"
+    },
+    {
+      "type": "paragraph",
+      "text": "高度・信頼性・安定性をポリシーとしたサービスの提供・ネットワークエンジニアの派遣",
+      "html": "高度・信頼性・安定性をポリシーとしたサービスの提供・ネットワークエンジニアの派遣",
+      "tag": "p",
+      "classes": [],
+      "box": 1,
+      "box_class": "div.TitleWrap"
+    },
+    {
+      "type": "nav",
+      "items": [
+        {
+          "text": "ネットワーク・システムソリューションサービス",
+          "href": "https://www.claice.com/business/index.html#service",
+          "href_raw": "#service"
+        },
+        {
+          "text": "ネットワークエンジニアの派遣",
+          "href": "https://www.claice.com/business/index.html#engineer",
+          "href_raw": "#engineer"
+        },
+        {
+          "text": "ESNシステム",
+          "href": "https://www.claice.com/business/index.html#esn",
+          "href_raw": "#esn"
+        }
+      ],
+      "classes": [
+        "PageNavi"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ネットワーク・システムソリューションサービス",
+      "html": "ネットワーク・システムソリューションサービス",
+      "id": null,
+      "anchor": "service",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "service"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "ネットワーク・システムソリューションサービス",
+      "html": "ネットワーク・システムソリューションサービス",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "service",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "いまや、企業内ネットワーク、広域ネットワーク網等は重要な社会基盤となっています。その社会基盤を支えるネットワーク機器、サーバ系システムの「設計・構築・運用」までの全てを、「高度・信頼性・安定性」をポリシーとしたサービスの提供を行っています。",
+      "html": "いまや、企業内ネットワーク、広域ネットワーク網等は重要な社会基盤となっています。その社会基盤を支えるネットワーク機器、サーバ系システムの「設計・構築・運用」までの全てを、「高度・信頼性・安定性」をポリシーとしたサービスの提供を行っています。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "service",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "rows": [
+        [
+          "ネットワーク",
+          "ネットワーク設計・構築・テスト・導入\nネットワーク導入支援\nネットワーク運用監視・管理\nネットワーク運用保守"
+        ],
+        [
+          "サーバー",
+          "システム設計・構築・テスト・導入\nサーバー運用監視・管理\nシステム運用管理\nシステム運用保守"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "<img alt=\"\" src=\"https://www.claice.com/business/img/service_icon_nw.png\"/>ネットワーク",
+          "<ul class=\"Text\"> <li>ネットワーク設計・構築・テスト・導入</li> <li>ネットワーク導入支援</li> <li>ネットワーク運用監視・管理</li> <li>ネットワーク運用保守</li> </ul>"
+        ],
+        [
+          "<img alt=\"\" src=\"https://www.claice.com/business/img/service_icon_sv.png\"/>サーバー",
+          "<ul class=\"Text\"> <li>システム設計・構築・テスト・導入</li> <li>サーバー運用監視・管理</li> <li>システム運用管理</li> <li>システム運用保守</li> </ul>"
+        ]
+      ],
+      "cell_images": [
+        {
+          "type": "image",
+          "src": "https://www.claice.com/business/img/service_icon_nw.png",
+          "src_raw": "img/service_icon_nw.png",
+          "alt": "",
+          "width": null,
+          "height": null,
+          "link": null,
+          "link_target": null,
+          "classes": [],
+          "row": 0,
+          "col": 0
+        },
+        {
+          "type": "image",
+          "src": "https://www.claice.com/business/img/service_icon_sv.png",
+          "src_raw": "img/service_icon_sv.png",
+          "alt": "",
+          "width": null,
+          "height": null,
+          "link": null,
+          "link_target": null,
+          "classes": [],
+          "row": 1,
+          "col": 0
+        }
+      ],
+      "classes": [
+        "Table"
+      ],
+      "section": "service",
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ネットワークエンジニアの派遣",
+      "html": "ネットワークエンジニアの派遣",
+      "id": null,
+      "anchor": "engineer",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "engineer"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/business/img/engineer_image.jpg",
+      "src_raw": "img/engineer_image.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "Portrait"
+      ],
+      "wrapper_classes": [
+        "ContentWrap",
+        "cFix"
+      ],
+      "section": "engineer",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "株式会社クレイスには、ＩＴ業界の第一線企業で経験を積んだ即戦力となる人材が数多くおります。また弊社内でＩＴスキル研修、ビジネス研修等の制度を完備しており、優れた人材の育成、社員の成長支援にも力を注いでいます。",
+      "html": "株式会社クレイスには、ＩＴ業界の第一線企業で経験を積んだ即戦力となる人材が数多くおります。また弊社内でＩＴスキル研修、ビジネス研修等の制度を完備しており、優れた人材の育成、社員の成長支援にも力を注いでいます。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "engineer",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "（労働者派遣事業許可　派13-306134）",
+      "html": "（労働者派遣事業許可　派13-306134）",
+      "tag": "p",
+      "classes": [
+        "Text",
+        "Sign"
+      ],
+      "section": "engineer",
+      "box": 3,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "ESN（Engineer Solution No risk）システム",
+      "html": "ESN<span>（Engineer Solution No risk）</span>システム",
+      "id": null,
+      "anchor": "esn",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "esn"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "お客さまに安心・納得をご提供\nクレイス独自の安心保障システム",
+      "html": "お客さまに安心・納得をご提供<br/>クレイス独自の安心保障システム",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline4"
+      ],
+      "section": "esn",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "当社はあなたの右腕になれるエンジニアのご提供をいたします。",
+      "html": "当社はあなたの右腕になれるエンジニアのご提供をいたします。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "esn",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "テクニカルスキルのみに目を向けがちですが、当社はテクニカルスキルはもちろんのこと、様々なビジネスシーンで重要なヒューマンスキル面の人材育成にも注力しています。それが他社との違いです。",
+      "html": "テクニカルスキルのみに目を向けがちですが、当社はテクニカルスキルはもちろんのこと、様々なビジネスシーンで重要なヒューマンスキル面の人材育成にも注力しています。それが他社との違いです。",
+      "tag": "p",
+      "classes": [
+        "Text"
+      ],
+      "section": "esn",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/business/img/esn_chart.png",
+      "src_raw": "img/esn_chart.png",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [
+        "Chart"
+      ],
+      "wrapper_classes": [
+        "ContentWrap",
+        "cFix"
+      ],
+      "section": "esn",
+      "box": 4,
+      "box_class": "div.ContentWrap.cFix"
+    }
+  ]
+}

@@ -1,0 +1,1948 @@
+{
+  "page": "photo",
+  "url": "https://www.claice.com/photo/index.html",
+  "meta": {
+    "title": "CLAICE Photo│株式会社クレイス",
+    "description": "ネットワーク・システムソリューションサービス、ネットワークエンジニア派遣の（株）クレイスのwebサイトです。ネットワークエンジニアを随時募集中です。ネットワーク技術、ヒューマンスキルを磨きたい方、大歓迎！",
+    "keywords": "クレイス,ネットワーク,ネットワーク運用,CCNA,CCNA研修,ネットワークエンジニア,エンジニア派遣,人材募集"
+  },
+  "body_class": [
+    "ContentFrame",
+    "Photo"
+  ],
+  "elements": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "CLAICE Photo│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "html": "CLAICE Photo│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "PageTitle"
+      ],
+      "hidden": true,
+      "hidden_by": [
+        "common/css/pc.css [media=print, screen and (min-width: 768px)]: .PageTitle { position:absolute; left:0; top:-40px; margin:0; color:#fff; font-size:80%; line-height:40px; text-align:left; }",
+        "common/css/sp.css [media=handheld, only screen and (max-width: 767px)]: .PageTitle { display:none; }"
+      ],
+      "source": "header"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "CLAICE Photo",
+      "html": "CLAICE Photo",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "box": 1,
+      "box_class": "div.TitleWrap"
+    },
+    {
+      "type": "paragraph",
+      "text": "Enjoy Life Happiness!! クレイスの仲間たちと社内の様子をちょっとだけご紹介",
+      "html": "Enjoy Life Happiness!! クレイスの仲間たちと社内の様子をちょっとだけご紹介",
+      "tag": "p",
+      "classes": [],
+      "box": 1,
+      "box_class": "div.TitleWrap"
+    },
+    {
+      "type": "nav",
+      "items": [
+        {
+          "text": "CLAICE Family",
+          "href": "https://www.claice.com/photo/index.html#family",
+          "href_raw": "#family"
+        },
+        {
+          "text": "CLAICE Event",
+          "href": "https://www.claice.com/photo/index.html#event",
+          "href_raw": "#event"
+        },
+        {
+          "text": "CLAICE Office",
+          "href": "https://www.claice.com/photo/index.html#office",
+          "href_raw": "#office"
+        },
+        {
+          "text": "Office Tour",
+          "href": "https://www.claice.com/photo/index.html#officetour",
+          "href_raw": "#officetour "
+        }
+      ],
+      "classes": [
+        "PageNavi"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CLAICE Family",
+      "html": "CLAICE Family",
+      "id": null,
+      "anchor": "family",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "family"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/family/ph12.jpg",
+      "src_raw": "img/family/ph12.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Family"
+      ],
+      "section": "family",
+      "box": 3,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "rows": [
+        [
+          "名前",
+          "D.K"
+        ],
+        [
+          "入社した年",
+          "2025年"
+        ],
+        [
+          "前職",
+          "学習塾の教室責任者"
+        ],
+        [
+          "現在しているお仕事",
+          "システムサービスマネージャー"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "名前",
+          "D.K"
+        ],
+        [
+          "入社した年",
+          "2025年"
+        ],
+        [
+          "前職",
+          "学習塾の教室責任者"
+        ],
+        [
+          "現在しているお仕事",
+          "システムサービスマネージャー"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [],
+      "section": "family",
+      "box": 3,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "クレイスに入社して今後どのように成長していきたい？",
+      "html": "クレイスに入社して今後どのように成長していきたい？",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "family",
+      "box": 3,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "paragraph",
+      "text": "クレイスの若手社員として様々な場で活躍し、会社にとって価値のある人間になることが目標です！そのために日々の業務に励み、技術面、知識面の向上のために毎日勉強をしています！",
+      "html": "クレイスの若手社員として様々な場で活躍し、会社にとって価値のある人間になることが目標です！そのために日々の業務に励み、技術面、知識面の向上のために毎日勉強をしています！",
+      "tag": "p",
+      "classes": [],
+      "section": "family",
+      "box": 3,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/family/ph11.jpg",
+      "src_raw": "img/family/ph11.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Family"
+      ],
+      "section": "family",
+      "box": 4,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "rows": [
+        [
+          "名前",
+          "K.O"
+        ],
+        [
+          "入社した年",
+          "2023年"
+        ],
+        [
+          "前職",
+          "営業"
+        ],
+        [
+          "現在しているお仕事",
+          "ネットワーク監視・保守"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "名前",
+          "K.O"
+        ],
+        [
+          "入社した年",
+          "2023年"
+        ],
+        [
+          "前職",
+          "営業"
+        ],
+        [
+          "現在しているお仕事",
+          "ネットワーク監視・保守"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [],
+      "section": "family",
+      "box": 4,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "クレイスに入社して成長できたことは？",
+      "html": "クレイスに入社して成長できたことは？",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "family",
+      "box": 4,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "paragraph",
+      "text": "何事にも積極的に取り組む力を身に着けました。ネットワークエンジニアは資格の勉強や業務で知識を自分で努力し身に着けることが大切です。積極的に取り組むことで自分の成長を実感することができ、仕事が楽しいと思えるようになりました。\nまた、これまで英語を使う機会はありませんでしたが、英語を使用するプロジェクトに配属されたことで、語学力の必要性を感じ、自主的に学習を始めました。今では、英語での業務にも前向きに取り組んでいます。",
+      "html": "何事にも積極的に取り組む力を身に着けました。ネットワークエンジニアは資格の勉強や業務で知識を自分で努力し身に着けることが大切です。積極的に取り組むことで自分の成長を実感することができ、仕事が楽しいと思えるようになりました。<br/>また、これまで英語を使う機会はありませんでしたが、英語を使用するプロジェクトに配属されたことで、語学力の必要性を感じ、自主的に学習を始めました。今では、英語での業務にも前向きに取り組んでいます。",
+      "tag": "p",
+      "classes": [],
+      "section": "family",
+      "box": 4,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/family/ph09.jpg",
+      "src_raw": "img/family/ph09.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Family"
+      ],
+      "section": "family",
+      "box": 5,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "rows": [
+        [
+          "名前",
+          "T.O"
+        ],
+        [
+          "入社した年",
+          "2022年"
+        ],
+        [
+          "前職",
+          "機械系技術職"
+        ],
+        [
+          "現在しているお仕事",
+          "グローバルネットワーク設計構築"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "名前",
+          "T.O"
+        ],
+        [
+          "入社した年",
+          "2022年"
+        ],
+        [
+          "前職",
+          "機械系技術職"
+        ],
+        [
+          "現在しているお仕事",
+          "グローバルネットワーク設計構築"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [],
+      "section": "family",
+      "box": 5,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "クレイスに入社して成長できたことは？",
+      "html": "クレイスに入社して成長できたことは？",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "family",
+      "box": 5,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "paragraph",
+      "text": "機器調達、配線設計書・工事依頼書の作成、マイグレーションなどを協力しあいながら取り組むことよってチームで働く力を身に付けました。\n海外にいるチームとも連携しながら仕事を進めるので、密にコミュニケーションを取りながらプロジェクトを進めております。",
+      "html": "機器調達、配線設計書・工事依頼書の作成、マイグレーションなどを協力しあいながら取り組むことよってチームで働く力を身に付けました。<br/> 海外にいるチームとも連携しながら仕事を進めるので、密にコミュニケーションを取りながらプロジェクトを進めております。",
+      "tag": "p",
+      "classes": [],
+      "section": "family",
+      "box": 5,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/family/ph10.jpg",
+      "src_raw": "img/family/ph10.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Family"
+      ],
+      "section": "family",
+      "box": 6,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "rows": [
+        [
+          "名前",
+          "K.I"
+        ],
+        [
+          "入社した年",
+          "2023年"
+        ],
+        [
+          "前職",
+          "新卒"
+        ],
+        [
+          "現在しているお仕事",
+          "ネットワークサービスマネージャー"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "名前",
+          "K.I"
+        ],
+        [
+          "入社した年",
+          "2023年"
+        ],
+        [
+          "前職",
+          "新卒"
+        ],
+        [
+          "現在しているお仕事",
+          "ネットワークサービスマネージャー"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [],
+      "section": "family",
+      "box": 6,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "クレイスに入社して今後どのように成長していきたい？",
+      "html": "クレイスに入社して今後どのように成長していきたい？",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "family",
+      "box": 6,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "paragraph",
+      "text": "幅広い分野の知識や技術、経験持ち、多岐にわたる業務に対応できる人間に成長したいと考えています。\nそのためにも常に新しいことに挑戦し、成長の機会を逃さずに会社全体の発展に貢献できるような存在になりたいです。",
+      "html": "幅広い分野の知識や技術、経験持ち、多岐にわたる業務に対応できる人間に成長したいと考えています。<br/> そのためにも常に新しいことに挑戦し、成長の機会を逃さずに会社全体の発展に貢献できるような存在になりたいです。",
+      "tag": "p",
+      "classes": [],
+      "section": "family",
+      "box": 6,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/family/ph01.jpg",
+      "src_raw": "img/family/ph01.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Family"
+      ],
+      "section": "family",
+      "box": 7,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "rows": [
+        [
+          "名前",
+          "H.M"
+        ],
+        [
+          "入社した年",
+          "2021年"
+        ],
+        [
+          "前職",
+          "新卒"
+        ],
+        [
+          "現在しているお仕事",
+          "ネットワーク監視・保守"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "名前",
+          "H.M"
+        ],
+        [
+          "入社した年",
+          "2021年"
+        ],
+        [
+          "前職",
+          "新卒"
+        ],
+        [
+          "現在しているお仕事",
+          "ネットワーク監視・保守"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [],
+      "section": "family",
+      "box": 7,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "クレイスは〇〇な人が多い！",
+      "html": "クレイスは〇〇な人が多い！",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "family",
+      "box": 7,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "paragraph",
+      "text": "人として尊敬できる方が多いです。\n困った時はもちろん、些細なことでも先輩社員が親身になってアドバイスをくださるため、安心して社会人としてのスタートを切ることが出来ました。\nまた技術面においても優れた方が多く、先輩社員への憧れを抱いております。",
+      "html": "人として尊敬できる方が多いです。<br/> 困った時はもちろん、些細なことでも先輩社員が親身になってアドバイスをくださるため、安心して社会人としてのスタートを切ることが出来ました。<br/> また技術面においても優れた方が多く、先輩社員への憧れを抱いております。",
+      "tag": "p",
+      "classes": [],
+      "section": "family",
+      "box": 7,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/family/ph07.jpg",
+      "src_raw": "img/family/ph07.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Family"
+      ],
+      "section": "family",
+      "box": 8,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "rows": [
+        [
+          "名前",
+          "K.S"
+        ],
+        [
+          "入社した年",
+          "2018年"
+        ],
+        [
+          "前職",
+          "ジュエリー販売"
+        ],
+        [
+          "現在しているお仕事",
+          "企画総務部　事務"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "名前",
+          "K.S"
+        ],
+        [
+          "入社した年",
+          "2018年"
+        ],
+        [
+          "前職",
+          "ジュエリー販売"
+        ],
+        [
+          "現在しているお仕事",
+          "企画総務部　事務"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [],
+      "section": "family",
+      "box": 8,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "クレイスは〇〇な人が多い！",
+      "html": "クレイスは〇〇な人が多い！",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "family",
+      "box": 8,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "paragraph",
+      "text": "とても前向きな方が多いです。\n資格取得はもちろん、どんなことにも明るく前向きに挑戦されている方ばかりです。何か困ったことがあったときも会社全体で助けてくださるので、私も前向きな気持ちになることができます！",
+      "html": "とても前向きな方が多いです。<br/>資格取得はもちろん、どんなことにも明るく前向きに挑戦されている方ばかりです。何か困ったことがあったときも会社全体で助けてくださるので、私も前向きな気持ちになることができます！",
+      "tag": "p",
+      "classes": [],
+      "section": "family",
+      "box": 8,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/family/ph03.jpg",
+      "src_raw": "img/family/ph03.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Family"
+      ],
+      "section": "family",
+      "box": 9,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "rows": [
+        [
+          "名前",
+          "H.K"
+        ],
+        [
+          "入社した年",
+          "2010年"
+        ],
+        [
+          "前職",
+          "家電量販店員"
+        ],
+        [
+          "現在しているお仕事",
+          "ネットワーク運用・監視"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "名前",
+          "H.K"
+        ],
+        [
+          "入社した年",
+          "2010年"
+        ],
+        [
+          "前職",
+          "家電量販店員"
+        ],
+        [
+          "現在しているお仕事",
+          "ネットワーク運用・監視"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [],
+      "section": "family",
+      "box": 9,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "クレイスに入社して成長できたことは？",
+      "html": "クレイスに入社して成長できたことは？",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "family",
+      "box": 9,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "paragraph",
+      "text": "資格取得や現場経験を経てネットワークエンジニアとしてのスキル向上と、お客様や一緒に仕事しているメンバーとのコミュニケーションの重要さを再認識させて頂けました。",
+      "html": "資格取得や現場経験を経てネットワークエンジニアとしてのスキル向上と、お客様や一緒に仕事しているメンバーとのコミュニケーションの重要さを再認識させて頂けました。",
+      "tag": "p",
+      "classes": [],
+      "section": "family",
+      "box": 9,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/family/ph05.jpg",
+      "src_raw": "img/family/ph05.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Family"
+      ],
+      "section": "family",
+      "box": 10,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "rows": [
+        [
+          "名前",
+          "Y.M"
+        ],
+        [
+          "入社した年",
+          "2019年"
+        ],
+        [
+          "前職",
+          "データセンターオペレータ"
+        ],
+        [
+          "現在しているお仕事",
+          "ネットワーク運用・保守"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "名前",
+          "Y.M"
+        ],
+        [
+          "入社した年",
+          "2019年"
+        ],
+        [
+          "前職",
+          "データセンターオペレータ"
+        ],
+        [
+          "現在しているお仕事",
+          "ネットワーク運用・保守"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [],
+      "section": "family",
+      "box": 10,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "クレイスに入社を決めた動機は何でしょうか？",
+      "html": "クレイスに入社を決めた動機は何でしょうか？",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "family",
+      "box": 10,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "paragraph",
+      "text": "以前からネットワークエンジニアとして設計や構築業務の仕事をしたいと考えていたため、入社いたしました。また、大手通信キャリアと太いパイプがある事も魅力的でした。",
+      "html": "以前からネットワークエンジニアとして設計や構築業務の仕事をしたいと考えていたため、入社いたしました。また、大手通信キャリアと太いパイプがある事も魅力的でした。",
+      "tag": "p",
+      "classes": [],
+      "section": "family",
+      "box": 10,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/family/ph06.jpg",
+      "src_raw": "img/family/ph06.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Family"
+      ],
+      "section": "family",
+      "box": 11,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "rows": [
+        [
+          "名前",
+          "Y.U"
+        ],
+        [
+          "入社した年",
+          "2016年"
+        ],
+        [
+          "前職",
+          "フィットネスクラブ・インストラクター"
+        ],
+        [
+          "現在しているお仕事",
+          "クラウドエンジニア"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "名前",
+          "Y.U"
+        ],
+        [
+          "入社した年",
+          "2016年"
+        ],
+        [
+          "前職",
+          "フィットネスクラブ・インストラクター"
+        ],
+        [
+          "現在しているお仕事",
+          "クラウドエンジニア"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [],
+      "section": "family",
+      "box": 11,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "クレイスの魅力！",
+      "html": "クレイスの魅力！",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "family",
+      "box": 11,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "paragraph",
+      "text": "アットホームな雰囲気と社員一人一人の優しさです。\n本社の扉を開けると「おかえり」と声をかけてくれるので、仕事の疲れも癒されます。また、社員一人一人の気配りが素晴らしいので、前向きなメンバーが多いです。自分自身の成長に繋がっています。",
+      "html": "アットホームな雰囲気と社員一人一人の優しさです。<br/> 本社の扉を開けると「おかえり」と声をかけてくれるので、仕事の疲れも癒されます。また、社員一人一人の気配りが素晴らしいので、前向きなメンバーが多いです。自分自身の成長に繋がっています。",
+      "tag": "p",
+      "classes": [],
+      "section": "family",
+      "box": 11,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/family/ph08.jpg",
+      "src_raw": "img/family/ph08.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Family"
+      ],
+      "section": "family",
+      "box": 12,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "table",
+      "caption": null,
+      "rows": [
+        [
+          "名前",
+          "T.N"
+        ],
+        [
+          "入社した年",
+          "2017年"
+        ],
+        [
+          "前職",
+          "飲食店"
+        ],
+        [
+          "現在しているお仕事",
+          "ネットワーク監視・保守"
+        ]
+      ],
+      "th": [
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ],
+        [
+          true,
+          false
+        ]
+      ],
+      "cells_html": [
+        [
+          "名前",
+          "T.N"
+        ],
+        [
+          "入社した年",
+          "2017年"
+        ],
+        [
+          "前職",
+          "飲食店"
+        ],
+        [
+          "現在しているお仕事",
+          "ネットワーク監視・保守"
+        ]
+      ],
+      "cell_images": [],
+      "classes": [],
+      "section": "family",
+      "box": 12,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "クレイスに入社を決めた動機は何でしょうか？",
+      "html": "クレイスに入社を決めた動機は何でしょうか？",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "family",
+      "box": 12,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "paragraph",
+      "text": "決め手はフォローアップ制度でした。\n社会人経験のない私でも成長できる環境だと思い入社を決めました。1年経った今でも向上心を持ち続けて働くことができて、本当に成長できる会社だと実感しています。",
+      "html": "決め手はフォローアップ制度でした。<br/> 社会人経験のない私でも成長できる環境だと思い入社を決めました。1年経った今でも向上心を持ち続けて働くことができて、本当に成長できる会社だと実感しています。",
+      "tag": "p",
+      "classes": [],
+      "section": "family",
+      "box": 12,
+      "box_class": "div.Card.Card_Family"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CLAICE Event",
+      "html": "CLAICE Event",
+      "id": null,
+      "anchor": "event",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "event"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/event/ph01.jpg",
+      "src_raw": "img/event/ph01.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "event",
+      "box": 14,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "キックオフミーティング",
+      "html": "キックオフミーティング",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "event",
+      "box": 14,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "paragraph",
+      "text": "年に一度全社員が集まる大切な日。",
+      "html": "年に一度全社員が集まる大切な日。",
+      "tag": "p",
+      "classes": [],
+      "section": "event",
+      "box": 14,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/event/ph09.jpg",
+      "src_raw": "img/event/ph09.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "event",
+      "box": 15,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "業務内容説明会",
+      "html": "業務内容説明会",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "event",
+      "box": 15,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "paragraph",
+      "text": "常駐先での業務内容に関する勉強会を実施します。\n真剣そのものです！",
+      "html": "常駐先での業務内容に関する勉強会を実施します。<br/>真剣そのものです！",
+      "tag": "p",
+      "classes": [],
+      "section": "event",
+      "box": 15,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/event/ph02.jpg",
+      "src_raw": "img/event/ph02.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "event",
+      "box": 16,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "懇親会",
+      "html": "懇親会",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "event",
+      "box": 16,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "paragraph",
+      "text": "月に1度は開かれる社内懇親会！\n社員同士の距離がぐっと縮まります！",
+      "html": "月に1度は開かれる社内懇親会！<br/>社員同士の距離がぐっと縮まります！",
+      "tag": "p",
+      "classes": [],
+      "section": "event",
+      "box": 16,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/event/ph05.jpg",
+      "src_raw": "img/event/ph05.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "event",
+      "box": 17,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "フットサル大会",
+      "html": "フットサル大会",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "event",
+      "box": 17,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "paragraph",
+      "text": "普段はスーツ姿のエンジニアですが、\nこの日は爽やかなスポーツマン☆",
+      "html": "普段はスーツ姿のエンジニアですが、<br/>この日は爽やかなスポーツマン☆",
+      "tag": "p",
+      "classes": [],
+      "section": "event",
+      "box": 17,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/event/ph16.jpg",
+      "src_raw": "img/event/ph16.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "event",
+      "box": 18,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "ボランティア活動",
+      "html": "ボランティア活動",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "event",
+      "box": 18,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "paragraph",
+      "text": "本社周辺のごみ拾いを実施しました。\n清掃活動を終えたとき達成感！気持ちがスッとします。",
+      "html": "本社周辺のごみ拾いを実施しました。<br/>清掃活動を終えたとき達成感！気持ちがスッとします。",
+      "tag": "p",
+      "classes": [],
+      "section": "event",
+      "box": 18,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/event/ph04.jpg",
+      "src_raw": "img/event/ph04.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "event",
+      "box": 19,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "誕生日お祝い",
+      "html": "誕生日お祝い",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "event",
+      "box": 19,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "paragraph",
+      "text": "誕生月の懇親会に参加すると、\nみんなからのハッピーバースデーのお祝いがあります！",
+      "html": "誕生月の懇親会に参加すると、<br/>みんなからのハッピーバースデーのお祝いがあります！",
+      "tag": "p",
+      "classes": [],
+      "section": "event",
+      "box": 19,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/event/ph03.jpg",
+      "src_raw": "img/event/ph03.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "event",
+      "box": 20,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "ダーツ大会",
+      "html": "ダーツ大会",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "event",
+      "box": 20,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "paragraph",
+      "text": "個人戦、団体戦を戦いました！",
+      "html": "個人戦、団体戦を戦いました！",
+      "tag": "p",
+      "classes": [],
+      "section": "event",
+      "box": 20,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/event/ph13.jpg",
+      "src_raw": "img/event/ph13.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "event",
+      "box": 21,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "お花見",
+      "html": "お花見",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "event",
+      "box": 21,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "paragraph",
+      "text": "毎年恒例！新入社員とお花見に行きました☆",
+      "html": "毎年恒例！新入社員とお花見に行きました☆",
+      "tag": "p",
+      "classes": [],
+      "section": "event",
+      "box": 21,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/event/ph10.jpg",
+      "src_raw": "img/event/ph10.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "event",
+      "box": 22,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "「クレイスだより」",
+      "html": "「クレイスだより」",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "event",
+      "box": 22,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "paragraph",
+      "text": "社内向けに定期的に発行される\n社内報は女子力の塊です★",
+      "html": "社内向けに定期的に発行される<br/>社内報は女子力の塊です★",
+      "tag": "p",
+      "classes": [],
+      "section": "event",
+      "box": 22,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/event/ph11.jpg",
+      "src_raw": "img/event/ph11.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "event",
+      "box": 23,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "みんなの思い出がたくさん！",
+      "html": "みんなの思い出がたくさん！",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "event",
+      "box": 23,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "paragraph",
+      "text": "みんなのクレイスでの思い出写真がたくさん飾られています！",
+      "html": "みんなのクレイスでの思い出写真がたくさん飾られています！",
+      "tag": "p",
+      "classes": [],
+      "section": "event",
+      "box": 23,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "CLAICE Office",
+      "html": "CLAICE Office",
+      "id": null,
+      "anchor": "office",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "office"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/office/ph01.jpg",
+      "src_raw": "img/office/ph01.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "office",
+      "box": 25,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "エントランス",
+      "html": "エントランス",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "office",
+      "box": 25,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/office/ph02.jpg",
+      "src_raw": "img/office/ph02.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "office",
+      "box": 26,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "オープンスペース",
+      "html": "オープンスペース",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "office",
+      "box": 26,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/office/ph03.jpg",
+      "src_raw": "img/office/ph03.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "office",
+      "box": 27,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "ミーティングルーム",
+      "html": "ミーティングルーム",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "office",
+      "box": 27,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/office/ph04.jpg",
+      "src_raw": "img/office/ph04.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "office",
+      "box": 28,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "ミーティングルーム",
+      "html": "ミーティングルーム",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "office",
+      "box": 28,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/office/ph05.jpg",
+      "src_raw": "img/office/ph05.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "office",
+      "box": 29,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "ファミレススペース",
+      "html": "ファミレススペース",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "office",
+      "box": 29,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/office/ph06.jpg",
+      "src_raw": "img/office/ph06.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "office",
+      "box": 30,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "バーカウンター",
+      "html": "バーカウンター",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "office",
+      "box": 30,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/office/ph07.jpg",
+      "src_raw": "img/office/ph07.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "office",
+      "box": 31,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "集中したいときはファミレススペースで",
+      "html": "集中したいときはファミレススペースで",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "office",
+      "box": 31,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/office/ph08.jpg",
+      "src_raw": "img/office/ph08.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "office",
+      "box": 32,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "席はフリーアドレスとし、好きな場所で仕事ができます",
+      "html": "席はフリーアドレスとし、好きな場所で仕事ができます",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "office",
+      "box": 32,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/office/ph09.jpg",
+      "src_raw": "img/office/ph09.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "office",
+      "box": 33,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "ガラス張りが特徴的なミーティングルーム",
+      "html": "ガラス張りが特徴的なミーティングルーム",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "office",
+      "box": 33,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/office/ph10.jpg",
+      "src_raw": "img/office/ph10.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "office",
+      "box": 34,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "打ち合わせもはかどります",
+      "html": "打ち合わせもはかどります",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "office",
+      "box": 34,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/office/ph11.jpg",
+      "src_raw": "img/office/ph11.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "office",
+      "box": 35,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "ワークスペースで打合せ中",
+      "html": "ワークスペースで打合せ中",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "office",
+      "box": 35,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/office/ph12.jpg",
+      "src_raw": "img/office/ph12.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "link": null,
+      "link_target": null,
+      "classes": [],
+      "wrapper_classes": [
+        "Card",
+        "Card_Photo"
+      ],
+      "section": "office",
+      "box": 36,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "コーヒーサーバーもありますので、ホッと一息つける場所です",
+      "html": "コーヒーサーバーもありますので、ホッと一息つける場所です",
+      "id": null,
+      "anchor": null,
+      "classes": [],
+      "section": "office",
+      "box": 36,
+      "box_class": "div.Card.Card_Photo"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "Office Tour",
+      "html": "Office Tour",
+      "id": null,
+      "anchor": "officetour",
+      "classes": [
+        "Headline3"
+      ],
+      "section": "officetour"
+    },
+    {
+      "type": "paragraph",
+      "text": "「バチャナビ」にてバーチャルオフィスツアーを体験いただくことができます。\n（※外部サイトへ移動します）",
+      "html": "「バチャナビ」にてバーチャルオフィスツアーを体験いただくことができます。<br/>（※外部サイトへ移動します）",
+      "tag": "p",
+      "classes": [
+        "Text",
+        "Center"
+      ],
+      "section": "officetour",
+      "box": 37,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "image",
+      "src": "https://www.claice.com/photo/img/btn_officetour.png",
+      "src_raw": "img/btn_officetour.png",
+      "alt": "バーチャルオフィスツアー",
+      "width": null,
+      "height": null,
+      "link": "https://app.vachanavi.com/2024/03/01/claice",
+      "link_target": "_blank",
+      "classes": [],
+      "wrapper_classes": [
+        "LinkBtn"
+      ],
+      "section": "officetour",
+      "box": 37,
+      "box_class": "div.ContentWrap.cFix"
+    }
+  ]
+}

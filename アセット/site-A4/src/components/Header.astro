@@ -1,0 +1,36 @@
+---
+import { loadShared } from '../lib/content';
+import { internal, relPath } from '../lib/urls';
+import { PAGES } from '../lib/pages';
+
+interface Props { from: string }
+const { from } = Astro.props;
+const header = loadShared().header;
+const rel = (path: string) => relPath(from, path);
+const links = header.main_nav.map((item: {text: string; href: string; href_raw: string}) => ({
+  text: item.text, href: internal(item.href, from), current: item.href_raw === from,
+}));
+const others = PAGES.filter((page) => ['profile','news','form','form_entry','policy'].includes(page.key));
+---
+<header class="site-header">
+  <div class="wrap mast">
+    <a class="logo" href={rel('index.html')}><img class="logo-img" src={rel('common/img/claice_logo_sp.png')} width="131" height="36" alt={header.logo.alt}></a>
+    <nav class="gnav" aria-label="主要なページ">
+      <ul>{links.map((item) => <li><a href={item.href} aria-current={item.current ? 'page' : undefined}>{item.text}</a></li>)}</ul>
+    </nav>
+    <div class="header-cta">
+      <a class="btn btn-contact" href={rel('form/index.html')}>お問い合せ</a>
+      <a class="btn btn-entry" href={rel('form/entry.html')}>エントリー</a>
+    </div>
+    <button type="button" class="motion-control" hidden>動きを止める</button>
+    <details class="site-index">
+      <summary><span class="index-lines" aria-hidden="true"></span>目次</summary>
+      <nav aria-label="サイトの目次">
+        <div class="index-inner">
+          <div class="index-major">{links.map((item) => <a href={item.href} aria-current={item.current ? 'page' : undefined}>{item.text}<span aria-hidden="true">↗</span></a>)}</div>
+          <div class="index-minor">{others.map((page) => <a href={rel(page.path)} aria-current={page.path === from ? 'page' : undefined}>{page.name}</a>)}<a href={rel('profile/index.html#access')}>アクセス</a></div>
+        </div>
+      </nav>
+    </details>
+  </div>
+</header>

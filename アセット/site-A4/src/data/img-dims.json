@@ -1,0 +1,618 @@
+{
+ "3d/diorama_bake.webp": [
+  4096,
+  4096
+ ],
+ "3d/poster.webp": [
+  1200,
+  900
+ ],
+ "3d/view_about.webp": [
+  1200,
+  900
+ ],
+ "3d/view_business.webp": [
+  1200,
+  900
+ ],
+ "3d/view_education.webp": [
+  1200,
+  900
+ ],
+ "3d/view_photo.webp": [
+  1200,
+  900
+ ],
+ "3d/view_recruit.webp": [
+  1200,
+  900
+ ],
+ "about/img/equal_chart.svg": [
+  600,
+  323
+ ],
+ "about/img/headline3_bk.jpg": [
+  3000,
+  250
+ ],
+ "about/img/ph_andou.jpg": [
+  600,
+  400
+ ],
+ "about/img/philosophy_image1.jpg": [
+  600,
+  400
+ ],
+ "about/img/philosophy_image2.jpg": [
+  600,
+  400
+ ],
+ "about/img/philosophy_image3.jpg": [
+  600,
+  400
+ ],
+ "about/img/philosophy_image4.jpg": [
+  600,
+  400
+ ],
+ "about/img/sign_andou.png": [
+  200,
+  55
+ ],
+ "about/img/title_bk_about.jpg": [
+  1200,
+  150
+ ],
+ "about/img/title_bk_about_sp.jpg": [
+  250,
+  300
+ ],
+ "business/img/engineer_image.jpg": [
+  500,
+  355
+ ],
+ "business/img/esn_chart.png": [
+  1200,
+  1086
+ ],
+ "business/img/service_icon_nw.png": [
+  300,
+  300
+ ],
+ "business/img/service_icon_sv.png": [
+  300,
+  300
+ ],
+ "business/img/title_bk_business.jpg": [
+  1200,
+  150
+ ],
+ "business/img/title_bk_business_sp.jpg": [
+  250,
+  300
+ ],
+ "common/img/arrow_s.png": [
+  64,
+  64
+ ],
+ "common/img/arrow_s_silver.png": [
+  64,
+  64
+ ],
+ "common/img/arrow_ss.png": [
+  30,
+  55
+ ],
+ "common/img/bt_pagetop.png": [
+  60,
+  60
+ ],
+ "common/img/claice_logo_pc.png": [
+  291,
+  80
+ ],
+ "common/img/claice_logo_sp.png": [
+  436,
+  120
+ ],
+ "common/img/header_pict2024.png": [
+  250,
+  72
+ ],
+ "common/img/icon_close.png": [
+  50,
+  50
+ ],
+ "common/img/icon_pdf.svg": [
+  256,
+  256
+ ],
+ "common/img/logo_gakujo.png": [
+  140,
+  67
+ ],
+ "common/img/logo_mynavi2027.png": [
+  140,
+  17
+ ],
+ "common/img/logo_rikunabi2026.png": [
+  140,
+  30
+ ],
+ "common/img/privacymark.png": [
+  220,
+  240
+ ],
+ "common/img/whitemark.png": [
+  160,
+  205
+ ],
+ "common/img/yt_logo_rgb_light.png": [
+  140,
+  31
+ ],
+ "education/img/education_image.jpg": [
+  500,
+  355
+ ],
+ "education/img/followup_chart2021.png": [
+  1200,
+  930
+ ],
+ "education/img/followupvoice_image.jpg": [
+  500,
+  370
+ ],
+ "education/img/followupvoice_ph_ht.jpg": [
+  300,
+  400
+ ],
+ "education/img/followupvoice_ph_ko.jpg": [
+  300,
+  400
+ ],
+ "education/img/followupvoice_ph_ts.jpg": [
+  300,
+  400
+ ],
+ "education/img/idea_chart.png": [
+  734,
+  669
+ ],
+ "education/img/qualification_image.jpg": [
+  500,
+  355
+ ],
+ "education/img/startingbusiness_chart.png": [
+  1200,
+  366
+ ],
+ "education/img/title_bk_education.jpg": [
+  1200,
+  150
+ ],
+ "education/img/title_bk_education_sp.jpg": [
+  250,
+  300
+ ],
+ "favicon/apple-touch-icon.png": [
+  180,
+  180
+ ],
+ "favicon/favicon-16x16.png": [
+  16,
+  16
+ ],
+ "favicon/favicon-32x32.png": [
+  32,
+  32
+ ],
+ "favicon/safari-pinned-tab.svg": [
+  260,
+  260
+ ],
+ "form/img/title_bk_form.jpg": [
+  1200,
+  150
+ ],
+ "form/img/title_bk_form_sp.jpg": [
+  250,
+  300
+ ],
+ "img/info/info20181211.jpg": [
+  500,
+  333
+ ],
+ "img/info/info20190516.jpg": [
+  400,
+  266
+ ],
+ "img/info/info20210910.jpg": [
+  500,
+  333
+ ],
+ "img/info/info20221112.jpg": [
+  500,
+  333
+ ],
+ "img/info/info20221116.jpg": [
+  500,
+  333
+ ],
+ "img/info/info20221228.jpg": [
+  500,
+  333
+ ],
+ "img/info/info20230104.jpg": [
+  500,
+  333
+ ],
+ "img/info/info20240403.jpg": [
+  500,
+  333
+ ],
+ "img/info/info20240704.jpg": [
+  500,
+  333
+ ],
+ "img/info/info20240802.jpg": [
+  500,
+  333
+ ],
+ "img/info/info20241019.jpg": [
+  500,
+  333
+ ],
+ "img/info/info20241104.jpg": [
+  500,
+  333
+ ],
+ "img/info/info20241116.jpg": [
+  500,
+  333
+ ],
+ "img/info/info20260109.png": [
+  500,
+  333
+ ],
+ "img/info/info_doda.png": [
+  500,
+  333
+ ],
+ "img/info/info_gakujo.png": [
+  500,
+  333
+ ],
+ "img/info/info_mynavi2027.png": [
+  500,
+  333
+ ],
+ "img/info/info_rikunabi2024.png": [
+  500,
+  333
+ ],
+ "img/info/info_rikunabi2026.png": [
+  500,
+  333
+ ],
+ "img/info/info_rikunabi_next.png": [
+  500,
+  333
+ ],
+ "img/info/info_wantedly.png": [
+  500,
+  333
+ ],
+ "img/top_menu_ph5b.jpg": [
+  600,
+  380
+ ],
+ "img/top_menu_ph6.jpg": [
+  600,
+  380
+ ],
+ "img/top_menu_ph7.jpg": [
+  600,
+  380
+ ],
+ "photo/img/btn_officetour.png": [
+  760,
+  140
+ ],
+ "photo/img/event/ph01.jpg": [
+  500,
+  333
+ ],
+ "photo/img/event/ph02.jpg": [
+  500,
+  333
+ ],
+ "photo/img/event/ph03.jpg": [
+  500,
+  333
+ ],
+ "photo/img/event/ph04.jpg": [
+  500,
+  333
+ ],
+ "photo/img/event/ph05.jpg": [
+  500,
+  333
+ ],
+ "photo/img/event/ph08.jpg": [
+  500,
+  333
+ ],
+ "photo/img/event/ph09.jpg": [
+  500,
+  333
+ ],
+ "photo/img/event/ph10.jpg": [
+  500,
+  333
+ ],
+ "photo/img/event/ph11.jpg": [
+  500,
+  333
+ ],
+ "photo/img/event/ph13.jpg": [
+  500,
+  333
+ ],
+ "photo/img/event/ph14.jpg": [
+  500,
+  333
+ ],
+ "photo/img/event/ph15.jpg": [
+  500,
+  333
+ ],
+ "photo/img/event/ph16.jpg": [
+  500,
+  333
+ ],
+ "photo/img/event/ph17.jpg": [
+  500,
+  333
+ ],
+ "photo/img/family/ph01.jpg": [
+  250,
+  220
+ ],
+ "photo/img/family/ph03.jpg": [
+  250,
+  220
+ ],
+ "photo/img/family/ph05.jpg": [
+  250,
+  220
+ ],
+ "photo/img/family/ph06.jpg": [
+  250,
+  220
+ ],
+ "photo/img/family/ph07.jpg": [
+  250,
+  220
+ ],
+ "photo/img/family/ph08.jpg": [
+  250,
+  220
+ ],
+ "photo/img/family/ph09.jpg": [
+  250,
+  220
+ ],
+ "photo/img/family/ph10.jpg": [
+  250,
+  220
+ ],
+ "photo/img/family/ph11.jpg": [
+  250,
+  220
+ ],
+ "photo/img/family/ph12.jpg": [
+  250,
+  220
+ ],
+ "photo/img/office/ph01.jpg": [
+  500,
+  333
+ ],
+ "photo/img/office/ph02.jpg": [
+  500,
+  333
+ ],
+ "photo/img/office/ph03.jpg": [
+  500,
+  333
+ ],
+ "photo/img/office/ph04.jpg": [
+  500,
+  333
+ ],
+ "photo/img/office/ph05.jpg": [
+  500,
+  333
+ ],
+ "photo/img/office/ph06.jpg": [
+  500,
+  333
+ ],
+ "photo/img/office/ph07.jpg": [
+  500,
+  333
+ ],
+ "photo/img/office/ph08.jpg": [
+  500,
+  333
+ ],
+ "photo/img/office/ph09.jpg": [
+  500,
+  333
+ ],
+ "photo/img/office/ph10.jpg": [
+  500,
+  334
+ ],
+ "photo/img/office/ph11.jpg": [
+  500,
+  333
+ ],
+ "photo/img/office/ph12.jpg": [
+  500,
+  333
+ ],
+ "photo/img/title_bk_photo.jpg": [
+  1200,
+  150
+ ],
+ "photo/img/title_bk_photo_sp.jpg": [
+  250,
+  300
+ ],
+ "policy/img/policy_ad.gif": [
+  162,
+  16
+ ],
+ "policy/img/title_bk_policy.jpg": [
+  1200,
+  150
+ ],
+ "policy/img/title_bk_policy_sp.jpg": [
+  250,
+  300
+ ],
+ "profile/img/title_bk_profile.jpg": [
+  1200,
+  150
+ ],
+ "profile/img/title_bk_profile_sp.jpg": [
+  250,
+  300
+ ],
+ "recruit/img/banner_gakujo.png": [
+  500,
+  200
+ ],
+ "recruit/img/banner_mynavi2027.png": [
+  500,
+  200
+ ],
+ "recruit/img/banner_rikunavi2026.png": [
+  500,
+  200
+ ],
+ "recruit/img/banner_white.jpg": [
+  1280,
+  720
+ ],
+ "recruit/img/btn_entry.png": [
+  760,
+  140
+ ],
+ "recruit/img/btn_entry_c2.png": [
+  760,
+  140
+ ],
+ "recruit/img/btn_form.png": [
+  760,
+  140
+ ],
+ "recruit/img/rehire_image.jpg": [
+  500,
+  333
+ ],
+ "recruit/img/staff_ph_mm.jpg": [
+  400,
+  520
+ ],
+ "recruit/img/staff_ph_tn.jpg": [
+  400,
+  520
+ ],
+ "recruit/img/title_bk_recruit.jpg": [
+  1200,
+  150
+ ],
+ "recruit/img/title_bk_recruit_sp.jpg": [
+  250,
+  300
+ ],
+ "web/about-rack-1200.webp": [
+  1200,
+  900
+ ],
+ "web/about-rack-600.webp": [
+  600,
+  450
+ ],
+ "web/band-about-1280.webp": [
+  1280,
+  720
+ ],
+ "web/band-about-640.webp": [
+  640,
+  360
+ ],
+ "web/band-business-1280.webp": [
+  1280,
+  720
+ ],
+ "web/band-business-640.webp": [
+  640,
+  360
+ ],
+ "web/band-education-1280.webp": [
+  1280,
+  720
+ ],
+ "web/band-education-640.webp": [
+  640,
+  360
+ ],
+ "web/band-recruit-1280.webp": [
+  1280,
+  720
+ ],
+ "web/band-recruit-640.webp": [
+  640,
+  360
+ ],
+ "web/bg-about-1600.webp": [
+  1600,
+  900
+ ],
+ "web/bg-about-800.webp": [
+  800,
+  450
+ ],
+ "web/bg-business-1600.webp": [
+  1600,
+  900
+ ],
+ "web/bg-business-800.webp": [
+  800,
+  450
+ ],
+ "web/bg-education-1600.webp": [
+  1600,
+  900
+ ],
+ "web/bg-education-800.webp": [
+  800,
+  450
+ ],
+ "web/bg-recruit-1600.webp": [
+  1600,
+  900
+ ],
+ "web/bg-recruit-800.webp": [
+  800,
+  450
+ ],
+ "web/og.jpg": [
+  1200,
+  630
+ ]
+}

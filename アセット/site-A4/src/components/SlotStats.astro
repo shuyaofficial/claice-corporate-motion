@@ -1,0 +1,17 @@
+---
+import { slots } from '../data/slots';
+const s = slots.stats;
+const on = s.enabled && s.items.length > 0;
+---
+{on && (
+  <section class="section slot slot-stats" aria-labelledby="slot-stats-title">
+    <div class="wrap">
+      <h2 class="sec-title" id="slot-stats-title">{s.heading}</h2>
+      <dl class="stats">
+        {s.items.map((i) => (
+          <div class="stat"><dt>{i.label}</dt><dd><strong>{i.value}</strong>{i.unit && <span>{i.unit}</span>}{i.note && <small>{i.note}</small>}</dd></div>
+        ))}
+      </dl>
+    </div>
+  </section>
+)}

@@ -1,0 +1,135 @@
+/* 画像の中にしか無かった図（content/image_texts.json）を HTML の文字＋CSS/SVG で描き直したもの */
+.fig { container-type: inline-size; margin: 28px 0; }
+.fig:first-child { margin-top: 0; }
+.fig-icon { display: inline-grid; place-items: center; flex: none; }
+.fig-icon svg { width: 100%; height: 100%; fill: currentColor; stroke: currentColor; }
+.fig-label { font-weight: 700; }
+
+/* ESN */
+.fig-esn { max-width: 720px; border: 2px solid var(--blue); border-radius: 18px; background: var(--white); overflow: hidden; }
+.esn-engineer { display: flex; align-items: center; gap: 16px; padding: 16px 22px; background: var(--blue); color: var(--white); }
+.esn-engineer .fig-icon { width: 44px; height: 44px; }
+.esn-engineer p { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 14px; }
+.esn-lead { font-size: 14px; }
+.esn-name { font-size: clamp(20px, 3.6cqw, 28px); letter-spacing: .04em; }
+.esn-skills { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 28px; padding: 24px 24px 26px; }
+.esn-col .fig-label { color: var(--blue); font-size: 20px; padding-bottom: 8px; margin-bottom: 8px; border-bottom: 2px solid var(--blue-soft); }
+.esn-col li { padding: 3px 0; }
+.esn-plus { display: flex; align-items: center; justify-content: center; gap: 14px; padding: 16px 20px; font-weight: 700; color: var(--ink-2); background: var(--paper-2); }
+.esn-plus .plus { position: relative; width: 26px; height: 26px; flex: none; }
+.esn-plus .plus::before, .esn-plus .plus::after { content: ""; position: absolute; background: var(--blue); border-radius: 1px; }
+.esn-plus .plus::before { left: 10px; top: 0; width: 6px; height: 26px; }
+.esn-plus .plus::after { left: 0; top: 10px; width: 26px; height: 6px; }
+.esn-system { margin: 0 14px 14px; border: 2px solid var(--ink); border-radius: 12px; overflow: hidden; }
+.esn-system-head { display: flex; align-items: center; gap: 14px; justify-content: center; padding: 14px 18px; background: var(--ink); color: var(--white); }
+.esn-system-head .fig-icon { width: 40px; height: 40px; }
+.esn-system-head p { display: grid; text-align: center; line-height: 1.4; }
+.esn-system-head strong { font-size: clamp(19px, 3.4cqw, 26px); }
+.esn-system-head span { font-size: 12px; }
+.esn-terms { padding: 20px 18px 22px; text-align: center; font-weight: 700; line-height: 2.1; }
+.mark-line { box-shadow: inset 0 -.5em 0 var(--blue-soft); }
+.esn-terms em { color: var(--blue-dark); }
+
+/* フォローアップ */
+.fig-followup { display: grid; grid-template-columns: 56px minmax(0, 1fr) 56px; gap: 0 18px; align-items: stretch; max-width: 760px; }
+.fu-side { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; padding: 18px 0; background: var(--blue); color: var(--white); border-radius: 10px; font-weight: 700; }
+.fu-side .fig-icon { width: 30px; height: 30px; }
+.fu-label { writing-mode: vertical-rl; letter-spacing: .2em; line-height: 1.2; }
+.fu-list { display: grid; gap: 14px; }
+.fu-list li { position: relative; display: flex; align-items: center; gap: 16px; min-height: 64px; padding: 12px 18px; border: 2px solid var(--blue); border-radius: 6px; background: var(--white); font-weight: 600; line-height: 1.6; }
+.fu-list li::before { content: ""; position: absolute; left: -20px; top: 50%; width: 18px; height: 14px; transform: translateY(-50%); background: var(--blue-soft); }
+.fu-list li::after { content: ""; position: absolute; right: -20px; top: 50%; width: 18px; height: 26px; transform: translateY(-50%); background: var(--blue-soft); clip-path: polygon(0 20%, 55% 20%, 55% 0, 100% 50%, 55% 100%, 55% 80%, 0 80%); }
+.fu-list .fig-icon { width: 34px; height: 34px; color: var(--blue); }
+
+/* 起業支援 */
+.fig-start { display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1.15fr) minmax(0, 1fr) minmax(0, .85fr); grid-template-areas: "people train work goal" "people train founder goal"; gap: 14px 16px; max-width: 980px; }
+.st-people { grid-area: people; display: grid; gap: 10px; align-content: space-between; }
+.st-people li { display: flex; align-items: center; gap: 10px; padding: 14px 14px; background: var(--blue); color: var(--white); border-radius: 8px; font-weight: 700; line-height: 1.5; }
+.st-people .fig-icon { width: 30px; height: 30px; }
+.st-step { padding: 16px 16px 18px; border-radius: 10px; }
+.st-title { font-weight: 700; line-height: 1.5; }
+.st-train { grid-area: train; background: var(--blue); color: var(--white); text-align: center; }
+.st-train ul { margin-top: 12px; padding: 10px 8px; background: var(--white); color: var(--ink); border-radius: 6px; font-size: 14px; }
+.st-work { grid-area: work; background: var(--blue-soft); border: 2px solid var(--blue); text-align: center; }
+.st-work .st-sub { margin-top: 10px; padding: 8px; background: var(--white); border-radius: 6px; font-size: 14px; font-weight: 700; color: var(--ink-2); }
+.st-founder { grid-area: founder; background: var(--entry-soft); border: 2px solid var(--entry); text-align: center; }
+.st-founder ul { margin-top: 10px; padding: 8px; background: var(--white); border-radius: 6px; font-size: 14px; }
+.st-goal { grid-area: goal; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; padding: 18px 10px; background: var(--ink); color: var(--white); border-radius: 10px; font-weight: 700; font-size: 18px; line-height: 1.6; text-align: center; }
+
+/* 3つの気持ち（円どうしは接するだけで重ならない。外側の薄い青は同じ色なので、つながって見える） */
+.fig-idea { position: relative; width: 100%; max-width: 420px; aspect-ratio: 1 / .92; margin: 0 auto; }
+.idea-circle { position: absolute; width: 46%; aspect-ratio: 1; display: grid; place-items: center; border: 5px solid var(--blue); border-radius: 50%; background: var(--white); box-shadow: 0 0 0 9px var(--blue-soft); font-weight: 700; font-size: clamp(14px, 4.6cqw, 20px); text-align: center; line-height: 1.5; padding: 0 8%; word-break: keep-all; }
+.idea-top { left: 27%; top: 0; }
+.idea-left { left: 4%; top: 50%; }
+.idea-right { left: 50%; top: 50%; }
+
+/* 同一労働同一賃金 */
+.fig-equal { max-width: 600px; }
+.eq-bars { display: grid; grid-template-columns: minmax(0, 1fr) 44px minmax(0, .75fr); align-items: end; gap: 0; height: clamp(210px, 52cqw, 280px); border-bottom: 1.5px solid var(--line-strong); }
+.eq-base { display: grid; grid-template-rows: 3fr 2fr; gap: 8px; height: 74%; }
+.eq-block { display: grid; place-items: center; text-align: center; padding: 8px; background: var(--blue); color: var(--white); font-weight: 700; line-height: 1.6; }
+.eq-x { display: block; }
+.eq-lt { align-self: center; width: 28px; height: 56px; justify-self: center; margin-bottom: 20%; background: var(--blue-soft); clip-path: polygon(100% 0, 100% 22%, 40% 50%, 100% 78%, 100% 100%, 0 50%); }
+.eq-agree { display: grid; place-items: center; height: 100%; background: var(--blue-dark); color: var(--white); font-size: clamp(18px, 4.6cqw, 26px); font-weight: 700; }
+.eq-caption { display: grid; grid-template-columns: minmax(0, 1fr) 44px minmax(0, .75fr); padding-top: 10px; font-weight: 700; }
+.eq-caption span:first-child { grid-column: 1; text-align: center; }
+.eq-caption span:last-child { grid-column: 3; text-align: center; }
+
+/* ホワイト企業認定バナー */
+.white-banner { display: grid; grid-template-columns: auto 1fr; grid-template-areas: "head head" "big big" "done done" "quote quote"; gap: 10px; padding: 22px 24px 24px; background: var(--blue-soft); border: 1.5px solid var(--blue); border-radius: 16px; color: var(--blue-dark); text-decoration: none; transition: transform .16s var(--ease-out), box-shadow .16s; }
+.white-banner:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
+.wb-head { grid-area: head; display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 17px; padding-bottom: 8px; border-bottom: 2px solid var(--blue); }
+.wb-head .fig-icon { width: 34px; height: 34px; }
+.wb-big { grid-area: big; font-size: clamp(26px, 4.4vw, 40px); font-weight: 800; letter-spacing: .08em; line-height: 1.3; }
+.wb-done { grid-area: done; justify-self: end; font-size: clamp(24px, 4vw, 34px); font-weight: 800; }
+.wb-quote { grid-area: quote; padding: 8px 12px; background: var(--blue-dark); color: var(--white); font-size: 14px; font-weight: 700; line-height: 1.6; }
+
+/* 再雇用の写真（焼き込みの吹き出しを HTML の文字で覆う） */
+.rehire-photo { position: relative; max-width: 500px; container-type: inline-size; }
+.rehire-photo .photo { display: block; width: 100%; }
+.bubble { position: absolute; display: grid; place-items: center; text-align: center; background: var(--blue); color: var(--white); border-radius: 50%; font-weight: 700; font-size: 3.5cqw; line-height: 1.5; padding: 0 4cqw; }
+.bubble-a { right: .8%; top: 1%; width: 44%; height: 42%; }
+.bubble-b { left: .8%; bottom: 2%; width: 49%; height: 36%; }
+
+@container (max-width: 560px) {
+  .fig-esn .esn-skills { grid-template-columns: 1fr; }
+}
+@media (max-width: 760px) {
+  .esn-skills { grid-template-columns: 1fr; padding: 20px 18px; }
+  .esn-engineer { padding: 14px 16px; }
+  .fig-followup { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .fu-side { flex-direction: row; padding: 12px 16px; }
+  .fu-label { writing-mode: horizontal-tb; letter-spacing: .06em; }
+  .fu-list { gap: 22px; padding: 22px 0; }
+  .fu-list li::before { display: none; }
+  .fu-list li::after { right: auto; left: 50%; top: auto; bottom: -22px; transform: translateX(-50%) rotate(90deg); width: 20px; height: 22px; clip-path: polygon(0 28%, 50% 28%, 50% 0, 100% 50%, 50% 100%, 50% 72%, 0 72%); }
+  .fu-list li:last-child::after { display: none; }
+  .fu-to::before { display: none; }
+  .fig-start { grid-template-columns: minmax(0, 1fr); grid-template-areas: "people" "train" "work" "founder" "goal"; }
+  .st-people { align-content: start; }
+  .eq-bars { grid-template-columns: minmax(0, 1fr) 30px minmax(0, .75fr); }
+  .eq-caption { grid-template-columns: minmax(0, 1fr) 30px minmax(0, .75fr); font-size: 14px; }
+  .eq-block { font-size: 14px; }
+  .white-banner { padding: 18px 18px 20px; }
+}
+
+/* 紙面上の模式図。色の役割を保ち、本文・表と同じインクと罫線を使う。 */
+.sub .fig {
+  --blue: var(--chapter-navy);
+  --blue-dark: #203950;
+  --blue-soft: #dce4e6;
+  --entry: var(--chapter-rust);
+  --entry-soft: #f0dfd3;
+  --white: #fffaf0;
+}
+.sub .fig-esn, .sub .esn-system, .sub .fu-side, .sub .fu-list li,
+.sub .st-people li, .sub .st-step, .sub .st-train ul, .sub .st-work .st-sub,
+.sub .st-founder ul, .sub .st-goal { border-radius: 0; }
+.sub .fig-esn,.sub .esn-system,.sub .st-work,.sub .st-founder,.sub .fu-list li { border-width: 1px; }
+.sub .esn-name,.sub .esn-system-head strong,.sub .st-title,.sub .st-goal { font-family: var(--book-serif); }
+.sub .esn-plus { background: transparent; }
+.sub .eq-agree { background: var(--chapter-rust); }
+.sub .white-banner { border-radius: 0; color: var(--chapter-navy); background: #ece4d5; border: 1px solid var(--chapter-navy); }
+.sub .wb-head { border-color: var(--chapter-navy); }
+.sub .wb-quote { background: var(--chapter-navy); }
+.sub .white-banner:hover { box-shadow: none; }

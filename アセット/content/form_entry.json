@@ -1,0 +1,2710 @@
+{
+  "page": "form_entry",
+  "url": "https://www.claice.com/form/entry.html",
+  "meta": {
+    "title": "採用応募フォーム│株式会社クレイス",
+    "description": "ネットワーク・システムソリューションサービス、ネットワークエンジニア派遣の（株）クレイスのwebサイトです。ネットワークエンジニアを随時募集中です。ネットワーク技術、ヒューマンスキルを磨きたい方、大歓迎！",
+    "keywords": "クレイス,ネットワーク,ネットワーク運用,CCNA,CCNA研修,ネットワークエンジニア,エンジニア派遣,人材募集"
+  },
+  "body_class": [
+    "ContentFrame",
+    "Form",
+    "Entry"
+  ],
+  "elements": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "採用応募フォーム│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "html": "採用応募フォーム│ネットワーク・システムソリューションサービスの（株）クレイス",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "PageTitle"
+      ],
+      "hidden": true,
+      "hidden_by": [
+        "common/css/pc.css [media=print, screen and (min-width: 768px)]: .PageTitle { position:absolute; left:0; top:-40px; margin:0; color:#fff; font-size:80%; line-height:40px; text-align:left; }",
+        "common/css/sp.css [media=handheld, only screen and (max-width: 767px)]: .PageTitle { display:none; }"
+      ],
+      "source": "header"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "採用応募フォーム",
+      "html": "採用応募フォーム",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Single"
+      ],
+      "box": 1,
+      "box_class": "div.TitleWrap"
+    },
+    {
+      "type": "heading",
+      "level": 3,
+      "text": "採用応募フォーム",
+      "html": "採用応募フォーム",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline3"
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 4,
+      "text": "このページはプライバシー保護のため、SSL暗号化通信を実現しています。",
+      "html": "このページはプライバシー保護のため、SSL暗号化通信を実現しています。",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "LeadHeadline"
+      ],
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "definition_list",
+      "items": [
+        {
+          "term": "",
+          "term_html": "<span id=\"ss_gmo_img_wrapper_130-66_image_ja\"><a href=\"https://jp.globalsign.com/\" rel=\"nofollow\" target=\"_blank\"><img alt=\"SSL　GMOグローバルサインのサイトシール\" border=\"0\" id=\"ss_img\" src=\"https://seal.globalsign.com/SiteSeal/images/gs_noscript_130-66_ja.gif\"/></a></span> <script defer=\"defer\" src=\"https://seal.globalsign.com/SiteSeal/gmogs_image_130-66_ja.js\" type=\"text/javascript\"></script>",
+          "definitions": [
+            "SSLとは、インターネット上でやり取りされているデータを暗号化し、安心して大切な情報をやり取りできるよう開発された仕組みです。"
+          ],
+          "definitions_html": [
+            "SSLとは、インターネット上でやり取りされているデータを暗号化し、安心して大切な情報をやり取りできるよう開発された仕組みです。"
+          ]
+        }
+      ],
+      "classes": [
+        "SSL"
+      ],
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "image",
+      "src": "https://seal.globalsign.com/SiteSeal/images/gs_noscript_130-66_ja.gif",
+      "src_raw": "//seal.globalsign.com/SiteSeal/images/gs_noscript_130-66_ja.gif",
+      "alt": "SSL　GMOグローバルサインのサイトシール",
+      "width": null,
+      "height": null,
+      "link": "https://jp.globalsign.com/",
+      "link_target": "_blank",
+      "classes": [],
+      "inline": true,
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "heading",
+      "level": 5,
+      "text": "ご利用方法",
+      "html": "ご利用方法",
+      "id": null,
+      "anchor": null,
+      "classes": [
+        "Headline5"
+      ],
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        "必要事項をご入力ください。（［必須］とある項目は必ずご入力ください。）",
+        "「個人情報の取り扱いについて」をご一読の上、ご同意いただける場合は「『個人情報の取り扱いについて』に同意する」にチェックを入れてください。",
+        "「確認画面へ進む」ボタンを押してください。（この時点ではまだ情報は送信されません。）",
+        "入力内容確認画面が表示されます。入力内容を再度ご確認ください。",
+        "ご確認後、「送信」ボタンを押してください。ご入力いただいた内容が送信されます。"
+      ],
+      "items_html": [
+        "必要事項をご入力ください。<strong class=\"Red\">（［必須］とある項目は必ずご入力ください。）</strong>",
+        "「個人情報の取り扱いについて」をご一読の上、ご同意いただける場合は「『個人情報の取り扱いについて』に同意する」にチェックを入れてください。",
+        "「確認画面へ進む」ボタンを押してください。（この時点ではまだ情報は送信されません。）",
+        "入力内容確認画面が表示されます。入力内容を再度ご確認ください。",
+        "ご確認後、「送信」ボタンを押してください。ご入力いただいた内容が送信されます。"
+      ],
+      "item_links": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ],
+      "classes": [
+        "Text"
+      ],
+      "box": 3,
+      "box_class": "div.Lead"
+    },
+    {
+      "type": "form",
+      "action": "claice_recruit.php",
+      "action_url": "https://www.claice.com/form/claice_recruit.php",
+      "method": "POST",
+      "id": null,
+      "captions": [
+        "お名前・年齢など",
+        "ご住所・連絡先",
+        "最終学歴",
+        "語学スキル・取得資格",
+        "職歴・転職状況",
+        "職歴1",
+        "職歴2",
+        "職歴3",
+        "職歴4"
+      ],
+      "fields": [
+        {
+          "name": "お名前（漢字・姓）",
+          "type": "text",
+          "id": "kanji_sei",
+          "label": "姓",
+          "required": true,
+          "maxlength": "16",
+          "size": "14",
+          "hint": null,
+          "row": 0,
+          "group": "お名前・年齢など",
+          "row_label": "お名前（漢字）［必須］"
+        },
+        {
+          "name": "お名前（漢字・名）",
+          "type": "text",
+          "id": "kanji_mei",
+          "label": "名",
+          "required": true,
+          "maxlength": "16",
+          "size": "14",
+          "hint": "（例：山田 太郎）",
+          "row": 0,
+          "group": "お名前・年齢など",
+          "row_label": "お名前（漢字）［必須］"
+        },
+        {
+          "name": "お名前（カナ・姓）",
+          "type": "text",
+          "id": "kana_sei",
+          "label": "セイ",
+          "required": true,
+          "maxlength": "20",
+          "size": "14",
+          "hint": null,
+          "row": 1,
+          "group": "お名前・年齢など",
+          "row_label": "お名前・フリガナ(全角)［必須］"
+        },
+        {
+          "name": "お名前（カナ・名）",
+          "type": "text",
+          "id": "kana_mei",
+          "label": "メイ",
+          "required": true,
+          "maxlength": "20",
+          "size": "14",
+          "hint": "（例：ヤマダ タロウ）",
+          "row": 1,
+          "group": "お名前・年齢など",
+          "row_label": "お名前・フリガナ(全角)［必須］"
+        },
+        {
+          "name": "生年月日・年",
+          "type": "select",
+          "id": "birth_y",
+          "label": "生年月日",
+          "required": true,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 2,
+          "group": "お名前・年齢など",
+          "options": [
+            {
+              "value": "",
+              "label": "----",
+              "group": null
+            },
+            {
+              "value": "2010",
+              "label": "2010",
+              "group": null
+            },
+            {
+              "value": "2009",
+              "label": "2009",
+              "group": null
+            },
+            {
+              "value": "2008",
+              "label": "2008",
+              "group": null
+            },
+            {
+              "value": "2007",
+              "label": "2007",
+              "group": null
+            },
+            {
+              "value": "2006",
+              "label": "2006",
+              "group": null
+            },
+            {
+              "value": "2005",
+              "label": "2005",
+              "group": null
+            },
+            {
+              "value": "2004",
+              "label": "2004",
+              "group": null
+            },
+            {
+              "value": "2003",
+              "label": "2003",
+              "group": null
+            },
+            {
+              "value": "2002",
+              "label": "2002",
+              "group": null
+            },
+            {
+              "value": "2001",
+              "label": "2001",
+              "group": null
+            },
+            {
+              "value": "2000",
+              "label": "2000",
+              "group": null
+            },
+            {
+              "value": "1999",
+              "label": "1999",
+              "group": null
+            },
+            {
+              "value": "1998",
+              "label": "1998",
+              "group": null
+            },
+            {
+              "value": "1997",
+              "label": "1997",
+              "group": null
+            },
+            {
+              "value": "1996",
+              "label": "1996",
+              "group": null
+            },
+            {
+              "value": "1995",
+              "label": "1995",
+              "group": null
+            },
+            {
+              "value": "1994",
+              "label": "1994",
+              "group": null
+            },
+            {
+              "value": "1993",
+              "label": "1993",
+              "group": null
+            },
+            {
+              "value": "1992",
+              "label": "1992",
+              "group": null
+            },
+            {
+              "value": "1991",
+              "label": "1991",
+              "group": null
+            },
+            {
+              "value": "1990",
+              "label": "1990",
+              "group": null
+            },
+            {
+              "value": "1989",
+              "label": "1989",
+              "group": null
+            },
+            {
+              "value": "1988",
+              "label": "1988",
+              "group": null
+            },
+            {
+              "value": "1987",
+              "label": "1987",
+              "group": null
+            },
+            {
+              "value": "1986",
+              "label": "1986",
+              "group": null
+            },
+            {
+              "value": "1985",
+              "label": "1985",
+              "group": null
+            },
+            {
+              "value": "1984",
+              "label": "1984",
+              "group": null
+            },
+            {
+              "value": "1983",
+              "label": "1983",
+              "group": null
+            },
+            {
+              "value": "1982",
+              "label": "1982",
+              "group": null
+            },
+            {
+              "value": "1981",
+              "label": "1981",
+              "group": null
+            },
+            {
+              "value": "1980",
+              "label": "1980",
+              "group": null
+            },
+            {
+              "value": "1979",
+              "label": "1979",
+              "group": null
+            },
+            {
+              "value": "1978",
+              "label": "1978",
+              "group": null
+            },
+            {
+              "value": "1977",
+              "label": "1977",
+              "group": null
+            },
+            {
+              "value": "1976",
+              "label": "1976",
+              "group": null
+            },
+            {
+              "value": "1975",
+              "label": "1975",
+              "group": null
+            },
+            {
+              "value": "1974",
+              "label": "1974",
+              "group": null
+            },
+            {
+              "value": "1973",
+              "label": "1973",
+              "group": null
+            },
+            {
+              "value": "1972",
+              "label": "1972",
+              "group": null
+            },
+            {
+              "value": "1971",
+              "label": "1971",
+              "group": null
+            },
+            {
+              "value": "1970",
+              "label": "1970",
+              "group": null
+            },
+            {
+              "value": "1969",
+              "label": "1969",
+              "group": null
+            },
+            {
+              "value": "1968",
+              "label": "1968",
+              "group": null
+            },
+            {
+              "value": "1967",
+              "label": "1967",
+              "group": null
+            },
+            {
+              "value": "1966",
+              "label": "1966",
+              "group": null
+            },
+            {
+              "value": "1965",
+              "label": "1965",
+              "group": null
+            },
+            {
+              "value": "1964",
+              "label": "1964",
+              "group": null
+            },
+            {
+              "value": "1963",
+              "label": "1963",
+              "group": null
+            },
+            {
+              "value": "1962",
+              "label": "1962",
+              "group": null
+            },
+            {
+              "value": "1961",
+              "label": "1961",
+              "group": null
+            },
+            {
+              "value": "1960",
+              "label": "1960",
+              "group": null
+            }
+          ],
+          "suffix": "年",
+          "row_label": "生年月日［必須］"
+        },
+        {
+          "name": "生年月日・月",
+          "type": "select",
+          "id": "birth_m",
+          "label": "生年月日",
+          "required": true,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 2,
+          "group": "お名前・年齢など",
+          "options": [
+            {
+              "value": "",
+              "label": "--",
+              "group": null
+            },
+            {
+              "value": "1",
+              "label": "1",
+              "group": null
+            },
+            {
+              "value": "2",
+              "label": "2",
+              "group": null
+            },
+            {
+              "value": "3",
+              "label": "3",
+              "group": null
+            },
+            {
+              "value": "4",
+              "label": "4",
+              "group": null
+            },
+            {
+              "value": "5",
+              "label": "5",
+              "group": null
+            },
+            {
+              "value": "6",
+              "label": "6",
+              "group": null
+            },
+            {
+              "value": "7",
+              "label": "7",
+              "group": null
+            },
+            {
+              "value": "8",
+              "label": "8",
+              "group": null
+            },
+            {
+              "value": "9",
+              "label": "9",
+              "group": null
+            },
+            {
+              "value": "10",
+              "label": "10",
+              "group": null
+            },
+            {
+              "value": "11",
+              "label": "11",
+              "group": null
+            },
+            {
+              "value": "12",
+              "label": "12",
+              "group": null
+            }
+          ],
+          "suffix": "月",
+          "row_label": "生年月日［必須］"
+        },
+        {
+          "name": "生年月日・日",
+          "type": "select",
+          "id": "birth_d",
+          "label": "生年月日",
+          "required": true,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 2,
+          "group": "お名前・年齢など",
+          "options": [
+            {
+              "value": "",
+              "label": "--",
+              "group": null
+            },
+            {
+              "value": "1",
+              "label": "1",
+              "group": null
+            },
+            {
+              "value": "2",
+              "label": "2",
+              "group": null
+            },
+            {
+              "value": "3",
+              "label": "3",
+              "group": null
+            },
+            {
+              "value": "4",
+              "label": "4",
+              "group": null
+            },
+            {
+              "value": "5",
+              "label": "5",
+              "group": null
+            },
+            {
+              "value": "6",
+              "label": "6",
+              "group": null
+            },
+            {
+              "value": "7",
+              "label": "7",
+              "group": null
+            },
+            {
+              "value": "8",
+              "label": "8",
+              "group": null
+            },
+            {
+              "value": "9",
+              "label": "9",
+              "group": null
+            },
+            {
+              "value": "10",
+              "label": "10",
+              "group": null
+            },
+            {
+              "value": "11",
+              "label": "11",
+              "group": null
+            },
+            {
+              "value": "12",
+              "label": "12",
+              "group": null
+            },
+            {
+              "value": "13",
+              "label": "13",
+              "group": null
+            },
+            {
+              "value": "14",
+              "label": "14",
+              "group": null
+            },
+            {
+              "value": "15",
+              "label": "15",
+              "group": null
+            },
+            {
+              "value": "16",
+              "label": "16",
+              "group": null
+            },
+            {
+              "value": "17",
+              "label": "17",
+              "group": null
+            },
+            {
+              "value": "18",
+              "label": "18",
+              "group": null
+            },
+            {
+              "value": "19",
+              "label": "19",
+              "group": null
+            },
+            {
+              "value": "20",
+              "label": "20",
+              "group": null
+            },
+            {
+              "value": "21",
+              "label": "21",
+              "group": null
+            },
+            {
+              "value": "22",
+              "label": "22",
+              "group": null
+            },
+            {
+              "value": "23",
+              "label": "23",
+              "group": null
+            },
+            {
+              "value": "24",
+              "label": "24",
+              "group": null
+            },
+            {
+              "value": "25",
+              "label": "25",
+              "group": null
+            },
+            {
+              "value": "26",
+              "label": "26",
+              "group": null
+            },
+            {
+              "value": "27",
+              "label": "27",
+              "group": null
+            },
+            {
+              "value": "28",
+              "label": "28",
+              "group": null
+            },
+            {
+              "value": "29",
+              "label": "29",
+              "group": null
+            },
+            {
+              "value": "30",
+              "label": "30",
+              "group": null
+            },
+            {
+              "value": "31",
+              "label": "31",
+              "group": null
+            }
+          ],
+          "suffix": "日",
+          "row_label": "生年月日［必須］"
+        },
+        {
+          "name": "年齢",
+          "type": "text",
+          "id": "age",
+          "label": "年齢（半角数字）",
+          "required": true,
+          "maxlength": "5",
+          "size": "5",
+          "hint": null,
+          "row": 3,
+          "group": "お名前・年齢など",
+          "row_label": "年齢（半角数字）［必須］"
+        },
+        {
+          "name": "性別",
+          "type": "radio",
+          "id": "man",
+          "label": "性別",
+          "required": true,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 4,
+          "group": "お名前・年齢など",
+          "options": [
+            {
+              "value": "男",
+              "label": "男"
+            },
+            {
+              "value": "女",
+              "label": "女"
+            }
+          ],
+          "row_label": "性別［必須］"
+        },
+        {
+          "name": "配偶者の有無",
+          "type": "radio",
+          "id": "marriage_y",
+          "label": "配偶者の有無",
+          "required": true,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 5,
+          "group": "お名前・年齢など",
+          "options": [
+            {
+              "value": "あり",
+              "label": "あり"
+            },
+            {
+              "value": "なし",
+              "label": "なし"
+            }
+          ],
+          "row_label": "配偶者の有無［必須］"
+        },
+        {
+          "name": "郵便番号",
+          "type": "text",
+          "id": "postal",
+          "label": "郵便番号",
+          "required": false,
+          "maxlength": "10",
+          "size": "10",
+          "hint": "（例：1510022）",
+          "row": 6,
+          "group": "ご住所・連絡先",
+          "row_label": "郵便番号"
+        },
+        {
+          "name": "都道府県",
+          "type": "select",
+          "id": "pref",
+          "label": "都道府県",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 7,
+          "group": "ご住所・連絡先",
+          "options": [
+            {
+              "value": "",
+              "label": "都道府県をお選びください",
+              "group": null
+            },
+            {
+              "value": "北海道",
+              "label": "北海道",
+              "group": "北海道・東北"
+            },
+            {
+              "value": "青森県",
+              "label": "青森県",
+              "group": "北海道・東北"
+            },
+            {
+              "value": "岩手県",
+              "label": "岩手県",
+              "group": "北海道・東北"
+            },
+            {
+              "value": "宮城県",
+              "label": "宮城県",
+              "group": "北海道・東北"
+            },
+            {
+              "value": "秋田県",
+              "label": "秋田県",
+              "group": "北海道・東北"
+            },
+            {
+              "value": "山形県",
+              "label": "山形県",
+              "group": "北海道・東北"
+            },
+            {
+              "value": "福島県",
+              "label": "福島県",
+              "group": "北海道・東北"
+            },
+            {
+              "value": "茨城県",
+              "label": "茨城県",
+              "group": "関東・甲信越"
+            },
+            {
+              "value": "栃木県",
+              "label": "栃木県",
+              "group": "関東・甲信越"
+            },
+            {
+              "value": "群馬県",
+              "label": "群馬県",
+              "group": "関東・甲信越"
+            },
+            {
+              "value": "埼玉県",
+              "label": "埼玉県",
+              "group": "関東・甲信越"
+            },
+            {
+              "value": "千葉県",
+              "label": "千葉県",
+              "group": "関東・甲信越"
+            },
+            {
+              "value": "東京都",
+              "label": "東京都",
+              "group": "関東・甲信越"
+            },
+            {
+              "value": "神奈川県",
+              "label": "神奈川県",
+              "group": "関東・甲信越"
+            },
+            {
+              "value": "新潟県",
+              "label": "新潟県",
+              "group": "関東・甲信越"
+            },
+            {
+              "value": "山梨県",
+              "label": "山梨県",
+              "group": "関東・甲信越"
+            },
+            {
+              "value": "長野県",
+              "label": "長野県",
+              "group": "関東・甲信越"
+            },
+            {
+              "value": "富山県",
+              "label": "富山県",
+              "group": "北陸・東海"
+            },
+            {
+              "value": "石川県",
+              "label": "石川県",
+              "group": "北陸・東海"
+            },
+            {
+              "value": "福井県",
+              "label": "福井県",
+              "group": "北陸・東海"
+            },
+            {
+              "value": "岐阜県",
+              "label": "岐阜県",
+              "group": "北陸・東海"
+            },
+            {
+              "value": "静岡県",
+              "label": "静岡県",
+              "group": "北陸・東海"
+            },
+            {
+              "value": "愛知県",
+              "label": "愛知県",
+              "group": "北陸・東海"
+            },
+            {
+              "value": "三重県",
+              "label": "三重県",
+              "group": "北陸・東海"
+            },
+            {
+              "value": "滋賀県",
+              "label": "滋賀県",
+              "group": "関西"
+            },
+            {
+              "value": "京都府",
+              "label": "京都府",
+              "group": "関西"
+            },
+            {
+              "value": "大阪府",
+              "label": "大阪府",
+              "group": "関西"
+            },
+            {
+              "value": "兵庫県",
+              "label": "兵庫県",
+              "group": "関西"
+            },
+            {
+              "value": "奈良県",
+              "label": "奈良県",
+              "group": "関西"
+            },
+            {
+              "value": "和歌山県",
+              "label": "和歌山県",
+              "group": "関西"
+            },
+            {
+              "value": "鳥取県",
+              "label": "鳥取県",
+              "group": "中国・四国"
+            },
+            {
+              "value": "島根県",
+              "label": "島根県",
+              "group": "中国・四国"
+            },
+            {
+              "value": "岡山県",
+              "label": "岡山県",
+              "group": "中国・四国"
+            },
+            {
+              "value": "広島県",
+              "label": "広島県",
+              "group": "中国・四国"
+            },
+            {
+              "value": "山口県",
+              "label": "山口県",
+              "group": "中国・四国"
+            },
+            {
+              "value": "徳島県",
+              "label": "徳島県",
+              "group": "中国・四国"
+            },
+            {
+              "value": "香川県",
+              "label": "香川県",
+              "group": "中国・四国"
+            },
+            {
+              "value": "愛媛県",
+              "label": "愛媛県",
+              "group": "中国・四国"
+            },
+            {
+              "value": "高知県",
+              "label": "高知県",
+              "group": "中国・四国"
+            },
+            {
+              "value": "福岡県",
+              "label": "福岡県",
+              "group": "九州・沖縄"
+            },
+            {
+              "value": "佐賀県",
+              "label": "佐賀県",
+              "group": "九州・沖縄"
+            },
+            {
+              "value": "長崎県",
+              "label": "長崎県",
+              "group": "九州・沖縄"
+            },
+            {
+              "value": "熊本県",
+              "label": "熊本県",
+              "group": "九州・沖縄"
+            },
+            {
+              "value": "大分県",
+              "label": "大分県",
+              "group": "九州・沖縄"
+            },
+            {
+              "value": "宮崎県",
+              "label": "宮崎県",
+              "group": "九州・沖縄"
+            },
+            {
+              "value": "鹿児島県",
+              "label": "鹿児島県",
+              "group": "九州・沖縄"
+            },
+            {
+              "value": "沖縄県",
+              "label": "沖縄県",
+              "group": "九州・沖縄"
+            }
+          ],
+          "row_label": "都道府県都道府県"
+        },
+        {
+          "name": "市区町村・番地",
+          "type": "text",
+          "id": "town",
+          "label": "市区町村・番地",
+          "required": false,
+          "maxlength": "80",
+          "size": "30",
+          "hint": null,
+          "row": 8,
+          "group": "ご住所・連絡先",
+          "row_label": "市区町村・番地"
+        },
+        {
+          "name": "マンション・ビル名",
+          "type": "text",
+          "id": "building",
+          "label": "マンション・ビル名",
+          "required": false,
+          "maxlength": "80",
+          "size": "30",
+          "hint": null,
+          "row": 9,
+          "group": "ご住所・連絡先",
+          "row_label": "マンション・ビル名"
+        },
+        {
+          "name": "携帯電話番号",
+          "type": "text",
+          "id": "mobile",
+          "label": "携帯電話番号（半角数字）",
+          "required": false,
+          "maxlength": "16",
+          "size": "16",
+          "hint": "（例：090-1234-5678）",
+          "row": 10,
+          "group": "ご住所・連絡先",
+          "row_label": "携帯電話番号（半角数字）"
+        },
+        {
+          "name": "メールアドレス",
+          "type": "text",
+          "id": "mail",
+          "label": "メールアドレス（半角英数字）",
+          "required": true,
+          "maxlength": "80",
+          "size": "30",
+          "hint": "（例：taro@abcde.ne.jp）",
+          "row": 11,
+          "group": "ご住所・連絡先",
+          "row_label": "メールアドレス（半角英数字）［必須］"
+        },
+        {
+          "name": "メールアドレス（確認）",
+          "type": "text",
+          "id": "mail",
+          "label": "メールアドレス（確認）",
+          "required": true,
+          "maxlength": "80",
+          "size": "30",
+          "hint": "（例：taro@abcde.ne.jp）",
+          "row": 12,
+          "group": "ご住所・連絡先",
+          "row_label": "メールアドレス（確認）［必須］ペースト（貼付）はできません"
+        },
+        {
+          "name": "最終学歴・学校名",
+          "type": "text",
+          "id": "school",
+          "label": "学校名",
+          "required": false,
+          "maxlength": "80",
+          "size": "30",
+          "hint": null,
+          "row": 13,
+          "group": "最終学歴",
+          "row_label": "学校名"
+        },
+        {
+          "name": "卒業年月・年",
+          "type": "select",
+          "id": "graduation_y",
+          "label": "卒業年月",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 14,
+          "group": "最終学歴",
+          "options": [
+            {
+              "value": "",
+              "label": "----",
+              "group": null
+            },
+            {
+              "value": "2026",
+              "label": "2026",
+              "group": null
+            },
+            {
+              "value": "2025",
+              "label": "2025",
+              "group": null
+            },
+            {
+              "value": "2024",
+              "label": "2024",
+              "group": null
+            },
+            {
+              "value": "2023",
+              "label": "2023",
+              "group": null
+            },
+            {
+              "value": "2022",
+              "label": "2022",
+              "group": null
+            },
+            {
+              "value": "2021",
+              "label": "2021",
+              "group": null
+            },
+            {
+              "value": "2020",
+              "label": "2020",
+              "group": null
+            },
+            {
+              "value": "2019",
+              "label": "2019",
+              "group": null
+            },
+            {
+              "value": "2018",
+              "label": "2018",
+              "group": null
+            },
+            {
+              "value": "2017",
+              "label": "2017",
+              "group": null
+            },
+            {
+              "value": "2016",
+              "label": "2016",
+              "group": null
+            },
+            {
+              "value": "2015",
+              "label": "2015",
+              "group": null
+            },
+            {
+              "value": "2014",
+              "label": "2014",
+              "group": null
+            },
+            {
+              "value": "2013",
+              "label": "2013",
+              "group": null
+            },
+            {
+              "value": "2012",
+              "label": "2012",
+              "group": null
+            },
+            {
+              "value": "2011",
+              "label": "2011",
+              "group": null
+            },
+            {
+              "value": "2010",
+              "label": "2010",
+              "group": null
+            },
+            {
+              "value": "2009",
+              "label": "2009",
+              "group": null
+            },
+            {
+              "value": "2008",
+              "label": "2008",
+              "group": null
+            },
+            {
+              "value": "2007",
+              "label": "2007",
+              "group": null
+            },
+            {
+              "value": "2006",
+              "label": "2006",
+              "group": null
+            },
+            {
+              "value": "2005",
+              "label": "2005",
+              "group": null
+            },
+            {
+              "value": "2004",
+              "label": "2004",
+              "group": null
+            },
+            {
+              "value": "2003",
+              "label": "2003",
+              "group": null
+            },
+            {
+              "value": "2002",
+              "label": "2002",
+              "group": null
+            },
+            {
+              "value": "2001",
+              "label": "2001",
+              "group": null
+            },
+            {
+              "value": "2000",
+              "label": "2000",
+              "group": null
+            },
+            {
+              "value": "1999",
+              "label": "1999",
+              "group": null
+            },
+            {
+              "value": "1998",
+              "label": "1998",
+              "group": null
+            },
+            {
+              "value": "1997",
+              "label": "1997",
+              "group": null
+            },
+            {
+              "value": "1996",
+              "label": "1996",
+              "group": null
+            },
+            {
+              "value": "1995",
+              "label": "1995",
+              "group": null
+            },
+            {
+              "value": "1994",
+              "label": "1994",
+              "group": null
+            },
+            {
+              "value": "1993",
+              "label": "1993",
+              "group": null
+            },
+            {
+              "value": "1992",
+              "label": "1992",
+              "group": null
+            },
+            {
+              "value": "1991",
+              "label": "1991",
+              "group": null
+            },
+            {
+              "value": "1990",
+              "label": "1990",
+              "group": null
+            },
+            {
+              "value": "1989",
+              "label": "1989",
+              "group": null
+            },
+            {
+              "value": "1988",
+              "label": "1988",
+              "group": null
+            },
+            {
+              "value": "1987",
+              "label": "1987",
+              "group": null
+            },
+            {
+              "value": "1986",
+              "label": "1986",
+              "group": null
+            },
+            {
+              "value": "1985",
+              "label": "1985",
+              "group": null
+            },
+            {
+              "value": "1984",
+              "label": "1984",
+              "group": null
+            },
+            {
+              "value": "1983",
+              "label": "1983",
+              "group": null
+            },
+            {
+              "value": "1982",
+              "label": "1982",
+              "group": null
+            },
+            {
+              "value": "1981",
+              "label": "1981",
+              "group": null
+            },
+            {
+              "value": "1980",
+              "label": "1980",
+              "group": null
+            },
+            {
+              "value": "1979",
+              "label": "1979",
+              "group": null
+            },
+            {
+              "value": "1978",
+              "label": "1978",
+              "group": null
+            },
+            {
+              "value": "1977",
+              "label": "1977",
+              "group": null
+            },
+            {
+              "value": "1976",
+              "label": "1976",
+              "group": null
+            },
+            {
+              "value": "1975",
+              "label": "1975",
+              "group": null
+            },
+            {
+              "value": "1974",
+              "label": "1974",
+              "group": null
+            },
+            {
+              "value": "1973",
+              "label": "1973",
+              "group": null
+            },
+            {
+              "value": "1972",
+              "label": "1972",
+              "group": null
+            },
+            {
+              "value": "1971",
+              "label": "1971",
+              "group": null
+            },
+            {
+              "value": "1970",
+              "label": "1970",
+              "group": null
+            }
+          ],
+          "suffix": "年",
+          "row_label": "卒業年月"
+        },
+        {
+          "name": "卒業年月・月",
+          "type": "select",
+          "id": "graduation_m",
+          "label": "卒業年月",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 14,
+          "group": "最終学歴",
+          "options": [
+            {
+              "value": "",
+              "label": "--",
+              "group": null
+            },
+            {
+              "value": "1",
+              "label": "1",
+              "group": null
+            },
+            {
+              "value": "2",
+              "label": "2",
+              "group": null
+            },
+            {
+              "value": "3",
+              "label": "3",
+              "group": null
+            },
+            {
+              "value": "4",
+              "label": "4",
+              "group": null
+            },
+            {
+              "value": "5",
+              "label": "5",
+              "group": null
+            },
+            {
+              "value": "6",
+              "label": "6",
+              "group": null
+            },
+            {
+              "value": "7",
+              "label": "7",
+              "group": null
+            },
+            {
+              "value": "8",
+              "label": "8",
+              "group": null
+            },
+            {
+              "value": "9",
+              "label": "9",
+              "group": null
+            },
+            {
+              "value": "10",
+              "label": "10",
+              "group": null
+            },
+            {
+              "value": "11",
+              "label": "11",
+              "group": null
+            },
+            {
+              "value": "12",
+              "label": "12",
+              "group": null
+            }
+          ],
+          "suffix": "月",
+          "row_label": "卒業年月"
+        },
+        {
+          "name": "卒業区分",
+          "type": "select",
+          "id": "g_kubun",
+          "label": "卒業区分",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 15,
+          "group": "最終学歴",
+          "options": [
+            {
+              "value": "",
+              "label": "選択してください",
+              "group": null
+            },
+            {
+              "value": "卒業",
+              "label": "卒業",
+              "group": null
+            },
+            {
+              "value": "卒業見込み",
+              "label": "卒業見込み",
+              "group": null
+            },
+            {
+              "value": "修了",
+              "label": "修了",
+              "group": null
+            },
+            {
+              "value": "中退",
+              "label": "中退",
+              "group": null
+            }
+          ],
+          "row_label": "卒業区分"
+        },
+        {
+          "name": "語学スキル",
+          "type": "textarea",
+          "id": "gogaku",
+          "label": "語学スキル",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 16,
+          "group": "語学スキル・取得資格",
+          "rows_attr": "3",
+          "cols_attr": "55",
+          "row_label": "語学スキル"
+        },
+        {
+          "name": "取得資格",
+          "type": "textarea",
+          "id": "sikaku",
+          "label": "取得資格",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 17,
+          "group": "語学スキル・取得資格",
+          "rows_attr": "10",
+          "cols_attr": "55",
+          "row_label": "取得資格"
+        },
+        {
+          "name": "現在の状況",
+          "type": "radio",
+          "id": "condition1",
+          "label": "現在の状況",
+          "required": true,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 18,
+          "group": "職歴・転職状況",
+          "options": [
+            {
+              "value": "在職中",
+              "label": "在職中"
+            },
+            {
+              "value": "離職中",
+              "label": "離職中"
+            }
+          ],
+          "row_label": "現在の状況［必須］"
+        },
+        {
+          "name": "現在（直近）の年収",
+          "type": "text",
+          "id": "income1",
+          "label": "現在（直近）の年収",
+          "required": false,
+          "maxlength": "5",
+          "size": "5",
+          "hint": null,
+          "row": 19,
+          "group": "職歴・転職状況",
+          "row_label": "現在（直近）の年収"
+        },
+        {
+          "name": "希望年収",
+          "type": "text",
+          "id": "income2",
+          "label": "希望年収",
+          "required": false,
+          "maxlength": "5",
+          "size": "5",
+          "hint": null,
+          "row": 20,
+          "group": "職歴・転職状況",
+          "row_label": "希望年収"
+        },
+        {
+          "name": "職歴1／社名",
+          "type": "text",
+          "id": "career1_name",
+          "label": "社名",
+          "required": false,
+          "maxlength": "80",
+          "size": "30",
+          "hint": null,
+          "row": 21,
+          "group": "職歴1",
+          "row_label": "社名"
+        },
+        {
+          "name": "職歴1／職務期間",
+          "type": "text",
+          "id": "career1_period",
+          "label": "職務期間",
+          "required": false,
+          "maxlength": "80",
+          "size": "30",
+          "hint": "（例：2005年3月〜2010年11月）",
+          "row": 22,
+          "group": "職歴1",
+          "row_label": "職務期間"
+        },
+        {
+          "name": "職歴1／雇用形態",
+          "type": "select",
+          "id": "career1_status",
+          "label": "雇用形態",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 23,
+          "group": "職歴1",
+          "options": [
+            {
+              "value": "",
+              "label": "選択してください",
+              "group": null
+            },
+            {
+              "value": "正社員",
+              "label": "正社員",
+              "group": null
+            },
+            {
+              "value": "契約社員",
+              "label": "契約社員",
+              "group": null
+            },
+            {
+              "value": "派遣社員",
+              "label": "派遣社員",
+              "group": null
+            },
+            {
+              "value": "アルバイト・パート",
+              "label": "アルバイト・パート",
+              "group": null
+            },
+            {
+              "value": "その他（自営業など）",
+              "label": "その他（自営業など）",
+              "group": null
+            }
+          ],
+          "row_label": "雇用形態"
+        },
+        {
+          "name": "職歴1／職務内容",
+          "type": "textarea",
+          "id": "career1_naiyou",
+          "label": "職務内容",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 24,
+          "group": "職歴1",
+          "rows_attr": "10",
+          "cols_attr": "40",
+          "row_label": "職務内容"
+        },
+        {
+          "name": "職歴2／社名",
+          "type": "text",
+          "id": "career2_name",
+          "label": "社名",
+          "required": false,
+          "maxlength": "80",
+          "size": "30",
+          "hint": null,
+          "row": 25,
+          "group": "職歴2",
+          "row_label": "社名"
+        },
+        {
+          "name": "職歴2／職務期間",
+          "type": "text",
+          "id": "career2_period",
+          "label": "職務期間",
+          "required": false,
+          "maxlength": "80",
+          "size": "30",
+          "hint": "（例：2005年3月〜2010年11月）",
+          "row": 26,
+          "group": "職歴2",
+          "row_label": "職務期間"
+        },
+        {
+          "name": "職歴2／雇用形態",
+          "type": "select",
+          "id": "career2_status",
+          "label": "雇用形態",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 27,
+          "group": "職歴2",
+          "options": [
+            {
+              "value": "",
+              "label": "選択してください",
+              "group": null
+            },
+            {
+              "value": "正社員",
+              "label": "正社員",
+              "group": null
+            },
+            {
+              "value": "契約社員",
+              "label": "契約社員",
+              "group": null
+            },
+            {
+              "value": "派遣社員",
+              "label": "派遣社員",
+              "group": null
+            },
+            {
+              "value": "アルバイト・パート",
+              "label": "アルバイト・パート",
+              "group": null
+            },
+            {
+              "value": "その他（自営業など）",
+              "label": "その他（自営業など）",
+              "group": null
+            }
+          ],
+          "row_label": "雇用形態"
+        },
+        {
+          "name": "職歴2／職務内容",
+          "type": "textarea",
+          "id": "career2_naiyou",
+          "label": "職務内容",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 28,
+          "group": "職歴2",
+          "rows_attr": "10",
+          "cols_attr": "40",
+          "row_label": "職務内容"
+        },
+        {
+          "name": "職歴3／社名",
+          "type": "text",
+          "id": "career3_name",
+          "label": "社名",
+          "required": false,
+          "maxlength": "80",
+          "size": "30",
+          "hint": null,
+          "row": 29,
+          "group": "職歴3",
+          "row_label": "社名"
+        },
+        {
+          "name": "職歴3／職務期間",
+          "type": "text",
+          "id": "career3_period",
+          "label": "職務期間",
+          "required": false,
+          "maxlength": "80",
+          "size": "30",
+          "hint": "（例：2005年3月〜2010年11月）",
+          "row": 30,
+          "group": "職歴3",
+          "row_label": "職務期間"
+        },
+        {
+          "name": "職歴3／雇用形態",
+          "type": "select",
+          "id": "career3_status",
+          "label": "雇用形態",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 31,
+          "group": "職歴3",
+          "options": [
+            {
+              "value": "",
+              "label": "選択してください",
+              "group": null
+            },
+            {
+              "value": "正社員",
+              "label": "正社員",
+              "group": null
+            },
+            {
+              "value": "契約社員",
+              "label": "契約社員",
+              "group": null
+            },
+            {
+              "value": "派遣社員",
+              "label": "派遣社員",
+              "group": null
+            },
+            {
+              "value": "アルバイト・パート",
+              "label": "アルバイト・パート",
+              "group": null
+            },
+            {
+              "value": "その他（自営業など）",
+              "label": "その他（自営業など）",
+              "group": null
+            }
+          ],
+          "row_label": "雇用形態"
+        },
+        {
+          "name": "職歴3／職務内容",
+          "type": "textarea",
+          "id": "career3_naiyou",
+          "label": "職務内容",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 32,
+          "group": "職歴3",
+          "rows_attr": "10",
+          "cols_attr": "40",
+          "row_label": "職務内容"
+        },
+        {
+          "name": "職歴4／社名",
+          "type": "text",
+          "id": "career4_name",
+          "label": "社名",
+          "required": false,
+          "maxlength": "80",
+          "size": "30",
+          "hint": null,
+          "row": 33,
+          "group": "職歴4",
+          "row_label": "社名"
+        },
+        {
+          "name": "職歴4／職務期間",
+          "type": "text",
+          "id": "career4_period",
+          "label": "職務期間",
+          "required": false,
+          "maxlength": "80",
+          "size": "30",
+          "hint": "（例：2005年3月〜2010年11月）",
+          "row": 34,
+          "group": "職歴4",
+          "row_label": "職務期間"
+        },
+        {
+          "name": "職歴4／雇用形態",
+          "type": "select",
+          "id": "career4_status",
+          "label": "雇用形態",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 35,
+          "group": "職歴4",
+          "options": [
+            {
+              "value": "",
+              "label": "選択してください",
+              "group": null
+            },
+            {
+              "value": "正社員",
+              "label": "正社員",
+              "group": null
+            },
+            {
+              "value": "契約社員",
+              "label": "契約社員",
+              "group": null
+            },
+            {
+              "value": "派遣社員",
+              "label": "派遣社員",
+              "group": null
+            },
+            {
+              "value": "アルバイト・パート",
+              "label": "アルバイト・パート",
+              "group": null
+            },
+            {
+              "value": "その他（自営業など）",
+              "label": "その他（自営業など）",
+              "group": null
+            }
+          ],
+          "row_label": "雇用形態"
+        },
+        {
+          "name": "職歴4／職務内容",
+          "type": "textarea",
+          "id": "career4_naiyou",
+          "label": "職務内容",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": 36,
+          "group": "職歴4",
+          "rows_attr": "10",
+          "cols_attr": "40",
+          "row_label": "職務内容"
+        },
+        {
+          "name": "個人情報の取り扱いについてのご同意",
+          "type": "checkbox",
+          "id": "check",
+          "label": "「個人情報の取り扱いについて」に同意する",
+          "required": true,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": null,
+          "group": null,
+          "options": [
+            {
+              "value": "同意する",
+              "label": "「個人情報の取り扱いについて」に同意する"
+            }
+          ],
+          "row_label": null,
+          "required_source": "ご利用方法の記述（同意にチェックが必要）"
+        },
+        {
+          "name": null,
+          "type": "submit",
+          "id": "submit",
+          "label": "確認画面へ進む",
+          "required": false,
+          "maxlength": null,
+          "size": null,
+          "hint": null,
+          "row": null,
+          "group": null,
+          "value": "確認画面へ進む",
+          "row_label": null
+        }
+      ],
+      "rows": [
+        {
+          "index": 0,
+          "group": "お名前・年齢など",
+          "label": "お名前（漢字）［必須］",
+          "required": true,
+          "cell_text": "姓 名 （例：山田 太郎）",
+          "fields": [
+            "お名前（漢字・姓）",
+            "お名前（漢字・名）"
+          ]
+        },
+        {
+          "index": 1,
+          "group": "お名前・年齢など",
+          "label": "お名前・フリガナ(全角)［必須］",
+          "required": true,
+          "cell_text": "セイ メイ （例：ヤマダ タロウ）",
+          "fields": [
+            "お名前（カナ・姓）",
+            "お名前（カナ・名）"
+          ]
+        },
+        {
+          "index": 2,
+          "group": "お名前・年齢など",
+          "label": "生年月日［必須］",
+          "required": true,
+          "cell_text": "年 月 日",
+          "fields": [
+            "生年月日・年",
+            "生年月日・月",
+            "生年月日・日"
+          ]
+        },
+        {
+          "index": 3,
+          "group": "お名前・年齢など",
+          "label": "年齢（半角数字）［必須］",
+          "required": true,
+          "cell_text": " 歳",
+          "fields": [
+            "年齢"
+          ]
+        },
+        {
+          "index": 4,
+          "group": "お名前・年齢など",
+          "label": "性別［必須］",
+          "required": true,
+          "cell_text": "男 女",
+          "fields": [
+            "性別"
+          ]
+        },
+        {
+          "index": 5,
+          "group": "お名前・年齢など",
+          "label": "配偶者の有無［必須］",
+          "required": true,
+          "cell_text": "あり なし",
+          "fields": [
+            "配偶者の有無"
+          ]
+        },
+        {
+          "index": 6,
+          "group": "ご住所・連絡先",
+          "label": "郵便番号",
+          "required": false,
+          "cell_text": "〒   \"-\"なしの半角数字（例：1510022）",
+          "fields": [
+            "郵便番号"
+          ]
+        },
+        {
+          "index": 7,
+          "group": "ご住所・連絡先",
+          "label": "都道府県都道府県",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "都道府県"
+          ]
+        },
+        {
+          "index": 8,
+          "group": "ご住所・連絡先",
+          "label": "市区町村・番地",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "市区町村・番地"
+          ]
+        },
+        {
+          "index": 9,
+          "group": "ご住所・連絡先",
+          "label": "マンション・ビル名",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "マンション・ビル名"
+          ]
+        },
+        {
+          "index": 10,
+          "group": "ご住所・連絡先",
+          "label": "携帯電話番号（半角数字）",
+          "required": false,
+          "cell_text": "（例：090-1234-5678）",
+          "fields": [
+            "携帯電話番号"
+          ]
+        },
+        {
+          "index": 11,
+          "group": "ご住所・連絡先",
+          "label": "メールアドレス（半角英数字）［必須］",
+          "required": true,
+          "cell_text": "（例：taro@abcde.ne.jp）",
+          "fields": [
+            "メールアドレス"
+          ]
+        },
+        {
+          "index": 12,
+          "group": "ご住所・連絡先",
+          "label": "メールアドレス（確認）［必須］ペースト（貼付）はできません",
+          "required": true,
+          "cell_text": "（例：taro@abcde.ne.jp）",
+          "fields": [
+            "メールアドレス（確認）"
+          ]
+        },
+        {
+          "index": 13,
+          "group": "最終学歴",
+          "label": "学校名",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "最終学歴・学校名"
+          ]
+        },
+        {
+          "index": 14,
+          "group": "最終学歴",
+          "label": "卒業年月",
+          "required": false,
+          "cell_text": "年 月",
+          "fields": [
+            "卒業年月・年",
+            "卒業年月・月"
+          ]
+        },
+        {
+          "index": 15,
+          "group": "最終学歴",
+          "label": "卒業区分",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "卒業区分"
+          ]
+        },
+        {
+          "index": 16,
+          "group": "語学スキル・取得資格",
+          "label": "語学スキル",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "語学スキル"
+          ]
+        },
+        {
+          "index": 17,
+          "group": "語学スキル・取得資格",
+          "label": "取得資格",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "取得資格"
+          ]
+        },
+        {
+          "index": 18,
+          "group": "職歴・転職状況",
+          "label": "現在の状況［必須］",
+          "required": true,
+          "cell_text": "在職中 離職中",
+          "fields": [
+            "現在の状況"
+          ]
+        },
+        {
+          "index": 19,
+          "group": "職歴・転職状況",
+          "label": "現在（直近）の年収",
+          "required": false,
+          "cell_text": " 万円（半角数字）",
+          "fields": [
+            "現在（直近）の年収"
+          ]
+        },
+        {
+          "index": 20,
+          "group": "職歴・転職状況",
+          "label": "希望年収",
+          "required": false,
+          "cell_text": " 万円（半角数字）",
+          "fields": [
+            "希望年収"
+          ]
+        },
+        {
+          "index": 21,
+          "group": "職歴1",
+          "label": "社名",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "職歴1／社名"
+          ]
+        },
+        {
+          "index": 22,
+          "group": "職歴1",
+          "label": "職務期間",
+          "required": false,
+          "cell_text": "（例：2005年3月〜2010年11月）",
+          "fields": [
+            "職歴1／職務期間"
+          ]
+        },
+        {
+          "index": 23,
+          "group": "職歴1",
+          "label": "雇用形態",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "職歴1／雇用形態"
+          ]
+        },
+        {
+          "index": 24,
+          "group": "職歴1",
+          "label": "職務内容",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "職歴1／職務内容"
+          ]
+        },
+        {
+          "index": 25,
+          "group": "職歴2",
+          "label": "社名",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "職歴2／社名"
+          ]
+        },
+        {
+          "index": 26,
+          "group": "職歴2",
+          "label": "職務期間",
+          "required": false,
+          "cell_text": "（例：2005年3月〜2010年11月）",
+          "fields": [
+            "職歴2／職務期間"
+          ]
+        },
+        {
+          "index": 27,
+          "group": "職歴2",
+          "label": "雇用形態",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "職歴2／雇用形態"
+          ]
+        },
+        {
+          "index": 28,
+          "group": "職歴2",
+          "label": "職務内容",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "職歴2／職務内容"
+          ]
+        },
+        {
+          "index": 29,
+          "group": "職歴3",
+          "label": "社名",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "職歴3／社名"
+          ]
+        },
+        {
+          "index": 30,
+          "group": "職歴3",
+          "label": "職務期間",
+          "required": false,
+          "cell_text": "（例：2005年3月〜2010年11月）",
+          "fields": [
+            "職歴3／職務期間"
+          ]
+        },
+        {
+          "index": 31,
+          "group": "職歴3",
+          "label": "雇用形態",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "職歴3／雇用形態"
+          ]
+        },
+        {
+          "index": 32,
+          "group": "職歴3",
+          "label": "職務内容",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "職歴3／職務内容"
+          ]
+        },
+        {
+          "index": 33,
+          "group": "職歴4",
+          "label": "社名",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "職歴4／社名"
+          ]
+        },
+        {
+          "index": 34,
+          "group": "職歴4",
+          "label": "職務期間",
+          "required": false,
+          "cell_text": "（例：2005年3月〜2010年11月）",
+          "fields": [
+            "職歴4／職務期間"
+          ]
+        },
+        {
+          "index": 35,
+          "group": "職歴4",
+          "label": "雇用形態",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "職歴4／雇用形態"
+          ]
+        },
+        {
+          "index": 36,
+          "group": "職歴4",
+          "label": "職務内容",
+          "required": false,
+          "cell_text": "",
+          "fields": [
+            "職歴4／職務内容"
+          ]
+        }
+      ],
+      "content": [
+        {
+          "type": "heading",
+          "level": 4,
+          "text": "個人情報の取り扱いについて",
+          "html": "個人情報の取り扱いについて",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "FormPolicyHeadline"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "paragraph",
+          "text": "株式会社クレイス（以下「弊社」といいます）は、ご入力いただいた個人情報について、「個人情報保護方針」および「プライバシーポリシー」に基づき、以下のとおり取り扱わせていただきます。",
+          "html": "株式会社クレイス（以下「弊社」といいます）は、ご入力いただいた個人情報について、「個人情報保護方針」および「プライバシーポリシー」に基づき、以下のとおり取り扱わせていただきます。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "paragraph",
+          "text": "内容にあらかじめ同意の上、ご自身の個人情報のご提供・ご開示をお願いいたします。",
+          "html": "内容にあらかじめ同意の上、ご自身の個人情報のご提供・ご開示をお願いいたします。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "１．個人情報の利用目的",
+          "html": "１．個人情報の利用目的",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "Headline5"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "paragraph",
+          "text": "弊社では、ご入力いただいた「学歴、資格、職歴、お名前、フリガナ、メールアドレス、電話・FAX番号の個人に関する情報（以下、個人情報といいます）」は、ご連絡及び採用選考のために利用することを目的とし、それ以外で利用することはありません。",
+          "html": "弊社では、ご入力いただいた「学歴、資格、職歴、お名前、フリガナ、メールアドレス、電話・FAX番号の個人に関する情報（以下、個人情報といいます）」は、ご連絡及び採用選考のために利用することを目的とし、それ以外で利用することはありません。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "２．情報提供の任意性",
+          "html": "２．情報提供の任意性",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "Headline5"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "paragraph",
+          "text": "個人情報をご提供されるかどうかについては、ご自身の判断によりますが、必要な情報をご提供いただけなかった場合には、当社のサービスをお受けできない場合がありますので、予めご了承ください。",
+          "html": "個人情報をご提供されるかどうかについては、ご自身の判断によりますが、必要な情報をご提供いただけなかった場合には、当社のサービスをお受けできない場合がありますので、予めご了承ください。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "３．個人情報の委託および提供",
+          "html": "３．個人情報の委託および提供",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "Headline5"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "paragraph",
+          "text": "収集した個人情報は、第三者に委託および提供することはありません。\n又、法令に定めた例外事項の場合を除き、同意を得ずに提供することはいたしません。",
+          "html": "収集した個人情報は、第三者に委託および提供することはありません。<br/> 又、法令に定めた例外事項の場合を除き、同意を得ずに提供することはいたしません。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "４．個人情報の安全管理について",
+          "html": "４．個人情報の安全管理について",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "Headline5"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "paragraph",
+          "text": "弊社ウェブサイトにおいて個人情報を提供していただくページには、SSL（セキュア・ソケット・レイアー）と呼ばれるデータを暗号化して通信する仕組みを使用しておりますので、万が一、送信データを第三者が傍受した場合でも、内容が盗み取られる心配はございません。またサーバーのデータはファイア・ウォールという不正アクセスを防止するシステムを採用しております。弊社は、これらの技術によりご登録いただいた個人情報が外部に漏れることのないよう、情報の管理・保護に万全を期しております。",
+          "html": "弊社ウェブサイトにおいて個人情報を提供していただくページには、SSL（セキュア・ソケット・レイアー）と呼ばれるデータを暗号化して通信する仕組みを使用しておりますので、万が一、送信データを第三者が傍受した場合でも、内容が盗み取られる心配はございません。またサーバーのデータはファイア・ウォールという不正アクセスを防止するシステムを採用しております。弊社は、これらの技術によりご登録いただいた個人情報が外部に漏れることのないよう、情報の管理・保護に万全を期しております。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "５．改定について",
+          "html": "５．改定について",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "Headline5"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "paragraph",
+          "text": "弊社は、個人情報保護に関する法令その他の規範の変更などに対応するために、または個人情報保護への取り組みの改善のために上記の一部を適宜に見直し、改訂いたします。",
+          "html": "弊社は、個人情報保護に関する法令その他の規範の変更などに対応するために、または個人情報保護への取り組みの改善のために上記の一部を適宜に見直し、改訂いたします。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "６．保有個人データ又は第三者提供記録の開示などの請求について",
+          "html": "６．保有個人データ又は第三者提供記録の開示などの請求について",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "Headline5"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "paragraph",
+          "text": "個人情報の利用目的の通知、開示、訂正、追加、削除および利用停止又は提供の停止又は第三者提供記録の開示のご請求を、下記の弊社相談窓口までにお問い合わせください。ご請求がお客さまご本人であることを確認できた後に、早急に対応させていただきます。",
+          "html": "個人情報の利用目的の通知、開示、訂正、追加、削除および利用停止又は提供の停止又は第三者提供記録の開示のご請求を、下記の弊社相談窓口までにお問い合わせください。ご請求がお客さまご本人であることを確認できた後に、早急に対応させていただきます。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "heading",
+          "level": 5,
+          "text": "７．個人情報保護管理者及び各種お問合せ先",
+          "html": "７．個人情報保護管理者及び各種お問合せ先",
+          "id": null,
+          "anchor": null,
+          "classes": [
+            "Headline5"
+          ],
+          "box": 4,
+          "box_class": "div.FormPolicy",
+          "after_field": 42
+        },
+        {
+          "type": "heading",
+          "level": 6,
+          "text": "個人情報の取り扱いに関するお問合せ窓口",
+          "html": "個人情報の取り扱いに関するお問合せ窓口",
+          "id": null,
+          "anchor": null,
+          "classes": [],
+          "box": 5,
+          "box_class": "div.ConsultationBlock",
+          "after_field": 42
+        },
+        {
+          "type": "paragraph",
+          "text": "情報セキュリティ推進室（個人情報保護管理者）\n所属：営業部　役職：担当部長\n電話：03-6206-0245（代）\nE-mail：",
+          "html": "情報セキュリティ推進室（個人情報保護管理者）<br/> 所属：営業部　役職：担当部長<br/> 電話：03-6206-0245（代）<br/> E-mail：<img alt=\"\" class=\"Address\" height=\"16\" src=\"https://www.claice.com/policy/img/policy_ad.gif\" width=\"162\"/>",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 5,
+          "box_class": "div.ConsultationBlock",
+          "after_field": 42
+        },
+        {
+          "type": "image",
+          "src": "https://www.claice.com/policy/img/policy_ad.gif",
+          "src_raw": "../policy/img/policy_ad.gif",
+          "alt": "",
+          "width": "162",
+          "height": "16",
+          "link": null,
+          "link_target": null,
+          "classes": [
+            "Address"
+          ],
+          "wrapper_classes": [
+            "Text"
+          ],
+          "inline": true,
+          "box": 5,
+          "box_class": "div.ConsultationBlock",
+          "after_field": 42
+        },
+        {
+          "type": "heading",
+          "level": 6,
+          "text": "クッキー（Cookie）の取り扱いについて",
+          "html": "クッキー（Cookie）の取り扱いについて",
+          "id": null,
+          "anchor": null,
+          "classes": [],
+          "box": 5,
+          "box_class": "div.ConsultationBlock",
+          "after_field": 42
+        },
+        {
+          "type": "paragraph",
+          "text": "当社では利用しておりません。\n当社のホームページでは、Cookieやサイトの得た閲覧ログなどを取得しておりません。",
+          "html": "当社では利用しておりません。<br/>当社のホームページでは、Cookieやサイトの得た閲覧ログなどを取得しておりません。",
+          "tag": "p",
+          "classes": [
+            "Text"
+          ],
+          "box": 5,
+          "box_class": "div.ConsultationBlock",
+          "after_field": 42
+        }
+      ],
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    },
+    {
+      "type": "paragraph",
+      "text": "※職務経歴につきましては、別途作成をご依頼する可能性がございます点、ご了承ください。",
+      "html": "※職務経歴につきましては、別途作成をご依頼する可能性がございます点、ご了承ください。",
+      "tag": "p",
+      "classes": [
+        "Text",
+        "FormNotice"
+      ],
+      "box": 2,
+      "box_class": "div.ContentWrap.cFix"
+    }
+  ]
+}

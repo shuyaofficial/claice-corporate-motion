@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><title>職場をのぞく｜株式会社クレイス・視点の試作</title>
+<link rel="stylesheet" href="studio.css">
+</head>
+<body>
+<header><a href="../photos/">← 写真の比較へ</a><span>株式会社クレイス　／　サイト試作</span></header>
+<main>
+<h1>職場をのぞく</h1>
+<nav aria-label="場面を選ぶ" id="scenes">
+<button data-scene="aisle" aria-pressed="true">サーバー通路</button><button data-scene="bench" aria-pressed="false">研修卓</button><button data-scene="table" aria-pressed="false">設計相談</button><button data-scene="lounge" aria-pressed="false">面談席</button>
+</nav>
+<div class="spread">
+<section aria-labelledby="title">
+<div class="plate"><img id="poster" src="../photos/aisle.webp" alt="ラックが奥へ連なる架空のサーバー室の通路"><div id="surface" aria-hidden="true"></div></div>
+<div class="caption"><span id="credit">実写風の生成画像</span><button id="mode" type="button" hidden>静止画で見る</button></div>
+</section>
+<aside><h2 id="title">通路の奥へ</h2><p id="desc">手前のラックと奥の扉の間を、ゆっくり進みます。</p>
+<fieldset id="sources"><legend>使う写真</legend>
+<button data-source="concept" aria-pressed="true">生成した構図</button><button data-source="actual" aria-pressed="false">クレイスの実写真</button></fieldset>
+<div id="control" hidden><label for="position" id="move">通路を進む</label><input id="position" type="range" min="0" max="100" value="0">
+<div class="ends"><span>元の構図</span><span id="end">奥へ</span></div>
+<p class="hint">つまみを動かすか、写真の上を右へドラッグしてください。</p></div>
+<p id="status" role="status"></p>
+<a id="next" href="../../動きの実験版/business/index.html">事業内容を見る ↗</a>
+</aside></div>
+<p class="note">写真から推定した奥行きで、写っている範囲の視点を少し動かす試作です。生成画像は架空の職場です。</p>
+</main>
+<script type="module" src="studio.js"></script>
+</body></html>

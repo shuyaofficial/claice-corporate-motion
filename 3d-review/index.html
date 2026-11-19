@@ -1,0 +1,153 @@
+<!doctype html><html lang="ja" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ラックを写真と3Dで見比べる｜クレイス</title><style>
+/* Layout: 1本の読み物の列（最大 820px）。各話題は「説明 → 実際の画面 → その場の質問」。回答は最下部の帯でいつでもまとめてコピー。 */
+:root{
+  --bg:#fffcf7; --surface:#ffffff; --surface-2:#fff3e6; --ink:#292622; --ink-2:#65594d; --line:#e5cdb8;
+  --accent:#6535b5; --accent-soft:#f1eafa; --on-accent:#ffffff; --ok:#276846; --ok-soft:#e4f3ea; --warn:#a4561b; --warn-soft:#fbeee2;
+  --key:#ffffff; --key-on:#efe6fb; --key-line:#cdbfdc;
+  --display:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Hiragino Sans",sans-serif;
+  --body:"Noto Sans JP","Hiragino Sans","Yu Gothic UI",system-ui,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,monospace;
+  --rainbow:linear-gradient(100deg,#f47a91,#f9c65d,#94cf89,#70c5e5,#a092e5,#e495ce);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#1c1a20; --surface:#26232c; --surface-2:#2e2a35; --ink:#f1ece6; --ink-2:#bdb3a8; --line:#463f4d;
+  --accent:#b99af0; --accent-soft:#332a45; --on-accent:#1c1a20; --ok:#7fd1a0; --ok-soft:#1f3328; --warn:#f0b07a; --warn-soft:#3a2b1f;
+  --key:#2e2a35; --key-on:#3d3252; --key-line:#5a4f69; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1c1a20; --surface:#26232c; --surface-2:#2e2a35; --ink:#f1ece6; --ink-2:#bdb3a8; --line:#463f4d;
+  --accent:#b99af0; --accent-soft:#332a45; --on-accent:#1c1a20; --ok:#7fd1a0; --ok-soft:#1f3328; --warn:#f0b07a; --warn-soft:#3a2b1f;
+  --key:#2e2a35; --key-on:#3d3252; --key-line:#5a4f69; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.8;margin:0}
+.wrap{max-width:820px;margin:0 auto;padding-inline:16px;padding-block:28px 140px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.35;margin:0}
+h1{font-size:30px;font-weight:900}
+h2{font-size:22px;font-weight:900;margin-top:52px;padding-top:20px;border-top:1px solid var(--line)}
+h3{font-size:17px;font-weight:700;margin-top:18px}
+p{margin:8px 0}
+.lead{color:var(--ink-2);margin-top:6px}
+.bar{height:4px;border-radius:2px;background:var(--rainbow);margin:16px 0 4px}
+.small{color:var(--ink-2);font-size:14px;line-height:1.65}
+ul{margin:6px 0;padding-left:1.2em} li{margin:3px 0}
+code{font-family:var(--mono);font-size:.86em;background:var(--surface-2);padding:1px 6px;border-radius:6px;overflow-wrap:anywhere}
+pre{font-family:var(--mono);font-size:13px;background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:12px;overflow-x:auto;white-space:pre;margin:8px 0}
+.pill{display:inline-block;font-size:12px;font-weight:700;padding:1px 9px;border-radius:999px;margin-right:6px;vertical-align:2px;white-space:nowrap}
+.p-done{background:var(--ok-soft);color:var(--ok)} .p-wait{background:var(--warn-soft);color:var(--warn)} .p-you{background:var(--accent-soft);color:var(--accent)}
+.answered{border-left:3px solid var(--ok);background:var(--ok-soft);border-radius:0 10px 10px 0;padding:6px 12px;margin:10px 0;font-size:14px;line-height:1.65}
+.answered b{color:var(--ok)}
+/* 実際の画面 */
+.shots{display:grid;gap:12px;margin:12px 0}
+.shots.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+figure{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:8px;min-width:0}
+figure img{display:block;width:100%;height:auto;border-radius:8px}
+figure.phone{max-width:300px;justify-self:center;width:100%}
+figcaption{font-size:13px;color:var(--ink-2);padding:6px 4px 0;line-height:1.55}
+/* 表 */
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:15px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:var(--accent-soft);font-size:13px;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+/* キーボード */
+.kbd{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:10px;margin:12px 0;overflow-x:auto}
+.kbd svg{display:block;width:100%;min-width:560px;height:auto}
+.kbd .k{fill:var(--key);stroke:var(--key-line)} .kbd .k.on{fill:var(--key-on);stroke:var(--accent)}
+.kbd .kl{fill:var(--ink);font:700 15px var(--body)} .kbd .k-on-l{fill:var(--accent)} .kbd .kr{fill:var(--accent);font:500 9.5px var(--body)}
+/* 質問 */
+.q{border:1px solid var(--accent);border-radius:16px;background:var(--surface);padding:12px 16px 14px;margin:14px 0 0;min-width:0}
+.q legend{font-family:var(--display);font-weight:700;font-size:16px;padding:0 6px;line-height:1.5;color:var(--accent)}
+.opts{display:grid;gap:6px}
+.opt{display:flex;gap:10px;align-items:flex-start;padding:7px 10px;border-radius:10px;border:1px solid transparent;cursor:pointer;line-height:1.55}
+.opt:hover{background:var(--surface-2)}
+.opt input{margin-top:4px;accent-color:var(--accent);width:18px;height:18px;flex:none}
+.opt:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+textarea{width:100%;min-height:56px;margin-top:8px;font:inherit;font-size:15px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px 10px;resize:vertical}
+textarea:focus-visible,input:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+/* 下の帯 */
+.dock{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));z-index:5}
+.dock-in{max-width:820px;margin:0 auto;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.dock .count{font-size:14px;color:var(--ink-2);margin-right:auto;font-variant-numeric:tabular-nums}
+button{font:inherit;font-weight:700;border-radius:12px;padding:9px 16px;cursor:pointer;border:1px solid var(--accent);background:var(--accent);color:var(--on-accent)}
+button.ghost{background:transparent;color:var(--accent)}
+#copied{color:var(--ok);font-weight:700;font-size:14px;width:100%}
+details.result{margin-top:12px} details.result summary{cursor:pointer;color:var(--accent);font-weight:700}
+#result{min-height:160px;font-family:var(--mono);font-size:13px}
+@media (max-width:620px){.shots.two{grid-template-columns:1fr}h1{font-size:25px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style><style>:root{--accent:#005fa1;--accent-soft:#e6eef7;--bg:#fcfbf9;--ink:#142d43;--line:#d8d1c5;--display:"Hiragino Mincho ProN","Yu Mincho",serif}a{color:var(--accent)}.shots figure{align-self:start}.wrap{max-width:940px}h1{font-size:clamp(30px,5vw,52px)}h2{margin-top:32px}fieldset.q{min-width:0}label.opt{align-items:baseline}figure img{aspect-ratio:4/3;object-fit:contain;background:#f5f2ec}</style></head><body><div class="wrap">
+<p class="lead">株式会社クレイス　／　次の試作</p><h1>ラックの配線を、写真と3Dで見比べる</h1>
+<p class="answered">本採用の方針は、円卓から事業への場面転換、通信のGIF、事業の工程表示、育成の現在位置表示の4点です。</p>
+<h2>いま見えているもの</h2><div class="shots two"><figure><img src="../動きの比較/img/diorama-new-pc.webp" alt="現行サイトの紙模型と事業・育成・採用へのリンク"><figcaption>現行の模型。行き先は分かるものの、室内の作業は小さく見えます。</figcaption></figure><figure><img src="../動きの実験版/web/about-rack-600.webp" alt="既存写真。青いLANケーブルがスイッチのポートにつながっている"><figcaption>事業紹介で使っている写真。コネクター、ポートの並び、ケーブルの曲がりを確認できます。</figcaption></figure></div>
+<h2>参考動画から取り入れる手順</h2><p>作者は、照明が周囲をどう照らすかを直し、カメラが寄る場所に絞って形を作り直しています。今回なら、ラック正面の一部を切り出し、コネクターの透明感、筐体の反射、ケーブルが落とす影を同じ写真と見比べる手順に置き換えられます。</p><p><a href="https://www.youtube.com/watch?v=ByOpeLKTLdE&amp;t=182s">3:02　灯りは面を照らす</a>　／　<a href="https://www.youtube.com/watch?v=ByOpeLKTLdE&amp;t=282s">4:42　近くの6か所を描き直す</a></p>
+<h2>最初の試作</h2><p>事業ページの一場面に、同じ説明文で写真版と3D版を用意します。3DはBlenderでスイッチの前面、プラグ、配線だけを組み、まず写真と同じ角度で1枚レンダリングします。ここで質感を確かめてから、左右に少し回して接続部分をのぞけるようにします。実物を参考にした説明用の模型として扱います。</p>
+<p>比較するときは、初めて見る人に「ケーブルはどこにつながっているか」「この会社に何を頼めるか」を尋ねます。スマホでも迷わず本文へ戻れるかを確認します。写真で同じことが伝わるなら、写真を採用して紙模型を外せます。</p>
+<fieldset class="q" data-q="direction" data-title="次の試作"><legend>次に実物で見たい案はどれですか？</legend><div class="opts"><label class="opt"><input type="radio" name="direction" value="ラックの実写風3Dと既存写真を同じ構図で比較（おすすめ）">ラックの実写風3Dと既存写真を同じ構図で比較（おすすめ）</label><label class="opt"><input type="radio" name="direction" value="紙模型を外し、写真と採用済みの動きだけで確認">紙模型を外し、写真と採用済みの動きだけで確認</label><label class="opt"><input type="radio" name="direction" value="別の被写体で試す（下欄へ）">別の被写体で試す（下欄へ）</label></div><label>見たい機器・場面、気になる点<textarea name="direction-note"></textarea></label></fieldset><details class="result">
+  <summary>チャット に貼る文を見る</summary>
+  <textarea id="result" readonly aria-label="チャット に貼る文"></textarea>
+</details>
+</div>
+
+<div class="dock">
+  <div class="dock-in">
+    <span class="count" id="count">回答 0 / 1</span>
+    <button type="button" id="copy">回答をコピー</button>
+    <button type="button" class="ghost" id="clear">入力を消す</button>
+    <span id="copied" role="status"></span>
+  </div>
+</div>
+
+<script>
+(function(){
+
+  /* 回答の集め方 */
+  var KEY='claice-realistic-rack-direction-v1';
+  var qs=[].slice.call(document.querySelectorAll('fieldset.q'));
+  var result=document.getElementById('result'),copied=document.getElementById('copied'),count=document.getElementById('count');
+  function answerOf(fs){
+    var name=fs.dataset.q;
+    var picked=[].slice.call(fs.querySelectorAll('input:checked')).map(function(i){return i.value;});
+    var note=(fs.querySelector('textarea')||{}).value||'';
+    return {title:fs.querySelector('legend').textContent.trim(),picked:picked,note:note.trim()};
+  }
+  function collect(){
+    var lines=['【クレイス・実写風3Dの方向性】'],n=0;
+    qs.forEach(function(fs){
+      var a=answerOf(fs); if(!a.picked.length&&!a.note) return; n++;
+      lines.push('- '+a.title+'：'+(a.picked.length?a.picked.join('／'):'（選択なし）')+(a.note?'\n  メモ：'+a.note.replace(/\n/g,' '):''));
+    });
+    if(!n) lines.push('（まだ回答がありません）');
+    count.textContent='回答 '+n+' / '+qs.length;
+    return lines.join('\n');
+  }
+  function save(){
+    try{
+      var d={};
+      document.querySelectorAll('fieldset.q input').forEach(function(i){ if(i.checked)(d[i.name]=d[i.name]||[]).push(i.value); });
+      document.querySelectorAll('fieldset.q textarea').forEach(function(t){ if(t.value) d['t:'+t.name]=t.value; });
+      localStorage.setItem(KEY,JSON.stringify(d));
+    }catch(e){}
+  }
+  function load(){
+    try{
+      var d=JSON.parse(localStorage.getItem(KEY)||'{}');
+      document.querySelectorAll('fieldset.q input').forEach(function(i){ if((d[i.name]||[]).indexOf(i.value)>=0) i.checked=true; });
+      document.querySelectorAll('fieldset.q textarea').forEach(function(t){ if(d['t:'+t.name]) t.value=d['t:'+t.name]; });
+    }catch(e){}
+  }
+  load(); result.value=collect();
+  document.addEventListener('input',function(e){ if(!e.target.closest('fieldset.q')) return; save(); result.value=collect(); copied.textContent=''; });
+  document.addEventListener('change',function(e){ if(!e.target.closest('fieldset.q')) return; save(); result.value=collect(); copied.textContent=''; });
+  document.getElementById('copy').addEventListener('click',function(){
+    var text=collect(); result.value=text;
+    var done=function(){ copied.textContent='コピーしました。チャット の入力欄に貼ってください'; };
+    var fallback=function(){ document.querySelector('details.result').open=true; result.removeAttribute('readonly'); result.focus(); result.select(); result.setAttribute('readonly',''); copied.textContent='自動でコピーできなかったので、文を選択しました。⌘C でコピーしてください'; };
+    if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(done,fallback); } else fallback();
+  });
+  document.getElementById('clear').addEventListener('click',function(){
+    document.querySelectorAll('fieldset.q input').forEach(function(i){ i.checked=false; });
+    document.querySelectorAll('fieldset.q textarea').forEach(function(t){ t.value=''; });
+    try{localStorage.removeItem(KEY);}catch(e){} result.value=collect(); copied.textContent='入力を消しました';
+  });
+})();
+</script>
+</body></html>

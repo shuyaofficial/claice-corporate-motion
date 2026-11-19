@@ -1,0 +1,146 @@
+<!doctype html><html lang="ja" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>次に見たい職場の場面｜クレイス</title><style>
+/* Layout: 1本の読み物の列（最大 820px）。各話題は「説明 → 実際の画面 → その場の質問」。回答は最下部の帯でいつでもまとめてコピー。 */
+:root{
+  --bg:#fffcf7; --surface:#ffffff; --surface-2:#fff3e6; --ink:#292622; --ink-2:#65594d; --line:#e5cdb8;
+  --accent:#6535b5; --accent-soft:#f1eafa; --on-accent:#ffffff; --ok:#276846; --ok-soft:#e4f3ea; --warn:#a4561b; --warn-soft:#fbeee2;
+  --key:#ffffff; --key-on:#efe6fb; --key-line:#cdbfdc;
+  --display:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Hiragino Sans",sans-serif;
+  --body:"Noto Sans JP","Hiragino Sans","Yu Gothic UI",system-ui,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,monospace;
+  --rainbow:linear-gradient(100deg,#f47a91,#f9c65d,#94cf89,#70c5e5,#a092e5,#e495ce);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#1c1a20; --surface:#26232c; --surface-2:#2e2a35; --ink:#f1ece6; --ink-2:#bdb3a8; --line:#463f4d;
+  --accent:#b99af0; --accent-soft:#332a45; --on-accent:#1c1a20; --ok:#7fd1a0; --ok-soft:#1f3328; --warn:#f0b07a; --warn-soft:#3a2b1f;
+  --key:#2e2a35; --key-on:#3d3252; --key-line:#5a4f69; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1c1a20; --surface:#26232c; --surface-2:#2e2a35; --ink:#f1ece6; --ink-2:#bdb3a8; --line:#463f4d;
+  --accent:#b99af0; --accent-soft:#332a45; --on-accent:#1c1a20; --ok:#7fd1a0; --ok-soft:#1f3328; --warn:#f0b07a; --warn-soft:#3a2b1f;
+  --key:#2e2a35; --key-on:#3d3252; --key-line:#5a4f69; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.8;margin:0}
+.wrap{max-width:820px;margin:0 auto;padding-inline:16px;padding-block:28px 140px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.35;margin:0}
+h1{font-size:30px;font-weight:900}
+h2{font-size:22px;font-weight:900;margin-top:52px;padding-top:20px;border-top:1px solid var(--line)}
+h3{font-size:17px;font-weight:700;margin-top:18px}
+p{margin:8px 0}
+.lead{color:var(--ink-2);margin-top:6px}
+.bar{height:4px;border-radius:2px;background:var(--rainbow);margin:16px 0 4px}
+.small{color:var(--ink-2);font-size:14px;line-height:1.65}
+ul{margin:6px 0;padding-left:1.2em} li{margin:3px 0}
+code{font-family:var(--mono);font-size:.86em;background:var(--surface-2);padding:1px 6px;border-radius:6px;overflow-wrap:anywhere}
+pre{font-family:var(--mono);font-size:13px;background:var(--surface-2);border:1px solid var(--line);border-radius:12px;padding:12px;overflow-x:auto;white-space:pre;margin:8px 0}
+.pill{display:inline-block;font-size:12px;font-weight:700;padding:1px 9px;border-radius:999px;margin-right:6px;vertical-align:2px;white-space:nowrap}
+.p-done{background:var(--ok-soft);color:var(--ok)} .p-wait{background:var(--warn-soft);color:var(--warn)} .p-you{background:var(--accent-soft);color:var(--accent)}
+.answered{border-left:3px solid var(--ok);background:var(--ok-soft);border-radius:0 10px 10px 0;padding:6px 12px;margin:10px 0;font-size:14px;line-height:1.65}
+.answered b{color:var(--ok)}
+/* 実際の画面 */
+.shots{display:grid;gap:12px;margin:12px 0}
+.shots.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+figure{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:8px;min-width:0}
+figure img{display:block;width:100%;height:auto;border-radius:8px}
+figure.phone{max-width:300px;justify-self:center;width:100%}
+figcaption{font-size:13px;color:var(--ink-2);padding:6px 4px 0;line-height:1.55}
+/* 表 */
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--line);border-radius:12px;overflow:hidden;font-size:15px}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:var(--accent-soft);font-size:13px;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+/* キーボード */
+.kbd{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:10px;margin:12px 0;overflow-x:auto}
+.kbd svg{display:block;width:100%;min-width:560px;height:auto}
+.kbd .k{fill:var(--key);stroke:var(--key-line)} .kbd .k.on{fill:var(--key-on);stroke:var(--accent)}
+.kbd .kl{fill:var(--ink);font:700 15px var(--body)} .kbd .k-on-l{fill:var(--accent)} .kbd .kr{fill:var(--accent);font:500 9.5px var(--body)}
+/* 質問 */
+.q{border:1px solid var(--accent);border-radius:16px;background:var(--surface);padding:12px 16px 14px;margin:14px 0 0;min-width:0}
+.q legend{font-family:var(--display);font-weight:700;font-size:16px;padding:0 6px;line-height:1.5;color:var(--accent)}
+.opts{display:grid;gap:6px}
+.opt{display:flex;gap:10px;align-items:flex-start;padding:7px 10px;border-radius:10px;border:1px solid transparent;cursor:pointer;line-height:1.55}
+.opt:hover{background:var(--surface-2)}
+.opt input{margin-top:4px;accent-color:var(--accent);width:18px;height:18px;flex:none}
+.opt:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+textarea{width:100%;min-height:56px;margin-top:8px;font:inherit;font-size:15px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:8px 10px;resize:vertical}
+textarea:focus-visible,input:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+/* 下の帯 */
+.dock{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));z-index:5}
+.dock-in{max-width:820px;margin:0 auto;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.dock .count{font-size:14px;color:var(--ink-2);margin-right:auto;font-variant-numeric:tabular-nums}
+button{font:inherit;font-weight:700;border-radius:12px;padding:9px 16px;cursor:pointer;border:1px solid var(--accent);background:var(--accent);color:var(--on-accent)}
+button.ghost{background:transparent;color:var(--accent)}
+#copied{color:var(--ok);font-weight:700;font-size:14px;width:100%}
+details.result{margin-top:12px} details.result summary{cursor:pointer;color:var(--accent);font-weight:700}
+#result{min-height:160px;font-family:var(--mono);font-size:13px}
+@media (max-width:620px){.shots.two{grid-template-columns:1fr}h1{font-size:25px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style><style>:root{--accent:#005fa1;--accent-soft:#e6eef7;--bg:#fcfbf9;--ink:#142d43;--line:#d8d1c5;--display:"Hiragino Mincho ProN","Yu Mincho",serif}a{color:var(--accent)}.shots figure{align-self:start}.wrap{max-width:940px}h1{font-size:clamp(30px,5vw,52px)}h2{margin-top:32px}fieldset.q{min-width:0}label.opt{align-items:baseline}figure img{aspect-ratio:4/3;object-fit:contain;background:#f5f2ec}</style><style>.wrap{max-width:1080px}.board-header{border-bottom:3px solid #142d43;padding-bottom:1.3rem}.board-header p{max-width:50em}.board-header h1{margin:.3em 0}.scene{padding-block:1.2rem}.scene h2{margin:0 0 .5em}.layout{display:grid;grid-template-columns:3fr 2fr;gap:20px}.scene figure{border-radius:2px;padding:0;overflow:hidden}.scene figure img{border-radius:0;width:100%;height:auto;aspect-ratio:auto;display:block}.refs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:start;gap:10px}.refs figure:only-child{grid-column:1/-1}.refs figure img{aspect-ratio:3/2;object-fit:contain}.refs a{display:block}.scene figcaption{padding:.65em}.scene figcaption small{display:block;margin-top:.3em}.picked{display:flex;gap:.6em;align-items:center;cursor:pointer}.picked input{width:1.2rem;height:1.2rem}.jump{display:flex;flex-wrap:wrap;gap:.5em 1em}.wrap fieldset.q{margin:1.3em 0}.scene p{max-width:52em} @media(max-width:700px){.layout{grid-template-columns:1fr}.refs figure:only-child{grid-column:auto}.scene{padding-block:.75rem}.wrap{padding-bottom:165px}}</style></head><body><main class="wrap"><header class="board-header"><p>株式会社クレイス　／　写真と構図の比較</p><h1>次に見たい職場の場面</h1><p>大きな4枚は、被写体を選ぶために生成した架空の職場です。各案の横にある実際の写真を押すと原寸で開けます。気に入った被写体と、取り入れたい光や視点を別々に選べます。</p></header><nav class="jump" aria-label="候補の場面"><a href="#aisle">サーバー室の通路</a><a href="#bench">先輩と機器を確かめる研修卓</a><a href="#table">円卓で図面を囲む設計相談</a><a href="#lounge">窓辺の小さな面談席</a></nav><section class="scene" id="aisle"><p>事業紹介</p><h2>サーバー室の通路</h2><div class="layout"><figure><a href="aisle.webp"><img src="aisle.webp" width="768" height="512" alt="生成案：サーバー室の通路"></a><figcaption>生成した構図案</figcaption></figure><div class="refs"><figure><a href="https://www.gstatic.com/marketing-cms/assets/images/d5/58/11d0f87243688bbac57f9f68634c/east-wck-alabama-dc-floor-8950.jpg=n-w543-h362-fcrop64=1,0000142dffffebd3-rw"><img loading="lazy" src="https://www.gstatic.com/marketing-cms/assets/images/d5/58/11d0f87243688bbac57f9f68634c/east-wck-alabama-dc-floor-8950.jpg=n-w543-h362-fcrop64=1,0000142dffffebd3-rw" alt="Google｜アラバマのサーバー通路"></a><figcaption>Google｜アラバマのサーバー通路<small><a href="https://datacenters.google/discover-more/photo-gallery/">写真の掲載元 ↗</a></small></figcaption></figure></div></div><p>同じ高さの扉が奥へ連なる構図。通路を少し進むだけで設備の規模が伝わります。自社設備と誤解されないよう、本採用時はイメージであることを添えます。</p></section><section class="scene" id="bench"><p>育成・事業紹介</p><h2>先輩と機器を確かめる研修卓</h2><div class="layout"><figure><a href="bench.webp"><img src="bench.webp" width="768" height="512" alt="生成案：先輩と機器を確かめる研修卓"></a><figcaption>生成した構図案</figcaption></figure><div class="refs"><figure><a href="https://www.gstatic.com/marketing-cms/assets/images/67/ea/8bdab62548d387462fb68076b1a6/mike-at-the-dalles.jpg=n-w543-h362-fcrop64=1,00001419ffffebc6-rw"><img loading="lazy" src="https://www.gstatic.com/marketing-cms/assets/images/67/ea/8bdab62548d387462fb68076b1a6/mike-at-the-dalles.jpg=n-w543-h362-fcrop64=1,00001419ffffebc6-rw" alt="Google｜オレゴンでの部品交換"></a><figcaption>Google｜オレゴンでの部品交換<small><a href="https://datacenters.google/discover-more/photo-gallery/">写真の掲載元 ↗</a></small></figcaption></figure><figure><a href="../../動きの実験版/img/top_menu_ph7.jpg"><img loading="lazy" src="../../動きの実験版/img/top_menu_ph7.jpg" alt="クレイス｜既存サイトの研修写真"></a><figcaption>クレイス｜既存サイトの研修写真<small><a href="https://www.claice.com/photo/index.html">写真の掲載元 ↗</a></small></figcaption></figure></div></div><p>指先、ポート、青いケーブルが一枚に収まります。写真に少し寄るだけでも、誰が誰に何を教えているかを伝えられる案です。</p></section><section class="scene" id="table"><p>会社紹介・採用</p><h2>円卓で図面を囲む設計相談</h2><div class="layout"><figure><a href="table.webp"><img src="table.webp" width="768" height="512" alt="生成案：円卓で図面を囲む設計相談"></a><figcaption>生成した構図案</figcaption></figure><div class="refs"><figure><a href="https://msftstories.thesourcemediaassets.com/sites/47/2018/12/160201_19.jpg"><img loading="lazy" src="https://msftstories.thesourcemediaassets.com/sites/47/2018/12/160201_19.jpg" alt="Microsoft｜品川本社の執務スペース（2016年掲載）"></a><figcaption>Microsoft｜品川本社の執務スペース（2016年掲載）<small><a href="https://news.microsoft.com/ja-jp/2016/01/31/blog-shinagawa-office-5th-year/">写真の掲載元 ↗</a></small></figcaption></figure><figure><a href="../../動きの実験版/photo/img/office/ph10.jpg"><img loading="lazy" src="../../動きの実験版/photo/img/office/ph10.jpg" alt="クレイス｜社内での打ち合わせ"></a><figcaption>クレイス｜社内での打ち合わせ<small><a href="https://www.claice.com/photo/index.html">写真の掲載元 ↗</a></small></figcaption></figure><figure><a href="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Google_Bay_View_22-04_BIG_THA_1785.jpg"><img loading="lazy" src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Google_Bay_View_22-04_BIG_THA_1785.jpg" alt="Google｜Bay Viewのチーム執務区画"></a><figcaption>Google｜Bay Viewのチーム執務区画<small><a href="https://blog.google/company-news/inside-google/life-at-google/bay-view-campus-grand-opening/">写真の掲載元 ↗</a></small></figcaption></figure></div></div><p>トップの円卓を、扉越しに見た実写風の場面へつなぎます。人物の位置を変えるより、手元の図面をもう一枚見せる構成が向いています。</p></section><section class="scene" id="lounge"><p>採用・働く環境</p><h2>窓辺の小さな面談席</h2><div class="layout"><figure><a href="lounge.webp"><img src="lounge.webp" width="768" height="512" alt="生成案：窓辺の小さな面談席"></a><figcaption>生成した構図案</figcaption></figure><div class="refs"><figure><a href="https://assets.aboutamazon.com/e8/41/3ae3156748228fa536d84c231ec4/amazon-spheres-sundeck.jpeg"><img loading="lazy" src="https://assets.aboutamazon.com/e8/41/3ae3156748228fa536d84c231ec4/amazon-spheres-sundeck.jpeg" alt="Amazon｜シアトルのSpheresにあるサンデッキ"></a><figcaption>Amazon｜シアトルのSpheresにあるサンデッキ<small><a href="https://www.aboutamazon.com/news/workplace/amazon-spheres-seattle-inside-tour">写真の掲載元 ↗</a></small></figcaption></figure><figure><a href="../../動きの実験版/photo/img/office/ph09.jpg"><img loading="lazy" src="../../動きの実験版/photo/img/office/ph09.jpg" alt="クレイス｜既存のミーティングルーム"></a><figcaption>クレイス｜既存のミーティングルーム<small><a href="https://www.claice.com/photo/index.html">写真の掲載元 ↗</a></small></figcaption></figure></div></div><p>手前の葉、椅子、奥のガラス間仕切りで距離が分かります。空気感が主役になるので、応募前に職場を想像してもらう場面に合います。</p></section><fieldset class="q" data-q="subject" data-title="次に試したい被写体はどれですか？"><legend>次に試したい被写体はどれですか？</legend><div class="opts"><label class="opt"><input type="checkbox" name="subject" value="サーバー室の通路">サーバー室の通路</label><label class="opt"><input type="checkbox" name="subject" value="先輩と機器を確かめる研修卓">先輩と機器を確かめる研修卓</label><label class="opt"><input type="checkbox" name="subject" value="円卓で図面を囲む設計相談">円卓で図面を囲む設計相談</label><label class="opt"><input type="checkbox" name="subject" value="窓辺の小さな面談席">窓辺の小さな面談席</label><label class="opt"><input type="checkbox" name="subject" value="既存の実写真を生かす">既存の実写真を生かす</label><label class="opt"><input type="checkbox" name="subject" value="ほかの被写体を見たい">ほかの被写体を見たい</label></div><label>ひとこと<textarea name="subject-note" placeholder="例：人物は後ろ姿がよい、実際の会議室にもっと寄せたい"></textarea></label></fieldset><fieldset class="q" data-q="look" data-title="取り入れたい見え方はどれですか？"><legend>取り入れたい見え方はどれですか？</legend><div class="opts"><label class="opt"><input type="checkbox" name="look" value="奥へ続く通路">奥へ続く通路</label><label class="opt"><input type="checkbox" name="look" value="指先と機器に寄る">指先と機器に寄る</label><label class="opt"><input type="checkbox" name="look" value="扉越しに人を見る">扉越しに人を見る</label><label class="opt"><input type="checkbox" name="look" value="窓から差す自然光">窓から差す自然光</label><label class="opt"><input type="checkbox" name="look" value="写真のまま見たい">写真のまま見たい</label></div><label>ひとこと<textarea name="look-note" placeholder="例：人物は後ろ姿がよい、実際の会議室にもっと寄せたい"></textarea></label></fieldset><details class="result">
+  <summary>チャット に貼る文を見る</summary>
+  <textarea id="result" readonly aria-label="チャット に貼る文"></textarea>
+</details>
+</main>
+
+<div class="dock">
+  <div class="dock-in">
+    <span class="count" id="count">回答 0 / 1</span>
+    <button type="button" id="copy">回答をコピー</button>
+    <button type="button" class="ghost" id="clear">入力を消す</button>
+    <span id="copied" role="status"></span>
+  </div>
+</div>
+
+<script>
+(function(){
+
+  /* 回答の集め方 */
+  var KEY='claice-subject-photo-board-v1';
+  var qs=[].slice.call(document.querySelectorAll('fieldset.q'));
+  var result=document.getElementById('result'),copied=document.getElementById('copied'),count=document.getElementById('count');
+  function answerOf(fs){
+    var name=fs.dataset.q;
+    var picked=[].slice.call(fs.querySelectorAll('input:checked')).map(function(i){return i.value;});
+    var note=(fs.querySelector('textarea')||{}).value||'';
+    return {title:fs.querySelector('legend').textContent.trim(),picked:picked,note:note.trim()};
+  }
+  function collect(){
+    var lines=['【クレイス・職場の画像比較】'],n=0;
+    qs.forEach(function(fs){
+      var a=answerOf(fs); if(!a.picked.length&&!a.note) return; n++;
+      lines.push('- '+a.title+'：'+(a.picked.length?a.picked.join('／'):'（選択なし）')+(a.note?'\n  メモ：'+a.note.replace(/\n/g,' '):''));
+    });
+    if(!n) lines.push('（まだ回答がありません）');
+    count.textContent='回答 '+n+' / '+qs.length;
+    return lines.join('\n');
+  }
+  function save(){
+    try{
+      var d={};
+      document.querySelectorAll('fieldset.q input').forEach(function(i){ if(i.checked)(d[i.name]=d[i.name]||[]).push(i.value); });
+      document.querySelectorAll('fieldset.q textarea').forEach(function(t){ if(t.value) d['t:'+t.name]=t.value; });
+      localStorage.setItem(KEY,JSON.stringify(d));
+    }catch(e){}
+  }
+  function load(){
+    try{
+      var d=JSON.parse(localStorage.getItem(KEY)||'{}');
+      document.querySelectorAll('fieldset.q input').forEach(function(i){ if((d[i.name]||[]).indexOf(i.value)>=0) i.checked=true; });
+      document.querySelectorAll('fieldset.q textarea').forEach(function(t){ if(d['t:'+t.name]) t.value=d['t:'+t.name]; });
+    }catch(e){}
+  }
+  load(); result.value=collect();
+  document.addEventListener('input',function(e){ if(!e.target.closest('fieldset.q')) return; save(); result.value=collect(); copied.textContent=''; });
+  document.addEventListener('change',function(e){ if(!e.target.closest('fieldset.q')) return; save(); result.value=collect(); copied.textContent=''; });
+  document.getElementById('copy').addEventListener('click',function(){
+    var text=collect(); result.value=text;
+    var done=function(){ copied.textContent='コピーしました。チャット の入力欄に貼ってください'; };
+    var fallback=function(){ document.querySelector('details.result').open=true; result.removeAttribute('readonly'); result.focus(); result.select(); result.setAttribute('readonly',''); copied.textContent='自動でコピーできなかったので、文を選択しました。⌘C でコピーしてください'; };
+    if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(done,fallback); } else fallback();
+  });
+  document.getElementById('clear').addEventListener('click',function(){
+    document.querySelectorAll('fieldset.q input').forEach(function(i){ i.checked=false; });
+    document.querySelectorAll('fieldset.q textarea').forEach(function(t){ t.value=''; });
+    try{localStorage.removeItem(KEY);}catch(e){} result.value=collect(); copied.textContent='入力を消しました';
+  });
+})();
+</script>
+</body></html>

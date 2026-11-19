@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><meta name="theme-color" content="#f5f4ed"><title>株式会社クレイス｜オフィスを歩く</title><link rel="stylesheet" href="walk.css"><script defer src="walk.js"></script></head>
+<body><header><a href="#start"><img src="img/logo.png" alt="株式会社クレイス"></a><nav><a href="#destinations">会社を知る</a><a class="contact" href="https://www.claice.com/form/">お問い合わせ ↗</a></nav></header>
+<main><div id="start" class="walk"><div class="stage">
+<article class="scene entry"><img class="view" src="img/entrance.webp" alt="クレイスのオフィス入口"><div class="shade"></div><div class="caption"><p>ENTRANCE <i></i> エントランス</p><h1>人を育て、<br>人と人・<br class="mobile">人と未来をつなぎます。</h1></div></article>
+<article class="scene room"><img class="view" src="img/meeting.webp" alt="ガラス張りのミーティングルーム"><div class="shade"></div><div class="caption"><p>MEETING ROOM <i></i> 会議室</p><h2>人を育てる。</h2><a href="https://www.claice.com/education/index.html">人材育成を見る ↗</a></div></article>
+<article class="scene office"><img class="view" src="img/work.webp" alt="クレイスの執務エリア"><div class="shade"></div><div class="caption"><p>WORKSPACE <i></i> 執務エリア</p><h2>ネットワークを<br>支える。</h2><a href="https://www.claice.com/business/index.html">設計・構築・運用の仕事を見る ↗</a></div></article>
+<div class="rail"><span class="prompt">↓ スクロールで歩く</span><div class="stops" aria-label="場面を選ぶ"><button>入口</button><button>会議室</button><button>執務エリア</button></div><button id="motion" aria-pressed="false">動きを止める</button></div></div></div>
+<section id="destinations"><p class="kicker">CLAICE</p><h2>クレイスを知る。</h2><div class="row"><a href="https://www.claice.com/business/index.html">事業内容<span>↗</span></a><a href="https://www.claice.com/education/index.html">人材育成<span>↗</span></a><a href="https://www.claice.com/recruit/index.html">採用情報<span>↗</span></a></div><p class="source">オフィスの撮影・ツアー　<a href="https://app.vachanavi.com/articles/claice">バチャナビ</a>　／　<a href="https://tour.vachanavi.net/tour-1fe1100f2c8d4c4b9ef2cd24f848eaf0">360°で見学する ↗</a></p></section>
+<section id="feedback"><h2>試作へのご感想</h2><details class="screens"><summary>入口の見え方をPCとスマホで見比べる</summary><div><img src="img/preview-1440.webp" loading="lazy" alt="PC幅の入口画面"><img src="img/preview-390.webp" loading="lazy" alt="スマホ幅の入口画面"></div></details><fieldset class="q" data-q="walk"><legend>オフィスを歩く見せ方をトップに採用したいですか？</legend><label><input type="radio" name="walk" value="この方向で進めたい"> この方向で進めたい</label><label><input type="radio" name="walk" value="調整してもう一度見たい"> 調整してもう一度見たい</label><label><input type="radio" name="walk" value="別の方向がよい"> 別の方向がよい</label><label>気になった場所・理由<textarea name="walk-note"></textarea></label></fieldset><fieldset class="q" data-q="pace"><legend>場面の長さや切り替わりはどう感じましたか？</legend><label><input type="radio" name="pace" value="ちょうどよい"> ちょうどよい</label><label><input type="radio" name="pace" value="もっとゆっくり見たい"> もっとゆっくり見たい</label><label><input type="radio" name="pace" value="もっと短く進みたい"> もっと短く進みたい</label><label>気になった場所・理由<textarea name="pace-note"></textarea></label></fieldset><details class="result">
+  <summary>チャット に貼る文を見る</summary>
+  <textarea id="result" readonly aria-label="チャット に貼る文"></textarea>
+</details>
+
+
+<div class="dock">
+  <div class="dock-in">
+    <span class="count" id="count">回答 0 / 1</span>
+    <button type="button" id="copy">回答をコピー</button>
+    <button type="button" class="ghost" id="clear">入力を消す</button>
+    <span id="copied" role="status"></span>
+  </div>
+</div>
+
+<script>
+(function(){
+
+  /* 回答の集め方 */
+  var KEY='claice-walk-feedback-v1';
+  var qs=[].slice.call(document.querySelectorAll('fieldset.q'));
+  var result=document.getElementById('result'),copied=document.getElementById('copied'),count=document.getElementById('count');
+  function answerOf(fs){
+    var name=fs.dataset.q;
+    var picked=[].slice.call(fs.querySelectorAll('input:checked')).map(function(i){return i.value;});
+    var note=(fs.querySelector('textarea')||{}).value||'';
+    return {title:fs.querySelector('legend').textContent.trim(),picked:picked,note:note.trim()};
+  }
+  function collect(){
+    var lines=['【クレイス・オフィスを歩くトップ】'],n=0;
+    qs.forEach(function(fs){
+      var a=answerOf(fs); if(!a.picked.length&&!a.note) return; n++;
+      lines.push('- '+a.title+'：'+(a.picked.length?a.picked.join('／'):'（選択なし）')+(a.note?'\n  メモ：'+a.note.replace(/\n/g,' '):''));
+    });
+    if(!n) lines.push('（まだ回答がありません）');
+    count.textContent='回答 '+n+' / '+qs.length;
+    return lines.join('\n');
+  }
+  function save(){
+    try{
+      var d={};
+      document.querySelectorAll('fieldset.q input').forEach(function(i){ if(i.checked)(d[i.name]=d[i.name]||[]).push(i.value); });
+      document.querySelectorAll('fieldset.q textarea').forEach(function(t){ if(t.value) d['t:'+t.name]=t.value; });
+      localStorage.setItem(KEY,JSON.stringify(d));
+    }catch(e){}
+  }
+  function load(){
+    try{
+      var d=JSON.parse(localStorage.getItem(KEY)||'{}');
+      document.querySelectorAll('fieldset.q input').forEach(function(i){ if((d[i.name]||[]).indexOf(i.value)>=0) i.checked=true; });
+      document.querySelectorAll('fieldset.q textarea').forEach(function(t){ if(d['t:'+t.name]) t.value=d['t:'+t.name]; });
+    }catch(e){}
+  }
+  load(); result.value=collect();
+  document.addEventListener('input',function(e){ if(!e.target.closest('fieldset.q')) return; save(); result.value=collect(); copied.textContent=''; });
+  document.addEventListener('change',function(e){ if(!e.target.closest('fieldset.q')) return; save(); result.value=collect(); copied.textContent=''; });
+  document.getElementById('copy').addEventListener('click',function(){
+    var text=collect(); result.value=text;
+    var done=function(){ copied.textContent='コピーしました。チャットの入力欄に貼ってください'; };
+    var fallback=function(){ document.querySelector('details.result').open=true; result.removeAttribute('readonly'); result.focus(); result.select(); result.setAttribute('readonly',''); copied.textContent='自動でコピーできなかったので、文を選択しました。端末のコピー操作で控えてください'; };
+    if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(done,fallback); } else fallback();
+  });
+  document.getElementById('clear').addEventListener('click',function(){
+    document.querySelectorAll('fieldset.q input').forEach(function(i){ i.checked=false; });
+    document.querySelectorAll('fieldset.q textarea').forEach(function(t){ t.value=''; });
+    try{localStorage.removeItem(KEY);}catch(e){} result.value=collect(); copied.textContent='入力を消しました';
+  });
+})();
+</script>
+</section></main></body></html>

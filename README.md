@@ -2,6 +2,8 @@
 
 第3版の円卓イラストを引き継ぎ、スクロールによる場面転換、紙のジオラマ、通信経路を示すGIFを試せる全ページ版です。会社の公式サイトは [claice.com](https://www.claice.com/) です。
 
+[ブラウザで新版と旧版を見比べる](https://shuyaofficial.github.io/claice-corporate-motion/) · [新版のトップを開く](https://shuyaofficial.github.io/claice-corporate-motion/動きの実験版/)
+
 ## 手元で見比べる
 
 このリポジトリをクローンするか、GitHubの「Code → Download ZIP」からダウンロードして展開してください。次のHTMLをブラウザで直接開けます。

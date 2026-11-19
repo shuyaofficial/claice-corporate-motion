@@ -21,7 +21,7 @@ jobs:
       - name: Collect the finished sites
         run: |
           mkdir _site
-          cp -R index.html 3d-review 動きの実験版 動きの比較 全ページ版 保存版 _site/
+          cp -R index.html concept _site/
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site

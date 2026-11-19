@@ -1,8 +1,8 @@
 # 株式会社クレイス コーポレートサイト試作
 
-第3版の円卓イラストを引き継ぎ、スクロールによる場面転換、紙のジオラマ、通信経路を示すGIFを試せる全ページ版です。会社の公式サイトは [claice.com](https://www.claice.com/) です。
+現在はデザインの方向性を検討しています。[参考調査・3案の構図・回答ページ](https://shuyaofficial.github.io/claice-corporate-motion/concept/)
 
-[ブラウザで新版と旧版を見比べる](https://shuyaofficial.github.io/claice-corporate-motion/) · [新版のトップを開く](https://shuyaofficial.github.io/claice-corporate-motion/動きの実験版/)
+これまでの試作は検討を終了し、以下にローカルで閲覧できる記録を残しています。
 
 ## 手元で見比べる
 

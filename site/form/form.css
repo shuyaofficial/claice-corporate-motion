@@ -1,0 +1,57 @@
+.flow-page {
+  max-width: 1500px;
+  margin-inline: auto;
+  padding: clamp(28px, 5vw, 76px) clamp(20px, 5vw, 78px);
+  color: #172428;
+}
+.flow-top {
+  display: grid;
+  grid-template-columns: 1fr 0.92fr;
+  align-items: center;
+  gap: clamp(26px, 6vw, 96px);
+}
+.flow-intro > p { max-width: 35em; line-height: 1.9; }
+.flow-page .flow-kicker {
+  display: flex;
+  align-items: center;
+  gap: .85em;
+  margin: 0;
+  font: 700 12px/1.5 Helvetica, Arial, sans-serif;
+  letter-spacing: .15em;
+}
+.flow-kicker::before { content:""; width: .7em; height:.7em; background:#0759a1; transform:rotate(45deg); }
+.flow-intro h1 { margin:.28em 0; font-size:clamp(38px,5.5vw,82px); letter-spacing:-.06em; line-height:1.24; }
+.flow-photo { width:100%; height:auto; display:block; border-radius: 22% 0 0 0; }
+.flow-page .form-cta {
+  display:inline-flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:2em;
+  margin:1.1em 0 .45em;
+  padding: .9em 1.35em;
+  background:#0759a1;
+  color:white;
+  text-decoration:none;
+  font-weight:700;
+}
+.flow-intro small,.flow-intro .about-jobs { display:block; font-size:.86em; }
+.flow-intro .about-jobs { margin-top:1em; }
+.flow-guide {
+  max-width: 850px;
+  border-top: 1px solid #9ca9a8;
+  margin: clamp(38px,6vw,86px) auto 0;
+  padding-top: 24px;
+  line-height: 1.85;
+}
+.flow-guide h2 { margin:0 0 14px; font-size:clamp(24px,2.5vw,38px); }
+.flow-guide ol { padding-left:1.6em; }
+.flow-guide li { margin: .5em 0; }
+.flow-note { font-size:.92em; }
+.flow-guide details { margin:1.7em 0 1em; padding:1em 0; border-block:1px solid #9ca9a8; }
+.flow-guide summary { cursor:pointer; font-weight:700; }
+.flow-policy h3,.flow-policy h4 { margin:1.4em 0 0; font-size:1.1em; }
+.flow-policy p { margin:.55em 0; }
+@media(max-width:680px){
+  .flow-top { grid-template-columns:1fr; }
+  .flow-photo { height:clamp(145px,38vw,240px);object-fit:cover; }
+}

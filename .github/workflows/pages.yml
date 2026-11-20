@@ -21,7 +21,7 @@ jobs:
       - name: Collect the finished sites
         run: |
           mkdir _site
-          cp -R index.html concept _site/
+          cp -R index.html concept site _site/
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site

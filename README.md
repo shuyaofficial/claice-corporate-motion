@@ -1,6 +1,8 @@
 # 株式会社クレイス コーポレートサイト試作
 
-現在はデザインの方向性を検討しています。[参考調査・3案の構図・回答ページ](https://shuyaofficial.github.io/claice-corporate-motion/concept/)
+[実写真を使った全ページ版](https://shuyaofficial.github.io/claice-corporate-motion/site/) は [site/index.html](site/index.html) からローカルでも開けます。お問い合わせと中途応募はクレイス公式サイトの入力画面に進みます。
+
+これまでの検討資料　[参考調査・3案の構図・回答ページ](https://shuyaofficial.github.io/claice-corporate-motion/concept/)
 
 これまでの試作は検討を終了し、以下にローカルで閲覧できる記録を残しています。
 
